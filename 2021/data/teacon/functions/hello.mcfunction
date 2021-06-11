@@ -1,0 +1,6 @@
+execute if predicate teacon:morning_early run tellraw @s [{"text": "早上好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
+execute if predicate teacon:morning run tellraw @s [{"text": "早上好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
+execute if predicate teacon:morning_late run tellraw @s [{"text": "上午好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
+execute if predicate teacon:noon run tellraw @s [{"text": "中午好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
+execute if predicate teacon:afternoon run tellraw @s [{"text": "下午好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
+execute if predicate teacon:evening run tellraw @s [{"text": "晚上好, ", "color": "green"}, {"selector": "@s", "color": "green"}, {"text": ", 欢迎来到 TeaCon 展示服务器! ", "color": "green"}]
