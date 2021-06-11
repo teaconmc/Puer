@@ -9,7 +9,8 @@ def sync(url, head):
     os.system(f'git fetch "{url}" "{head}" && git reset --hard FETCH_HEAD')
 
 def reload(server):
-    with valve.rcon.RCON(server) as rcon:
+    addr, password = server
+    with valve.rcon.RCON(addr, password) as rcon:
         rcon.execute('reload', block=False)
 
 def main():
