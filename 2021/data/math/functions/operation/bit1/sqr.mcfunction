@@ -1,0 +1,22 @@
+data modify entity @s Item.tag.bit1 set value [0,0,0,0,0,1]
+scoreboard players operation stempa int = input int
+execute if score input int matches ..-1 run scoreboard players operation stempa int *= -1 int
+scoreboard players operation stempb int = stempa int
+scoreboard players operation stempa int /= 10000 int
+scoreboard players operation stempb int %= 10000 int
+scoreboard players operation stemp int = stempb int
+execute store result score stemp1 int run scoreboard players operation stemp int *= stemp int
+execute store result entity @s Item.tag.bit1[0] int 1 run scoreboard players operation stemp int %= 10000 int
+scoreboard players operation stemp1 int /= 10000 int
+scoreboard players operation stemp int = stempa int
+scoreboard players operation stemp int *= stempb int
+scoreboard players operation stemp int += stemp int
+execute store result score stemp1 int run scoreboard players operation stemp int += stemp1 int
+execute store result entity @s Item.tag.bit1[1] int 1 run scoreboard players operation stemp int %= 10000 int
+scoreboard players operation stemp1 int /= 10000 int
+scoreboard players operation stemp int = stempa int
+scoreboard players operation stemp int *= stemp int
+execute store result score stemp1 int run scoreboard players operation stemp int += stemp1 int
+execute store result entity @s Item.tag.bit1[2] int 1 run scoreboard players operation stemp int %= 10000 int
+scoreboard players operation stemp1 int /= 10000 int
+execute store result entity @s Item.tag.bit1[3] int 1 run scoreboard players operation stemp int /= 10000 int

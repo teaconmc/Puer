@@ -1,0 +1,9 @@
+execute if score bit4 int matches 1 at @s run tp @s ~-10000 ~ ~
+execute if score bit4 int matches 2 at @s run tp @s ~-20000 ~ ~
+execute if score bit4 int matches 3 at @s run tp @s ~-30000 ~ ~
+execute if score bit4 int matches 4 at @s run tp @s ~-40000 ~ ~
+execute if score bit4 int matches 5 at @s run tp @s ~-50000 ~ ~
+execute if score bit4 int matches 6 at @s run tp @s ~-60000 ~ ~
+execute if score bit4 int matches 7 at @s run tp @s ~-70000 ~ ~
+execute if score bit4 int matches 8 at @s run tp @s ~-80000 ~ ~
+execute if score bit4 int matches 9 at @s run tp @s ~-90000 ~ ~

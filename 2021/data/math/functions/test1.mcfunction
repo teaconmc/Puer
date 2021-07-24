@@ -1,0 +1,20 @@
+scoreboard players operation sy int %= 10000 int
+scoreboard players operation sz int %= 10000 int
+scoreboard players operation sz int *= 10000 int
+execute store result score n1 int run scoreboard players operation sz int += sy int
+scoreboard players operation n1 int /= 10000 int
+scoreboard players operation sz int %= 10000 int
+execute store result score n2 int run scoreboard players operation n3 int = input int
+execute store result score n2-1 int run scoreboard players operation n2 int /= 10000 int
+scoreboard players operation n3 int %= 10000 int
+scoreboard players operation n2 int *= n1 int
+scoreboard players operation n1 int *= n1 int
+scoreboard players operation n2-1 int *= sz int
+scoreboard players operation n2 int += n2-1 int
+scoreboard players operation n3 int *= sz int
+scoreboard players operation n3 int /= 10000 int
+scoreboard players operation n2 int += n3 int
+scoreboard players operation n2 int /= 10000 int
+scoreboard players operation n1 int += n2 int
+execute if score n1 int >= stemp6 int run scoreboard players operation smax int = stemp int
+execute if score n1 int < stemp6 int run scoreboard players operation smin int = stemp int

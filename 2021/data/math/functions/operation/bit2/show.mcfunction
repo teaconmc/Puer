@@ -1,0 +1,3 @@
+execute store result score stemp5 int run data get entity @s Item.tag.bit2[5]
+execute if score stemp5 int matches 1 run tellraw @a [{"text":"结果是+"},{"text":","},{"nbt":"Item.tag.bit2[4]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[3]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[2]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[1]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[0]","entity":"@s"}]
+execute if score stemp5 int matches -1 run tellraw @a [{"text":"结果是-"},{"text":","},{"nbt":"Item.tag.bit2[4]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[3]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[2]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[1]","entity":"@s"},{"text":","},{"nbt":"Item.tag.bit2[0]","entity":"@s"}]

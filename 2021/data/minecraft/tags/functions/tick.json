@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "math:particles/tick",
+    "talisman_skills:tick"
+  ]
+}

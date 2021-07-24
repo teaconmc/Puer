@@ -1,0 +1,2 @@
+execute if score stempe int matches 0 if score stempf int matches 0 run scoreboard players set cstemp int 6
+execute if score stempc int matches 0 if score stempb int matches 0 run scoreboard players set cstemp int 0
