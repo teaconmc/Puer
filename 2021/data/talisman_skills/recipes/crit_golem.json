@@ -1,0 +1,27 @@
+{
+    "type": "talisman:talisman_crafting" ,
+    "pattern": [
+        " A " ,
+        " B " ,
+        "   "
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:iron_sword"
+        },
+        "B":{
+            "item": "talisman:talisman_paper"
+        }
+    },
+    "result": {
+        "item": "talisman:talisman" ,
+        "count": 1 ,
+        "display": "{Name:'{\"text\":\"暴击傀儡\",\"italic\":false}',Lore:['{\"text\":\"准备好受死吧！\",\"italic\":false}']}" ,
+        "throwable":true ,
+        "experience": 100 ,
+        "executes": [
+		"function:talisman_skills:crit_golem"
+	] ,
+        "custom_model_data": 12060004
+    }
+}

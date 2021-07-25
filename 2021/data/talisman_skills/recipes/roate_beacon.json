@@ -1,0 +1,27 @@
+{
+    "type": "talisman:talisman_crafting" ,
+    "pattern": [
+        "AAA" ,
+        "ABA" ,
+        "AAA"
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:beacon"
+        },
+        "B":{
+            "item": "talisman:talisman_paper"
+        }
+    },
+    "result": {
+        "item": "talisman:talisman" ,
+        "count": 1 ,
+        "display": "{Name:'{\"text\":\"螺旋信标\",\"italic\":false}',Lore:['{\"text\":\"看看，好看不？\",\"italic\":false}']}" ,
+        "throwable":true ,
+        "experience": 100 ,
+        "executes": [
+		"function:talisman_skills:roate_beacon"
+	] ,
+        "custom_model_data": 12060005
+    }
+}

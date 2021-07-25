@@ -1,0 +1,1 @@
+tellraw @s {"text":"<xiaodou123> 作者是我！qwq 欢迎关注B站 小豆8593"}

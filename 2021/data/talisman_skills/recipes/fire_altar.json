@@ -1,0 +1,27 @@
+{
+    "type": "talisman:talisman_crafting" ,
+    "pattern": [
+        "AAA" ,
+        "ABA" ,
+        "AAA"
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:magma_block"
+        },
+        "B":{
+            "item": "talisman:talisman_paper"
+        }
+    },
+    "result": {
+        "item": "talisman:talisman" ,
+        "count": 1 ,
+        "display": "{Name:'{\"text\":\"火焰祭坛\",\"italic\":false}',Lore:['{\"text\":\"绚烂的焰火，殆尽生命的热血！！\",\"italic\":false}']}" ,
+        "throwable":true ,
+        "experience": 100 ,
+        "executes": [
+		"function:talisman_skills:fire_altar"
+	] ,
+        "custom_model_data": 12060000
+    }
+}

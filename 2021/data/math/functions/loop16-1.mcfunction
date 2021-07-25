@@ -1,0 +1,9 @@
+execute if score bit1 int matches 1 at @s run tp @s ~-10 ~ ~
+execute if score bit1 int matches 2 at @s run tp @s ~-20 ~ ~
+execute if score bit1 int matches 3 at @s run tp @s ~-30 ~ ~
+execute if score bit1 int matches 4 at @s run tp @s ~-40 ~ ~
+execute if score bit1 int matches 5 at @s run tp @s ~-50 ~ ~
+execute if score bit1 int matches 6 at @s run tp @s ~-60 ~ ~
+execute if score bit1 int matches 7 at @s run tp @s ~-70 ~ ~
+execute if score bit1 int matches 8 at @s run tp @s ~-80 ~ ~
+execute if score bit1 int matches 9 at @s run tp @s ~-90 ~ ~
