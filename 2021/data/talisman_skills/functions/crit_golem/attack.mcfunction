@@ -9,4 +9,4 @@ execute as @e[tag=tmp] store result entity @s Health float 0.1 run scoreboard pl
 execute as @e[tag=tmp] at @s anchored eyes run particle minecraft:crit ^ ^ ^ 0.2 0.2 0.2 0.2 20 force
 execute as @e[tag=tmp] at @s run playsound minecraft:entity.player.attack.crit player @a
 #击退
-execute at @s as @e[tag=tmp] run function minecraft:knockback
+execute at @s as @e[tag=tmp] run function kback:knockback

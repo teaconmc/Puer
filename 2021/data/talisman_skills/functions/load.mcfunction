@@ -1,5 +1,5 @@
 #击退数据包
-function minecraft:init
+function kback:init
 #数学库
 function math:init
 function math:tick_mode/on
