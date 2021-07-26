@@ -17,7 +17,7 @@
         "item": "talisman:talisman" ,
         "count": 1 ,
         "display": "{Name:'{\"text\":\"天谴之门\",\"italic\":false}',Lore:['{\"text\":\"准备好受死吧！\",\"italic\":false}']}" ,
-        "throwable":true ,
+        "throwable":false ,
         "experience": 100 ,
         "executes": [
 		"function:talisman_skills:fireball_hoop"
