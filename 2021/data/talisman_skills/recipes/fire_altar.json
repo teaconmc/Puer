@@ -17,7 +17,7 @@
         "item": "talisman:talisman" ,
         "count": 1 ,
         "display": "{Name:'{\"text\":\"火焰祭坛\",\"italic\":false}',Lore:['{\"text\":\"绚烂的焰火，殆尽生命的热血！！\",\"italic\":false}']}" ,
-        "throwable":true ,
+        "throwable":false ,
         "experience": 100 ,
         "executes": [
 		"function:talisman_skills:fire_altar"
