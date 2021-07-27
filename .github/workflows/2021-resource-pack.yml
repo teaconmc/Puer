@@ -1,0 +1,30 @@
+name: TeaCon 2021 resource pack
+
+on:
+  push:
+    paths:
+      - "2021/pack.mcmeta"
+      - "2021/assets/**"
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate resource pack
+        run: |
+          cd 2021
+          find assets pack.mcmeta | xargs zip -9 ../resources.zip
+          sha1sum ../resources.zip | awk '{printf $1}' > ../resources.zip.sha1
+      - name: Upload resource pack
+        env:
+          S3_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: |
+          aws s3 cp --endpoint-url $S3_ENDPOINT `realpath resources.zip` s3://2021/resourcepack/resources.zip
+          aws s3 cp --endpoint-url $S3_ENDPOINT `realpath resources.zip.sha1` s3://2021/resourcepack/resources.zip.sha1
+          aws s3 cp --endpoint-url $S3_ENDPOINT `realpath resources.zip` s3://2021/resourcepack/resources-$GITHUB_SHA.zip
+          aws s3 cp --endpoint-url $S3_ENDPOINT `realpath resources.zip.sha1` s3://2021/resourcepack/resources-$GITHUB_SHA.zip.sha1
