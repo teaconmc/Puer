@@ -10,6 +10,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-14/build-19/chinese_sword-1.0.7-19.jar.asc"
   },
   {
+    "name": "laluzdelalba-1.0-6.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-15/build-6/laluzdelalba-1.0-6.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-15/build-6/laluzdelalba-1.0-6.jar.asc"
+  },
+  {
     "name": "thewanderingearth-0.0.1-18.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-16/build-18/thewanderingearth-0.0.1-18.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-16/build-18/thewanderingearth-0.0.1-18.jar.asc"
