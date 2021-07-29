@@ -125,6 +125,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-6/miyaworld-1.0-6.jar.asc"
   },
   {
+    "name": "touhoulittlemaid-1.16.5-1.0.0-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-62/build-9/touhoulittlemaid-1.16.5-1.0.0-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-62/build-9/touhoulittlemaid-1.16.5-1.0.0-9.jar.asc"
+  },
+  {
     "name": "chronicler_lh-beta0.1.0-25.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-63/build-25/chronicler_lh-beta0.1.0-25.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-63/build-25/chronicler_lh-beta0.1.0-25.jar.asc"
@@ -168,11 +173,6 @@
     "name": "locusazzurro_icaruswings-1.16.5-0.1.0-55.jar",
     "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/locusazzurro_icaruswings/1.16.5-0.1.0-55/locusazzurro_icaruswings-1.16.5-0.1.0-55.jar",
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/locusazzurro_icaruswings/1.16.5-0.1.0-55/locusazzurro_icaruswings-1.16.5-0.1.0-55.jar.asc"
-  },
-  {
-    "name": "touhoulittlemaid-1.16.5-1.0.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/touhoulittlemaid-1.16.5/1.0.0-8/touhoulittlemaid-1.16.5-1.0.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/touhoulittlemaid-1.16.5/1.0.0-8/touhoulittlemaid-1.16.5-1.0.0-8.jar.asc"
   },
   {
     "name": "darksword22-0.1.0-1.jar",
