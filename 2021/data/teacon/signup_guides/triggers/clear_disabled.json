@@ -1,0 +1,7 @@
+{
+  "type": "trigger",
+  "disabled": true,
+  "title": "清空背包",
+  "selector": "@a[nbt={Inventory:[]}]",
+  "description": "清空自身背包里的所有物品"
+}
