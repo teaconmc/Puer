@@ -35,14 +35,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-27/backtones-1.2.2-27.jar.asc"
   },
   {
-    "name": "CrockPot-1.16.5-1.6.0-release-23.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-23/CrockPot-1.16.5-1.6.0-release-23.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-23/CrockPot-1.16.5-1.6.0-release-23.jar.asc"
+    "name": "CrockPot-1.16.5-1.6.0-release-24.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-24/CrockPot-1.16.5-1.6.0-release-24.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-24/CrockPot-1.16.5-1.6.0-release-24.jar.asc"
   },
   {
-    "name": "Ashihara-indev-01-19.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-35/build-19/Ashihara-indev-01-19.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-19/Ashihara-indev-01-19.jar.asc"
+    "name": "Ashihara-indev-01-20.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-35/build-20/Ashihara-indev-01-20.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-20/Ashihara-indev-01-20.jar.asc"
   },
   {
     "name": "uusi-aurinko-0.2.2-43.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-58/build-13/teamod-1.0.0-13.jar.asc"
   },
   {
-    "name": "the_elixir-1.1-30.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-59/build-30/the_elixir-1.1-30.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-30/the_elixir-1.1-30.jar.asc"
+    "name": "the_elixir-1.1-31.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-59/build-31/the_elixir-1.1-31.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-31/the_elixir-1.1-31.jar.asc"
   },
   {
     "name": "miyaworld-1.0-6.jar",
