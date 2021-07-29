@@ -12,6 +12,6 @@
     "/experience set @s 2022 levels",
     "/experience add @s -1 points",
     "/signmeup map close",
-    "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、口渴值、和经验等级\""
+    "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、口渴值、和经验等级\"]"
   ]
 }
