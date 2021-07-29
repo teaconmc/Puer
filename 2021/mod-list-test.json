@@ -20,6 +20,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-16/build-18/thewanderingearth-0.0.1-18.jar.asc"
   },
   {
+    "name": "unexpectedteleport-1.16.5-1.0.1-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-18/build-9/unexpectedteleport-1.16.5-1.0.1-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-18/build-9/unexpectedteleport-1.16.5-1.0.1-9.jar.asc"
+  },
+  {
     "name": "flycycle-1.16.5-0.1.0-13.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-20/build-13/flycycle-1.16.5-0.1.0-13.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-20/build-13/flycycle-1.16.5-0.1.0-13.jar.asc"
@@ -153,11 +158,6 @@
     "name": "fortyyears-1.0-7.jar",
     "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/fortyyears/1.0-7/fortyyears-1.0-7.jar",
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/fortyyears/1.0-7/fortyyears-1.0-7.jar.asc"
-  },
-  {
-    "name": "unexpectedteleport-1.16.5-1.0.1-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/unexpectedteleport-1.16.5/1.0.1-8/unexpectedteleport-1.16.5-1.0.1-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/unexpectedteleport-1.16.5/1.0.1-8/unexpectedteleport-1.16.5-1.0.1-8.jar.asc"
   },
   {
     "name": "king_and_knight-1.0-SNAPSHOT-17.jar",
