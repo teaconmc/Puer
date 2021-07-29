@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-27/backtones-1.2.2-27.jar.asc"
   },
   {
-    "name": "CrockPot-1.16.5-1.6.0-release-21.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-21/CrockPot-1.16.5-1.6.0-release-21.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-21/CrockPot-1.16.5-1.6.0-release-21.jar.asc"
+    "name": "CrockPot-1.16.5-1.6.0-release-22.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-22/CrockPot-1.16.5-1.6.0-release-22.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-22/CrockPot-1.16.5-1.6.0-release-22.jar.asc"
   },
   {
     "name": "Ashihara-indev-01-19.jar",
