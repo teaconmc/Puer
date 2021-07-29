@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-55/build-10/decorations-1.0-10.jar.asc"
   },
   {
-    "name": "ThreebodySophon-0.1.0-34.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-34/ThreebodySophon-0.1.0-34.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-34/ThreebodySophon-0.1.0-34.jar.asc"
+    "name": "ThreebodySophon-0.1.0-35.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-35/ThreebodySophon-0.1.0-35.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-35/ThreebodySophon-0.1.0-35.jar.asc"
   },
   {
     "name": "teamod-1.0.0-13.jar",
@@ -181,7 +181,7 @@
   },
   {
     "name": "ChromeBall-Forge-1.16-0.3.1.jar",
-    "file": "https://archives.teacon.cn/maven/org/teacon/ChromeBall-Forge-1.16/0.3.1/ChromeBall-Forge-1.16-0.3.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/ChromeBall-Forge-1.16/0.3.1/ChromeBall-Forge-1.16-0.3.1.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/ChromeBall-Forge-1.16-0.3.1.jar.asc"
   },
   {
