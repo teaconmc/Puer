@@ -175,9 +175,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/darksword22/0.1.0-1/darksword22-0.1.0-1.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.16-0.2.3.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.16/0.2.3/AreaControl-Forge-1.16-0.2.3.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.16-0.2.3.jar.asc"
+    "name": "AreaControl-Forge-1.16-0.2.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.16/0.2.4/AreaControl-Forge-1.16-0.2.4.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.16-0.2.4.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.16-0.3.1.jar",
@@ -243,6 +243,11 @@
     "name": "Kiwi-1.16.5-3.5.2.jar",
     "file": "https://archive.teacon.cn/2021/ci/extra/Kiwi-1.16.5-3.5.2.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/Kiwi-1.16.5-3.5.2.jar.asc"
+  },
+  {
+    "name": "modnametooltip_1.16.2-1.15.0.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/modnametooltip_1.16.2-1.15.0.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/modnametooltip_1.16.2-1.15.0.jar.asc"
   },
   {
     "name": "StorageDrawers-1.16.3-8.3.0.jar",
