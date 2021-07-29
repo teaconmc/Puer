@@ -180,6 +180,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.16-0.2.3.jar.asc"
   },
   {
+    "name": "ChromeBall-Forge-1.16-0.3.1.jar",
+    "file": "https://archives.teacon.cn/maven/org/teacon/ChromeBall-Forge-1.16/0.3.1/ChromeBall-Forge-1.16-0.3.1.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/ChromeBall-Forge-1.16-0.3.1.jar.asc"
+  },
+  {
     "name": "Isle-Forge-1.16-0.3.0.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/Isle-Forge-1.16/0.3.0/Isle-Forge-1.16-0.3.0.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/Isle-Forge-1.16-0.3.0.jar.asc"
