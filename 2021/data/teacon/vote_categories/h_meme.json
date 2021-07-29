@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "模因污染"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组内容成为新「梗」/制作成表情包的潜力有多大。"
+  }
+}
