@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-43/uusi-aurinko-0.2.2-43.jar.asc"
   },
   {
-    "name": "xxsrk-1.16.5-dev-teacon-spc-20.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-4/build-20/xxsrk-1.16.5-dev-teacon-spc-20.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-4/build-20/xxsrk-1.16.5-dev-teacon-spc-20.jar.asc"
+    "name": "xxsrk-1.16.5-dev-teacon-spc-21.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-4/build-21/xxsrk-1.16.5-dev-teacon-spc-21.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-4/build-21/xxsrk-1.16.5-dev-teacon-spc-21.jar.asc"
   },
   {
     "name": "TeaStory-4.1.5-Alpha-11.jar",
@@ -55,9 +55,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-42/build-11/TeaStory-4.1.5-Alpha-11.jar.asc"
   },
   {
-    "name": "Intercourse-0.1.7-Alpha-6.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-43/build-6/Intercourse-0.1.7-Alpha-6.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-43/build-6/Intercourse-0.1.7-Alpha-6.jar.asc"
+    "name": "Contact-0.2.0-Alpha-7.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-43/build-7/Contact-0.2.0-Alpha-7.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-43/build-7/Contact-0.2.0-Alpha-7.jar.asc"
   },
   {
     "name": "ElytraBooster-0.0.1-20.jar",
@@ -73,6 +73,11 @@
     "name": "minecardstouhou-1.0.3-30.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-30/minecardstouhou-1.0.3-30.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-30/minecardstouhou-1.0.3-30.jar.asc"
+  },
+  {
+    "name": "favourite_tags-0.0.0-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-9/favourite_tags-0.0.0-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-9/favourite_tags-0.0.0-9.jar.asc"
   },
   {
     "name": "Talisman-0.0.6-Dev-38.jar",
@@ -153,11 +158,6 @@
     "name": "modid-1.0-6.jar",
     "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/modid/1.0-6/modid-1.0-6.jar",
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/modid/1.0-6/modid-1.0-6.jar.asc"
-  },
-  {
-    "name": "favourite_tags-0.0.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/favourite_tags/0.0.0-8/favourite_tags-0.0.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/favourite_tags/0.0.0-8/favourite_tags-0.0.0-8.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.16.5-0.1.0-55.jar",
