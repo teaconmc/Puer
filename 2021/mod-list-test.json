@@ -95,6 +95,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-32/minecardstouhou-1.0.3-32.jar.asc"
   },
   {
+    "name": "sinocraft-1.16.5-1.1.0-15.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar.asc"
+  },
+  {
     "name": "favourite_tags-0.0.0-13.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar.asc"
