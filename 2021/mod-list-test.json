@@ -290,9 +290,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SilveroakOutpost-Forge-1.16.5-0.3.5-Beta.jar.asc"
   },
   {
-    "name": "xkdeco_0.2.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/xkdeco_0.2.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/xkdeco_0.2.0.jar.asc"
+    "name": "xkdeco_0.2.4.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/xkdeco_0.2.4.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/xkdeco_0.2.4.jar.asc"
   },
   {
     "name": "kotlinforforge-1.14.0-obf.jar",
