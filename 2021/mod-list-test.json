@@ -215,9 +215,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.3.0.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.16-0.4.4.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.4/SlideShow-Forge-1.16-0.4.4.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.4.jar.asc"
+    "name": "SlideShow-Forge-1.16-0.4.5.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.5/SlideShow-Forge-1.16-0.4.5.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.5.jar.asc"
   },
   {
     "name": "VoteMe-Forge-1.16-0.2.1.jar",
