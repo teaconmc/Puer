@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-1/build-2/doraemon_props-1.1-2.jar.asc"
   },
   {
-    "name": "chinese_sword-1.0.7-20.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-14/build-20/chinese_sword-1.0.7-20.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-14/build-20/chinese_sword-1.0.7-20.jar.asc"
+    "name": "chinese_sword-1.0.7-21.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-14/build-21/chinese_sword-1.0.7-21.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-14/build-21/chinese_sword-1.0.7-21.jar.asc"
   },
   {
     "name": "thewanderingearth-0.0.1-19.jar",
@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-31/minecardstouhou-1.0.3-31.jar.asc"
   },
   {
-    "name": "favourite_tags-0.0.0-9.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-9/favourite_tags-0.0.0-9.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-9/favourite_tags-0.0.0-9.jar.asc"
+    "name": "favourite_tags-0.0.0-13.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar.asc"
   },
   {
     "name": "Talisman-0.0.6-Dev-39.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-63/build-26/chronicler_lh-beta0.1.0-26.jar.asc"
   },
   {
-    "name": "WaterSource-1.1.26-beta-1.16.5-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-64/build-8/WaterSource-1.1.26-beta-1.16.5-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-64/build-8/WaterSource-1.1.26-beta-1.16.5-8.jar.asc"
+    "name": "WaterSource-1.1.27-beta-1.16.5-10.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-64/build-10/WaterSource-1.1.27-beta-1.16.5-10.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-64/build-10/WaterSource-1.1.27-beta-1.16.5-10.jar.asc"
   },
   {
     "name": "neubulaeko_slime-1.0-8.jar",
