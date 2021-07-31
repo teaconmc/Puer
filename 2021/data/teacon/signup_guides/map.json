@@ -22,6 +22,7 @@
   "triggers": [
     "teacon:triggers/clear_disabled",
     "teacon:triggers/clear",
-    "teacon:triggers/heal"
+    "teacon:triggers/heal",
+    "teacon:triggers/minecart"
   ]
 }
