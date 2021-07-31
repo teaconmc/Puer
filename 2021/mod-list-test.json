@@ -150,6 +150,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-64/build-11/WaterSource-1.1.28-beta-1.16.5-11.jar.asc"
   },
   {
+    "name": "modid-1.0-2.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-66/build-2/modid-1.0-2.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-66/build-2/modid-1.0-2.jar.asc"
+  },
+  {
     "name": "neubulaeko_slime-1.0-8.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-67/build-8/neubulaeko_slime-1.0-8.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-67/build-8/neubulaeko_slime-1.0-8.jar.asc"
