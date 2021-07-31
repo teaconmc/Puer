@@ -5,6 +5,6 @@
   "description": "给自己一个矿车",
   "executes": [
     "/clear @s minecraft:minecart",
-    "/give @s minecraft:minecart"
+    "/give @s minecraft:minecart{display:{Name:'{\"italic\":false,\"text\":\"交通强国, 铁路先行\"}'}}"
   ]
 }
