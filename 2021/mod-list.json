@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-49/civilizationswars-1.0-preview1-49.jar.asc"
   },
   {
-    "name": "backtones-1.2.3-30.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-30/backtones-1.2.3-30.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-30/backtones-1.2.3-30.jar.asc"
+    "name": "backtones-1.2.4.1-31.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-31/backtones-1.2.4.1-31.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-31/backtones-1.2.4.1-31.jar.asc"
   },
   {
     "name": "CrockPot-1.16.5-1.6.0-release-25.jar",
@@ -105,19 +105,19 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-14/favourite_tags-0.0.1-14.jar.asc"
   },
   {
-    "name": "Talisman-0.0.6-Dev-41.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-52/build-41/Talisman-0.0.6-Dev-41.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-52/build-41/Talisman-0.0.6-Dev-41.jar.asc"
+    "name": "Talisman-0.0.6-Dev-42.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-52/build-42/Talisman-0.0.6-Dev-42.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-52/build-42/Talisman-0.0.6-Dev-42.jar.asc"
   },
   {
-    "name": "decorations-1.0-11.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-55/build-11/decorations-1.0-11.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-55/build-11/decorations-1.0-11.jar.asc"
+    "name": "decorations-1.0-12.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-55/build-12/decorations-1.0-12.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-55/build-12/decorations-1.0-12.jar.asc"
   },
   {
-    "name": "ThreebodySophon-0.1.0-39.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-39/ThreebodySophon-0.1.0-39.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-39/ThreebodySophon-0.1.0-39.jar.asc"
+    "name": "ThreebodySophon-0.1.0-40.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-40/ThreebodySophon-0.1.0-40.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-40/ThreebodySophon-0.1.0-40.jar.asc"
   },
   {
     "name": "teamod-1.0.0-13.jar",
