@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar.asc"
   },
   {
-    "name": "favourite_tags-0.0.0-13.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-13/favourite_tags-0.0.0-13.jar.asc"
+    "name": "favourite_tags-0.0.1-14.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-14/favourite_tags-0.0.1-14.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-14/favourite_tags-0.0.1-14.jar.asc"
   },
   {
     "name": "Talisman-0.0.6-Dev-40.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-6/modid-1.0-6.jar.asc"
   },
   {
-    "name": "magic_circle-1.0-49.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-8/build-49/magic_circle-1.0-49.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-8/build-49/magic_circle-1.0-49.jar.asc"
+    "name": "magic_circle-1.0-50.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-8/build-50/magic_circle-1.0-50.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-8/build-50/magic_circle-1.0-50.jar.asc"
   },
   {
     "name": "meteorrandomidea-1.0-12.jar",
