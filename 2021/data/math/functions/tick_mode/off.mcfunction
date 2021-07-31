@@ -1,0 +1,1 @@
+scoreboard players set tick_mode int 0

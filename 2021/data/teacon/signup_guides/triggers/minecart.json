@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "交通强国",
+  "selector": "@a",
+  "description": "给自己一个矿车",
+  "executes": [
+    "/clear @s minecraft:minecart",
+    "/give @s minecraft:minecart"
+  ]
+}

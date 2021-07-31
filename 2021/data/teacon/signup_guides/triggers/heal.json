@@ -1,0 +1,17 @@
+{
+  "type": "trigger",
+  "title": "元气满满",
+  "selector": "@a",
+  "description": "回复自身血量、饥饿值、口渴值、和经验等级",
+  "executes": [
+    "/effect clear @s",
+    "/effect give @s minecraft:saturation 1 5 true",
+    "/effect give @s minecraft:regeneration 1 5 true",
+    "/effect give @s watersource:water_restoring 5 5 true",
+    "/experience add @s -2147483648 points",
+    "/experience set @s 2022 levels",
+    "/experience add @s -1 points",
+    "/signmeup map close",
+    "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、口渴值、和经验等级\"]"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "文艺复兴"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": false
+  },
+  "description": {
+    "text": "参赛模组对原作品的还原程度、和原作品精神的贴合程度有多高。"
+  }
+}

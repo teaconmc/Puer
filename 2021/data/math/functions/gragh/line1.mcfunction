@@ -1,0 +1,9 @@
+scoreboard players operation x2 int -= x1 int
+scoreboard players operation y2 int -= y1 int
+scoreboard players operation y2 int *= 10000 int
+scoreboard players operation y2 int /= x2 int
+scoreboard players operation k1 int = y2 int
+scoreboard players operation z2 int -= z1 int
+scoreboard players operation z2 int *= 10000 int
+scoreboard players operation z2 int /= x2 int
+scoreboard players operation k2 int = z2 int

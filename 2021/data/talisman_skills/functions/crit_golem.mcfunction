@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {CustomNameVisible:1b,CustomName:'{"text":"§4Crit Golem"}',ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:14374144}}}],Tags:["talisman_skills","crit_golem"]}

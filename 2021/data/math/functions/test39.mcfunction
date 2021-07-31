@@ -1,0 +1,2 @@
+scoreboard players add stemp int 1
+tellraw @a [{"text":"execute if score r int matches "},{"score":{"name":"stemp","objective":"int"}},{"text":" run function math:sphere/"},{"score":{"name":"stemp","objective":"int"}}]

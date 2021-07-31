@@ -1,0 +1,27 @@
+﻿{
+    "type": "talisman:talisman_crafting" ,
+    "pattern": [
+        "AAA" ,
+        "ABA" ,
+        "AAA"
+    ],
+    "key": {
+        "A":{
+            "tag": "minecraft:wool"
+        },
+        "B":{
+            "item": "talisman:talisman_paper"
+        }
+    },
+    "result": {
+        "item": "talisman:talisman" ,
+        "count": 1 ,
+        "display": "{Name:'{\"text\":\"绵羊术\",\"italic\":false}',Lore:['{\"text\":\"都给我变绵羊吧！！！\",\"italic\":false}']}" ,
+        "throwable":true ,
+        "experience": 30 ,
+        "executes": [
+		"function:talisman_skills:sheep_it"
+	] ,
+        "custom_model_data": 12060001
+    }
+}

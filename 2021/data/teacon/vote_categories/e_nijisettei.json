@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "二设达人"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": false
+  },
+  "description": {
+    "text": "参赛模组在原作品的基础上进行了多么新颖、多么大胆的改造等二次创作。"
+  }
+}

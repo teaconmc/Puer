@@ -1,0 +1,10 @@
+#斜边AC 对边AB 临边BC
+summon armor_stand 0.0 10 0.0 {Tags:["trif"],Rotation:[0.0,0.0],NoGravity:true,Invisible:true,Marker:true}
+execute as @e[tag=trif] store result entity @s Rotation[0] float -0.0001 run scoreboard players get θ int
+execute as @e[tag=trif] at @s run tp @s ^ ^ ^10.0
+scoreboard players set AC int 10000
+execute as @e[tag=trif] store result score BC int run data get entity @s Pos[0] 100000
+execute as @e[tag=trif] store result score AB int run data get entity @s Pos[2] 100000
+kill @e[tag=trif]
+scoreboard players operation cos int = AB int
+scoreboard players operation cos int /= AC int

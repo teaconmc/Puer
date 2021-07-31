@@ -1,0 +1,1 @@
+execute positioned ~ ~1.62 ~ run summon minecraft:item ^ ^ ^3.0 {Item:{id:"minecraft:command_block",Count:1b,tag:{run_command:"execute at @e[tag=rbutton] run summon area_effect_cloud ~ ~-1.0 ~ {Duration:2,Tags:[\"mpar_end_rod\"]}"}},CustomName:"\"end_rod\"",CustomNameVisible:true,Tags:["button","mpar_custom"]}

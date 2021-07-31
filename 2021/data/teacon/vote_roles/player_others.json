@@ -1,0 +1,28 @@
+{
+  "name": {
+    "text": "玩家（文艺复兴，二设达人，可爱即正义，买椟还珠，模因污染）"
+  },
+  "selector": "@a",
+  "participations": [
+    {
+      "category": "teacon:d_renaissance",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:e_nijisettei",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:f_kawaii",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:g_architect",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:h_meme",
+      "weight": 1.0
+    }
+  ]
+}
