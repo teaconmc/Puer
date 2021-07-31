@@ -1,0 +1,28 @@
+{
+  "type": "map",
+  "title": {
+    "text": "TeaCon 2021 展示服务器"
+  },
+  "subtitle": {
+    "text": "主世界"
+  },
+  "description": {
+    "text": "TeaCon 2021 展示服务器主世界（主岛）。点击地图传送点查看主世界的不同打卡点。"
+  },
+  "range": 2048,
+  "center": [ 0, 0 ],
+  "world": "minecraft:overworld",
+  "texture": "teacon:textures/gui/guide_map.png",
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
+  "points": [
+    "teacon:points/spawn"
+  ],
+  "triggers": [
+    "teacon:triggers/clear_disabled",
+    "teacon:triggers/clear",
+    "teacon:triggers/heal",
+    "teacon:triggers/minecart"
+  ]
+}

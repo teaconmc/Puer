@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "teacon:load",
     "talisman_skills:load"
   ]
 }
