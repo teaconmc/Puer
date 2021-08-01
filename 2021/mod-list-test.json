@@ -215,14 +215,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/Nickname-Forge-1.16-0.3.3.jar.asc"
   },
   {
-    "name": "SignMeUp-Forge-1.16-0.1.3.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.16/0.1.3/SignMeUp-Forge-1.16-0.1.3.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SignMeUp-Forge-1.16-0.1.3.jar.asc"
+    "name": "SignMeUp-Forge-1.16-0.1.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.16/0.1.4/SignMeUp-Forge-1.16-0.1.4.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SignMeUp-Forge-1.16-0.1.4.jar.asc"
   },
   {
-    "name": "SimplePermission-Forge-1.16-0.4.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SimplePermission-Forge-1.16/0.4.0/SimplePermission-Forge-1.16-0.4.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.0.jar.asc"
+    "name": "SimplePermission-Forge-1.16-0.4.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SimplePermission-Forge-1.16/0.4.1/SimplePermission-Forge-1.16-0.4.1.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.1.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.16-0.4.5.jar",
