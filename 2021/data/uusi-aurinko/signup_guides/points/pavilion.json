@@ -3,9 +3,11 @@
   "title": "Uusi Aurinko（新日任务）",
   "selector": "@a",
   "location": {
-    "actual": [ -593, 64, -300 ]
+    "actual": [ -593, 64, -305 ]
   },
-  "triggers": [],
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
   "images": [
     "uusi-aurinko:textures/gui/banner_uusiaurinko.png"
   ]
