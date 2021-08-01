@@ -3,7 +3,7 @@
   "title": "Uusi Aurinko（新日任务）",
   "selector": "@a",
   "location": {
-    "actual": [ -593, 64, -305 ]
+    "actual": [ -593, 64, -304 ]
   },
   "triggers": [
     "teacon:triggers/teleport"
