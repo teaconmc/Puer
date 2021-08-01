@@ -60,6 +60,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-4/build-23/xxsrk-1.16.5-dev-teacon-spc-23.jar.asc"
   },
   {
+    "name": "SerializableConsciousness-1.16.5-1.0.0-17.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-40/build-17/SerializableConsciousness-1.16.5-1.0.0-17.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-40/build-17/SerializableConsciousness-1.16.5-1.0.0-17.jar.asc"
+  },
+  {
     "name": "TeaStory-4.1.10-Alpha-13.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-42/build-13/TeaStory-4.1.10-Alpha-13.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-42/build-13/TeaStory-4.1.10-Alpha-13.jar.asc"
@@ -95,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar.asc"
   },
   {
-    "name": "favourite_tags-0.0.1-14.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-14/favourite_tags-0.0.1-14.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-14/favourite_tags-0.0.1-14.jar.asc"
+    "name": "favourite_tags-0.0.1-15.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-51/build-15/favourite_tags-0.0.1-15.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-15/favourite_tags-0.0.1-15.jar.asc"
   },
   {
     "name": "Talisman-0.0.6-Dev-42.jar",
@@ -160,9 +165,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-6/modid-1.0-6.jar.asc"
   },
   {
-    "name": "magic_circle-1.0-52.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-8/build-52/magic_circle-1.0-52.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-8/build-52/magic_circle-1.0-52.jar.asc"
+    "name": "magic_circle-1.0-53.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-8/build-53/magic_circle-1.0-53.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-8/build-53/magic_circle-1.0-53.jar.asc"
   },
   {
     "name": "meteorrandomidea-1.0-12.jar",
