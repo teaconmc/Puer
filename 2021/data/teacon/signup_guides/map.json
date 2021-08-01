@@ -18,7 +18,8 @@
   ],
   "points": [
     "teacon:points/spawn",
-    "uusi-aurinko:points/pavilion"
+    "uusi-aurinko:points/pavilion",
+    "teacon:points/touhou_little_maid"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",

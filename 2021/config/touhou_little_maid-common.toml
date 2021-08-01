@@ -1,0 +1,20 @@
+[maid]
+#The item that can temptation maid
+MaidTemptationItem = "minecraft:cake"
+#The maximum number of maids the player own
+#Range: > 0
+OwnerMaxMaidNum = 2147483647
+#The item that can tamed maid
+MaidTamedItem = "minecraft:cake"
+#The item that can ntr maid
+MaidNtrItem = "minecraft:structure_void"
+#Maid can switch models freely
+MaidChangeModel = true
+
+[chair]
+#Chair can switch models freely
+ChairChangeModel = true
+
+[teacon]
+#Model package need to download
+ModelNeedDownload = ["azuru_line-1.0.0.zip", "buildcraft_robot-1.0.0.zip", "droneeee-1.0.1.zip", "fate.grand.order-0.0.1.zip", "genshin_impact-1.0.0.zip", "gokou_ruri_maid-1.0.0.zip", "hanaya_baka-1.1.4.zip", "hayaterz-1.2.3.zip", "himehina-2.0.0.zip", "honkai_impact_3-3.0.0.zip", "jao_shingan-1.0.1.zip", "mahoraba-1.0.0.zip", "medium5-1.0.0.zip", "mimikko-1.3.4.zip", "practice_by_hollow-1.3.0.zip", "ryuowork-1.0.2.zip", "sakura_maid-1.1.0.zip", "sa_cutemobs-1.0.0.zip", "senren_banka-1.0.0.zip", "tartaric_acid_things-1.1.0.zip", "the_journey_of_elaina-1.3.1.zip", "th_bsm-1.0.0.zip", "tmsop-1.0.0.zip", "touhou_kaikidan-1.0.0.zip", "urara_littlemaid-0.4.1.zip", "violet_evergarden-1.0.0.zip", "worldend-1.1.0.zip"]
