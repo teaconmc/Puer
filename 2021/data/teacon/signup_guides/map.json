@@ -19,7 +19,9 @@
   "points": [
     "teacon:points/spawn",
     "uusi-aurinko:points/pavilion",
-    "teacon:points/touhou_little_maid"
+    "teacon:points/touhou_little_maid",
+    "icaruswings:icaruswings_future",
+    "icaruswings:icaruswings_past"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
