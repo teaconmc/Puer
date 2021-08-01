@@ -17,7 +17,8 @@
     "teacon:textures/gui/banner.png"
   ],
   "points": [
-    "teacon:points/spawn"
+    "teacon:points/spawn",
+    "uusi-aurinko:points/pavilion"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
