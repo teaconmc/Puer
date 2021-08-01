@@ -1,0 +1,11 @@
+{
+  "type": "trigger",
+  "title": "海洋强国",
+  "selector": "@a",
+  "description": "给自己一艘船",
+  "executes": [
+    "/clear @s #minecraft:boats",
+    "/loot give @s loot teacon:boat",
+    "/signmeup map close"
+  ]
+}

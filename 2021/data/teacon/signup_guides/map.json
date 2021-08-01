@@ -25,6 +25,7 @@
     "teacon:triggers/clear_disabled",
     "teacon:triggers/clear",
     "teacon:triggers/heal",
-    "teacon:triggers/minecart"
+    "teacon:triggers/minecart",
+    "teacon:triggers/boat"
   ]
 }
