@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "values": [
+        "uusi-aurinko:temple_stone",
+        "uusi-aurinko:temple_stone_slab",
+        "uusi-aurinko:temple_stone_stairs",
+        "uusi-aurinko:temple_stone_wall",
+        "uusi-aurinko:polished_temple_stone",
+        "uusi-aurinko:polished_temple_stone_slab",
+        "uusi-aurinko:polished_temple_stone_stairs",
+        "uusi-aurinko:polished_temple_stone_wall",
+        "uusi-aurinko:temple_stone_bricks",
+        "uusi-aurinko:temple_stone_brick_slab",
+        "uusi-aurinko:temple_stone_brick_stairs",
+        "uusi-aurinko:temple_stone_brick_wall",
+        "uusi-aurinko:temple_bricks",
+        "uusi-aurinko:temple_brick_slab",
+        "uusi-aurinko:temple_brick_stairs",
+        "uusi-aurinko:temple_brick_wall",
+        "uusi-aurinko:shattered_temple_bricks",
+        "uusi-aurinko:shattered_temple_brick_slab",
+        "uusi-aurinko:shattered_temple_brick_stairs",
+        "uusi-aurinko:shattered_temple_brick_wall",
+        "uusi-aurinko:rune_temple_bricks",
+        "uusi-aurinko:temple_lamp",
+        "uusi-aurinko:transmuting_temple_bricks",
+        "uusi-aurinko:chiseled_temple_bricks",
+        "uusi-aurinko:item_pedestal_cover"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "point",
+  "title": "Uusi Aurinko（新日任务）",
+  "selector": "@a",
+  "location": {
+    "actual": [ -593, 64, -300 ]
+  },
+  "triggers": [],
+  "images": [
+    "uusi-aurinko:textures/gui/banner_uusiaurinko.png"
+  ]
+}
