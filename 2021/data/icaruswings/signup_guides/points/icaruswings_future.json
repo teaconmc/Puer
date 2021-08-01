@@ -1,0 +1,14 @@
+{
+  "type": "point",
+  "title": "伊卡洛斯之翼 ~ 天降之物",
+  "selector": "@a",
+  "location": {
+    "actual": [ -734, 171, -729 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "icaruswings:textures/gui/banner_icaruswings_future.png"
+  ]
+}
