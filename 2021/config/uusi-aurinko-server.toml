@@ -1,0 +1,155 @@
+#Kiuaskivi may ignite blocks in the cuboid which goes from (-range, -range, -range) to (range, range + 2, range)
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+fire_stone_ignite_block_range = 1
+#The base probability of creating fire blocks near Kiuaskivi in each tick.
+#Set this value to 0 to prevent inflammable blocks from fire.
+#Range: 0.0 ~ 1.0
+fire_stone_ignite_block_base_chance = 0.01
+#How unlikely a flammable block in range may be ignited by Kiuaskivi in every tick.
+#The ignition chance per tick is (flammability / improbability + base chance).
+#Flammability is 0 for inflammable blocks, with a maximum of 300, and 20 for a typical wooden block.
+#Range: > 1
+fire_stone_ignite_flammable_improbability = 50
+#The hitbox of Kiuaskivi's holder/item entity will grow in each direction by this value, 
+#and all entities in this expanded box will be ignited quickly.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 64.0
+fire_stone_ignite_entity_range = 0.5
+#Vuoksikivi solidifies all lava source blocks within this distance into semisolid lava.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+water_stone_solidify_lava_range = 1
+#The hitbox of Vuoksikivi's holder/item entity will grow in each direction by this value, 
+#and fire-sensitive entities, such as blazeman, in this expanded box takes drown damage.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 64.0
+water_stone_damage_range = 1.0
+#Vuoksikivi extinguishes fire and campfire blocks within this distance.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+water_stone_extinguish_fire_range = 2
+#Ukkoskivi may electrify connected conductor blocks within this distance.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+lightning_stone_electricity_range = 10
+#The interval for Ukkoskivi to make electrical discharges.
+#Range: > 1
+lightning_stone_electricity_interval = 40
+#The probability of receiving damage and debuff by a creature connected to Ukkoskivi through conductors.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 1.0
+lightning_stone_electricity_shook_chance = 1.0
+#The damage received by a creature connected to Ukkoskivi through conductors when Ukkoskivi discharges.
+#Range: 0.0 ~ 3.4028234663852886E38
+lightning_stone_electricity_shook_damage = 2.5
+#The types of creatures immune to the electricity from Ukkoskivi. (non-creatures are already excluded)
+#Also accept entity type tags starting with #
+lightning_stone_electricity_immune_entity_types = ["#uusi-aurinko:electric_immune"]
+#Blocks in this list can conduct electricity.
+#Also accept block tags starting with #
+conductive_blocks = ["#uusi-aurinko:conductor"]
+#Fluids in this list can conduct electricity.
+#Also accept fluid tags starting with #
+conductive_fluids = ["#uusi-aurinko:conductor"]
+#Tannerkivi transmutes blocks in this range into dirt.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+earth_stone_transmutation_range = 2
+#Blocks in this blacklist won't be transmuted by Tannerkivi.
+#Also accept block tags starting with #
+earth_stone_transmutation_blacklist = ["#uusi-aurinko:transmutation_immune", "#minecraft:leaves"]
+#The earthquake of Tannerkivi collapses blocks in this range.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+earth_stone_earthquake_range = 6
+#Blocks in this blacklist won't be affect by the earthquake of Tannerkivi.
+#Also accept block tags starting with #
+earth_stone_earthquake_blacklist = ["#uusi-aurinko:earthquake_immune"]
+#The per block amount of particle made by the earthquake of Tannerkivi.
+#Changing this value has no effects on server; it affects client performance instead.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+earth_stone_earthquake_particle_amount = 7
+#Kakkakikkare transmutes fluid blocks within this distance into excrement.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+poop_stone_transmutation_range = 2
+#The chance of receiving various debuff (other than hunger) by the holder of Kakkakikkare in each tick.
+#Set this value to 0 to disable debuff.
+#Range: 0.0 ~ 1.0
+poop_stone_debuff_chance = 0.01
+#The duration of debuff in ticks that the excrement fluid block may give to the creatures inside.
+#Set this value to 0 to disable.
+#Range: 0 ~ 1000000
+excrement_debuff_duration = 200
+#Auringonsiemen creates explosion at powdery blocks within this distance.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+sun_seed_explosion_range = 2
+#The probability of explosion at a powdery block within the explosion range of Auringonsiemen.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 1.0
+sun_seed_explosion_chance = 0.5
+#The interval for Auringonsiemen to make an exploding attempt.
+#Range: > 1
+sun_seed_explosion_frequency = 2
+#Aurinkokivi transmutes powdery blocks within this distance into fire.
+#Set this value to 0 to disable.
+#Range: 0 ~ 64
+sun_stone_fire_range = 2
+#The probability of transmuting a powdery block into fire within the fire range of Aurinkokivi.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 1.0
+sun_stone_fire_chance = 0.75
+#The interval for Aurinkokivi to make a transmuting attempt.
+#Range: > 1
+sun_stone_fire_interval = 2
+#Blocks in this list will be transmuted into explosion or fire by Auringonsiemen or Aurinkokivi.
+#Also accept block tags starting with #
+powdery_blocks = ["#uusi-aurinko:powdery"]
+#Sets the created new suns' RiseUp NBT data, which decides if the new sun flies to a specific position in the world after consuming enough creatures..
+#It is y=200 at the spawn point in the overworld, y=100 with x and z equal to 1/8 of the overworld's spawn point in the nether,
+#and y=200, x=z=0 in the end.
+#Changing this config does not affect the NBT data of existing new suns.
+new_sun_rise_up = false
+#The maximum amount of blocks destroyed by the new sun per tick.
+#Set this value to 0 to disable.
+#Range: 0 ~ 1024
+new_sun_destroy_rate = 0
+#The probability of leaving fire behind when destroying a block.
+#Note that blocks inside the new sun never leave fire behind when destroyed.
+#Range: 0.0 ~ 1.0
+new_sun_destroy_fire_chance = 0.3
+#Blocks in this blacklist won't be destroyed or turned into lava by the new sun.
+#Also accept block tags starting with #
+new_sun_destroy_blacklist = ["#uusi-aurinko:transmutation_immune"]
+#Entities with their types in this blacklist won't be attracted by the new sun.
+#Also accept entity type tags starting with #
+new_sun_attraction_immune_entity_types = ["minecraft:player"]
+#Defines the damage amount of the new sun's blaze.
+#Entities starts to receive the blaze damage when they are still far away from the sun.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 3.4028234663852886E38
+new_sun_blaze_damage_amount = 4.0
+#Entities with their types in this blacklist won't receive blaze damage.
+#Entities starts to receive the blaze damage when they are still far away from the sun.
+#Also accept entity type tags starting with #
+new_sun_blaze_damage_immune_entity_types = ["minecraft:player"]
+#Defines the damage amount of the new sun's fusion.
+#Entities starts to receive the fusion damage when they literally get into the sun.
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 3.4028234663852886E38
+new_sun_fusion_damage_amount = 12.0
+#Entities with their types in this blacklist won't receive fusion damage.
+#Entities starts to receive the fusion damage when they literally get into the sun.
+#Also accept entity type tags starting with #
+new_sun_fusion_damage_immune_entity_types = ["minecraft:player"]
+#The specials item which makes item pedestal block emits a redstone signal of 15 instead of 7at the block below it.
+pedestal_special_items = ["#uusi-aurinko:pedestal_special_items"]
+#The base damage of thrown emerald tablet.
+#The actual damage equals to (speed * speed * baseDamage).
+#Set this value to 0 to disable.
+#Range: 0.0 ~ 2.147483647E9
+emerald_tablet_base_damage = 40.0
+

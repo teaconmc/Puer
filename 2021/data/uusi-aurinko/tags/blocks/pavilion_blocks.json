@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        "#uusi-aurinko:temple_blocks",
+        "#minecraft:wool",
+        "#minecraft:signs",
+        "#minecraft:carpets",
+        "#minecraft:buttons",
+        "xkdeco:small_sign_ground",
+        "xkdeco:sign_exit",
+        "xkdeco:emergency_exit_left",
+        "xkdeco:emergency_exit_right",
+        "xkdeco:simple_wooden_table",
+        "xkdeco:simple_wooden_stool",
+        "xkdeco:oil_lamp",
+        "minecraft:campfire",
+        "minecraft:barrier",
+        "minecraft:command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:chain_command_block",
+        "minecraft:structure_block",
+        "minecraft:jigsaw"
+    ]
+}

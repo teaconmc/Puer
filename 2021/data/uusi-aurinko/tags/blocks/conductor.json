@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "xkdeco:steel_block",
+        "xkdeco:steel_tiles",
+        "xkdeco:steel_tile_slab",
+        "xkdeco:steel_tile_stair",
+        "xkdeco:steel_column",
+        "xkdeco:steel_trapdoor",
+        "xkdeco:hollow_steel_frame",
+        "xkdeco:hollow_steel_beam",
+        "xkdeco:hollow_steel_oblique_beam",
+        "xkdeco:hollow_steel_oblique_slow",
+        "xkdeco:hollow_steel_oblique_steep",
+        "xkdeco:hollow_steel_half_beam",
+        "xkdeco:hollow_steel_half_bar",
+        "xkdeco:hollow_steel_trapdoor"
+    ]
+}

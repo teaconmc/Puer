@@ -1,0 +1,19 @@
+{
+    "type": "point",
+    "title": "车万女仆/未曾设想的传送方式 展馆",
+    "description": "温馨提醒：异界有风险，转生需谨慎",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            440,
+            65,
+            377
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "teacon:textures/gui/banner_touhou_little_maid.png"
+    ]
+}

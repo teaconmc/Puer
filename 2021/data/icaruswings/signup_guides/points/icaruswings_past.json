@@ -1,0 +1,14 @@
+{
+  "type": "point",
+  "title": "伊卡洛斯之翼 ~ 远空之梦",
+  "selector": "@a",
+  "location": {
+    "actual": [ -665, 195, -665 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "icaruswings:textures/gui/banner_icaruswings_past.png"
+  ]
+}
