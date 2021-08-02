@@ -1,0 +1,16 @@
+{
+    "type": "point",
+    "title": "华夏工艺 展馆",
+    "description": "有服章之美谓之华，有礼仪之大谓之夏。",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            397,
+            67,
+            -318
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ]
+}
