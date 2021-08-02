@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_shulker_box",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'[{\"text\":\"Elevator\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'},BlockEntityTag:{CustomName:'{\"text\":\"Elevator\"}',Lock:'dadgauhgdfabc',id:'elevator:elevator'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

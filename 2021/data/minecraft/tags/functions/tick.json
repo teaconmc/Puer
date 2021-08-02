@@ -3,6 +3,7 @@
   "values": [
     "teacon:tick",
     "math:particles/tick",
-    "talisman_skills:tick"
+    "talisman_skills:tick",
+    "elevator:check"
   ]
 }
