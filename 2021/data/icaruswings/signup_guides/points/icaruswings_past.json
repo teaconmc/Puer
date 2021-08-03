@@ -1,6 +1,7 @@
 {
   "type": "point",
   "title": "伊卡洛斯之翼 ~ 远空之梦",
+  "description": "一个关于羽毛、蜜蜂和天空的故事。",
   "selector": "@a",
   "location": {
     "actual": [ -665, 195, -665 ]
