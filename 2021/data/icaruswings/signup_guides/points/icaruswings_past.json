@@ -6,7 +6,8 @@
     "actual": [ -665, 195, -665 ]
   },
   "triggers": [
-    "teacon:triggers/teleport"
+    "teacon:triggers/teleport",
+	  "icaruswings:triggers/video_link"
   ],
   "images": [
     "icaruswings:textures/gui/banner_icaruswings_past.png"
