@@ -1,0 +1,76 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "locusazzurro_icaruswings:steel_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 2
+			  }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "locusazzurro_icaruswings:blue_topaz_gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 20,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "locusazzurro_icaruswings:sapphire_gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+	  "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}
