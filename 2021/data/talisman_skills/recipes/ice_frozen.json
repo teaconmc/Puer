@@ -16,7 +16,7 @@
     "result": {
         "item": "talisman:talisman" ,
         "count": 1 ,
-        "display": "{Name:'{\"text\":\"冰花符\",\"italic\":false}',Lore:['{\"text\":\"巨大的冰花，是不是非常美丽？\",\"italic\":false}']}" ,
+        "display": "{Name:'{\"text\":\"冰花符\",\"italic\":false,\"color\":\"red\"}',Lore:['{\"text\":\"巨大的冰花，是不是非常美丽？\",\"italic\":false}']}" ,
         "throwable":true ,
         "experience": 100 ,
         "executes": [
