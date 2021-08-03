@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-55/build-13/decorations-1.0-13.jar.asc"
   },
   {
-    "name": "ThreebodySophon-0.1.0-40.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-40/ThreebodySophon-0.1.0-40.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-40/ThreebodySophon-0.1.0-40.jar.asc"
+    "name": "ThreebodySophon-0.1.0-41.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-57/build-41/ThreebodySophon-0.1.0-41.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-57/build-41/ThreebodySophon-0.1.0-41.jar.asc"
   },
   {
     "name": "teamod-1.0.0-13.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.5.jar.asc"
   },
   {
-    "name": "VoteMe-Forge-1.16-0.2.1.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.16/0.2.1/VoteMe-Forge-1.16-0.2.1.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/VoteMe-Forge-1.16-0.2.1.jar.asc"
+    "name": "VoteMe-Forge-1.16-0.2.2.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.16/0.2.2/VoteMe-Forge-1.16-0.2.2.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/VoteMe-Forge-1.16-0.2.2.jar.asc"
   },
   {
     "name": "ChineseWorkshop-1.16.3-3.2.1.jar",
