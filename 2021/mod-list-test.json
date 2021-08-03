@@ -25,14 +25,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-20/build-16/flycycle-1.16.5-0.1.0-16.jar.asc"
   },
   {
-    "name": "civilizationswars-1.0-preview1-49.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-22/build-49/civilizationswars-1.0-preview1-49.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-49/civilizationswars-1.0-preview1-49.jar.asc"
+    "name": "civilizationswars-1.0-preview1-50.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-22/build-50/civilizationswars-1.0-preview1-50.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-50/civilizationswars-1.0-preview1-50.jar.asc"
   },
   {
-    "name": "backtones-1.2.4.2-33.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-33/backtones-1.2.4.2-33.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-33/backtones-1.2.4.2-33.jar.asc"
+    "name": "backtones-1.2.4.3-34.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar.asc"
   },
   {
     "name": "CrockPot-1.16.5-1.6.0-release-25.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-35/the_elixir-1.1-35.jar.asc"
   },
   {
-    "name": "miyaworld-1.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-8/miyaworld-1.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-8/miyaworld-1.0-8.jar.asc"
+    "name": "miyaworld-1.0-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.16.5-1.0.0-13.jar",
