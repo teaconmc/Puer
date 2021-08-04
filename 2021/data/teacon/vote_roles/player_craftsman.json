@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "玩家（工匠）"
+  },
+  "selector": "@a[tag=!teacon_judge_craftsman]",
+  "participations": [
+    {
+      "category": "teacon:b_craftsman",
+      "weight": 0.5
+    }
+  ]
+}

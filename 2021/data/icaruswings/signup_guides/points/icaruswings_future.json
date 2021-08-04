@@ -1,0 +1,16 @@
+{
+  "type": "point",
+  "title": "伊卡洛斯之翼 ~ 天降之物",
+  "selector": "@a",
+  "description": "♫ 涙が出るほどきれいな 　青い空 ♫ \\n♫ 汚れた翼で飛んでいきます ♫ \\n♫そして、、あなたの元へ、、堕ちてゆく、、♫ \\n♫ Fallen down... ♫ \\n  -- 早见沙织 - Fallen Down",
+  "location": {
+    "actual": [ -734, 171, -729 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport",
+	  "icaruswings:triggers/video_link"
+  ],
+  "images": [
+    "icaruswings:textures/gui/banner_icaruswings_future.png"
+  ]
+}

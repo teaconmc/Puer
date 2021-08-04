@@ -16,7 +16,7 @@
     "result": {
         "item": "talisman:talisman" ,
         "count": 1 ,
-        "display": "{Name:'{\"text\":\"螺旋信标\",\"italic\":false}',Lore:['{\"text\":\"看看，好看不？\",\"italic\":false}']}" ,
+        "display": "{Name:'{\"text\":\"螺旋信标\",\"italic\":false,\"color\":\"red\"}',Lore:['{\"text\":\"看看，好看不？\",\"italic\":false}']}" ,
         "throwable":true ,
         "experience": 100 ,
         "executes": [

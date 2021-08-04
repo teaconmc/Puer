@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "talisman_skills:load"
+    "teacon:load",
+    "talisman_skills:load",
+    "elevator:init"
   ]
 }

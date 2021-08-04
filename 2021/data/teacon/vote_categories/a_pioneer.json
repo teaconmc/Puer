@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "先锋"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": false
+  },
+  "description": {
+    "text": "参赛模组的代码有多适合新人学习参考。我们大概会用最严格的标准来评比这一个。"
+  }
+}

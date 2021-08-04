@@ -7,6 +7,6 @@
     "actual": [ 0, 65, 0 ]
   },
   "triggers": [
-    "teacon:triggers/teleport"
+    "teacon:triggers/teleport_center"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "艺术家"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": false
+  },
+  "description": {
+    "text": "参赛模组在美术设计、音乐等艺术创作方面有多吸引人。"
+  }
+}

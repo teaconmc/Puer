@@ -17,11 +17,18 @@
     "teacon:textures/gui/banner.png"
   ],
   "points": [
-    "teacon:points/spawn"
+    "teacon:points/spawn",
+    "uusi-aurinko:points/pavilion",
+    "teacon:points/touhou_little_maid",
+    "icaruswings:points/icaruswings_future",
+    "icaruswings:points/icaruswings_past",
+    "talisman:points/talisman"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
     "teacon:triggers/clear",
-    "teacon:triggers/heal"
+    "teacon:triggers/heal",
+    "teacon:triggers/minecart",
+    "teacon:triggers/boat"
   ]
 }

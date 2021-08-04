@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "可爱即正义"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组对于其中艺术角色的描绘有多么受人欢迎。"
+  }
+}

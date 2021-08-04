@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "评审员（先锋）"
+  },
+  "selector": "@a[tag=teacon_judge_pioneer]",
+  "participations": [
+    {
+      "category": "teacon:a_pioneer",
+      "weight": 1.0
+    }
+  ]
+}

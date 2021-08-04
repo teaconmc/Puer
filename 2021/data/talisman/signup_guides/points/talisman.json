@@ -1,0 +1,19 @@
+{
+    "type": "point",
+    "title": "符·道 展馆",
+    "description": "灵符的奥秘，可不仅于此......",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            461,
+            202,
+            -900
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "talisman:textures/gui/talisman.png"
+    ]
+}

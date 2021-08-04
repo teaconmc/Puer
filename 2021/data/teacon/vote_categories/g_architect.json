@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "买椟还珠"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组在展示服务器搭建的场馆（而非作品本身）有多漂亮。"
+  }
+}
