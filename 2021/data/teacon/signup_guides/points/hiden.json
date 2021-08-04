@@ -1,0 +1,19 @@
+{
+    "type": "point",
+    "title": "飞电Intelligence大厦",
+    "description": "Take off, toward a dream.",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            382,
+            65,
+            527
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "teacon:textures/gui/banner_hiden.png"
+    ]
+}
