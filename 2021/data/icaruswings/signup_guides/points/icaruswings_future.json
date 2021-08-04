@@ -7,9 +7,10 @@
     "actual": [ -734, 171, -729 ]
   },
   "triggers": [
-    "teacon:triggers/teleport",
-	  "icaruswings:triggers/video_link"
-  ],
+	  "teacon:triggers/teleport",
+	   "icaruswings:triggers/video_link",
+	   "icaruswings:triggers/resource_pack_link"
+	   ],
   "images": [
     "icaruswings:textures/gui/banner_icaruswings_future.png"
   ]
