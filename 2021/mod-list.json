@@ -25,14 +25,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-20/build-16/flycycle-1.16.5-0.1.0-16.jar.asc"
   },
   {
-    "name": "civilizationswars-1.0-preview1-49.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-22/build-49/civilizationswars-1.0-preview1-49.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-49/civilizationswars-1.0-preview1-49.jar.asc"
+    "name": "civilizationswars-1.0-preview1-51.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-22/build-51/civilizationswars-1.0-preview1-51.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-51/civilizationswars-1.0-preview1-51.jar.asc"
   },
   {
-    "name": "backtones-1.2.4.2-33.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-33/backtones-1.2.4.2-33.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-33/backtones-1.2.4.2-33.jar.asc"
+    "name": "backtones-1.2.4.3-34.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar.asc"
   },
   {
     "name": "CrockPot-1.16.5-1.6.0-release-25.jar",
@@ -60,9 +60,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-4/build-23/xxsrk-1.16.5-dev-teacon-spc-23.jar.asc"
   },
   {
-    "name": "SerializableConsciousness-1.16.5-1.0.0-19.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-40/build-19/SerializableConsciousness-1.16.5-1.0.0-19.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-40/build-19/SerializableConsciousness-1.16.5-1.0.0-19.jar.asc"
+    "name": "SerializableConsciousness-1.16.5-1.0.0-20.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-40/build-20/SerializableConsciousness-1.16.5-1.0.0-20.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-40/build-20/SerializableConsciousness-1.16.5-1.0.0-20.jar.asc"
   },
   {
     "name": "TeaStory-4.1.10-Alpha-13.jar",
@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-51/build-15/favourite_tags-0.0.1-15.jar.asc"
   },
   {
-    "name": "Talisman-0.1.0-43.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-52/build-43/Talisman-0.1.0-43.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-52/build-43/Talisman-0.1.0-43.jar.asc"
+    "name": "Talisman-0.1.0+build.undefined-44.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-52/build-44/Talisman-0.1.0+build.undefined-44.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-52/build-44/Talisman-0.1.0+build.undefined-44.jar.asc"
   },
   {
     "name": "decorations-1.0-13.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-35/the_elixir-1.1-35.jar.asc"
   },
   {
-    "name": "miyaworld-1.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-8/miyaworld-1.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-8/miyaworld-1.0-8.jar.asc"
+    "name": "miyaworld-1.0-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.16.5-1.0.0-13.jar",
