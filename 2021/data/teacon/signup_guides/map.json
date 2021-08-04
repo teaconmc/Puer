@@ -22,7 +22,8 @@
     "teacon:points/touhou_little_maid",
     "icaruswings:points/icaruswings_future",
     "icaruswings:points/icaruswings_past",
-    "talisman:points/talisman"
+    "talisman:points/talisman",
+    "teacon:points/hiden",
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
