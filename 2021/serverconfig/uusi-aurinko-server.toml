@@ -19,7 +19,7 @@ fire_stone_ignite_entity_range = 0.5
 #Vuoksikivi solidifies all lava source blocks within this distance into semisolid lava.
 #Set this value to 0 to disable.
 #Range: 0 ~ 64
-water_stone_solidify_lava_range = 1
+water_stone_solidify_lava_range = 2
 #The hitbox of Vuoksikivi's holder/item entity will grow in each direction by this value, 
 #and fire-sensitive entities, such as blazeman, in this expanded box takes drown damage.
 #Set this value to 0 to disable.
@@ -32,7 +32,7 @@ water_stone_extinguish_fire_range = 2
 #Ukkoskivi may electrify connected conductor blocks within this distance.
 #Set this value to 0 to disable.
 #Range: 0 ~ 64
-lightning_stone_electricity_range = 10
+lightning_stone_electricity_range = 16
 #The interval for Ukkoskivi to make electrical discharges.
 #Range: > 1
 lightning_stone_electricity_interval = 40
@@ -55,7 +55,7 @@ conductive_fluids = ["#uusi-aurinko:conductor"]
 #Tannerkivi transmutes blocks in this range into dirt.
 #Set this value to 0 to disable.
 #Range: 0 ~ 64
-earth_stone_transmutation_range = 2
+earth_stone_transmutation_range = 3
 #Blocks in this blacklist won't be transmuted by Tannerkivi.
 #Also accept block tags starting with #
 earth_stone_transmutation_blacklist = ["#uusi-aurinko:transmutation_immune", "#minecraft:leaves"]
