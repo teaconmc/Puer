@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "附加资源包",
+  "selector": "@a",
+  "description": "下载与模组配合使用的《天降之物》音乐资源包",
+  "executes": [
+    "/tellraw @s [{\"text\":\"[伊卡洛斯之翼] \",\"color\":\"gold\"},{\"text\":\"点击下载附加资源包\",\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://pan.baidu.com/s/1X8rSJGConQipYv9k6e_ECA\"}},{\"text\":\" - 提取码：f2lh\",\"color\":\"white\"}]",
+    "/signmeup map close"
+  ]
+}
