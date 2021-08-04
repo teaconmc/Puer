@@ -1,0 +1,20 @@
+{
+    "type": "point",
+    "title": "《魔城传说3D》展馆",
+    "description": "道家深湖设下逆熵结界，使得士兵不死、围墙不坏，然后强占了你的城堡。\n在本展馆中，TEACON赛事委员会特别准许您进行PVE战斗、准许使用蒙古剑挖掘方块，助您夺回城堡、打败深湖。",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            818,
+            108,
+            554
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport",
+        "teacon:triggers/minecart"
+    ],
+    "images": [
+        "teacon:textures/gui/banner_back_to_nes.png"
+    ]
+}
