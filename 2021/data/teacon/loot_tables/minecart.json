@@ -19,7 +19,7 @@
         },
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CanPlaceOn:['#minecraft:rails'], HideFlags: 8}"
+          "tag": "{CanPlaceOn:['#minecraft:rails'], HideFlags: 24}"
         }
       ]
     }
