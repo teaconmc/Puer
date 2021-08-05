@@ -6,6 +6,6 @@
   "overrides": [
     { "predicate": { "custom_model_data": 17210001 }, "model": "heac:tools/syringe"},
     { "predicate": { "custom_model_data": 17210002 }, "model": "heac:tools/health_code"},
-    { "predicate": { "custom_model_data": 17210003 }, "model": "teacon:one_pass"}
+    { "predicate": { "custom_model_data": 17210003 }, "model": "teacon:item/one_pass"}
   ]
 }
