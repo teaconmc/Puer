@@ -1,6 +1,42 @@
 {
-    "parent": "item/handheld_rod",
-    "textures": {
-      "layer0": "teacon:items/one_pass"
-    }
+	"credit": "Made By Gu_ZT",
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "teacon:items/one_pass"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 33],
+			"translation": [0, 2, -1.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 33],
+			"translation": [0, 2, -1.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [2.5, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.5, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [18, 18, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 11, 0]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -0.75]
+		}
+	}
 }
