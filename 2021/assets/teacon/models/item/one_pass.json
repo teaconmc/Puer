@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld_rod",
     "textures": {
-      "layer0": "heac:tools/one_card_solution"
+      "layer0": "teacon:items/one_pass"
     }
 }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{id:\"heac:one_card_solution\",display:{Name:'{\"translate\":\"item.heac.one_card_solution\"}'},CustomModelData:17210003,CanDestroy:[\"#storagedrawers:drawers\"]}"
+                "tag": "{id:'teacon:one_pass',display:{Name:'{\"translate\":\"item.teacon.one_pass\"}',Lore:['{\"translate\":\"item.teacon.one_pass.info.1\"}','{\"translate\":\"item.teacon.one_pass.info.2\"}']},CustomModelData:17210003,CanDestroy:['#storagedrawers:drawers'],HideFlags:24}"
               }
             ]
           }

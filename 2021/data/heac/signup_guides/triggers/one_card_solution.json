@@ -1,9 +1,0 @@
-{
-    "type": "trigger",
-    "title": "申领一卡通",
-    "selector": "@a",
-    "description": "持有此卡方可使用抽屉",
-    "executes": [
-      "/loot give @s loot heac:one_card_solution"
-    ]
-}
