@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "uusi-aurinko:lightning_stone"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "italic": false,
+            "text": "开天龙符"
+            }
+          }
+        ]
+      }
+    ]
+  }
