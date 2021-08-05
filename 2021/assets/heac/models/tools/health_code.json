@@ -1,6 +1,35 @@
 {
-    "parent": "item/handheld_rod",
-    "textures": {
-      "layer0": "heac:tools/health_code"
-    }
+	"credit": "Made By Gu_ZT",
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "heac:tools/health_code"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.5, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"translation": [2.5, 3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.25, 3.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [22.5, 22.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"head": {
+			"translation": [0, 0, 8.25]
+		}
+	}
 }
