@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+      "layer0": "teacon:items/one_pass"
+    }
+}

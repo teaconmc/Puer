@@ -1,0 +1,12 @@
+{
+  "type": "point",
+  "title": "",
+  "description": "",
+  "selector": "@a",
+  "location": {
+    "actual": [ -710, 75, 710 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ]
+}

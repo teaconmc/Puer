@@ -1,0 +1,9 @@
+{
+    "type": "trigger",
+    "title": "申领一卡通",
+    "selector": "@a",
+    "description": "领取 TeaCon2021 茶馆一卡通",
+    "executes": [
+      "/loot give @s loot teacon:one_pass"
+    ]
+}
