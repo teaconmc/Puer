@@ -25,7 +25,8 @@
     "talisman:points/talisman",
     "teacon:points/hiden",
     "teacon:points/back_to_nes",
-    "teacon:points/sinocraft"
+    "teacon:points/sinocraft",
+    "teacon:points/extrameteorp.json"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
