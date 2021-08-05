@@ -33,6 +33,6 @@
     "teacon:triggers/heal",
     "teacon:triggers/minecart",
     "teacon:triggers/boat",
-    "heac:triggers/one_card_solution"
+    "teacon:triggers/one_pass"
   ]
 }
