@@ -1,0 +1,15 @@
+{
+  "type": "point",
+  "title": "门 / The Gate",
+  "description": "纯白之门 & 混沌之门模组展馆。\n模组看点：\n上勾拳：动力拳套及配套附魔。\n小心兽人控：PVP主题职业与技能模组。",
+  "selector": "@a",
+  "location": {
+    "actual": [ 116, 68, 573 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ],
+  "images": [
+    "teacon:textures/gui/banner_the_gate.png"
+  ]
+}
