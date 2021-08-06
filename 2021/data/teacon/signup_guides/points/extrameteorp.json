@@ -1,12 +1,15 @@
 {
   "type": "point",
   "title": "流年年的随想",
-  "description": "",
+  "description": "随意之作",
   "selector": "@a",
   "location": {
     "actual": [ -610, 179, 797 ]
   },
   "triggers": [
     "teacon:triggers/teleport"
+  ],
+  "images": [
+    "teacon:textures/gui/banner_meteorrandomidea.png"
   ]
 }
