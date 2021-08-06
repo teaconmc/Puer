@@ -7,7 +7,7 @@
     "actual": [ 116, 68, 573 ]
   },
   "triggers": [
-    "teacon:triggers/teleport_center"
+    "teacon:triggers/teleport"
   ],
   "images": [
     "teacon:textures/gui/banner_the_gate.png"
