@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "预报帽子",
+  "selector": "@a",
+  "description": "穿戴以接收早晚天气预报广播",
+  "executes": [
+    "/give @s weatherforecast:weather_helmet",
+    "/signmeup map close"
+  ]
+}

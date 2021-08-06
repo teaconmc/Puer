@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "展示专栏",
+  "selector": "@a",
+  "description": "查看模组介绍",
+  "executes": [
+    "/tellraw @s [{\"text\":\"[天气之子] \",\"color\":\"gold\"},{\"text\":\"点击前往Bilibili观看介绍\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/128661221\"}}]",
+    "/signmeup map close"
+  ]
+}

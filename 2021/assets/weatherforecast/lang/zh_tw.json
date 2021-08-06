@@ -1,0 +1,29 @@
+{
+  "itemGroup.weatherforecast": "天氣之子 - 氣象預報",
+
+  "item.weatherforecast.weather_radar": "天氣雷達",
+  "item.weatherforecast.weather_helmet": "天氣預報帽",
+  "item.weatherforecast.temperature_probe": "溫度傳感器",
+
+  "tooltip.weatherforecast.temperature_probe": "隨身攜帶以查看環境溫度",
+  "tooltip.weatherforecast.weather_radar": "隨身攜帶以獲取早晚天氣預報（早晚六點）",
+  "tooltip.weatherforecast.weather_helmet": "穿著以獲取早晚天氣預報（早晚六點）",
+
+  "weatherforecast.message.rain_approach_tomorrow": "[天气预报] 晚上好！明天很可能降雨，请照顾好自己！",
+  "weatherforecast.message.rain_approach_tonight": "[天氣預報] 晚上好！今夜很可能降雨，請照顧好自己！",
+  "weatherforecast.message.thunder_approach_tomorrow": "[天氣預報] 晚上好！明天有雷暴接近，小心閃電！",
+  "weatherforecast.message.thunder_approach_tonight": "[天氣預報] 晚上好！今夜有雷暴接近，把窗簾拉好哦。",
+  "weatherforecast.message.clear_sky_tomorrow": "[天氣預報] 晚上好！明天天氣就會轉晴，蕪湖。",
+  "weatherforecast.message.clear_sky_tonight": "[天氣預報] 晚上好！今夜天氣就會轉晴，晚安好夢！",
+  "weatherforecast.message.no_rain_or_thunder_tomorrow": "[天氣預報] 晚上好！明天沒有壞天氣，好好睡吧。",
+  "weatherforecast.message.continue_rain_or_thunder_tomorrow": "[天氣預報] 晚上好！壞消息：明天壞天氣沒有好轉的跡象。",
+
+  "weatherforecast.message.rain_approach_today": "[天氣預報] 早上好！今天很可能降雨，請照顧好自己！",
+  "weatherforecast.message.rain_approach_evening": "[天氣預報] 早上好！今晚很可能降雨，請照顧好自己！",
+  "weatherforecast.message.thunder_approach_today": "[天氣預報] 早上好！今天有雷暴接近，小心閃電！",
+  "weatherforecast.message.thunder_approach_evening": "[天氣預報] 早上好！今晚有雷暴接近，把窗簾拉好哦。",
+  "weatherforecast.message.clear_sky_today": "[天氣預報] 早上好！今天天氣就會轉晴，蕪湖。",
+  "weatherforecast.message.clear_sky_evening": "[天氣預報] 早上好！今晚天氣就會轉晴，祝探險愉快！",
+  "weatherforecast.message.no_rain_or_thunder_today": "[天氣預報] 早上好！今天沒有壞天氣，出門曬太陽吧。",
+  "weatherforecast.message.continue_rain_or_thunder_today": "[天氣預報] 早上好！壞消息：今天壞天氣沒有好轉的跡象。"
+}

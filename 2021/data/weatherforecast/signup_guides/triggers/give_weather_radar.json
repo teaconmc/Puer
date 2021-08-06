@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "天气雷达",
+  "selector": "@a",
+  "description": "携带以接收早晚天气预报广播",
+  "executes": [
+    "/give @s weatherforecast:weather_radar",
+    "/signmeup map close"
+  ]
+}
