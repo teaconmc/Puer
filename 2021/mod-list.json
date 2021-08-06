@@ -270,9 +270,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/geckolib-forge-1.16.5-3.0.41.jar.asc"
   },
   {
-    "name": "jei-1.16.5-7.7.1.110.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/jei-1.16.5-7.7.1.110.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/jei-1.16.5-7.7.1.110.jar.asc"
+    "name": "jei-1.16.5-7.7.1.118.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/jei-1.16.5-7.7.1.118.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/jei-1.16.5-7.7.1.118.jar.asc"
   },
   {
     "name": "Kiwi-1.16.5-3.5.2.jar",
@@ -320,9 +320,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/useful_railroads-1.16.5-1.4.6.38.jar.asc"
   },
   {
-    "name": "weatherforecast-1.0.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.0.jar.asc"
+    "name": "weatherforecast-1.0.1.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.1.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.1.jar.asc"
   },
   {
     "name": "xkdeco_0.2.4.jar",
