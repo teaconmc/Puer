@@ -28,7 +28,8 @@
     "teacon:points/sinocraft",
     "teacon:points/extrameteorp",
      "watersource:points/pavilion",
-    "teacon:points/the_gate"
+    "teacon:points/the_gate",
+    "goldtoucher:points/goldtoucher.json"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
