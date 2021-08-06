@@ -1,0 +1,19 @@
+{
+    "type": "point",
+    "title": "南海归墟",
+    "description": "南海深处之古陵，传说龙眠于此的帝王妄图成仙升天...... 那千年古尸，若无相克之物，极难与之抗衡......",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            890,
+            26,
+            333
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "goldtoucher:textures/item/gold_toucher.png"
+    ]
+}
