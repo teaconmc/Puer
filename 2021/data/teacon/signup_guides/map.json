@@ -27,7 +27,8 @@
     "teacon:points/back_to_nes",
     "teacon:points/sinocraft",
     "teacon:points/extrameteorp",
-    "watersource:points/pavilion"
+    "watersource:points/pavilion",
+    "teastory:points/anka"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
