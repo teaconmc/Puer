@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WPW",
+    "F F",
+	"F F"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "F": {
+      "item": "locusazzurro_icaruswings:golden_feather_bunch"
+    },
+    "W": {
+      "item": "locusazzurro_icaruswings:glistering_refined_beeswax_bar"
+    }
+  },
+  "result": {
+    "item": "locusazzurro_icaruswings:golden_feather_wings",
+    "count": 1
+  }
+}
