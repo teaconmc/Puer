@@ -21,8 +21,7 @@
     "uusi-aurinko:points/pavilion",
     "teacon:points/touhou_little_maid",
     "icaruswings:points/icaruswings_future",
-    "icaruswings:points/icaruswings_past",
-    "goldtoucher:points/goldtoucher.json"
+    "icaruswings:points/icaruswings_past"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
