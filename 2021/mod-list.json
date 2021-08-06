@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-18/build-9/unexpectedteleport-1.16.5-1.0.1-9.jar.asc"
   },
   {
-    "name": "flycycle-1.16.5-0.1.0-16.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-20/build-16/flycycle-1.16.5-0.1.0-16.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-20/build-16/flycycle-1.16.5-0.1.0-16.jar.asc"
+    "name": "flycycle-1.16.5-0.1.0-17.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-20/build-17/flycycle-1.16.5-0.1.0-17.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-20/build-17/flycycle-1.16.5-0.1.0-17.jar.asc"
   },
   {
     "name": "civilizationswars-1.0-preview1-51.jar",
@@ -30,14 +30,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-51/civilizationswars-1.0-preview1-51.jar.asc"
   },
   {
-    "name": "backtones-1.2.4.3-34.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-34/backtones-1.2.4.3-34.jar.asc"
+    "name": "backtones-1.2.4.3-35.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-35/backtones-1.2.4.3-35.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-35/backtones-1.2.4.3-35.jar.asc"
   },
   {
-    "name": "CrockPot-1.16.5-1.6.0-release-25.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-25/CrockPot-1.16.5-1.6.0-release-25.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-25/CrockPot-1.16.5-1.6.0-release-25.jar.asc"
+    "name": "CrockPot-1.16.5-1.6.0-release-27.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-27/CrockPot-1.16.5-1.6.0-release-27.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-27/CrockPot-1.16.5-1.6.0-release-27.jar.asc"
   },
   {
     "name": "rising_uppercut-1.16.5-teacon-special-19.jar",
@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-31/build-19/rising_uppercut-1.16.5-teacon-special-19.jar.asc"
   },
   {
-    "name": "Ashihara-indev-01-20.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-35/build-20/Ashihara-indev-01-20.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-20/Ashihara-indev-01-20.jar.asc"
+    "name": "Ashihara-indev-01-21.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-35/build-21/Ashihara-indev-01-21.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-21/Ashihara-indev-01-21.jar.asc"
   },
   {
     "name": "uusi-aurinko-0.2.3-45.jar",
@@ -65,14 +65,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-40/build-20/SerializableConsciousness-1.16.5-1.0.0-20.jar.asc"
   },
   {
-    "name": "TeaStory-4.1.10-Alpha-13.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-42/build-13/TeaStory-4.1.10-Alpha-13.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-42/build-13/TeaStory-4.1.10-Alpha-13.jar.asc"
+    "name": "TeaStory-4.1.11-Alpha-15.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-42/build-15/TeaStory-4.1.11-Alpha-15.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-42/build-15/TeaStory-4.1.11-Alpha-15.jar.asc"
   },
   {
-    "name": "Contact-0.2.3-Alpha-9.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-43/build-9/Contact-0.2.3-Alpha-9.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-43/build-9/Contact-0.2.3-Alpha-9.jar.asc"
+    "name": "Contact-0.2.5-Alpha-10.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-43/build-10/Contact-0.2.5-Alpha-10.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-43/build-10/Contact-0.2.5-Alpha-10.jar.asc"
   },
   {
     "name": "PaiMonFood-1.0-7.jar",
@@ -95,9 +95,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-33/minecardstouhou-1.0.3-33.jar.asc"
   },
   {
-    "name": "sinocraft-1.16.5-1.1.0-15.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-5/build-15/sinocraft-1.16.5-1.1.0-15.jar.asc"
+    "name": "sinocraft-1.16.5-1.1.0-16.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-5/build-16/sinocraft-1.16.5-1.1.0-16.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-5/build-16/sinocraft-1.16.5-1.1.0-16.jar.asc"
   },
   {
     "name": "favourite_tags-0.0.1-15.jar",
@@ -125,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-58/build-14/teamod-1.0.0-14.jar.asc"
   },
   {
-    "name": "the_elixir-1.1-35.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-59/build-35/the_elixir-1.1-35.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-35/the_elixir-1.1-35.jar.asc"
+    "name": "the_elixir-1.1-36.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-59/build-36/the_elixir-1.1-36.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-36/the_elixir-1.1-36.jar.asc"
   },
   {
     "name": "miyaworld-1.0-9.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-67/build-8/neubulaeko_slime-1.0-8.jar.asc"
   },
   {
-    "name": "modid-1.0-6.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-70/build-6/modid-1.0-6.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-6/modid-1.0-6.jar.asc"
+    "name": "modid-1.0-7.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-70/build-7/modid-1.0-7.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-7/modid-1.0-7.jar.asc"
   },
   {
     "name": "magic_circle-1.0-54.jar",
@@ -328,5 +328,10 @@
     "name": "useful_railroads-1.16.5-1.4.6.38.jar",
     "file": "https://archive.teacon.cn/2021/ci/extra/useful_railroads-1.16.5-1.4.6.38.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/useful_railroads-1.16.5-1.4.6.38.jar.asc"
+  },
+  {
+    "name": "weatherforecast-1.0.0.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.0.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.0.jar.asc"
   }
 ]
