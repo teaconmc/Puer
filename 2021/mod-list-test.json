@@ -270,11 +270,6 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/StorageDrawers-1.16.3-8.3.0.jar.asc"
   },
   {
-    "name": "theoneprobe-1.16-3.1.4.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/theoneprobe-1.16-3.1.4.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/theoneprobe-1.16-3.1.4.jar.asc"
-  },
-  {
     "name": "mmlib-1.0.2.jar",
     "file": "https://archive.teacon.cn/2021/ci/extra/mmlib-1.0.2.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/mmlib-1.0.2.jar.asc"
