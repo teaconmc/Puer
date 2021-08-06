@@ -1,0 +1,45 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "talisman:item/talisman_paper",
+        "layer1": "talisman:item/talisman_overlay"
+    },
+    "overrides":[
+        {
+            "predicate":{
+                "custom_model_data":12060000
+            },
+            "model":"talisman_skills:item/ice_frozen"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12060001
+            },
+            "model":"talisman_skills:item/sheep_it"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12060002
+            },
+            "model":"talisman_skills:item/fireball_hoop"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12060003
+            },
+            "model":"talisman_skills:item/fire_altar"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12060004
+            },
+            "model":"talisman_skills:item/crit_golem"
+        },
+        {
+            "predicate":{
+                "custom_model_data":12060005
+            },
+            "model":"talisman_skills:item/roate_beacon"
+        }
+    ]
+}

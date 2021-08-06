@@ -16,7 +16,7 @@
     "result": {
         "item": "talisman:talisman" ,
         "count": 1 ,
-        "display": "{Name:'{\"text\":\"暴击傀儡\",\"italic\":false}',Lore:['{\"text\":\"准备好受死吧！\",\"italic\":false}']}" ,
+        "display": "{Name:'{\"text\":\"暴击傀儡\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"准备好受死吧！\",\"italic\":false}']}" ,
         "throwable":true ,
         "experience": 100 ,
         "executes": [

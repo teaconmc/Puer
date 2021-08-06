@@ -4,6 +4,7 @@
     "teacon:tick",
     "math:particles/tick",
     "talisman_skills:tick",
-    "elevator:check"
+    "elevator:check",
+    "heac:tick"
   ]
 }

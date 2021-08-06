@@ -16,6 +16,10 @@
             "italic": false,
             "text": "交通强国, 铁路先行"
           }
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{CanPlaceOn:['#minecraft:rails'], HideFlags: 24}"
         }
       ]
     }

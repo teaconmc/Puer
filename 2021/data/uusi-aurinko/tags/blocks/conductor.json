@@ -5,15 +5,20 @@
         "xkdeco:steel_tiles",
         "xkdeco:steel_tile_slab",
         "xkdeco:steel_tile_stair",
+        "xkdeco:smooth_steel_block",
+        "xkdeco:steel_pillar",
         "xkdeco:steel_column",
+        "xkdeco:steel_column_head",
         "xkdeco:steel_trapdoor",
+        "xkdeco:steel_safety_ladder",
+        "xkdeco:hollow_steel_bar",
         "xkdeco:hollow_steel_frame",
         "xkdeco:hollow_steel_beam",
         "xkdeco:hollow_steel_oblique_beam",
-        "xkdeco:hollow_steel_oblique_slow",
-        "xkdeco:hollow_steel_oblique_steep",
+        "xkdeco:hollow_steel_oblique_beam_slow",
+        "xkdeco:hollow_steel_oblique_beam_steep",
         "xkdeco:hollow_steel_half_beam",
-        "xkdeco:hollow_steel_half_bar",
+        "xkdeco:hollow_steel_bar",
         "xkdeco:hollow_steel_trapdoor"
     ]
 }

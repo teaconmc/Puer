@@ -1,0 +1,51 @@
+{
+    "condition": "minecraft:alternative",
+    "terms":[
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand":{
+              "items": ["minecraft:carrot_on_a_stick"],
+              "nbt": "{id:'heac:health_code'}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand":{
+                    "items": ["minecraft:carrot_on_a_stick"]
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand":{
+                      "items": ["minecraft:carrot_on_a_stick"],
+                      "nbt": "{id:'heac:health_code'}"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

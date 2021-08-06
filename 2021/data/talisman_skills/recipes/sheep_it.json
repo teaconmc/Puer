@@ -16,7 +16,7 @@
     "result": {
         "item": "talisman:talisman" ,
         "count": 1 ,
-        "display": "{Name:'{\"text\":\"绵羊术\",\"italic\":false}',Lore:['{\"text\":\"都给我变绵羊吧！！！\",\"italic\":false}']}" ,
+        "display": "{Name:'{\"text\":\"绵羊术\",\"italic\":false,\"color\":\"green\"}',Lore:['{\"text\":\"都给我变绵羊吧！！！\",\"italic\":false}']}" ,
         "throwable":true ,
         "experience": 30 ,
         "executes": [

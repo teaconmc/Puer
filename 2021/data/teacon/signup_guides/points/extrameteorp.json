@@ -1,0 +1,12 @@
+{
+  "type": "point",
+  "title": "流年年的随想",
+  "description": "",
+  "selector": "@a",
+  "location": {
+    "actual": [ -710, 75, 710 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ]
+}

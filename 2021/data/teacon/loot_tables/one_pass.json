@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{id:'teacon:one_pass',display:{Name:'{\"translate\":\"item.teacon.one_pass\"}',Lore:['{\"translate\":\"item.teacon.one_pass.info.1\"}','{\"translate\":\"item.teacon.one_pass.info.2\"}']},CustomModelData:17210003,CanDestroy:['#storagedrawers:drawers'],HideFlags:24}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

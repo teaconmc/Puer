@@ -3,6 +3,7 @@
   "values": [
     "teacon:load",
     "talisman_skills:load",
-    "elevator:init"
+    "elevator:init",
+    "heac:load"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+	"seed": 859715470,
+	"settings": "minecraft:overworld",
+	"biome_source": {
+	  "seed": 859715470,
+	  "biomes": [
+	    "thewanderingearth:wander"
+	  ],
+	  "biome": "thewanderingearth:wander",
+	  "type": "minecraft:fixed"
+	}
+  }
+}
