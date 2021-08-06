@@ -1,0 +1,18 @@
+{
+  "type": "point",
+  "title": "安卡城",
+  "description": "一座平原上的小城，孕育了茶风和往来两款模组。有着廿四节气的祥和，也有着从前的车马慢。",
+  "selector": "@a",
+  "location": {
+    "actual": [ 310, 71, 273 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "teastory:textures/banner/pic_0.png",
+    "teastory:textures/banner/pic_1.png",
+    "teastory:textures/banner/pic_2.png",
+    "teastory:textures/banner/pic_3.png"
+  ]
+}
