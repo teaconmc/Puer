@@ -28,7 +28,8 @@
     "teacon:points/sinocraft",
     "teacon:points/extrameteorp",
     "watersource:points/pavilion",
-    "teastory:points/anka"
+    "teastory:points/anka",
+    "teacon:points/the_gate"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
