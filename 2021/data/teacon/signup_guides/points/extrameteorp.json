@@ -4,7 +4,7 @@
   "description": "",
   "selector": "@a",
   "location": {
-    "actual": [ -710, 75, 710 ]
+    "actual": [ -610, 179, 797 ]
   },
   "triggers": [
     "teacon:triggers/teleport"
