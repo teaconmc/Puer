@@ -26,7 +26,8 @@
     "teacon:points/hiden",
     "teacon:points/back_to_nes",
     "teacon:points/sinocraft",
-    "teacon:points/extrameteorp"
+    "teacon:points/extrameteorp",
+    "teacon:points/the_gate"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
