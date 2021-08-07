@@ -29,7 +29,8 @@
     "teacon:points/extrameteorp",
      "watersource:points/pavilion",
     "teacon:points/the_gate",
-    "goldtoucher:points/goldtoucher.json"
+    "goldtoucher:points/goldtoucher.json",
+    "weatherforecast:points/weather_station"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
