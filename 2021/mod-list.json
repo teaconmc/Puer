@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-51/civilizationswars-1.0-preview1-51.jar.asc"
   },
   {
-    "name": "backtones-1.2.5.5-40.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-40/backtones-1.2.5.5-40.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-40/backtones-1.2.5.5-40.jar.asc"
+    "name": "backtones-1.2.5.6-41.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-41/backtones-1.2.5.6-41.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-41/backtones-1.2.5.6-41.jar.asc"
   },
   {
     "name": "CrockPot-1.16.5-1.6.0-release-27.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-48/build-13/tea_sorcerer-1.0.0-13.jar.asc"
   },
   {
-    "name": "minecardstouhou-1.0.3-37.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-37/minecardstouhou-1.0.3-37.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-37/minecardstouhou-1.0.3-37.jar.asc"
+    "name": "minecardstouhou-1.0.3-38.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-38/minecardstouhou-1.0.3-38.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-38/minecardstouhou-1.0.3-38.jar.asc"
   },
   {
     "name": "sinocraft-1.16.5-1.1.0-16.jar",
@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.5.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.16-0.4.7.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.7/SlideShow-Forge-1.16-0.4.7.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.7.jar.asc"
+    "name": "SlideShow-Forge-1.16-0.4.8.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.8/SlideShow-Forge-1.16-0.4.8.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.8.jar.asc"
   },
   {
     "name": "VoteMe-Forge-1.16-0.2.2.jar",
@@ -320,9 +320,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/useful_railroads-1.16.5-1.4.6.38.jar.asc"
   },
   {
-    "name": "weatherforecast-1.0.2.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.2.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.2.jar.asc"
+    "name": "weatherforecast-1.0.3.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.3.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.3.jar.asc"
   },
   {
     "name": "xkdeco_0.2.4.jar",
