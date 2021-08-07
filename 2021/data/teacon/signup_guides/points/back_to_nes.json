@@ -11,7 +11,8 @@
         ]
     },
     "triggers": [
-        "teacon:triggers/teleport"
+        "teacon:triggers/teleport",
+        "teacon:triggers/minecart"
     ],
     "images": [
         "teacon:textures/gui/banner_back_to_nes.png"
