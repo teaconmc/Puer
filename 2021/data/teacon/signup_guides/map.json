@@ -33,7 +33,8 @@
     "teastory:points/anka",
     "teacon:points/the_gate",
     "weatherforecast:points/weather_station",
-    "teacon:points/ashihara"
+    "teacon:points/ashihara",
+    "teacon:points/mingxiang_garden"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
