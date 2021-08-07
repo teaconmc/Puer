@@ -4,7 +4,7 @@
   "selector": "@a",
   "description": "观看模组介绍视频",
   "executes": [
-    "/tellraw @s [{\"text\":\"[伊卡洛斯之翼] \",\"color\":\"gold\"},{\"text\":\"点击前往Bilibili观看介绍视频\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/731059\"}}]",
+    "/tellraw @s [{\"text\":\"[伊卡洛斯之翼] \",\"color\":\"gold\"},{\"text\":\"点击前往Bilibili观看介绍视频\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.bilibili.com/video/BV1844y1C7zN\"}}]",
     "/signmeup map close"
   ]
 }
