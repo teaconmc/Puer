@@ -1,0 +1,12 @@
+{
+  "type": "trigger",
+  "title": "魔城传说再临",
+  "selector": "@a",
+  "description": "给自己一个人格之镜、一把铁剑，以供不小心清空背包者使用。",
+  "executes": [
+    "/clear @s backtones:alterego",
+    "/give @s backtones:alterego",
+    "/give @s minecraft:iron_sword",
+    "/signmeup map close"
+  ]
+}
