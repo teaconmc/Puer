@@ -32,7 +32,7 @@
     "watersource:points/pavilion",
     "teastory:points/anka",
     "teacon:points/the_gate",
-    "weatherforecast:points/weather_station"
+    "weatherforecast:points/weather_station",
     "teacon:points/ashihara"
   ],
   "triggers": [
