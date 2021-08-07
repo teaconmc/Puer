@@ -1,0 +1,20 @@
+  
+{
+    "type": "point",
+    "title": "奥运会会场",
+    "description": "是“梗系列mod小合集”的场地，有美味的福岛食物以及PVP项目",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            672,
+            63,
+            -261
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "m1917gun:textures/Memes.png"
+    ]
+}
