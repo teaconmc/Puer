@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-22/build-51/civilizationswars-1.0-preview1-51.jar.asc"
   },
   {
-    "name": "backtones-1.2.5.4-39.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-39/backtones-1.2.5.4-39.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-39/backtones-1.2.5.4-39.jar.asc"
+    "name": "backtones-1.2.5.5-40.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-24/build-40/backtones-1.2.5.5-40.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-40/backtones-1.2.5.5-40.jar.asc"
   },
   {
     "name": "CrockPot-1.16.5-1.6.0-release-27.jar",
@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-22/Ashihara-indev-01-22.jar.asc"
   },
   {
-    "name": "uusi-aurinko-0.2.3-45.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-38/build-45/uusi-aurinko-0.2.3-45.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-45/uusi-aurinko-0.2.3-45.jar.asc"
+    "name": "uusi-aurinko-0.2.4-46.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-38/build-46/uusi-aurinko-0.2.4-46.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-46/uusi-aurinko-0.2.4-46.jar.asc"
   },
   {
     "name": "xxsrk-1.16.5-dev-teacon-spc-23.jar",
@@ -195,9 +195,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/darksword22/0.1.0-1/darksword22-0.1.0-1.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.16-0.3.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.16/0.3.0/AreaControl-Forge-1.16-0.3.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.16-0.3.0.jar.asc"
+    "name": "AreaControl-Forge-1.16-0.3.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.16/0.3.1/AreaControl-Forge-1.16-0.3.1.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.16-0.3.1.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.16-0.3.1.jar",
