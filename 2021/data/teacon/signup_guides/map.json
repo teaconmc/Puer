@@ -27,9 +27,11 @@
     "teacon:points/back_to_nes",
     "teacon:points/sinocraft",
     "teacon:points/extrameteorp",
-     "watersource:points/pavilion",
     "teacon:points/the_gate",
-    "goldtoucher:points/goldtoucher.json",
+    "goldtoucher:points/goldtoucher",
+    "watersource:points/pavilion",
+    "teastory:points/anka",
+    "teacon:points/the_gate",
     "weatherforecast:points/weather_station"
   ],
   "triggers": [
