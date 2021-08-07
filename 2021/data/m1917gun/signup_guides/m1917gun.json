@@ -1,0 +1,20 @@
+  
+{
+    "type": "point",
+    "title": "奥运会会场",
+    "description": "超简化版，但精髓还在（指纸板床和福岛食品以及没有观众）",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            672,
+            63,
+            -261
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "m1917gun:textures/Memes.png"
+    ]
+}
