@@ -5,8 +5,8 @@ enableTemperatureOrb = true
 renderTempOrbAtCenter = "TOP_RIGHT"
 #X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
 #Range: -256 ~ 256
-tempOrbOffsetX = 0
+tempOrbOffsetX = -5
 #Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
 #Range: -256 ~ 256
-tempOrbOffsetY = 0
+tempOrbOffsetY = -5
 
