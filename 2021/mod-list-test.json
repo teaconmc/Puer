@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.5.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.16-0.4.7.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.7/SlideShow-Forge-1.16-0.4.7.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.7.jar.asc"
+    "name": "SlideShow-Forge-1.16-0.4.8.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.8/SlideShow-Forge-1.16-0.4.8.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.8.jar.asc"
   },
   {
     "name": "VoteMe-Forge-1.16-0.2.2.jar",
@@ -320,9 +320,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/useful_railroads-1.16.5-1.4.6.38.jar.asc"
   },
   {
-    "name": "weatherforecast-1.0.2.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.2.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.2.jar.asc"
+    "name": "weatherforecast-1.0.3.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.3.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/weatherforecast-1.0.3.jar.asc"
   },
   {
     "name": "xkdeco_0.2.4.jar",
