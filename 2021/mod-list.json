@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-48/build-13/tea_sorcerer-1.0.0-13.jar.asc"
   },
   {
-    "name": "minecardstouhou-1.0.3-36.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-36/minecardstouhou-1.0.3-36.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-36/minecardstouhou-1.0.3-36.jar.asc"
+    "name": "minecardstouhou-1.0.3-37.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-37/minecardstouhou-1.0.3-37.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-37/minecardstouhou-1.0.3-37.jar.asc"
   },
   {
     "name": "sinocraft-1.16.5-1.1.0-16.jar",
@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.5.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.16-0.4.6.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.6/SlideShow-Forge-1.16-0.4.6.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.6.jar.asc"
+    "name": "SlideShow-Forge-1.16-0.4.7.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.4.7/SlideShow-Forge-1.16-0.4.7.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.4.7.jar.asc"
   },
   {
     "name": "VoteMe-Forge-1.16-0.2.2.jar",
