@@ -1,6 +1,7 @@
 {
   "type": "point",
   "title": "Uusi Aurinko（新日任务）",
+  "description": "踏上光辉与毁灭之路",
   "selector": "@a",
   "location": {
     "actual": [ -593, 64, -304 ]
