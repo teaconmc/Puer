@@ -9,6 +9,6 @@
     "teacon:triggers/teleport"
   ],
   "images": [
-    "decorations/banner.png"
+    "decorations:banner.png"
   ]
 }
