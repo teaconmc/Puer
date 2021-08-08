@@ -62,7 +62,7 @@ earth_stone_transmutation_blacklist = ["#uusi-aurinko:transmutation_immune", "#m
 #The earthquake of Tannerkivi collapses blocks in this range.
 #Set this value to 0 to disable.
 #Range: 0 ~ 64
-earth_stone_earthquake_range = 6
+earth_stone_earthquake_range = 0
 #Blocks in this blacklist won't be affect by the earthquake of Tannerkivi.
 #Also accept block tags starting with #
 earth_stone_earthquake_blacklist = ["#uusi-aurinko:earthquake_immune"]
