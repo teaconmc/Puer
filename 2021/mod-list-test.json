@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-41/backtones-1.2.5.6-41.jar.asc"
   },
   {
-    "name": "CrockPot-1.16.5-1.6.0-release-27.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-27/CrockPot-1.16.5-1.6.0-release-27.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-27/CrockPot-1.16.5-1.6.0-release-27.jar.asc"
+    "name": "CrockPot-1.16.5-1.6.0-release-28.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-28/CrockPot-1.16.5-1.6.0-release-28.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-28/CrockPot-1.16.5-1.6.0-release-28.jar.asc"
   },
   {
     "name": "king_and_knight-1.0-SNAPSHOT-18.jar",
@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-64/build-11/WaterSource-1.1.28-beta-1.16.5-11.jar.asc"
   },
   {
-    "name": "goldtoucher-1.0-5.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-66/build-5/goldtoucher-1.0-5.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-66/build-5/goldtoucher-1.0-5.jar.asc"
+    "name": "goldtoucher-1.0-6.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-66/build-6/goldtoucher-1.0-6.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-66/build-6/goldtoucher-1.0-6.jar.asc"
   },
   {
     "name": "neubulaeko_slime-1.0-8.jar",
