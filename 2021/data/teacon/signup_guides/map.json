@@ -35,7 +35,8 @@
     "weatherforecast:points/weather_station",
     "teacon:points/ashihara",
     "teacon:points/mingxiang_garden",
-    "m1917gun:m1917gun"
+    "m1917gun:m1917gun",
+    "teacon:points/magic_circle"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
