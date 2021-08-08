@@ -1,0 +1,14 @@
+{
+  "type": "point",
+  "title": "decorations-rotarism",
+  "selector": "@a",
+  "location": {
+    "actual":[-230,71,665]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "decorations/banner.png"
+  ]
+}
