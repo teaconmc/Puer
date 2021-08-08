@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "斌政工作室官网",
+  "selector": "@a",
+  "description": "打开我们的官方网站",
+  "executes": [
+    "/tellraw @s [{\"text\":\"[斌政工作室] \",\"color\":\"light_purple\"},{\"text\":\"点击打开我们的网站\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://bzstudio.xyz/\"}}]",
+    "/signmeup map close"
+  ]
+}
