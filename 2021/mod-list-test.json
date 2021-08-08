@@ -40,6 +40,11 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-27/CrockPot-1.16.5-1.6.0-release-27.jar.asc"
   },
   {
+    "name": "king_and_knight-1.0-SNAPSHOT-18.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-30/build-18/king_and_knight-1.0-SNAPSHOT-18.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-30/build-18/king_and_knight-1.0-SNAPSHOT-18.jar.asc"
+  },
+  {
     "name": "rising_uppercut-1.16.5-teacon-special-20.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-31/build-20/rising_uppercut-1.16.5-teacon-special-20.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-31/build-20/rising_uppercut-1.16.5-teacon-special-20.jar.asc"
@@ -178,11 +183,6 @@
     "name": "fortyyears-1.0-7.jar",
     "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/fortyyears/1.0-7/fortyyears-1.0-7.jar",
     "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/fortyyears/1.0-7/fortyyears-1.0-7.jar.asc"
-  },
-  {
-    "name": "king_and_knight-1.0-SNAPSHOT-17.jar",
-    "file": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/king_and_knight/1.0-SNAPSHOT-17/king_and_knight-1.0-SNAPSHOT-17.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/maven/org/teacon/teacon2021/king_and_knight/1.0-SNAPSHOT-17/king_and_knight-1.0-SNAPSHOT-17.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.16.5-0.1.0-55.jar",
