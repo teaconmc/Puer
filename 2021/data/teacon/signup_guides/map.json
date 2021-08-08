@@ -17,6 +17,7 @@
     "teacon:textures/gui/banner.png"
   ],
   "points": [
+    "civilizationswars:points/deck",
     "teacon:points/spawn",
     "uusi-aurinko:points/pavilion",
     "teacon:points/touhou_little_maid",
