@@ -5,6 +5,7 @@
     "math:particles/tick",
     "talisman_skills:tick",
     "elevator:check",
-    "heac:tick"
+    "heac:tick",
+    "uusi-aurinko:tick"
   ]
 }
