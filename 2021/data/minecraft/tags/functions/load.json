@@ -4,6 +4,7 @@
     "teacon:load",
     "talisman_skills:load",
     "elevator:init",
-    "heac:load"
+    "heac:load",
+    "uusi-aurinko:load"
   ]
 }
