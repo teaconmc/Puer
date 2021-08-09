@@ -1,0 +1,88 @@
+{
+  "result": {
+    "id": "watersource:coconut_chicken",
+    "Count": 2
+  },
+  "requirements": [
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:chicken"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "combination_or",
+      "first": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:half_coconut"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:half_coconut"
+          },
+          "quantity": 1
+        }
+      },
+      "second": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:half_coconut"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:coconut_piece"
+          },
+          "quantity": 1
+        }
+      },
+      "third": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:coconut_piece"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "watersource:coconut_piece"
+          },
+          "quantity": 1
+        }
+      }
+    },
+    {
+      "type": "category_min_exclusive",
+      "category": "FRUIT",
+      "min": 0.5
+    },
+    {
+      "type": "category_max",
+      "category": "INEDIBLE",
+      "max": 0.0
+    },
+    {
+      "type": "category_max",
+      "category": "MONSTER",
+      "max": 0.0
+    }
+  ],
+  "cookTime": 400,
+  "weight": 1,
+  "priority": 20,
+  "potLevel": 0
+}

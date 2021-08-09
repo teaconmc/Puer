@@ -1,0 +1,80 @@
+{
+  "result": {
+    "id": "ashihara:dirt_ball_don",
+    "Count": 1
+  },
+  "requirements": [
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "tag": "forge:ingredient/zzzz"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:dried_kelp"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "combination_or",
+      "first": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_beef"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_porkchop"
+          },
+          "quantity": 1
+        }
+      },
+      "second": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_porkchop"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_mutton"
+          },
+          "quantity": 1
+        }
+      },
+      "third": {
+        "type": "combination_or",
+        "first": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_mutton"
+          },
+          "quantity": 1
+        },
+        "second": {
+          "type": "must_contain_ingredient",
+          "ingredient": {
+            "item": "minecraft:cooked_beef"
+          },
+          "quantity": 1
+        }
+      }
+    }
+  ],
+  "cookTime": 200,
+  "weight": 1,
+  "priority": 42,
+  "potLevel": 0
+}

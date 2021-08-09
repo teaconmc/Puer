@@ -1,0 +1,7 @@
+{
+  "type": "tag",
+  "tag": "forge:ingredient/teacon_tea_leaf",
+  "values": {
+    "VEGGIE": 0.25
+  }
+}
