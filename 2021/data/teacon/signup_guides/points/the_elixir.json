@@ -1,0 +1,15 @@
+{
+  "type": "point",
+  "title": "不死灵药 - 过山车",
+  "description": "不死组的激爽过山车 \n 闲的没事做了个过山车，希望有人觉得好玩.png",
+  "selector": "@a",
+  "location": {
+    "actual": [ -456, 98, 361 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "teacon:textures/gui/banner_the_elixir.png"
+  ]
+}
