@@ -39,7 +39,8 @@
     "teacon:points/mingxiang_garden",
     "m1917gun:m1917gun",
     "teacon:points/magic_circle",
-    "decorations:points/point"
+    "decorations:points/point",
+    "teacon:points/paimonfood"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
