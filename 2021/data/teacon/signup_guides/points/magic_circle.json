@@ -1,4 +1,3 @@
-
 {
   "type": "point",
   "title": "魔法阵(magic circle)",
@@ -13,5 +12,5 @@
   },
   "triggers": [
     "teacon:triggers/teleport"
-  ],
+  ]
 }

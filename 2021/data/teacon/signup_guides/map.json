@@ -18,20 +18,25 @@
   ],
   "points": [
     "civilizationswars:points/deck",
-    "teacon:points/spawn",
-    "uusi-aurinko:points/pavilion",
-    "teacon:points/touhou_little_maid",
+    "decorations:points/point",
+    "goldtoucher:points/goldtoucher",
     "icaruswings:points/icaruswings_future",
     "icaruswings:points/icaruswings_past",
+    "m1917gun:m1917gun",
     "talisman:points/talisman",
-    "teacon:points/hiden",
+    "teacon:points/ashihara",
     "teacon:points/back_to_nes",
-    "teacon:points/sinocraft",
-    "teacon:points/extrameteorp",
-    "teacon:points/the_gate",
+    "teacon:points/doraemon_props",
     "teacon:points/europe",
-    "goldtoucher:points/goldtoucher",
-    "watersource:points/pavilion",
+    "teacon:points/extrameteorp",
+    "teacon:points/hiden_east",
+    "teacon:points/hiden_west",
+    "teacon:points/magic_circle",
+    "teacon:points/mingxiang_garden",
+    "teacon:points/sinocraft",
+    "teacon:points/spawn",
+    "teacon:points/the_gate",
+    "teacon:points/touhou_little_maid",
     "teastory:points/anka",
     "teacon:points/the_gate",
     "weatherforecast:points/weather_station",
@@ -40,7 +45,10 @@
     "m1917gun:m1917gun",
     "teacon:points/magic_circle",
     "decorations:points/point",
-    "teacon:points/paimonfood"
+    "teacon:points/paimonfood",
+    "uusi-aurinko:points/pavilion",
+    "watersource:points/pavilion",
+    "weatherforecast:points/weather_station"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
@@ -49,6 +57,7 @@
     "teacon:triggers/minecart",
     "teacon:triggers/boat",
     "teacon:triggers/mjds_backpack",
-    "teacon:triggers/one_pass"
+    "teacon:triggers/one_pass",
+    "teacon:triggers/clear_effect"
   ]
 }
