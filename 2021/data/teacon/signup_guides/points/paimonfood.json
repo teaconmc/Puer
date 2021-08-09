@@ -1,0 +1,16 @@
+  {
+    "type": "point",
+    "title": "应急食品",
+    "description": "这里是关于「派蒙」的展示场馆。",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            197,
+            64,
+            -412
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ]
+}
