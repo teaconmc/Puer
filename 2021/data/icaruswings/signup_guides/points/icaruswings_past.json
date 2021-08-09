@@ -4,7 +4,7 @@
   "description": "一个关于羽毛、蜜蜂和天空的故事。",
   "selector": "@a",
   "location": {
-    "actual": [ -665, 195, -665 ]
+    "actual": [ -661, 221, -669 ]
   },
   "triggers": [
     "teacon:triggers/teleport",
