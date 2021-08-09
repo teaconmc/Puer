@@ -30,6 +30,7 @@
     "teacon:triggers/clear",
     "teacon:triggers/heal",
     "teacon:triggers/minecart",
-    "teacon:triggers/boat"
+    "teacon:triggers/boat",
+    "teacon:triggers/mjds_backpack"
   ]
 }
