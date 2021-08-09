@@ -1,0 +1,22 @@
+{
+  "type": "point",
+  "title": "第二红岸基地（甲板）",
+  "selector": "@a",
+  "description": "《三体工业（预览版）》展馆",
+  "location": {
+    "actual": [
+      -53,
+      69,
+      333
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport",
+    "civilizationswars:triggers/website",
+    "civilizationswars:triggers/github",
+    "civilizationswars:triggers/gitee"
+  ],
+  "images": [
+    "civilizationswars:textures/gui/banner.png"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "point",
+  "title": "茗香园",
+  "description": "叉剋遇池而修园，临茶馆故名之曰「茗香」",
+  "selector": "@a",
+  "location": {
+    "actual": [ -17, 65, 172 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

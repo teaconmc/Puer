@@ -1,0 +1,29 @@
+{
+  "itemGroup.weatherforecast": "天气之子 - 气象预报",
+
+  "item.weatherforecast.weather_radar": "天气雷达",
+  "item.weatherforecast.weather_helmet": "天气预报帽",
+  "item.weatherforecast.temperature_probe": "温度传感器",
+
+  "tooltip.weatherforecast.temperature_probe": "随身携带以查看环境温度",
+  "tooltip.weatherforecast.weather_radar": "随身携带以获取早晚天气预报（早晚六点）",
+  "tooltip.weatherforecast.weather_helmet": "穿着以获取早晚天气预报（早晚六点）",
+
+  "weatherforecast.message.rain_approach_tomorrow": "[天气预报] 晚上好！明天很可能降雨，请照顾好自己！",
+  "weatherforecast.message.rain_approach_tonight": "[天气预报] 晚上好！今夜很可能降雨，请照顾好自己！",
+  "weatherforecast.message.thunder_approach_tomorrow": "[天气预报] 晚上好！明天有雷暴接近，小心闪电！",
+  "weatherforecast.message.thunder_approach_tonight": "[天气预报] 晚上好！今夜有雷暴接近，把窗帘拉好哦。",
+  "weatherforecast.message.clear_sky_tomorrow": "[天气预报] 晚上好！明天天气就会转晴，芜湖。",
+  "weatherforecast.message.clear_sky_tonight": "[天气预报] 晚上好！今夜天气就会转晴，晚安好梦！",
+  "weatherforecast.message.no_rain_or_thunder_tomorrow": "[天气预报] 晚上好！明天没有坏天气，好好睡吧。",
+  "weatherforecast.message.continue_rain_or_thunder_tomorrow": "[天气预报] 晚上好！坏消息：明天坏天气没有好转的迹象。",
+
+  "weatherforecast.message.rain_approach_today": "[天气预报] 早上好！今天很可能降雨，请照顾好自己！",
+  "weatherforecast.message.rain_approach_evening": "[天气预报] 早上好！今晚很可能降雨，请照顾好自己！",
+  "weatherforecast.message.thunder_approach_today": "[天气预报] 早上好！今天有雷暴接近，小心闪电！",
+  "weatherforecast.message.thunder_approach_evening": "[天气预报] 早上好！今晚有雷暴接近，把窗帘拉好哦。",
+  "weatherforecast.message.clear_sky_today": "[天气预报] 早上好！今天天气就会转晴，芜湖。",
+  "weatherforecast.message.clear_sky_evening": "[天气预报] 早上好！今晚天气就会转晴，祝探险愉快！",
+  "weatherforecast.message.no_rain_or_thunder_today": "[天气预报] 早上好！今天没有坏天气，出门晒太阳吧。",
+  "weatherforecast.message.continue_rain_or_thunder_today": "[天气预报] 早上好！坏消息：今天坏天气没有好转的迹象。"
+}

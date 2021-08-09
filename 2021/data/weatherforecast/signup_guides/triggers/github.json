@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "查看源码",
+  "selector": "@a",
+  "description": "查看模组源码",
+  "executes": [
+    "/tellraw @s [{\"text\":\"[天气之子] \",\"color\":\"gold\"},{\"text\":\"点击前往GitHub查看源码\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/TeamMoegMC/Weather-Forecast\"}}]",
+    "/signmeup map close"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{id:\"heac:health_code\",display:{Name:'{\"translate\":\"item.heac.health_code\"}'},CustomModelData:17210002,CanDestroy:[\"#storagedrawers:drawers\"],HideFlags:24}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

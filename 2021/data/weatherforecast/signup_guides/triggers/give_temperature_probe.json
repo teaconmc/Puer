@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "温度探测",
+  "selector": "@a",
+  "description": "携带以接收早晚天气预报广播",
+  "executes": [
+    "/give @s weatherforecast:temperature_probe",
+    "/signmeup map close"
+  ]
+}

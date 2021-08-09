@@ -1,0 +1,17 @@
+
+{
+  "type": "point",
+  "title": "魔法阵(magic circle)",
+  "description": "看不到我看不到我...",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      250,
+      72,
+      631
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+}

@@ -1,0 +1,14 @@
+{
+  "type": "point",
+  "title": "WaterSource(水源)",
+  "selector": "@a",
+  "location": {
+    "actual": [ 364, 64, 258 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "watersource:textures/gui/banner.png"
+  ]
+}

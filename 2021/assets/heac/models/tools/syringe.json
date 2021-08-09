@@ -1,0 +1,35 @@
+{
+	"credit": "Made By Gu_ZT",
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "heac:tools/syringe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [145, 90, 0],
+			"translation": [0, 4.25, 1.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-136.75, 90, 0],
+			"translation": [0, 3.75, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [172.75, 0, -89.75],
+			"translation": [2.25, 3.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -76.75],
+			"translation": [2.75, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 13.5, 0]
+		}
+	}
+}

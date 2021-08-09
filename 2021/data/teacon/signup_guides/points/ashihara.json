@@ -1,0 +1,19 @@
+{
+  "type": "point",
+  "title": "糸津城",
+  "description": "苇原中高筑的一座城，其豪华程度不亚于将军御所，却杳无人烟。\n你将在这里第一次踏入神明的领域。",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      285,
+      107,
+      -696
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport"
+  ],
+  "images": [
+    "teacon:textures/gui/banner_ashihara.png"
+  ]
+}

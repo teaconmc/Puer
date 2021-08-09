@@ -17,13 +17,28 @@
     "teacon:textures/gui/banner.png"
   ],
   "points": [
+    "civilizationswars:points/deck",
     "teacon:points/spawn",
     "uusi-aurinko:points/pavilion",
     "teacon:points/touhou_little_maid",
     "icaruswings:points/icaruswings_future",
     "icaruswings:points/icaruswings_past",
     "talisman:points/talisman",
-    "teacon:points/hiden"
+    "teacon:points/hiden",
+    "teacon:points/back_to_nes",
+    "teacon:points/sinocraft",
+    "teacon:points/extrameteorp",
+    "teacon:points/the_gate",
+    "goldtoucher:points/goldtoucher",
+    "watersource:points/pavilion",
+    "teastory:points/anka",
+    "teacon:points/the_gate",
+    "weatherforecast:points/weather_station",
+    "teacon:points/ashihara",
+    "teacon:points/mingxiang_garden",
+    "m1917gun:m1917gun",
+    "teacon:points/magic_circle",
+    "decorations:points/point"
   ],
   "triggers": [
     "teacon:triggers/clear_disabled",
@@ -32,5 +47,6 @@
     "teacon:triggers/minecart",
     "teacon:triggers/boat",
     "teacon:triggers/mjds_backpack"
+    "teacon:triggers/one_pass"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "type": "point",
+  "title": "天气之子",
+  "selector": "@a",
+  "description": "预报天气 & 展示环境温度",
+  "location": {
+    "actual": [
+      192,
+      124,
+      -122
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport",
+    "weatherforecast:triggers/bilibili",
+    "weatherforecast:triggers/give_weather_helmet",
+    "weatherforecast:triggers/give_weather_radar",
+    "weatherforecast:triggers/give_temperature_probe",
+    "weatherforecast:triggers/github"
+  ],
+  "images": [
+    "weatherforecast:textures/gui/banner.png"
+  ]
+}
