@@ -1,0 +1,13 @@
+{
+  "type": "point",
+  "title": "Doraemon Props",
+  "description": "在游戏中实现《哆啦 A 梦》的竹蜻蜓。",
+  "selector": "@a",
+  "location": {
+    "actual": [ -12, 67, -27 ],
+    "render": [ -12, 67, -54 ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}
