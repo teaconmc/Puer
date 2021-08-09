@@ -48,6 +48,7 @@
     "teacon:triggers/minecart",
     "teacon:triggers/boat",
     "teacon:triggers/mjds_backpack",
-    "teacon:triggers/one_pass"
+    "teacon:triggers/one_pass",
+    "teacon:triggers/clear_effect"
   ]
 }
