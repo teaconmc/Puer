@@ -7,13 +7,13 @@ scoreboard players enable @a get_sun_seed
 execute as @e[type=uusi-aurinko:radiative_item, x=-754, y=0, z=-306, dx=4, dy=256, dz=4, nbt={Item:{id:"uusi-aurinko:sun_stone"}}] run data merge entity @s {Item:{tag:{Inactive:1b}}}
 
 # make explosion
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -306 6 0.75
-execute if entity @a[scores={make_explosion=1}] run particle minecraft:explosion_emitter -752 65 -306 0 0 0 1 6 force @a 
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run playsound minecraft:entity.generic.explode block @a -752 65 -304 6 0.75
+execute if entity @a[scores={make_explosion=1}] run particle minecraft:explosion_emitter -752 65 -304 0 0 0 1 6 force @a 
 execute if entity @a[scores={make_explosion=1}] if entity @e[type=uusi-aurinko:radiative_item, x=-754, y=0, z=-306, dx=4, dy=256, dz=4, nbt={Item:{id:"uusi-aurinko:sun_stone"}}] run summon uusi-aurinko:new_sun -752 75 -304 {RiseUp:0b}
 execute if entity @a[scores={make_explosion=1}] if entity @e[type=uusi-aurinko:radiative_item, x=-754, y=0, z=-306, dx=4, dy=256, dz=4, nbt={Item:{id:"uusi-aurinko:sun_stone"}}] run kill @e[type=uusi-aurinko:radiative_item, x=-754, y=0, z=-306, dx=4, dy=256, dz=4, nbt={Item:{id:"uusi-aurinko:sun_stone"}}]
 scoreboard players set @a make_explosion 0
