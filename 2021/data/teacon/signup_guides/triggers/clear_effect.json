@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "清空状态效果",
+  "selector": "@a[nbt=!{ActiveEffects:[]}]",
+  "description": "清空当前身上所有生效的状态效果",
+  "executes": [
+    "/effect clear @s",
+    "/signmeup map close"
+  ]
+}
