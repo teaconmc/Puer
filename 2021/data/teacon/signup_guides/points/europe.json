@@ -1,0 +1,16 @@
+{
+    "type": "point",
+    "title": "欧洲喷泉公园",
+    "description": "多处建筑的枢纽，可速往烹饪锅、微型蒙德广场、咖啡屋等处。",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            64,
+            63,
+            -387
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ]
+}
