@@ -1,0 +1,19 @@
+{
+    "type": "point",
+    "title": "天空之城",
+    "description": "巨型机器人的残骸从天而降，人们想起来那个古老的传说...",
+    "selector": "@a",
+    "location": {
+        "actual": [
+            890,
+            26,
+            333
+        ]
+    },
+    "triggers": [
+        "teacon:triggers/teleport"
+    ],
+    "images": [
+        "miyaworld:textures/item/pilot_stone_necklace.png"
+    ]
+}
