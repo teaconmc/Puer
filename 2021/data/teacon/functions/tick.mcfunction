@@ -9,8 +9,9 @@ execute as @e[type=minecraft:minecart,scores={teaconcarttick=0..}] at @s positio
 
 tag @a remove teacon_in_mjds
 tag @a[x=703,y=64,z=824,dx=178,dy=146,dz=14] add teacon_in_mjds
-effect give @a[tag=teacon_in_mjds] minecraft:saturation 2 5 true
-effect give @a[tag=teacon_in_mjds] watersource:water_restoring 2 5 true
+effect give @a[tag=teacon_in_mjds] minecraft:saturation 2 1 true
+effect give @a[tag=teacon_in_mjds] minecraft:regeneration 2 1 true
+effect give @a[tag=teacon_in_mjds] watersource:water_restoring 2 1 true
 
 tag @a remove teacon_judge_pioneer
 execute as Izzel_Aliz run tag @s add teacon_judge_pioneer
