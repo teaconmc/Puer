@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/Isle-Forge-1.16-0.3.0.jar.asc"
   },
   {
-    "name": "Nickname-Forge-1.16-0.3.4.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/Nickname-Forge-1.16/0.3.4/Nickname-Forge-1.16-0.3.4.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/Nickname-Forge-1.16-0.3.4.jar.asc"
+    "name": "Nickname-Forge-1.16-0.3.5.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/Nickname-Forge-1.16/0.3.5/Nickname-Forge-1.16-0.3.5.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/Nickname-Forge-1.16-0.3.5.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.16-0.1.4.jar",
