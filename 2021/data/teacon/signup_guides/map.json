@@ -54,6 +54,7 @@
     "teacon:triggers/boat",
     "teacon:triggers/mjds_backpack",
     "teacon:triggers/one_pass",
-    "teacon:triggers/clear_effect"
+    "teacon:triggers/clear_effect",
+    "teacon:triggers/mtc_collection_book"
   ]
 }

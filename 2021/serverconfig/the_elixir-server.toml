@@ -1,0 +1,7 @@
+#吞食天地是否可以攻击非Living实体 (即，没有血条)
+swallow_can_attack_nl = false
+#吞食天地是否可以攻击玩家
+swallow_can_attack_p = false
+#吞食天地伤害黑名单，在这里面的不会被伤害
+#允许使用tag和生物注册名
+swallow_attack_black = ["item_frame", "#teacon:no_yeet_please" ]
