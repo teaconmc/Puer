@@ -11,7 +11,7 @@
     "backtones:en_red_arrow",
     "backtones:en_revival_mist",
     "chineseworkshop:seat",
-    "civilizationwars:threebody_model",
+    "civilizationswars:threebody_model",
     "meteorrandomidea:flamescionslash",
     "meteorrandomidea:flamescionsword",
     "meteorrandomidea:flamescionult",
@@ -26,6 +26,10 @@
     "minecraft:painting",
     "minecraft:cat",
     "minecraft:armor_stand",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "touhou_little_maid:chair",
+    "unexpectedteleport:truck",
+    "unexpectedteleport:magic_circle",
+    "xkdeco:small_cushion"
   ]
 }
