@@ -25,11 +25,26 @@
     "minecardstouhou:card_entity",
     "minecraft:painting",
     "minecraft:cat",
+    "minecraft:cod",
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:tropical_fish",
+    "minecraft:turtle",
+    "minecraft:villager",
     "minecraft:armor_stand",
     "minecraft:item_frame",
     "touhou_little_maid:chair",
+    "touhou_little_maid:fairy",
+    "touhou_little_maid:maid",
     "unexpectedteleport:truck",
     "unexpectedteleport:magic_circle",
-    "xkdeco:small_cushion"
+    "xkdeco:small_cushion",
+    "miyaworld:bullet_entity",
+    "miyaworld:giant_robot",
+    "miyaworld:robot_laser",
+    "miyaworld:rocket_entity",
+    "miyaworld:sound_entity",
+    "fortyyears:fairydust",
+    "fortyyears:ponyo"
   ]
 }
