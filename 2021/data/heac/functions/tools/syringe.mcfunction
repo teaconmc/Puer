@@ -1,4 +1,4 @@
-tag @s add heac_vac
+team join heac @s
 clear @s minecraft:carrot_on_a_stick{id:"heac:syringe"} 1
 loot give @s loot heac:health_code
 particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 2 32 normal @a
