@@ -1,0 +1,7 @@
+{
+  "type": "item",
+  "item": "neubulaeko_slime:zzzz_food",
+  "values": {
+    "INEDIBLE": 1.0
+  }
+}

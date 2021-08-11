@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "sinocraft:tea_leaf",
+    "tea_sorcerer:tea_leaves",
+    "tea_sorcerer:green_tea_leaves",
+    "tea_sorcerer:black_tea_leaves",
+    "tea_sorcerer:earl_grey_leaves",
+    "tea_sorcerer:fruit_tea_leaves",
+    "tea_sorcerer:rice_tea_leaves",
+    "tea_sorcerer:wulong_tea_leaves",
+    "tea_sorcerer:flower_tea_leaves",
+    "tea_sorcerer:cocoa_tea_leaves",
+    "tea_sorcerer:cocoa_tea_leaves",
+    "teastory:tea_leaves",
+    "teastory:green_tea_leaves",
+    "teastory:black_tea_leaves",
+    "teastory:white_tea_leaves"
+  ]
+}
