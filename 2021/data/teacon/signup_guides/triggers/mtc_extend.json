@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "生命卡牌",
+  "selector": "@a[tag=msged]",
+  "description": "给予自己一张「生命卡牌」",
+  "executes": [
+    "/give @s minecardstouhou:extend",
+    "/signmeup map close"
+  ]
+}
