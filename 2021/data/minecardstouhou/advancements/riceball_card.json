@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:dango_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:riceball"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.riceball.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.riceball.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:riceball"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

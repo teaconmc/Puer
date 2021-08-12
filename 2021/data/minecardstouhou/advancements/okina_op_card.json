@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:speedqueen_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:okina_op"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.okina_op.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.okina_op.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:okina_op"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

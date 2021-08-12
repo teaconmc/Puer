@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:kiseru_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:money"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.money.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.money.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:money"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

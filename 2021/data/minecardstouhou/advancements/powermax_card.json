@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:alice_op_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:powermax"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.powermax.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.powermax.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:powermax"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

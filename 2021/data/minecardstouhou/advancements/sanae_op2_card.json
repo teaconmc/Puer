@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:sanae_op_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:sanae_op2"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.sanae_op2.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.sanae_op2.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:sanae_op2"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

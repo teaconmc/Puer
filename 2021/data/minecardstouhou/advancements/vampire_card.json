@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:option_br_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:vampire"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.vampire.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.vampire.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:vampire"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

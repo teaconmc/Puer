@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:cirno_op_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:maneki"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.maneki.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.maneki.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:maneki"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}
