@@ -1,16 +1,16 @@
 {
     "type": "point",
-    "title": "飞电 Intelligence 大厦西",
+    "title": "飞电 Intelligence 大厦员工食堂",
     "description": "Take off, toward a dream.",
     "selector": "@a",
     "location": {
         "actual": [
-            386,
-            65,
-            528
+            426,
+            144,
+            517
         ],
         "render": [
-            370,
+            432,
             65,
             528
         ]
