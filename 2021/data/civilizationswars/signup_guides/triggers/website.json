@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "斌政工作室官网",
+  "title": "工作室官网",
   "selector": "@a",
   "description": "打开我们的官方网站",
   "executes": [

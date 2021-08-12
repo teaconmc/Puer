@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "查看源码（GitHub）",
+  "title": "源码（GitHub）",
   "selector": "@a",
   "description": "前往GitHub查看模组源码",
   "executes": [

@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "查看源码",
+  "title": "源码",
   "selector": "@a",
   "description": "前往Gitee查看模组源码",
   "executes": [
