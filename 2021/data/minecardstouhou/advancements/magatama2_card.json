@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:root",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:magatama2"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.magatama2.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.magatama2.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:magatama2"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

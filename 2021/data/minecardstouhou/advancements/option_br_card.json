@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:mukade_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:option_br"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.option_br.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.option_br.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:option_br"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

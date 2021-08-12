@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:kozuchi_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:mainshot_pu"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.mainshot_pu.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.mainshot_pu.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:mainshot_pu"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

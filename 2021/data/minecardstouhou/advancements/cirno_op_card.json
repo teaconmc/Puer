@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:koishi_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:cirno_op"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.cirno_op.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.cirno_op.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:cirno_op"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

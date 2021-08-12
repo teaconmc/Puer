@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:extend_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:bomb"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.bomb.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.bomb.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:bomb"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

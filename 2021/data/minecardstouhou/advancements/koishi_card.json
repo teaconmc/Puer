@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:tenkyus_packet",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:koishi"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.koishi.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.koishi.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:koishi"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

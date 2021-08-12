@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:money_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:pache"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.pache.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.pache.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:pache"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

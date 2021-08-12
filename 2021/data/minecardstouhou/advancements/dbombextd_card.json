@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:moon_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:dbombextd"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.dbombextd.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.dbombextd.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:dbombextd"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

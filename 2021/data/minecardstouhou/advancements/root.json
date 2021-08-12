@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:blank"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.root.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecardstouhou:textures/adv_light.png"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

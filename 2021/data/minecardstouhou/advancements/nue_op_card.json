@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:narumi_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:nue_op"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.nue_op.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.nue_op.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:nue_op"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

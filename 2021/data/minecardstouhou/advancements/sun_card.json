@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:deadspell_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:sun"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.sun.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.sun.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:sun"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

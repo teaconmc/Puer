@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:dango_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:item_line"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.item_line.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.item_line.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:item_line"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

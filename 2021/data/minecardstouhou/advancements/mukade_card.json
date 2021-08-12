@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:magatama_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:mukade"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.mukade.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.mukade.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:mukade"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

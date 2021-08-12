@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:bassdrum_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:mikoflash"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.mikoflash.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.mikoflash.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:mikoflash"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

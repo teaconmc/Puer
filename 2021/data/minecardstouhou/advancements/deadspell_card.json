@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:dango_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:deadspell"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.deadspell.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.deadspell.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:deadspell"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecardstouhou:mikoflash_card",
+  "display": {
+    "icon": {
+      "item": "minecardstouhou:yoyoko"
+    },
+    "title": {
+      "translate": "advancements.minecardstouhou.yoyoko.title"
+    },
+    "description": {
+      "translate": "advancements.minecardstouhou.yoyoko.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecardstouhou:yoyoko"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "collect"
+    ]
+  ]
+}
