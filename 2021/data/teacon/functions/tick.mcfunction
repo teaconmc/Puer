@@ -7,6 +7,12 @@ kill @e[type=minecraft:minecart,scores={teaconcarttick=200..}]
 scoreboard players add @e[type=minecraft:minecart,nbt={CustomName:'{"italic":false,"text":"交通强国, 铁路先行"}'}] teaconcarttick 1
 execute as @e[type=minecraft:minecart,scores={teaconcarttick=0..}] at @s positioned ~ ~-0.35 ~ if entity @a[distance=..0.25] run scoreboard players set @s teaconcarttick 0
 
+tag @a remove teacon_in_mjds
+tag @a[x=703,y=64,z=824,dx=178,dy=146,dz=14] add teacon_in_mjds
+effect give @a[tag=teacon_in_mjds] minecraft:saturation 2 1 true
+effect give @a[tag=teacon_in_mjds] minecraft:regeneration 2 1 true
+effect give @a[tag=teacon_in_mjds] watersource:water_restoring 2 1 true
+
 tag @a remove teacon_judge_pioneer
 execute as Izzel_Aliz run tag @s add teacon_judge_pioneer
 execute as zzzz_ustc run tag @s add teacon_judge_pioneer

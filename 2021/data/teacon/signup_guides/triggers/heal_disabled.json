@@ -1,0 +1,7 @@
+{
+  "type": "trigger",
+  "disabled": true,
+  "title": "元气不满",
+  "selector": "@a[tag=teacon_in_mjds]",
+  "description": "由于你正在魔城传说副本中，因此你无法回复自身血量和经验等级"
+}

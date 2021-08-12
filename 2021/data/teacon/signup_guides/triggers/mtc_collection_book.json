@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "卡牌收集包",
+  "selector": "@a",
+  "description": "重新领取 Mine[Touhou]Card 的卡牌收集包",
+  "executes": [
+    "/questbook",
+    "/signmeup map close"
+  ]
+}

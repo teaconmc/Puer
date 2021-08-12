@@ -1,7 +1,7 @@
 {
   "type": "trigger",
   "title": "元气满满",
-  "selector": "@a",
+  "selector": "@a[tag=!teacon_in_mjds]",
   "description": "回复自身血量、饥饿值、口渴值、和经验等级",
   "executes": [
     "/effect clear @s",
