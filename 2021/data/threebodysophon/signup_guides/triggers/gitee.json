@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "查看源码",
+  "selector": "@a",
+  "description": "前往Gitee查看模组源码",
+  "executes": [
+    "/tellraw @s [{\"text\":\"[阳电子工作室×斌政工作室] \",\"color\":\"light_purple\"},{\"text\":\"点击前往Gitee查看源码\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gitee.com/xu_fly/threebody-sophon\"}}]",
+    "/signmeup map close"
+  ]
+}

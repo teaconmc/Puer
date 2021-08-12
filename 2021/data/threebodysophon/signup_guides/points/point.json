@@ -2,19 +2,17 @@
   "type": "point",
   "title": "第二红岸基地",
   "selector": "@a",
-  "description": "《三体工业（预览版）》展馆",
+  "description": "《三体-智子》展馆",
   "location": {
     "actual": [
-      -53,
-      69,
+      -81,
+      64,
       333
     ]
   },
   "triggers": [
     "teacon:triggers/teleport",
-    "civilizationswars:triggers/website",
-    "civilizationswars:triggers/github",
-    "civilizationswars:triggers/gitee"
+    "threebodysophon:triggers/gitee"
   ],
   "images": [
     "civilizationswars:textures/gui/banner.png"
