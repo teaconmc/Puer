@@ -1,0 +1,22 @@
+{
+  "type": "map",
+  "title": {
+    "text": "TeaCon 2021 展示服务器"
+  },
+  "subtitle": {
+    "text": "流浪茶馆"
+  },
+  "description": {
+    "text": "已被推离太阳系的 TeaCon 2021 展示服务器。点击侧边按钮回到主世界。"
+  },
+  "range": 2048,
+  "center": [ 0, 0 ],
+  "world": "thewanderingearth:wander",
+  "texture": "teacon:textures/gui/guide_map_wander.png",
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
+  "triggers": [
+    "teacon:triggers/spawn"
+  ]
+}

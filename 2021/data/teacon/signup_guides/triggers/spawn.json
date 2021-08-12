@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "回家",
+  "selector": "@a",
+  "description": "喂！你走错维度啦！快回家！",
+  "executes": [
+    "/execute in minecraft:overworld run tp @s 0.5 65.5 0.5",
+    "/signmeup map close"
+  ]
+}
