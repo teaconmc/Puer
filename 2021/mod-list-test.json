@@ -60,11 +60,6 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-48/uusi-aurinko-0.2.4-48.jar.asc"
   },
   {
-    "name": "xxsrk-1.16.5-dev-teacon-spc-23.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-4/build-23/xxsrk-1.16.5-dev-teacon-spc-23.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-4/build-23/xxsrk-1.16.5-dev-teacon-spc-23.jar.asc"
-  },
-  {
     "name": "SerializableConsciousness-1.16.5-1.0.0-20.jar",
     "file": "https://archive.teacon.cn/2021/ci/build/team-40/build-20/SerializableConsciousness-1.16.5-1.0.0-20.jar",
     "sig": "https://archive.teacon.cn/2021/ci/build/team-40/build-20/SerializableConsciousness-1.16.5-1.0.0-20.jar.asc"
