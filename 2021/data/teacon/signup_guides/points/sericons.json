@@ -1,0 +1,16 @@
+{
+    "type": "point",
+    "title": "第三主信号塔",
+    "selector": "@a",
+    "description": "SerializableConsciousness（SeriCons）展馆\n可能是全服名字最长的参赛作品",
+    "location": {
+      "actual": [
+        507,
+        162,
+        935
+      ]
+    },
+    "triggers": [
+      "teacon:triggers/teleport_center"
+    ]
+  }

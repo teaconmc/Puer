@@ -1,0 +1,16 @@
+{
+    "type": "point",
+    "title": "Crock Pot（烹饪锅）展馆",
+    "selector": "@a",
+    "description": "Crock Pot（烹饪锅）展馆",
+    "location": {
+      "actual": [
+        -54,
+        68,
+        -464
+      ]
+    },
+    "triggers": [
+      "teacon:triggers/teleport"
+    ]
+  }

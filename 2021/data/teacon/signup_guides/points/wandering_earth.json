@@ -1,0 +1,16 @@
+{
+    "type": "point",
+    "title": "流浪地球 - 行星发动机",
+    "selector": "@a",
+    "description": "流浪地球（The Wandering Earth）展馆",
+    "location": {
+      "actual": [
+        541,
+        72,
+        219
+      ]
+    },
+    "triggers": [
+      "teacon:triggers/teleport_center"
+    ]
+  }
