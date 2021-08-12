@@ -1,8 +1,8 @@
 {
     "type": "point",
-    "title": "Crock Pot（烹饪锅）展馆",
+    "title": "烹饪酒馆",
     "selector": "@a",
-    "description": "Crock Pot（烹饪锅）展馆",
+    "description": "将饥荒(Don't Starve)中烹饪锅带进Minecraft",
     "location": {
       "actual": [
         -54,
@@ -12,5 +12,8 @@
     },
     "triggers": [
       "teacon:triggers/teleport"
+    ],
+    "images": [
+      "crockpot:textures/gui/banner.png"
     ]
   }
