@@ -12,6 +12,9 @@ tag @a[x=703,y=64,z=824,dx=178,dy=146,dz=14] add teacon_in_mjds
 effect give @a[tag=teacon_in_mjds] minecraft:saturation 2 1 true
 effect give @a[tag=teacon_in_mjds] watersource:water_restoring 2 1 true
 
+execute as @a[tag=!teacon_clear_inv_updated,sort=random,limit=1] run function teacon:clear_inv_enabled_update
+execute unless entity @a[tag=!teacon_clear_inv_updated] run tag @a remove teacon_clear_inv_updated
+
 tag @a remove teacon_judge_pioneer
 execute as Izzel_Aliz run tag @s add teacon_judge_pioneer
 execute as zzzz_ustc run tag @s add teacon_judge_pioneer
