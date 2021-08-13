@@ -29,7 +29,6 @@ execute as Yuesha_Kev14 run tag @s add teacon_judge_craftsman
 execute as meitangdehulu run tag @s add teacon_judge_craftsman
 execute as ZekerZhayard run tag @s add teacon_judge_craftsman
 execute as Desd run tag @s add teacon_judge_craftsman
-execute as pigpigeon run tag @s add teacon_judge_craftsman
 execute as Mrkwtkr run tag @s add teacon_judge_craftsman
 execute as BloCamLimb run tag @s add teacon_judge_craftsman
 execute as baka943 run tag @s add teacon_judge_craftsman
