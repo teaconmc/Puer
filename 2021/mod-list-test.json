@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-24/build-41/backtones-1.2.5.6-41.jar.asc"
   },
   {
-    "name": "CrockPot-1.16.5-1.6.0-release-29.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-29/CrockPot-1.16.5-1.6.0-release-29.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-29/CrockPot-1.16.5-1.6.0-release-29.jar.asc"
+    "name": "CrockPot-1.16.5-1.6.1-release-30.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-27/build-30/CrockPot-1.16.5-1.6.1-release-30.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-27/build-30/CrockPot-1.16.5-1.6.1-release-30.jar.asc"
   },
   {
     "name": "king_and_knight-1.0-SNAPSHOT-18.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-59/build-37/the_elixir-1.1-37.jar.asc"
   },
   {
-    "name": "miyaworld-1.0-9.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-9/miyaworld-1.0-9.jar.asc"
+    "name": "miyaworld-1.0-10.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-61/build-10/miyaworld-1.0-10.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-61/build-10/miyaworld-1.0-10.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.16.5-1.0.0-13.jar",
@@ -215,14 +215,14 @@
     "sig": "https://archive.teacon.cn/2021/ci/extra/SignMeUp-Forge-1.16-0.1.4.jar.asc"
   },
   {
-    "name": "SimplePermission-Forge-1.16-0.4.8.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SimplePermission-Forge-1.16/0.4.8/SimplePermission-Forge-1.16-0.4.8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.8.jar.asc"
+    "name": "SimplePermission-Forge-1.16-0.4.10.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SimplePermission-Forge-1.16/0.4.10/SimplePermission-Forge-1.16-0.4.10.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SimplePermission-Forge-1.16-0.4.10.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.16-0.5.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.5.2/SlideShow-Forge-1.16-0.5.2.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.5.2.jar.asc"
+    "name": "SlideShow-Forge-1.16-0.5.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.16/0.5.4/SlideShow-Forge-1.16-0.5.4.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.16-0.5.4.jar.asc"
   },
   {
     "name": "VoteMe-Forge-1.16-0.3.0.jar",
