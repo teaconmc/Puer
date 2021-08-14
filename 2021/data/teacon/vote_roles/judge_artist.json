@@ -1,11 +1,12 @@
 {
   "name": {
-    "text": "评审员（艺术家）"
+    "text": "评审员"
   },
   "selector": "@a[tag=teacon_judge_artist]",
   "participations": [
     {
       "category": "teacon:c_artist",
+      "truncation": 1,
       "weight": 0.5
     }
   ]

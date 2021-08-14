@@ -1,11 +1,12 @@
 {
   "name": {
-    "text": "评审员（工匠）"
+    "text": "评审员"
   },
   "selector": "@a[tag=teacon_judge_craftsman]",
   "participations": [
     {
       "category": "teacon:b_craftsman",
+      "truncation": 1,
       "weight": 0.5
     }
   ]
