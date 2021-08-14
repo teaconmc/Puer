@@ -4,15 +4,15 @@
     "text": "TeaCon 2021 展示服务器"
   },
   "subtitle": {
-    "text": "下界"
+    "text": "末地"
   },
   "description": {
-    "text": "TeaCon 2021 展示服务器下界。点击侧边按钮回到主世界。"
+    "text": "TeaCon 2021 展示服务器末地，感谢末影龙对本届比赛的支持。点击侧边按钮回到主世界。"
   },
   "range": 2048,
   "center": [ 0, 0 ],
-  "world": "minecraft:the_nether",
-  "texture": "teacon:textures/gui/guide_map_nether.png",
+  "world": "minecraft:the_end",
+  "texture": "teacon:textures/gui/guide_map_end.png",
   "images": [
     "teacon:textures/gui/banner.png"
   ],
