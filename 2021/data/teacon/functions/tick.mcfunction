@@ -3,9 +3,20 @@ scoreboard players operation @a teaconjointick = #teaconjointick teaconjointick
 scoreboard players add #teaconjointick teaconjointick 1
 scoreboard players add @a teaconjointick 1
 
+kill @e[type=minecraft:boat,scores={teaconcarttick=200..}]
+scoreboard players add @e[type=minecraft:boat] teaconcarttick 1
+execute as @e[type=minecraft:boat,scores={teaconcarttick=0..}] at @s if entity @a[distance=..0.25] run scoreboard players set @s teaconcarttick 0
+
 kill @e[type=minecraft:minecart,scores={teaconcarttick=200..}]
-scoreboard players add @e[type=minecraft:minecart,nbt={CustomName:'{"italic":false,"text":"交通强国, 铁路先行"}'}] teaconcarttick 1
+scoreboard players add @e[type=minecraft:minecart,name="交通强国, 铁路先行"] teaconcarttick 1
 execute as @e[type=minecraft:minecart,scores={teaconcarttick=0..}] at @s positioned ~ ~-0.35 ~ if entity @a[distance=..0.25] run scoreboard players set @s teaconcarttick 0
+
+kill @e[type=meteorrandomidea:ufo,scores={teaconcarttick=200..}]
+scoreboard players add @e[type=meteorrandomidea:ufo] teaconcarttick 1
+
+kill @e[type=meteorrandomidea:motor,scores={teaconcarttick=200..}]
+scoreboard players add @e[type=meteorrandomidea:motor] teaconcarttick 1
+execute as @e[type=meteorrandomidea:motor,scores={teaconcarttick=0..}] at @s positioned ~ ~-0.125 ~ if entity @a[distance=..0.25] run scoreboard players set @s teaconcarttick 0
 
 tag @a remove teacon_in_mjds
 tag @a[x=703,y=64,z=824,dx=178,dy=146,dz=14] add teacon_in_mjds
