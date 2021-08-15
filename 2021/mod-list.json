@@ -15,9 +15,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-16/build-22/thewanderingearth-0.0.1-22.jar.asc"
   },
   {
-    "name": "unexpectedteleport-1.16.5-1.0.1-11.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-18/build-11/unexpectedteleport-1.16.5-1.0.1-11.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-18/build-11/unexpectedteleport-1.16.5-1.0.1-11.jar.asc"
+    "name": "unexpectedteleport-1.16.5-1.0.1-12.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-18/build-12/unexpectedteleport-1.16.5-1.0.1-12.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-18/build-12/unexpectedteleport-1.16.5-1.0.1-12.jar.asc"
   },
   {
     "name": "flycycle-1.16.5-0.1.0-18.jar",
@@ -55,9 +55,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-35/build-22/Ashihara-indev-01-22.jar.asc"
   },
   {
-    "name": "uusi-aurinko-0.2.4-49.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-38/build-49/uusi-aurinko-0.2.4-49.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-49/uusi-aurinko-0.2.4-49.jar.asc"
+    "name": "uusi-aurinko-0.2.4-50.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-38/build-50/uusi-aurinko-0.2.4-50.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-38/build-50/uusi-aurinko-0.2.4-50.jar.asc"
   },
   {
     "name": "SerializableConsciousness-1.16.5-1.0.0-20.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-66/build-6/goldtoucher-1.0-6.jar.asc"
   },
   {
-    "name": "neubulaeko_slime-1.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-67/build-8/neubulaeko_slime-1.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-67/build-8/neubulaeko_slime-1.0-8.jar.asc"
+    "name": "neubulaeko_slime-1.0-9.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-67/build-9/neubulaeko_slime-1.0-9.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-67/build-9/neubulaeko_slime-1.0-9.jar.asc"
   },
   {
     "name": "modid-1.0-9.jar",
