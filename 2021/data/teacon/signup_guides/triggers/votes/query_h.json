@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "检查投票",
+  "selector": "@a",
+  "description": "检查「模因污染」投票",
+  "executes": [
+    "/voteme query @s[type=minecraft:player] teacon:h_meme",
+    "/signmeup map close"
+  ]
+}

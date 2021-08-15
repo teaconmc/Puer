@@ -1,0 +1,11 @@
+{
+  "type": "trigger",
+  "title": "检查投票",
+  "selector": "@a",
+  "description": "检查「艺术家」投票",
+  "executes": [
+    "/execute if entity @s[tag=teacon_judge_artist] run tellraw @s {\"text\":\"你是专业评审员。\",\"color\":\"green\"}",
+    "/voteme query @s[type=minecraft:player] teacon:c_artist",
+    "/signmeup map close"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "trigger",
+  "title": "检查投票",
+  "selector": "@a",
+  "description": "检查「先锋」投票",
+  "executes": [
+    "/execute if entity @s[tag=teacon_judge_pioneer] run tellraw @s {\"text\":\"你是专业评审员。\",\"color\":\"green\"}",
+    "/execute unless entity @s[tag=teacon_judge_pioneer] run tellraw @s {\"text\":\"你不是专业评审员，所以别试了，嗯。\"}",
+    "/execute if entity @s[tag=teacon_judge_pioneer] run voteme query @s[type=minecraft:player] teacon:a_pioneer",
+    "/signmeup map close"
+  ]
+}

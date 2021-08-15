@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "检查投票",
+  "selector": "@a",
+  "description": "检查「可爱即正义」投票",
+  "executes": [
+    "/voteme query @s[type=minecraft:player] teacon:f_kawaii",
+    "/signmeup map close"
+  ]
+}

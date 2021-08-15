@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "检查投票",
+  "selector": "@a",
+  "description": "检查「买椟还珠」投票",
+  "executes": [
+    "/voteme query @s[type=minecraft:player] teacon:g_architect",
+    "/signmeup map close"
+  ]
+}
