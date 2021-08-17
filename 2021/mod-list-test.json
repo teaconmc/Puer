@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-48/build-13/tea_sorcerer-1.0.0-13.jar.asc"
   },
   {
-    "name": "minecardstouhou-1.2.0-44.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-44/minecardstouhou-1.2.0-44.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-44/minecardstouhou-1.2.0-44.jar.asc"
+    "name": "minecardstouhou-1.2.1-45.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-49/build-45/minecardstouhou-1.2.1-45.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-49/build-45/minecardstouhou-1.2.1-45.jar.asc"
   },
   {
     "name": "sinocraft-1.16.5-1.1.0-17.jar",
@@ -165,9 +165,9 @@
     "sig": "https://archive.teacon.cn/2021/ci/build/team-67/build-10/neubulaeko_slime-1.0-10.jar.asc"
   },
   {
-    "name": "modid-1.0-9.jar",
-    "file": "https://archive.teacon.cn/2021/ci/build/team-70/build-9/modid-1.0-9.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-9/modid-1.0-9.jar.asc"
+    "name": "modid-1.0-13.jar",
+    "file": "https://archive.teacon.cn/2021/ci/build/team-70/build-13/modid-1.0-13.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/build/team-70/build-13/modid-1.0-13.jar.asc"
   },
   {
     "name": "magic_circle-1.0-54.jar",
