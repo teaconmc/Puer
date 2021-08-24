@@ -51,6 +51,8 @@
     "weatherforecast:points/weather_station"
   ],
   "triggers": [
+    "teacon:triggers/bossbar_off",
+    "teacon:triggers/bossbar_on",
     "teacon:triggers/clear_disabled",
     "teacon:triggers/clear",
     "teacon:triggers/heal_disabled",
