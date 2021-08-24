@@ -15,9 +15,13 @@
           "name": {
             "italic": false,
             "text": "开天龙符"
-            }
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{Inactive:1b}"
+        }
+      ]
+    }
+  ]
+}
