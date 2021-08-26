@@ -1,8 +1,8 @@
 {
   "type": "trigger",
-  "title": "海洋强国",
+  "title": "获取船",
   "selector": "@a",
-  "description": "给自己一艘船",
+  "description": "划水第一名",
   "executes": [
     "/clear @s #minecraft:boats",
     "/loot give @s loot teacon:boat",
