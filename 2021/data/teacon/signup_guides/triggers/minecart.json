@@ -1,8 +1,8 @@
 {
   "type": "trigger",
-  "title": "交通强国",
+  "title": "获取矿车",
   "selector": "@a",
-  "description": "给自己一个矿车",
+  "description": "交通强国，铁路先行",
   "executes": [
     "/clear @s minecraft:minecart",
     "/loot give @s loot teacon:minecart",
