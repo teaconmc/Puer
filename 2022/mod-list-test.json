@@ -40,9 +40,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-7/extinguish-0.1.0.dev-7.jar.asc"
   },
   {
-    "name": "f_a_r-0.0.2-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-7/f_a_r-0.0.2-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-7/f_a_r-0.0.2-7.jar.asc"
+    "name": "f_a_r-0.0.2-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-8/f_a_r-0.0.2-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-8/f_a_r-0.0.2-8.jar.asc"
   },
   {
     "name": "Fire-Protection-Equipment-1.0-8.jar",
@@ -147,76 +147,76 @@
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.4.1/AreaControl-Forge-1.18-0.4.1.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/AreaControl-Forge-1.18-0.4.1.jar.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.4.1.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/ChromeBall-Forge-1.18/0.4.0/ChromeBall-Forge-1.18-0.4.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.2.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.2/SlideShow-Forge-1.18-0.6.2-rc.2.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.2.jar.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.2.jar.asc"
   },
   {
     "name": "Xibao-Forge-1.18-1.0.0.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/Xibao-Forge-1.18/1.0.0/Xibao-Forge-1.18-1.0.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
     "name": "geckolib-1.18-forge-3.0.18.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/geckolib-1.18-forge-3.0.18.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
   },
   {
     "name": "SinoCore-1.1.1.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/SinoCore-1.1.1.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/SinoCore-1.1.1.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.1.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.1.1.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-69.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/Patchouli-1.18.2-69.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/Patchouli-1.18.2-69.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-69.jar.asc"
   },
   {
     "name": "curios-forge-1.18.2-5.0.7.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/curios-forge-1.18.2-5.0.7.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/curios-forge-1.18.2-5.0.7.0.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar.asc"
   },
   {
     "name": "kotlinforforge-3.1.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/kotlinforforge-3.1.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/kotlinforforge-3.1.0.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.1.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.1.0.jar.asc"
   },
   {
     "name": "MTR-forge-1.18.2-3.0.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/MTR-forge-1.18.2-3.0.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/MTR-forge-1.18.2-3.0.0.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar.asc"
   },
   {
     "name": "LibX-1.18.2-3.2.15.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/LibX-1.18.2-3.2.15.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/LibX-1.18.2-3.2.15.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.15.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.15.jar.asc"
   },
   {
     "name": "MMLib-1.0.1-1.18.2.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/MMLib-1.0.1-1.18.2.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/MMLib-1.0.1-1.18.2.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar.asc"
   },
   {
     "name": "FramedBlocks-5.2.0.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/FramedBlocks-5.2.0.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/FramedBlocks-5.2.0.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/FramedBlocks-5.2.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/FramedBlocks-5.2.0.jar.asc"
   },
   {
     "name": "jei-1.18.2-9.7.0.195.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/jei-1.18.2-9.7.0.195.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
-    "file": "https://archive.teacon.cn/2021/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
-    "sig": "https://archive.teacon.cn/2021/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
   }
 ]
