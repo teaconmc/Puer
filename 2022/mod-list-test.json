@@ -203,5 +203,20 @@
     "name": "MMLib-1.0.1-1.18.2.jar",
     "file": "https://archive.teacon.cn/2021/ci/extra/MMLib-1.0.1-1.18.2.jar",
     "sig": "https://archive.teacon.cn/2021/ci/extra/MMLib-1.0.1-1.18.2.jar.asc"
+  },
+  {
+    "name": "FramedBlocks-5.2.0.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/FramedBlocks-5.2.0.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/FramedBlocks-5.2.0.jar.asc"
+  },
+  {
+    "name": "jei-1.18.2-9.7.0.195.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/jei-1.18.2-9.7.0.195.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
+  },
+  {
+    "name": "WaitingForServer-1.18-5.1.0-8.jar",
+    "file": "https://archive.teacon.cn/2021/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2021/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
   }
 ]
