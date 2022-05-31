@@ -5,14 +5,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-beacons/build-9/modid-1.0-9.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-7/boomood-1.18.2-1.0.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-7/boomood-1.18.2-1.0.0-7.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-8/boomood-1.18.2-1.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-8/boomood-1.18.2-1.0.0-8.jar.asc"
   },
   {
-    "name": "CannonFire-Forge-1.18-0.1.4-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-7/CannonFire-Forge-1.18-0.1.4-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-7/CannonFire-Forge-1.18-0.1.4-7.jar.asc"
+    "name": "CannonFire-Forge-1.18-0.1.4-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-8/CannonFire-Forge-1.18-0.1.4-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-8/CannonFire-Forge-1.18-0.1.4-8.jar.asc"
   },
   {
     "name": "caupona-1.18.2-0.1.0-8.jar",
@@ -20,74 +20,84 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-8/caupona-1.18.2-0.1.0-8.jar.asc"
   },
   {
-    "name": "FlooPowder-1.3-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-8/FlooPowder-1.3-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-8/FlooPowder-1.3-8.jar.asc"
+    "name": "FlooPowder-1.3-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-9/FlooPowder-1.3-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-9/FlooPowder-1.3-9.jar.asc"
   },
   {
-    "name": "coronaaltarofsolarscorch-0.1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-7/coronaaltarofsolarscorch-0.1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-7/coronaaltarofsolarscorch-0.1.0-7.jar.asc"
+    "name": "coronaaltarofsolarscorch-0.1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-8/coronaaltarofsolarscorch-0.1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-8/coronaaltarofsolarscorch-0.1.0-8.jar.asc"
   },
   {
-    "name": "extinguish-0.1.0.dev-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-7/extinguish-0.1.0.dev-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-7/extinguish-0.1.0.dev-7.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-8/CrockPot-1.18.2-1.2.0-release-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-8/CrockPot-1.18.2-1.2.0-release-8.jar.asc"
   },
   {
-    "name": "f_a_r-0.0.2-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-8/f_a_r-0.0.2-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-8/f_a_r-0.0.2-8.jar.asc"
+    "name": "extinguish-0.1.0.dev-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-8/extinguish-0.1.0.dev-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-8/extinguish-0.1.0.dev-8.jar.asc"
   },
   {
-    "name": "fireballgame-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-7/fireballgame-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-7/fireballgame-1.0-7.jar.asc"
+    "name": "f_a_r-0.0.2-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-9/f_a_r-0.0.2-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-9/f_a_r-0.0.2-9.jar.asc"
   },
   {
-    "name": "firecrafting-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-7/firecrafting-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-7/firecrafting-1.0-7.jar.asc"
+    "name": "fireballgame-1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-8/fireballgame-1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-8/fireballgame-1.0-8.jar.asc"
   },
   {
-    "name": "firestealer-1.0.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-7/firestealer-1.0.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-7/firestealer-1.0.0-7.jar.asc"
+    "name": "firecrafting-1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-8/firecrafting-1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-8/firecrafting-1.0-8.jar.asc"
   },
   {
-    "name": "groundfire-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-7/groundfire-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-7/groundfire-1.0-7.jar.asc"
+    "name": "firestealer-1.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-8/firestealer-1.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-8/firestealer-1.0.0-8.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-1-12-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-7/kitchenkarrot-1.18.2-1-12-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-7/kitchenkarrot-1.18.2-1-12-7.jar.asc"
+    "name": "groundfire-1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-8/groundfire-1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-8/groundfire-1.0-8.jar.asc"
   },
   {
-    "name": "lighterfe-1.18.2-1-2-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-7/lighterfe-1.18.2-1-2-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-7/lighterfe-1.18.2-1-2-7.jar.asc"
+    "name": "kitchenkarrot-1.18.2-1-12-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-8/kitchenkarrot-1.18.2-1-12-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-8/kitchenkarrot-1.18.2-1-12-8.jar.asc"
   },
   {
-    "name": "omni_card-1.18.2-1.2.3-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-8/omni_card-1.18.2-1.2.3-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-8/omni_card-1.18.2-1.2.3-8.jar.asc"
+    "name": "lighterfe-1.18.2-1-2-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-8/lighterfe-1.18.2-1-2-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-8/lighterfe-1.18.2-1-2-8.jar.asc"
   },
   {
-    "name": "paimonfood-1.1.4-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-7/paimonfood-1.1.4-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-7/paimonfood-1.1.4-7.jar.asc"
+    "name": "Multiblocked-1.18.2-0.3-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-8/Multiblocked-1.18.2-0.3-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-8/Multiblocked-1.18.2-0.3-8.jar.asc"
   },
   {
-    "name": "rising_uppercut-1.18.2-2.0.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rising-uppercut/build-7/rising_uppercut-1.18.2-2.0.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rising-uppercut/build-7/rising_uppercut-1.18.2-2.0.0-7.jar.asc"
+    "name": "omni_card-1.18.2-1.2.3-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-9/omni_card-1.18.2-1.2.3-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-9/omni_card-1.18.2-1.2.3-9.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-7/SimpleBBQ-1.18.2-0.1.0-beta-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-7/SimpleBBQ-1.18.2-0.1.0-beta-7.jar.asc"
+    "name": "paimonfood-1.1.4-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-8/paimonfood-1.1.4-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-8/paimonfood-1.1.4-8.jar.asc"
+  },
+  {
+    "name": "rising_uppercut-1.18.2-2.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rising-uppercut/build-8/rising_uppercut-1.18.2-2.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rising-uppercut/build-8/rising_uppercut-1.18.2-2.0.0-8.jar.asc"
+  },
+  {
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-8/SimpleBBQ-1.18.2-0.1.0-beta-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-8/SimpleBBQ-1.18.2-0.1.0-beta-8.jar.asc"
   },
   {
     "name": "spaceplane-1.0-7.jar",
@@ -95,29 +105,34 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-7/spaceplane-1.0-7.jar.asc"
   },
   {
-    "name": "with_fire-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-7/with_fire-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-7/with_fire-1.0-7.jar.asc"
+    "name": "with_fire-1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-8/with_fire-1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-8/with_fire-1.0-8.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-7/Torchikoma-mc1.18.2-0.0.1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-7/Torchikoma-mc1.18.2-0.0.1-7.jar.asc"
+    "name": "touhoulittlemaid-1.18.2-1.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-8/touhoulittlemaid-1.18.2-1.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-8/touhoulittlemaid-1.18.2-1.0.0-8.jar.asc"
   },
   {
-    "name": "wildfire_mahjong-1.18.2-2.0.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-7/wildfire_mahjong-1.18.2-2.0.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-7/wildfire_mahjong-1.18.2-2.0.0-7.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-8/Torchikoma-mc1.18.2-0.0.1-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-8/Torchikoma-mc1.18.2-0.0.1-8.jar.asc"
   },
   {
-    "name": "TacticalCards-1.0.0a-build-2022527-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-8/TacticalCards-1.0.0a-build-2022527-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-8/TacticalCards-1.0.0a-build-2022527-8.jar.asc"
+    "name": "wildfire_mahjong-1.18.2-2.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-8/wildfire_mahjong-1.18.2-2.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-8/wildfire_mahjong-1.18.2-2.0.0-8.jar.asc"
   },
   {
-    "name": "sinofeast-1.18.2-1.0.1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-7/sinofeast-1.18.2-1.0.1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-7/sinofeast-1.18.2-1.0.1-7.jar.asc"
+    "name": "TacticalCards-1.0.0a-build-2022527-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-9/TacticalCards-1.0.0a-build-2022527-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-9/TacticalCards-1.0.0a-build-2022527-9.jar.asc"
+  },
+  {
+    "name": "sinofeast-1.18.2-1.0.1-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-8/sinofeast-1.18.2-1.0.1-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-8/sinofeast-1.18.2-1.0.1-8.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
