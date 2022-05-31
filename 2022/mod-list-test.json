@@ -5,11 +5,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-beacons/build-9/modid-1.0-9.jar.asc"
   },
   {
-    "name": "Blaze-Reborn-1.0.1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-7/Blaze-Reborn-1.0.1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-7/Blaze-Reborn-1.0.1-7.jar.asc"
-  },
-  {
     "name": "boomood-1.18.2-1.0.0-7.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-7/boomood-1.18.2-1.0.0-7.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-7/boomood-1.18.2-1.0.0-7.jar.asc"
@@ -45,11 +40,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-8/f_a_r-0.0.2-8.jar.asc"
   },
   {
-    "name": "Fire-Protection-Equipment-1.0-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-8/Fire-Protection-Equipment-1.0-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-8/Fire-Protection-Equipment-1.0-8.jar.asc"
-  },
-  {
     "name": "fireballgame-1.0-7.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-7/fireballgame-1.0-7.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-7/fireballgame-1.0-7.jar.asc"
@@ -60,19 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-7/firecrafting-1.0-7.jar.asc"
   },
   {
-    "name": "FireSafety-Forge-unspecified-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-8/FireSafety-Forge-unspecified-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-8/FireSafety-Forge-unspecified-8.jar.asc"
-  },
-  {
     "name": "firestealer-1.0.0-7.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-7/firestealer-1.0.0-7.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-7/firestealer-1.0.0-7.jar.asc"
-  },
-  {
-    "name": "firewood-0.0.1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-7/firewood-0.0.1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-7/firewood-0.0.1-7.jar.asc"
   },
   {
     "name": "groundfire-1.0-7.jar",
@@ -88,11 +68,6 @@
     "name": "lighterfe-1.18.2-1-2-7.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-7/lighterfe-1.18.2-1-2-7.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-7/lighterfe-1.18.2-1-2-7.jar.asc"
-  },
-  {
-    "name": "Metallurgy-MC1.18.2-0.1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-7/Metallurgy-MC1.18.2-0.1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-7/Metallurgy-MC1.18.2-0.1-7.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-8.jar",
@@ -185,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar.asc"
   },
   {
-    "name": "kotlinforforge-3.1.0.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.1.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.1.0.jar.asc"
+    "name": "kotlinforforge-3.3.2-obf.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.3.2-obf.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.3.2-obf.jar.asc"
   },
   {
     "name": "MTR-forge-1.18.2-3.0.0.jar",
@@ -203,6 +178,11 @@
     "name": "MMLib-1.0.1-1.18.2.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar.asc"
+  },
+  {
+    "name": "architectury-4.4.68.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar.asc"
   },
   {
     "name": "FramedBlocks-5.2.0.jar",
