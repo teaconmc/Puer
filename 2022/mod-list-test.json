@@ -5,11 +5,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-beacons/build-9/modid-1.0-9.jar.asc"
   },
   {
-    "name": "Blaze-Reborn-1.0.1-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-9/Blaze-Reborn-1.0.1-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-9/Blaze-Reborn-1.0.1-9.jar.asc"
-  },
-  {
     "name": "boomood-1.18.2-1.0.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-9/boomood-1.18.2-1.0.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-9/boomood-1.18.2-1.0.0-9.jar.asc"
@@ -65,11 +60,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar.asc"
   },
   {
-    "name": "firewood-0.0.1-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-9/firewood-0.0.1-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-9/firewood-0.0.1-9.jar.asc"
-  },
-  {
     "name": "groundfire-1.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-9/groundfire-1.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-9/groundfire-1.0-9.jar.asc"
@@ -88,11 +78,6 @@
     "name": "lighterfe-1.18.2-1-2-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-9/lighterfe-1.18.2-1-2-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-9/lighterfe-1.18.2-1-2-9.jar.asc"
-  },
-  {
-    "name": "Metallurgy-MC1.18.2-0.1-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-9/Metallurgy-MC1.18.2-0.1-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-9/Metallurgy-MC1.18.2-0.1-9.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.3-10.jar",
