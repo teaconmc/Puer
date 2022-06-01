@@ -36,62 +36,63 @@ jobs:
       - name: Handle Mods
         if: steps.diff.outputs.mods > 0
         env:
-          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
         run: |
           # rename mod list json
-          cp 2022/mod-list-test.json mod-list-test-$HEAD.json
+          cp 2022/mod-list-test.json mod-list-test-$RUN.json
       - name: Handle Assets
         if: steps.diff.outputs.assets > 0
         env:
-          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
         run: |
           # zip assets
-          cd 2022; zip -r9Xo ../assets-$HEAD.zip assets pack.mcmeta
+          cd 2022; zip -r9Xo ../assets-$RUN.zip assets pack.mcmeta
       - name: Handle Data
         if: steps.diff.outputs.data > 0
         env:
-          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
         run: |
           # zip data
-          cd 2022; zip -r9Xo ../data-$HEAD.zip data pack.mcmeta
+          cd 2022; zip -r9Xo ../data-$RUN.zip data pack.mcmeta
       - name: Handle Config
         if: steps.diff.outputs.config > 0
         env:
-          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
         run: |
           # zip config
-          cd 2022; zip -r9Xo ../config-$HEAD.zip config
+          cd 2022; zip -r9Xo ../config-$RUN.zip config
       - name: Handle Server Config
         if: steps.diff.outputs.serverconfig > 0
         env:
-          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
         run: |
           # zip server config
-          cd 2022; zip -r9Xo ../serverconfig-$HEAD.zip serverconfig
+          cd 2022; zip -r9Xo ../serverconfig-$RUN.zip serverconfig
       - name: Deploy to Longjing Server
         env:
           HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
           SSH_PRIVATE_KEY: ${{ secrets.TEACON_LONGJING_SSH_PRIVATE_KEY }}
         run: |
           # deploy ssh private key
-          cat > id_ecdsa <<< $SSH_PRIVATE_KEY
-          chmod 0600 id_ecdsa # good permissions
-          ssh_flags="-i ./id_ecdsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+          cat > ~/id_ecdsa <<< $SSH_PRIVATE_KEY
+          chmod 0600 ~/id_ecdsa # good permissions
+          ssh-keyscan -H 2022.teacon.cn >> ~/.ssh/known_hosts
 
           # copy to longjing server
-          echo Considering git ref: $HEAD
-          [[ -f mod-list-test-$HEAD.json ]] && scp $ssh_flags mod-list-test-$HEAD.json longjing@2022.teacon.cn:deploy/
-          [[ -f assets-$HEAD.zip ]] && scp $ssh_flags assets-$HEAD.zip longjing@2022.teacon.cn:deploy/
-          [[ -f data-$HEAD.zip ]] && scp $ssh_flags data-$HEAD.zip longjing@2022.teacon.cn:deploy/
-          [[ -f config-$HEAD.zip ]] && scp $ssh_flags config-$HEAD.zip longjing@2022.teacon.cn:deploy/
-          [[ -f serverconfig-$HEAD.zip ]] && scp $ssh_flags serverconfig-$HEAD.zip longjing@2022.teacon.cn:deploy/
+          echo Considering git ref $HEAD with build number $RUN
+          [[ -f mod-list-test-$RUN.json ]] && scp -i ~/id_ecdsa mod-list-test-$RUN.json longjing@2022.teacon.cn:deploy/
+          [[ -f assets-$RUN.zip ]] && scp -i ~/id_ecdsa assets-$RUN.zip longjing@2022.teacon.cn:deploy/
+          [[ -f data-$RUN.zip ]] && scp -i ~/id_ecdsa data-$RUN.zip longjing@2022.teacon.cn:deploy/
+          [[ -f config-$RUN.zip ]] && scp -i ~/id_ecdsa config-$RUN.zip longjing@2022.teacon.cn:deploy/
+          [[ -f serverconfig-$RUN.zip ]] && scp -i ~/id_ecdsa serverconfig-$RUN.zip longjing@2022.teacon.cn:deploy/
 
           # run restart or reload command
-          if [[ -f mod-list-test-$HEAD.json || -f config-$HEAD.zip || -f serverconfig-$HEAD.zip ]]; then
-            ssh $ssh_flags longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-restart.sh $HEAD
+          if [[ -f mod-list-test-$RUN.json || -f config-$RUN.zip || -f serverconfig-$RUN.zip ]]; then
+            ssh -i ~/id_ecdsa longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-restart.sh $RUN
             echo Restarted the target server.
-          elif [[ -f data-$HEAD.zip ]]; then
-            ssh $ssh_flags longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-reload.sh $HEAD
+          elif [[ -f data-$RUN.zip ]]; then
+            ssh -i ~/id_ecdsa longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-reload.sh $RUN
             echo Reloaded the target server.
           else
             echo Neither restarting nor reloading is needed.
