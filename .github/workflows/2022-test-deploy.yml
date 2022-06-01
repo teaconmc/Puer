@@ -1,4 +1,4 @@
-name: TeaCon 2021 deploy to test server
+name: TeaCon 2022 deploy to test server
 
 on:
   push:
