@@ -40,9 +40,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-9/CrockPot-1.18.2-1.2.0-release-9.jar.asc"
   },
   {
-    "name": "extinguish-0.1.0.dev-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-9/extinguish-0.1.0.dev-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-9/extinguish-0.1.0.dev-9.jar.asc"
+    "name": "extinguish-0.1.0.dev-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-10/extinguish-0.1.0.dev-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-10/extinguish-0.1.0.dev-10.jar.asc"
   },
   {
     "name": "f_a_r-0.0.2-10.jar",
@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-9/groundfire-1.0-9.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-1-12-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-9/kitchenkarrot-1.18.2-1-12-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-9/kitchenkarrot-1.18.2-1-12-9.jar.asc"
+    "name": "kitchenkarrot-1.18.2-1-12-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-10/kitchenkarrot-1.18.2-1-12-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-10/kitchenkarrot-1.18.2-1-12-10.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-9.jar",
