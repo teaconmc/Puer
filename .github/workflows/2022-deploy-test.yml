@@ -39,7 +39,7 @@ jobs:
           HEAD: ${{ github.sha }}
         run: |
           # rename mod list json
-          cp 2022/mod-list-test.json 2022/mod-list-test-$HEAD.json
+          cp 2022/mod-list-test.json mod-list-test-$HEAD.json
       - name: Handle Assets
         if: steps.diff.outputs.assets > 0
         env:
