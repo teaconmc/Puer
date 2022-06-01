@@ -1,0 +1,95 @@
+name: TeaCon 2021 deploy to test server
+
+on:
+  push:
+    branches: [ dev ]
+    paths:
+      - "2022/**"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v2
+      - name: Check differences
+        id: diff
+        env:
+          HEAD: ${{ github.sha }}
+          BASE: ${{ github.event.before }}
+        run: |
+          # calculate diff count
+          git_flags=`[[ -z $BASE ]] && echo ls-files || echo diff --name-only $HEAD $BASE`
+          mods_diff=`git $git_flags -- 2022/mod-list-test.json | wc -l`
+          assets_diff=`git $git_flags -- 2022/assets 2022/pack.mcmeta | wc -l`
+          data_diff=`git $git_flags -- 2022/data 2022/pack.mcmeta | wc -l`
+          serverconfig_diff=`git $git_flags -- 2022/serverconfig | wc -l`
+          config_diff=`git $git_flags -- 2022/config | wc -l`
+
+          # set diff count output
+          echo "::set-output name=mods::$mods_diff"
+          echo "::set-output name=assets::$assets_diff"
+          echo "::set-output name=data::$data_diff"
+          echo "::set-output name=serverconfig::$serverconfig_diff"
+          echo "::set-output name=config::$config_diff"
+      - name: Handle Mods
+        if: steps.diff.outputs.artifact.mods > 0
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # rename mod list json
+          cp 2022/mod-list-test.json 2022/mod-list-test-$HEAD.json
+      - name: Handle Assets
+        if: steps.diff.outputs.artifact.assets > 0
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # zip assets
+          cd 2022; zip -r9Xo ../assets-$HEAD.zip assets pack.mcmeta
+      - name: Handle Data
+        if: steps.diff.outputs.artifact.data > 0
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # zip data
+          cd 2022; zip -r9Xo ../data-$HEAD.zip data pack.mcmeta
+      - name: Handle Config
+        if: steps.diff.outputs.artifact.config > 0
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # zip config
+          cd 2022; zip -r9Xo ../config-$HEAD.zip config
+      - name: Handle Server Config
+        if: steps.diff.outputs.artifact.serverconfig > 0
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # zip server config
+          cd 2022; zip -r9Xo ../serverconfig-$HEAD.zip serverconfig
+      - name: Deploy to Longjing Server
+        env:
+          HEAD: ${{ github.sha }}
+          SSH_PRIVATE_KEY: ${{ secrets.TEACON_LONGJING_SSH_PRIVATE_KEY }}
+        run: |
+          # deploy ssh private key
+          cat > id_ecdsa <<< $SSH_PRIVATE_KEY
+          ssh_flags="-i ./id_ecdsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+
+          # copy to longjing server
+          [[ -f assets-$HEAD.zip ]] && scp $ssh_flags assets-$HEAD.zip longjing@2022.teacon.cn:.
+          [[ -f data-$HEAD.zip ]] && scp $ssh_flags data-$HEAD.zip longjing@2022.teacon.cn:.
+          [[ -f config-$HEAD.zip ]] && scp $ssh_flags config-$HEAD.zip longjing@2022.teacon.cn:.
+          [[ -f serverconfig-$HEAD.zip ]] && scp $ssh_flags serverconfig-$HEAD.zip longjing@2022.teacon.cn:.
+
+          # run restart or reload command
+          if [[ -f mod-list-test-$HEAD.json || -f config-$HEAD.zip || -f serverconfig-$HEAD.zip ]]; then
+            ssh $ssh_flags longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-restart.sh $HEAD
+            echo Restarted the target server.
+          elif [[ -f data-$HEAD.zip ]]; then
+            ssh $ssh_flags longjing@2022.teacon.cn flock deploy-test.lock bash deploy-test-reload.sh $HEAD
+            echo Reloaded the target server.
+          else
+            echo Neither restarting nor reloading is needed.
+          fi
