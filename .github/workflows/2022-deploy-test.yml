@@ -77,7 +77,8 @@ jobs:
           # deploy ssh private key
           cat > ~/id_ecdsa <<< $SSH_PRIVATE_KEY
           chmod 0600 ~/id_ecdsa # good permissions
-          touch ~/.ssh/known_hosts && ssh-keyscan -H 2022.teacon.cn >> ~/.ssh/known_hosts
+          mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
+          ssh-keyscan -H 2022.teacon.cn >> ~/.ssh/known_hosts
 
           # copy to longjing server
           echo Considering git ref $HEAD with build number $RUN
