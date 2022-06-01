@@ -120,9 +120,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rising-uppercut/build-9/rising_uppercut-1.18.2-2.0.0-9.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-11.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-11/rtorch-1.18.2-0.8.0-11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-11/rtorch-1.18.2-0.8.0-11.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-12.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-12/rtorch-1.18.2-0.8.0-12.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-12/rtorch-1.18.2-0.8.0-12.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-9.jar",
