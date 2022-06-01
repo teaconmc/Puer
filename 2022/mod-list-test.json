@@ -240,6 +240,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
   },
   {
+    "name": "LowDragLib-1.18.2-0.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
+  },
+  {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
