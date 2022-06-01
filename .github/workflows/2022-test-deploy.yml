@@ -34,35 +34,35 @@ jobs:
           echo "::set-output name=serverconfig::$serverconfig_diff"
           echo "::set-output name=config::$config_diff"
       - name: Handle Mods
-        if: steps.diff.outputs.artifact.mods > 0
+        if: steps.diff.outputs.mods > 0
         env:
           HEAD: ${{ github.sha }}
         run: |
           # rename mod list json
           cp 2022/mod-list-test.json 2022/mod-list-test-$HEAD.json
       - name: Handle Assets
-        if: steps.diff.outputs.artifact.assets > 0
+        if: steps.diff.outputs.assets > 0
         env:
           HEAD: ${{ github.sha }}
         run: |
           # zip assets
           cd 2022; zip -r9Xo ../assets-$HEAD.zip assets pack.mcmeta
       - name: Handle Data
-        if: steps.diff.outputs.artifact.data > 0
+        if: steps.diff.outputs.data > 0
         env:
           HEAD: ${{ github.sha }}
         run: |
           # zip data
           cd 2022; zip -r9Xo ../data-$HEAD.zip data pack.mcmeta
       - name: Handle Config
-        if: steps.diff.outputs.artifact.config > 0
+        if: steps.diff.outputs.config > 0
         env:
           HEAD: ${{ github.sha }}
         run: |
           # zip config
           cd 2022; zip -r9Xo ../config-$HEAD.zip config
       - name: Handle Server Config
-        if: steps.diff.outputs.artifact.serverconfig > 0
+        if: steps.diff.outputs.serverconfig > 0
         env:
           HEAD: ${{ github.sha }}
         run: |
@@ -78,10 +78,12 @@ jobs:
           ssh_flags="-i ./id_ecdsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 
           # copy to longjing server
-          [[ -f assets-$HEAD.zip ]] && scp $ssh_flags assets-$HEAD.zip longjing@2022.teacon.cn:.
-          [[ -f data-$HEAD.zip ]] && scp $ssh_flags data-$HEAD.zip longjing@2022.teacon.cn:.
-          [[ -f config-$HEAD.zip ]] && scp $ssh_flags config-$HEAD.zip longjing@2022.teacon.cn:.
-          [[ -f serverconfig-$HEAD.zip ]] && scp $ssh_flags serverconfig-$HEAD.zip longjing@2022.teacon.cn:.
+          echo Considering git ref: $HEAD
+          [[ -f mod-list-test-$HEAD.json ]] && scp $ssh_flags mod-list-test-$HEAD.json longjing@2022.teacon.cn:deploy/
+          [[ -f assets-$HEAD.zip ]] && scp $ssh_flags assets-$HEAD.zip longjing@2022.teacon.cn:deploy/
+          [[ -f data-$HEAD.zip ]] && scp $ssh_flags data-$HEAD.zip longjing@2022.teacon.cn:deploy/
+          [[ -f config-$HEAD.zip ]] && scp $ssh_flags config-$HEAD.zip longjing@2022.teacon.cn:deploy/
+          [[ -f serverconfig-$HEAD.zip ]] && scp $ssh_flags serverconfig-$HEAD.zip longjing@2022.teacon.cn:deploy/
 
           # run restart or reload command
           if [[ -f mod-list-test-$HEAD.json || -f config-$HEAD.zip || -f serverconfig-$HEAD.zip ]]; then
