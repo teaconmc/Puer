@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-10/f_a_r-0.0.2-10.jar.asc"
   },
   {
-    "name": "Fire-Protection-Equipment-1.0-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-10/Fire-Protection-Equipment-1.0-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-10/Fire-Protection-Equipment-1.0-10.jar.asc"
+    "name": "Fire-Protection-Equipment-1.0-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-11/Fire-Protection-Equipment-1.0-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-11/Fire-Protection-Equipment-1.0-11.jar.asc"
   },
   {
     "name": "fireballgame-1.0-9.jar",
@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-9/Metallurgy-MC1.18.2-0.1-9.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.3-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-9/Multiblocked-1.18.2-0.3-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-9/Multiblocked-1.18.2-0.3-9.jar.asc"
+    "name": "Multiblocked-1.18.2-0.3-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-10/Multiblocked-1.18.2-0.3-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-10/Multiblocked-1.18.2-0.3-10.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-10.jar",
@@ -148,6 +148,11 @@
     "name": "Torchikoma-mc1.18.2-0.0.1-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-9/Torchikoma-mc1.18.2-0.0.1-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-9/Torchikoma-mc1.18.2-0.0.1-9.jar.asc"
+  },
+  {
+    "name": "yu-1.0-SNAPSHOT-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-11/yu-1.0-SNAPSHOT-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-11/yu-1.0-SNAPSHOT-11.jar.asc"
   },
   {
     "name": "wildfire_mahjong-1.18.2-2.0.0-9.jar",
