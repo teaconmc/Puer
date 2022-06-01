@@ -75,6 +75,7 @@ jobs:
         run: |
           # deploy ssh private key
           cat > id_ecdsa <<< $SSH_PRIVATE_KEY
+          chmod 0600 id_ecdsa # good permissions
           ssh_flags="-i ./id_ecdsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 
           # copy to longjing server
