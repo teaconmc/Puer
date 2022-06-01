@@ -65,11 +65,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-9/firecrafting-1.0-9.jar.asc"
   },
   {
-    "name": "FireSafety-Forge-unspecified-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-10/FireSafety-Forge-unspecified-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-10/FireSafety-Forge-unspecified-10.jar.asc"
-  },
-  {
     "name": "firestealer-1.0.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar.asc"
@@ -85,9 +80,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-9/groundfire-1.0-9.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-1-12-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-10/kitchenkarrot-1.18.2-1-12-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-10/kitchenkarrot-1.18.2-1-12-10.jar.asc"
+    "name": "InnerCandle-1.0-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-10/InnerCandle-1.0-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-10/InnerCandle-1.0-10.jar.asc"
+  },
+  {
+    "name": "kitchenkarrot-1.18.2-1-12-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-11/kitchenkarrot-1.18.2-1-12-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-11/kitchenkarrot-1.18.2-1-12-11.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-9.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-9/Torchikoma-mc1.18.2-0.0.1-9.jar.asc"
   },
   {
-    "name": "yu-1.0-SNAPSHOT-12.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-12/yu-1.0-SNAPSHOT-12.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-12/yu-1.0-SNAPSHOT-12.jar.asc"
+    "name": "yu-1.0-SNAPSHOT-13.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-13/yu-1.0-SNAPSHOT-13.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-13/yu-1.0-SNAPSHOT-13.jar.asc"
   },
   {
     "name": "wildfire_mahjong-1.18.2-2.0.0-9.jar",
