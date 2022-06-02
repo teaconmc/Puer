@@ -55,11 +55,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-9/firecrafting-1.0-9.jar.asc"
   },
   {
-    "name": "FireSafety-Forge-unspecified-11.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-11/FireSafety-Forge-unspecified-11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-11/FireSafety-Forge-unspecified-11.jar.asc"
-  },
-  {
     "name": "firestealer-1.0.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar.asc"
