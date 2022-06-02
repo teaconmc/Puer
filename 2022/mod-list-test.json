@@ -248,5 +248,10 @@
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
+  },
+  {
+    "name": "TerraBlender-forge-1.18.2-1.1.0.101.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.101.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.101.jar.asc"
   }
 ]
