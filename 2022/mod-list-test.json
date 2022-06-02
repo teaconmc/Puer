@@ -1,10 +1,5 @@
 [
   {
-    "name": "modid-1.0-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-beacons/build-9/modid-1.0-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-beacons/build-9/modid-1.0-9.jar.asc"
-  },
-  {
     "name": "boomood-1.18.2-1.0.0-17.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-17/boomood-1.18.2-1.0.0-17.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-17/boomood-1.18.2-1.0.0-17.jar.asc"
