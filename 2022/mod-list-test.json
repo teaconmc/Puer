@@ -55,6 +55,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-9/firecrafting-1.0-9.jar.asc"
   },
   {
+    "name": "FireSafety-Forge-unspecified-12.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-12/FireSafety-Forge-unspecified-12.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-12/FireSafety-Forge-unspecified-12.jar.asc"
+  },
+  {
     "name": "firestealer-1.0.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar.asc"
@@ -228,6 +233,16 @@
     "name": "LowDragLib-1.18.2-0.2.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
+  },
+  {
+    "name": "lightfall-client-1.18-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar.asc"
+  },
+  {
+    "name": "decal-1.18.2-5c41e9f3a3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-5c41e9f3a3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-5c41e9f3a3.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
