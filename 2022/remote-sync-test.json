@@ -1,0 +1,10 @@
+{
+  "keyServers": [ "https://keyserver.ubuntu.com", "https://keys.openpgp.org/" ],
+  "keyIds": [ "0x41FDB67F375318BB" ],
+  "keyRingPath": "teacon.asc",
+  "modList": "https://longjing.teacon.cn/test/mod-list.json",
+  "localModList": "teacon_mod_list.json",
+  "modDir": "teacon_mods",
+  "timeout": 2147483647,
+  "preferLocalCache": true
+}

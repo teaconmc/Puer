@@ -1,0 +1,3 @@
+version:2975
+forceUnicodeFont:true
+lang:zh_cn
