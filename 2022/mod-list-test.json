@@ -55,6 +55,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-9/firecrafting-1.0-9.jar.asc"
   },
   {
+    "name": "FireSafety-Forge-unspecified-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-11/FireSafety-Forge-unspecified-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-11/FireSafety-Forge-unspecified-11.jar.asc"
+  },
+  {
     "name": "firestealer-1.0.0-9.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-9/firestealer-1.0.0-9.jar.asc"
@@ -130,9 +135,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-9/Torchikoma-mc1.18.2-0.0.1-9.jar.asc"
   },
   {
-    "name": "yu-1.0-SNAPSHOT-13.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-13/yu-1.0-SNAPSHOT-13.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-13/yu-1.0-SNAPSHOT-13.jar.asc"
+    "name": "yu-1.0-SNAPSHOT-14.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-14/yu-1.0-SNAPSHOT-14.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-14/yu-1.0-SNAPSHOT-14.jar.asc"
   },
   {
     "name": "wildfire_mahjong-1.18.2-2.0.0-9.jar",
@@ -228,11 +233,6 @@
     "name": "LowDragLib-1.18.2-0.2.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
-  },
-  {
-    "name": "lightfall-client-1.18-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
