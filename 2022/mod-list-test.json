@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
   },
   {
-    "name": "decal-1.18.2-5c41e9f3a3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-5c41e9f3a3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-5c41e9f3a3.jar.asc"
+    "name": "lightfall-client-1.18-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
