@@ -130,8 +130,13 @@ if [[ "$shaded" == "true" ]]; then
   # make mod dir
   mkdir -p "$tmp_dir/overrides/$teacon_mod_dir/"
   # download mod list
-  echo Downloading "$teacon_mod_list" from "$remote_mod_list"
+  echo Downloading "$teacon_mod_list" from "$remote_mod_list" ...
   wget -q -c -O "$tmp_dir/overrides/$teacon_mod_list" "$remote_mod_list"
+  if [[ $? -ne 0 ]]; then
+    echo Failed to download "$teacon_mod_list" from "$remote_mod_list".
+    rm -r "$tmp_dir"
+    exit 1
+  fi
   # iterate mods
   for mod in `jq -c .[] "$tmp_dir/overrides/$teacon_mod_list"`; do
     # get mod info
@@ -141,9 +146,19 @@ if [[ "$shaded" == "true" ]]; then
     # download
     echo Downloading "$name" from "$file_url" ...
     wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name" "$file_url"
+    if [[ $? -ne 0 ]]; then
+      echo Failed to download "$name" from "$file_url".
+      rm -r "$tmp_dir"
+      exit 1
+    fi
     # download sig
     echo Downloading "$name.sig" from "$sig_url" ...
     wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name.sig" "$sig_url"
+    if [[ $? -ne 0 ]]; then
+      echo Failed to download "$name.sig" from "$sig_url" ...
+      rm -r "$tmp_dir"
+      exit 1
+    fi
   done
   # get pubkey related info
   key=`jq -r '.keyRingPath' "$remote_sync_file"`
@@ -151,7 +166,13 @@ if [[ "$shaded" == "true" ]]; then
   key_server=`jq -r '.keyServers[0]' "$remote_sync_file"`
   remote_key_url="$key_server/pks/lookup?op=get&search=$key_id"
   echo Downloading and dearmoring to "$key" from "$remote_key_url" ...
-  wget -q -c -O - "$remote_key_url" | gpg --dearmor > "$tmp_dir/overrides/$key"
+  remote_key=`wget -q -c -O - "$remote_key_url"`
+  if [[ $? -ne 0 ]]; then
+    echo Failed to download public key from "$remote_key_url".
+    rm -r "$tmp_dir"
+    exit 1
+  fi
+  gpg --dearmor <<< "$remote_key" > "$tmp_dir/overrides/$key"
 fi
 
 # write mcbbs meta
