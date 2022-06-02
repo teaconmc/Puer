@@ -36,7 +36,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
         run: |
-          for zip in `ls TeaCon2022-*.zip`; do
+          for zip in `ls TeaCon2022-*.zip | tac`; do
             echo Uploading "$zip" to "s3://2022/modpack/$zip" ...
             aws s3 cp --endpoint-url $S3_ENDPOINT "$zip" "s3://2022/modpack/$zip"
           done

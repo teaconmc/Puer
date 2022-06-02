@@ -67,14 +67,14 @@ mkdir -p "$tmp_dir/overrides/"
 mkdir -p "$tmp_dir/$modpack_name/"
 
 # copy remote_sync.json
-if [[ ! -z "$remote_sync_file" && "$shaded" != "true" ]]; then
+if [[ ! -z "$remote_sync_file" ]]; then
   if [[ ! `file "$remote_sync_file" | awk '{ print "$2" }'` != 'JSON' ]]; then
     echo Invalid remote sync file: not json data
     rm -r "$tmp_dir"
     exit 1
   fi
   echo Copying remote_sync.json to overrides ...
-  cp "$remote_sync_file" "$tmp_dir/overrides/"remote_sync.json
+  cp "$remote_sync_file" "$tmp_dir/overrides/remote_sync.json"
 fi
 
 # check and copy icon.png
@@ -118,6 +118,11 @@ fi
 
 # download mods
 if [[ "$shaded" == "true" ]]; then
+  # pack resources
+  mkdir -p "$tmp_dir/overrides/resource-sync/"
+  resources_file=`realpath $tmp_dir/overrides/resource-sync/resources.zip`
+  echo Pack resources with "$modpack_build_dir/assets" and "$modpack_build_dir/pack.mcmeta"
+  pushd $modpack_build_dir > /dev/null; zip -r9Xo "$resources_file" assets pack.mcmeta; popd > /dev/null
   # get mod list url and file name
   teacon_mod_dir=`jq -r '.modDir' "$remote_sync_file"`
   remote_mod_list=`jq -r '.modList' "$remote_sync_file"`
@@ -138,8 +143,15 @@ if [[ "$shaded" == "true" ]]; then
     wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name" "$file_url"
     # download sig
     echo Downloading "$name.sig" from "$sig_url" ...
-    wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name.asc" "$sig_url"
+    wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name.sig" "$sig_url"
   done
+  # get pubkey related info
+  key=`jq -r '.keyRingPath' "$remote_sync_file"`
+  key_id=`jq -r '.keyIds[0]' "$remote_sync_file"`
+  key_server=`jq -r '.keyServers[0]' "$remote_sync_file"`
+  remote_key_url="$key_server/pks/lookup?op=get&search=$key_id"
+  echo Downloading and dearmoring to "$key" from "$remote_key_url" ...
+  wget -q -c -O - "$remote_key_url" | gpg --dearmor > "$tmp_dir/overrides/$key"
 fi
 
 # write mcbbs meta
