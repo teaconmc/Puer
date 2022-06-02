@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-9/CrockPot-1.18.2-1.2.0-release-9.jar.asc"
   },
   {
-    "name": "extinguish-0.1.0.dev-11.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-11/extinguish-0.1.0.dev-11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-11/extinguish-0.1.0.dev-11.jar.asc"
+    "name": "extinguish-0.1.0.dev-14.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-14/extinguish-0.1.0.dev-14.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-14/extinguish-0.1.0.dev-14.jar.asc"
   },
   {
     "name": "f_a_r-0.0.2-10.jar",
@@ -55,9 +55,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-9/firecrafting-1.0-9.jar.asc"
   },
   {
-    "name": "FireSafety-Forge-unspecified-12.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-12/FireSafety-Forge-unspecified-12.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-12/FireSafety-Forge-unspecified-12.jar.asc"
+    "name": "FireSafety-Forge-unspecified-13.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-13/FireSafety-Forge-unspecified-13.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-13/FireSafety-Forge-unspecified-13.jar.asc"
   },
   {
     "name": "firestealer-1.0.0-9.jar",
@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-9/groundfire-1.0-9.jar.asc"
   },
   {
-    "name": "InnerCandle-1.0-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-10/InnerCandle-1.0-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-10/InnerCandle-1.0-10.jar.asc"
+    "name": "InnerCandle-1.0-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-11/InnerCandle-1.0-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-innercandle/build-11/InnerCandle-1.0-11.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-1-12-12.jar",
@@ -135,9 +135,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-9/Torchikoma-mc1.18.2-0.0.1-9.jar.asc"
   },
   {
-    "name": "yu-1.0-SNAPSHOT-14.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-14/yu-1.0-SNAPSHOT-14.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-14/yu-1.0-SNAPSHOT-14.jar.asc"
+    "name": "yu-1.0-SNAPSHOT-15.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-15/yu-1.0-SNAPSHOT-15.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-15/yu-1.0-SNAPSHOT-15.jar.asc"
   },
   {
     "name": "wildfire_mahjong-1.18.2-2.0.0-9.jar",
