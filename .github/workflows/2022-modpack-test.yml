@@ -1,4 +1,4 @@
-name: TeaCon 2022 build test server
+name: TeaCon 2022 build test modpack
 
 on:
   push:
