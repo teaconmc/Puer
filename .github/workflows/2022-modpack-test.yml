@@ -22,14 +22,14 @@ jobs:
         run: |
           bash .github/build_modpack.sh -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
              -v 3.0.0-SNAPSHOT -d 2022/servers-test.dat -r 2022/remote-sync-test.json 2022/
-          cp TeaCon2022-3.0.0-SNAPSHOT.zip TeaCon2022-3.0.0-SNAPSHOT+$COMMIT_SHA.zip
+          cp TeaCon2022-3.0.0-SNAPSHOT.zip TeaCon2022-3.0.0-SNAPSHOT-$COMMIT_SHA.zip
       - name: Build Shaded Modpack
         env:
           COMMIT_SHA: ${{ steps.short-sha.outputs.sha }}
         run: |
           bash .github/build_modpack.sh -s -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
              -v 3.0.0-SNAPSHOT-Shaded -d 2022/servers-test.dat -r 2022/remote-sync-test.json 2022/
-          cp TeaCon2022-3.0.0-SNAPSHOT-Shaded.zip TeaCon2022-3.0.0-SNAPSHOT+$COMMIT_SHA-Shaded.zip
+          cp TeaCon2022-3.0.0-SNAPSHOT-Shaded.zip TeaCon2022-3.0.0-SNAPSHOT-$COMMIT_SHA-Shaded.zip
       - name: Upload to TeaCon Archive
         env:
           S3_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
