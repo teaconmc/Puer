@@ -125,6 +125,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-17/Torchikoma-mc1.18.2-0.0.1-17.jar.asc"
   },
   {
+    "name": "yu-1.0-SNAPSHOT-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-26/yu-1.0-SNAPSHOT-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-26/yu-1.0-SNAPSHOT-26.jar.asc"
+  },
+  {
     "name": "wildfire_mahjong-1.18.2-2.0.0-17.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-17/wildfire_mahjong-1.18.2-2.0.0-17.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-wildfire-mahjong/build-17/wildfire_mahjong-1.18.2-2.0.0-17.jar.asc"
