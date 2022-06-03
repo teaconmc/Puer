@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar.asc"
   },
   {
-    "name": "decal-1.18.2-f11e50449d.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-f11e50449d.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-f11e50449d.jar.asc"
+    "name": "decal-1.18.2-c7f5b97caf.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
