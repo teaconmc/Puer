@@ -140,9 +140,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.1-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-2/Ashihara-0.0.0.1-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-2/Ashihara-0.0.0.1-2.jar.asc"
+    "name": "Ashihara-0.0.0.1-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-3/Ashihara-0.0.0.1-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-3/Ashihara-0.0.0.1-3.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
