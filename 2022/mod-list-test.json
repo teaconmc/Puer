@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
   },
   {
-    "name": "lightfall-client-1.18-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18-2.jar.asc"
+    "name": "lightfall-client-1.18.2-1.0.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.1.jar.asc"
   },
   {
     "name": "decal-1.18.2-cc153e3c28.jar",
