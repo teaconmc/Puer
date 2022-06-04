@@ -2,11 +2,15 @@
 
 shaded=false
 
-while getopts 'sf:m:p:v:d:r:' OPTION; do
+while getopts 'sc:f:m:p:v:d:r:' OPTION; do
   case "$OPTION" in
     s)
       echo "Shading enabled"
       shaded=true
+      ;;
+    c)
+      echo "Mod cache folder: $OPTARG"
+      mod_download_folder="$OPTARG"
       ;;
     f)
       echo "Forge version: $OPTARG"
@@ -33,7 +37,7 @@ while getopts 'sf:m:p:v:d:r:' OPTION; do
       remote_sync_file="$OPTARG"
       ;;
     ?)
-      echo "Usage: $(basename $0) [-s] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
+      echo "Usage: $(basename $0) [-s] [-c MOD_CACHE_FOLDER] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
       exit 1
       ;;
   esac
@@ -45,8 +49,20 @@ modpack_build_dir="$1"
 echo "Modpack build dir: $1"
 
 if [[ -z "$forge_version" || -z "$minecraft_version" || -z "$modpack_prefix" || -z "$modpack_version" || -z "$modpack_build_dir" ]]; then
-  echo "Usage: $(basename $0) [-s] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
+  echo "Usage: $(basename $0) [-s] [-c MOD_CACHE_FOLDER] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
   exit 1
+fi
+
+# initialize mod download folder
+if [[ -z $mod_download_folder ]]; then
+  mod_download_folder=/tmp/build-modpack/mod-download
+  echo "Mod cache folder: $mod_download_folder"
+  mkdir -p $mod_download_folder
+elif [[ $shaded != "true" ]]; then
+  echo "Option -c should be used togethered with -s"
+  exit 1
+else
+  mkdir -p $mod_download_folder
 fi
 
 modpack_name=`echo "$modpack_prefix" | tr -d " "`-"$modpack_version"
@@ -60,7 +76,8 @@ Because the vanilla launcher does not have an \"import modpack\" functionality, 
 This modpack is capable to update mod list to the latest version, and this capability is launcher-agnostic.
 This means that, you do not need to update your client manually; just restart your client and everything will be up-to-date."
 
-tmp_dir=/tmp/build-modpack-`date +%s`
+tmp_dir_parent=/tmp/build-modpack-`date +%s`
+tmp_dir="$tmp_dir_parent/zip"
 
 # make dir for mcbbs and multimc
 mkdir -p "$tmp_dir/overrides/"
@@ -70,7 +87,7 @@ mkdir -p "$tmp_dir/$modpack_name/"
 if [[ ! -z "$remote_sync_file" ]]; then
   if [[ ! `file "$remote_sync_file" | awk '{ print "$2" }'` != 'JSON' ]]; then
     echo Invalid remote sync file: not json data
-    rm -r "$tmp_dir"
+    rm -r "$tmp_dir_parent"
     exit 1
   fi
   echo Copying remote_sync.json to overrides ...
@@ -80,7 +97,7 @@ fi
 # check and copy icon.png
 if [[ `identify "$modpack_build_dir/icon.png" | awk '{ print $2 }'` != 'PNG' ]]; then
   echo Invalid icon file: not PNG file
-  rm -r "$tmp_dir"
+  rm -r "$tmp_dir_parent"
   exit 1
 fi
 echo Copying icon.png to overrides ...
@@ -91,7 +108,7 @@ cp "$modpack_build_dir/icon.png" "$tmp_dir/$modpack_name/teacon.png"
 if [[ ! -z "$server_data_file" ]]; then
   if [[ ! -f "$server_data_file" ]]; then
     echo Invalid remote sync file: not a regular file
-    rm -r "$tmp_dir"
+    rm -r "$tmp_dir_parent"
     exit 1
   fi
   echo Copying servers.dat to overrides ...
@@ -134,7 +151,7 @@ if [[ "$shaded" == "true" ]]; then
   wget -q -c -O "$tmp_dir/overrides/$teacon_mod_list" "$remote_mod_list"
   if [[ $? -ne 0 ]]; then
     echo Failed to download "$teacon_mod_list" from "$remote_mod_list".
-    rm -r "$tmp_dir"
+    rm -r "$tmp_dir_parent"
     exit 1
   fi
   # iterate mods
@@ -145,20 +162,22 @@ if [[ "$shaded" == "true" ]]; then
     file_url=`echo "$mod" | jq -r .file`
     # download
     echo Downloading "$name" from "$file_url" ...
-    wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name" "$file_url"
+    wget -q -c -O "$mod_download_folder/$name" "$file_url"
     if [[ $? -ne 0 ]]; then
       echo Failed to download "$name" from "$file_url".
-      rm -r "$tmp_dir"
+      rm -r "$tmp_dir_parent"
       exit 1
     fi
+    cp "$mod_download_folder/$name" "$tmp_dir/overrides/$teacon_mod_dir/"
     # download sig
     echo Downloading "$name.sig" from "$sig_url" ...
-    wget -q -c -O "$tmp_dir/overrides/$teacon_mod_dir/$name.sig" "$sig_url"
+    wget -q -c -O "$mod_download_folder/$name.sig" "$sig_url"
     if [[ $? -ne 0 ]]; then
       echo Failed to download "$name.sig" from "$sig_url" ...
-      rm -r "$tmp_dir"
+      rm -r "$tmp_dir_parent"
       exit 1
     fi
+    cp "$mod_download_folder/$name.sig" "$tmp_dir/overrides/$teacon_mod_dir/"
   done
   # get pubkey related info
   key=`jq -r '.keyRingPath' "$remote_sync_file"`
@@ -169,7 +188,7 @@ if [[ "$shaded" == "true" ]]; then
   remote_key=`wget -q -c -O - "$remote_key_url"`
   if [[ $? -ne 0 ]]; then
     echo Failed to download public key from "$remote_key_url".
-    rm -r "$tmp_dir"
+    rm -r "$tmp_dir_parent"
     exit 1
   fi
   gpg --dearmor <<< "$remote_key" > "$tmp_dir/overrides/$key"
@@ -231,4 +250,4 @@ echo "Output archive: $modpack_name.zip"
 mv "$tmp_dir/$modpack_name.zip" .
 
 # clean up
-rm -r "$tmp_dir"
+rm -r "$tmp_dir_parent"

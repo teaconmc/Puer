@@ -13,6 +13,14 @@ jobs:
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v2
+      - name: Apply Cache
+        uses: actions/cache@v2
+        with:
+          key: ${{ runner.os }}-build-teacon-mods
+          path: |
+            /tmp/build-teacon-mods
+          restore-keys: |
+            ${{ runner.os }}-build-teacon-mods
       - name: Get Short Identifier
         uses: benjlevesque/short-sha@v1.2
         id: short-sha
@@ -27,7 +35,7 @@ jobs:
         env:
           COMMIT_SHA: ${{ steps.short-sha.outputs.sha }}
         run: |
-          bash .github/build_modpack.sh -s -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
+          bash .github/build_modpack.sh -s -c /tmp/build-teacon-mods -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
              -v 3.0.0-SNAPSHOT-Shaded -d 2022/servers-test.dat -r 2022/remote-sync-test.json 2022/
           cp TeaCon2022-3.0.0-SNAPSHOT-Shaded.zip TeaCon2022-3.0.0-SNAPSHOT-$COMMIT_SHA-Shaded.zip
       - name: Upload to TeaCon Archive
