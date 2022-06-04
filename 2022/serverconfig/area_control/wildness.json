@@ -1,0 +1,23 @@
+{
+  "uid": "00000000-0000-0000-0000-000000000000",
+  "name": "wildness",
+  "dimension": "minecraft:overworld",
+  "owner": "00000000-0000-0000-0000-000000000000",
+  "minX": -2147483648,
+  "minY": -2147483648,
+  "minZ": -2147483648,
+  "maxX": 2147483647,
+  "maxY": 2147483647,
+  "maxZ": 2147483647,
+  "properties": {
+    "area.allow_activate_block": true,
+    "area.allow_break_block": true,
+    "area.allow_click_block": true,
+    "area.allow_interact_entity": true,
+    "area.allow_interact_entity_specific": true,
+    "area.allow_place_block": true,
+    "area.allow_spawn": true,
+    "area.allow_special_spawn": true,
+    "area.allow_use_item": true
+  }
+}
