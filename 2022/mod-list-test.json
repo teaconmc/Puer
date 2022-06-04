@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-18/firecrafting-1.0-18.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-20.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-20/firewood-0.7.0-20.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-20/firewood-0.7.0-20.jar.asc"
+    "name": "firewood-0.7.0-21.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-21/firewood-0.7.0-21.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-21/firewood-0.7.0-21.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-1-12-22.jar",
@@ -38,6 +38,11 @@
     "name": "omni_card-1.18.2-1.2.3-19.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-19/omni_card-1.18.2-1.2.3-19.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-19/omni_card-1.18.2-1.2.3-19.jar.asc"
+  },
+  {
+    "name": "touhoulittlemaid-1.18.2-1.0.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-18/touhoulittlemaid-1.18.2-1.0.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-18/touhoulittlemaid-1.18.2-1.0.0-18.jar.asc"
   },
   {
     "name": "yu-1.0-SNAPSHOT-29.jar",
