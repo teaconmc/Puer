@@ -30,11 +30,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-19/omni_card-1.18.2-1.2.3-19.jar.asc"
   },
   {
-    "name": "yu-1.0-SNAPSHOT-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-28/yu-1.0-SNAPSHOT-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-28/yu-1.0-SNAPSHOT-28.jar.asc"
-  },
-  {
     "name": "Ashihara-0.0.0.1-4.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-4/Ashihara-0.0.0.1-4.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-4/Ashihara-0.0.0.1-4.jar.asc"
