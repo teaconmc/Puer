@@ -10,6 +10,7 @@
   "maxY": 2147483647,
   "maxZ": 2147483647,
   "properties": {
+    "__comment": "Remember to disable some of these checks when we are ready",
     "area.allow_activate_block": true,
     "area.allow_break_block": true,
     "area.allow_click_block": true,
@@ -18,6 +19,11 @@
     "area.allow_place_block": true,
     "area.allow_spawn": true,
     "area.allow_special_spawn": true,
-    "area.allow_use_item": true
+    "area.allow_use_item": true,
+    "area.allow_pvp": true,
+    "area.allow_attack": true,
+    "area.allow_explosion": true,
+    "area.allow_explosion_affect_blocks": true,
+    "area.allow_explosion_affect_entities": true
   }
 }
