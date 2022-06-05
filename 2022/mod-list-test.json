@@ -110,11 +110,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar.asc"
   },
   {
-    "name": "kotlinforforge-3.3.2-obf.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.3.2-obf.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/kotlinforforge-3.3.2-obf.jar.asc"
-  },
-  {
     "name": "MTR-forge-1.18.2-3.0.0.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar.asc"
