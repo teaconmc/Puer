@@ -80,6 +80,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-9/EmberOfPhoenix-1.0-9.jar.asc"
   },
   {
+    "name": "thelixir-1.18.2-1-1-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-1/thelixir-1.18.2-1-1-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-1/thelixir-1.18.2-1-1-1.jar.asc"
+  },
+  {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.4.1/AreaControl-Forge-1.18-0.4.1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.4.1.jar.asc"
