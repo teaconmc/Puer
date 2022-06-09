@@ -180,11 +180,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar.asc"
   },
   {
-    "name": "LuckPerms-Forge-5.4.25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/LuckPerms-Forge-5.4.25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/LuckPerms-Forge-5.4.25.jar.asc"
-  },
-  {
     "name": "decal-1.18.2-c7f5b97caf.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar.asc"
