@@ -20,6 +20,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-22/f_a_r-0.0.3-22.jar.asc"
   },
   {
+    "name": "Fire-Protection-Equipment-1.0-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-29/Fire-Protection-Equipment-1.0-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-29/Fire-Protection-Equipment-1.0-29.jar.asc"
+  },
+  {
     "name": "fireballgame-1.0-31.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-31/fireballgame-1.0-31.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-31/fireballgame-1.0-31.jar.asc"
@@ -65,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-22/touhoulittlemaid-1.18.2-1.0.0-22.jar.asc"
   },
   {
-    "name": "yu-1.18.2-1.0a-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-44/yu-1.18.2-1.0a-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-44/yu-1.18.2-1.0a-44.jar.asc"
+    "name": "yu-1.18.2-1.0a-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-45/yu-1.18.2-1.0a-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-45/yu-1.18.2-1.0a-45.jar.asc"
   },
   {
     "name": "TacticalCards-1.1.0a-build-20220604-20.jar",
