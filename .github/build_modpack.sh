@@ -2,64 +2,106 @@
 
 shaded=false
 
+script_name=`basename $0`
+usage="Usage: $script_name [OPTION]... [BUILD_DIR]
+Collect files and build a modpack supporting both MultiMC and MCBBS format.
+
+  -s                      Enable shaded mode. Mods from remote sync config file
+                          file will be downloaded and packed into the modpack
+                          zip file.
+
+  -c [MOD_CACHE_FOLDER]   Should be used togethered with -s option. Specify the
+                          mod cache folder which mods will be downloaded to.
+                          Default to a tmp folder which means that any previous
+                          cache will be discarded.
+
+  -d [SERVER_DATA_FILE]   The location of the 'servers.dat' file which includes
+                          a server list. This file will be collected into the
+                          final modpack.
+
+  -f [FORGE_VERSION]      Specify the version of forge modloader. The option is
+                          required. Example: 41.1.0
+
+  -m [MINECRAFT_VERSION]  Specify the game version of minecraft. The option is
+                          required. Example: 1.18.2
+
+  -p [MODPACK_PREFIX]     The modpack prefix (archive base name). The option is
+                          required. Example: TeaCon2022
+
+  -v [MODPACK_VERSION]    The modpack version which could include a classifier.
+                          The option is required. Example: 3.0.0-SNAPSHOT
+
+The modpack dir specified by [BUILD_DIR] would be used for adding resource pack
+(which are packed from 'assets/' folder and 'pack.mcmeta'), config files (which
+are copied from 'config/' folder), mods not downloaded from remote sync (which
+are copied from 'mods/' folder), the 'options.txt' file for minecraft options,
+and the 'icon.png' file for the modpack logo automatically.
+
+The final modpack zip file will be located in [BUILD_DIR] and the modpack file
+name will be '[MODPACK_PREFIX]-[MODPACK_VERSION].zip'. Example: 'foo-3.0.0.zip'
+will be generated if '-p foo' and '-v 3.0.0' are specified."
+
 while getopts 'sc:f:m:p:v:d:r:' OPTION; do
   case "$OPTION" in
     s)
-      echo "Shading enabled"
+      echo "$script_name: Shading enabled"
       shaded=true
       ;;
     c)
-      echo "Mod cache folder: $OPTARG"
+      echo "$script_name: Mod cache folder: $OPTARG"
       mod_download_folder="$OPTARG"
       ;;
     f)
-      echo "Forge version: $OPTARG"
+      echo "$script_name: Forge version: $OPTARG"
       forge_version="$OPTARG"
       ;;
     m)
-      echo "Minecraft version: $OPTARG"
+      echo "$script_name: Minecraft version: $OPTARG"
       minecraft_version="$OPTARG"
       ;;
     p)
-      echo "Modpack prefix: $OPTARG"
+      echo "$script_name: Modpack prefix: $OPTARG"
       modpack_prefix="$OPTARG"
       ;;
     v)
-      echo "Modpack version: $OPTARG"
+      echo "$script_name: Modpack version: $OPTARG"
       modpack_version="$OPTARG"
       ;;
     d)
-      echo "Server data file: $OPTARG"
+      echo "$script_name: Server data file: $OPTARG"
       server_data_file="$OPTARG"
       ;;
     r)
-      echo "Remote sync file: $OPTARG"
+      echo "$script_name: Remote sync file: $OPTARG"
       remote_sync_file="$OPTARG"
       ;;
     ?)
-      echo "Usage: $(basename $0) [-s] [-c MOD_CACHE_FOLDER] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
+      cat <<< $usage
       exit 1
       ;;
   esac
 done
 
 shift $(("$OPTIND" - 1))
-
 modpack_build_dir="$1"
-echo "Modpack build dir: $1"
 
-if [[ -z "$forge_version" || -z "$minecraft_version" || -z "$modpack_prefix" || -z "$modpack_version" || -z "$modpack_build_dir" ]]; then
-  echo "Usage: $(basename $0) [-s] [-c MOD_CACHE_FOLDER] [-d SERVER_DATA_FILE] [-f FORGE_VERSION] [-m MINECRAFT_VERSION] [-p MODPACK_PREFIX] [-v MODPACK_VERSION] BUILD_DIR"
+if [[ -z "$modpack_build_dir" ]]; then
+  echo "$script_name: Modpack build dir is required"
   exit 1
+elif [[ -z "$forge_version" || -z "$minecraft_version" || -z "$modpack_prefix" || -z "$modpack_version" ]]; then
+  cat <<< $usage
+  exit 1
+else
+  echo "$script_name: Modpack build dir: $1"
 fi
 
 # initialize mod download folder
 if [[ -z $mod_download_folder ]]; then
   mod_download_folder=/tmp/build-modpack/mod-download
-  echo "Mod cache folder: $mod_download_folder"
+  echo "$script_name: Mod cache folder: $mod_download_folder"
   mkdir -p $mod_download_folder
 elif [[ $shaded != "true" ]]; then
-  echo "Option -c should be used togethered with -s"
+  echo "$script_name: Option -c should be used togethered with -s"
   exit 1
 else
   mkdir -p $mod_download_folder
@@ -86,17 +128,17 @@ mkdir -p "$tmp_dir/$modpack_name/"
 # copy remote_sync.json
 if [[ ! -z "$remote_sync_file" ]]; then
   if [[ ! `file "$remote_sync_file" | awk '{ print "$2" }'` != 'JSON' ]]; then
-    echo Invalid remote sync file: not json data
+    echo "$script_name: Invalid remote sync file: not json data"
     rm -r "$tmp_dir_parent"
     exit 1
   fi
-  echo Copying remote_sync.json to overrides ...
+  echo "Copying remote_sync.json to overrides ..."
   cp "$remote_sync_file" "$tmp_dir/overrides/remote_sync.json"
 fi
 
 # check and copy icon.png
 if [[ `identify "$modpack_build_dir/icon.png" | awk '{ print $2 }'` != 'PNG' ]]; then
-  echo Invalid icon file: not PNG file
+  echo "$script_name: Invalid icon file: not PNG file"
   rm -r "$tmp_dir_parent"
   exit 1
 fi
@@ -107,7 +149,7 @@ cp "$modpack_build_dir/icon.png" "$tmp_dir/$modpack_name/teacon.png"
 # copy server.dat
 if [[ ! -z "$server_data_file" ]]; then
   if [[ ! -f "$server_data_file" ]]; then
-    echo Invalid remote sync file: not a regular file
+    echo "$script_name: Invalid remote sync file: not a regular file"
     rm -r "$tmp_dir_parent"
     exit 1
   fi
@@ -246,7 +288,7 @@ jq -n --arg m "$minecraft_version" --arg f "$forge_version" '{"formatVersion": 1
 
 # zip modpack
 pushd "$tmp_dir" > /dev/null; zip -r9Xo "$modpack_name.zip" *; popd > /dev/null
-echo "Output archive: $modpack_name.zip"
+echo Output archive: "$modpack_name.zip"
 mv "$tmp_dir/$modpack_name.zip" .
 
 # clean up
