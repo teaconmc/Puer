@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-36/flintlock-1.0-36.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-1-12-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-33/kitchenkarrot-1.18.2-1-12-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-33/kitchenkarrot-1.18.2-1-12-33.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-1-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-34/kitchenkarrot-1.18.2-2-1-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-34/kitchenkarrot-1.18.2-2-1-34.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-22.jar",
@@ -65,14 +65,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-20/paimonfood-1.1.4-20.jar.asc"
   },
   {
+    "name": "spaceplane-1.0-19.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-19/spaceplane-1.0-19.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-19/spaceplane-1.0-19.jar.asc"
+  },
+  {
     "name": "touhoulittlemaid-1.18.2-1.0.0-23.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-23/touhoulittlemaid-1.18.2-1.0.0-23.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-23/touhoulittlemaid-1.18.2-1.0.0-23.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-28/sunken_world-1.0-SNAPSHOT-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-28/sunken_world-1.0-SNAPSHOT-28.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-29/sunken_world-1.0-SNAPSHOT-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-29/sunken_world-1.0-SNAPSHOT-29.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-48.jar",
