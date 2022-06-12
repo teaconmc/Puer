@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-22/CannonFire-Forge-1.18-0.1.4-22.jar.asc"
   },
   {
-    "name": "FlooPowder-1.3.3-32.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-32/FlooPowder-1.3.3-32.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-32/FlooPowder-1.3.3-32.jar.asc"
+    "name": "FlooPowder-1.3.3-33.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-33/FlooPowder-1.3.3-33.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-33/FlooPowder-1.3.3-33.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-23.jar",
@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-31/Fire-Protection-Equipment-1.0-31.jar.asc"
   },
   {
-    "name": "fireballgame-1.0-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-36/fireballgame-1.0-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-36/fireballgame-1.0-36.jar.asc"
+    "name": "fireballgame-1.0-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-37/fireballgame-1.0-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-37/fireballgame-1.0-37.jar.asc"
   },
   {
     "name": "firecrafting-0.1.0-27.jar",
@@ -88,11 +88,6 @@
     "name": "TacticalCards-1.1.0a-build-20220604-22.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-22/TacticalCards-1.1.0a-build-20220604-22.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-22/TacticalCards-1.1.0a-build-20220604-22.jar.asc"
-  },
-  {
-    "name": "Ashihara-0.0.0.1-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-6/Ashihara-0.0.0.1-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-6/Ashihara-0.0.0.1-6.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-25.jar",
