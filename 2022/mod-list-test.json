@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-37/flintlock-1.0-37.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-1-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-36/kitchenkarrot-1.18.2-2-1-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-36/kitchenkarrot-1.18.2-2-1-36.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-2-40.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-40/kitchenkarrot-1.18.2-2-2-40.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-40/kitchenkarrot-1.18.2-2-2-40.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-23.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-23/TacticalCards-1.1.0a-build-20220604-23.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-54.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-54/EmberOfPhoenix-1.0-54.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-54/EmberOfPhoenix-1.0-54.jar.asc"
+    "name": "EmberOfPhoenix-1.0-55.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-55/EmberOfPhoenix-1.0-55.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-55/EmberOfPhoenix-1.0-55.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-2-10.jar",
