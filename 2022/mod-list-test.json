@@ -15,6 +15,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-24/eldenmessage-1.0-24.jar.asc"
   },
   {
+    "name": "exp1182-1.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-18/exp1182-1.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-18/exp1182-1.0-18.jar.asc"
+  },
+  {
     "name": "f_a_r-0.0.5-27.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-27/f_a_r-0.0.5-27.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-27/f_a_r-0.0.5-27.jar.asc"
@@ -90,9 +95,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-23/TacticalCards-1.1.0a-build-20220604-23.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-55.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-55/EmberOfPhoenix-1.0-55.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-55/EmberOfPhoenix-1.0-55.jar.asc"
+    "name": "EmberOfPhoenix-1.0-56.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-56/EmberOfPhoenix-1.0-56.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-56/EmberOfPhoenix-1.0-56.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-2-10.jar",
