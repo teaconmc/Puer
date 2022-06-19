@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-21/paimonfood-1.1.4-21.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-21/spaceplane-1.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-21/spaceplane-1.0-21.jar.asc"
+    "name": "spaceplane-1.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-22/spaceplane-1.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-22/spaceplane-1.0-22.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.18.2-1.0.0-27.jar",
