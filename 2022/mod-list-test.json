@@ -70,6 +70,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-23/lighterfe-1.18.2-1-2-23.jar.asc"
   },
   {
+    "name": "Multiblocked-1.18.2-0.9-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-22/Multiblocked-1.18.2-0.9-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-22/Multiblocked-1.18.2-0.9-22.jar.asc"
+  },
+  {
     "name": "omni_card-1.18.2-1.2.3-23.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-23/omni_card-1.18.2-1.2.3-23.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-23/omni_card-1.18.2-1.2.3-23.jar.asc"
@@ -110,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-23/TacticalCards-1.1.0a-build-20220604-23.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-70.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-70/EmberOfPhoenix-1.0-70.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-70/EmberOfPhoenix-1.0-70.jar.asc"
+    "name": "EmberOfPhoenix-1.0-71.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-71/EmberOfPhoenix-1.0-71.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-71/EmberOfPhoenix-1.0-71.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-13.jar",
