@@ -140,6 +140,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-2/GravityGenerator-1.0.1b-2.jar.asc"
   },
   {
+    "name": "briquettes-1.0.1-1.18.2-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar.asc"
+  },
+  {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.4.1/AreaControl-Forge-1.18-0.4.1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.4.1.jar.asc"
