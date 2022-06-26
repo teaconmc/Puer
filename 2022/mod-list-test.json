@@ -185,9 +185,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.15.jar.asc"
   },
   {
-    "name": "MMLib-1.0.1-1.18.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/MMLib-1.0.1-1.18.2.jar.asc"
+    "name": "mmlib-1.0.3-1.18.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.3-1.18.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.3-1.18.2.jar.asc"
   },
   {
     "name": "architectury-4.4.68.jar",
