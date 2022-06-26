@@ -95,9 +95,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-22/rtorch-1.18.2-0.8.0-22.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-26/spaceplane-1.0-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-26/spaceplane-1.0-26.jar.asc"
+    "name": "spaceplane-1.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-27/spaceplane-1.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-27/spaceplane-1.0-27.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.18.2-1.0.0-28.jar",
