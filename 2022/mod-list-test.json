@@ -75,9 +75,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-24/lighterfe-1.18.2-1-2-24.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.9.1-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-25/Multiblocked-1.18.2-0.9.1-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-25/Multiblocked-1.18.2-0.9.1-25.jar.asc"
+    "name": "Multiblocked-1.18.2-0.9.1-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-26/Multiblocked-1.18.2-0.9.1-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-26/Multiblocked-1.18.2-0.9.1-26.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-24.jar",
@@ -95,9 +95,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-22/rtorch-1.18.2-0.8.0-22.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-25/spaceplane-1.0-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-25/spaceplane-1.0-25.jar.asc"
+    "name": "spaceplane-1.0-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-26/spaceplane-1.0-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-26/spaceplane-1.0-26.jar.asc"
   },
   {
     "name": "touhoulittlemaid-1.18.2-1.0.0-28.jar",
@@ -118,6 +118,11 @@
     "name": "TacticalCards-1.1.0a-build-20220604-24.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-24/TacticalCards-1.1.0a-build-20220604-24.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-24/TacticalCards-1.1.0a-build-20220604-24.jar.asc"
+  },
+  {
+    "name": "sinofeast-1.18.2-1.0.1-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-82.jar",
