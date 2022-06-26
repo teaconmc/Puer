@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-25/eldenmessage-1.0-25.jar.asc"
   },
   {
-    "name": "exp1182-1.0-24.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-24/exp1182-1.0-24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-24/exp1182-1.0-24.jar.asc"
+    "name": "exp1182-1.0-25.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-25/exp1182-1.0-25.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-25/exp1182-1.0-25.jar.asc"
   },
   {
     "name": "f_a_r-0.0.6-30.jar",
@@ -205,9 +205,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
   },
   {
-    "name": "LowDragLib-1.18.2-0.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.2.jar.asc"
+    "name": "LowDragLib-1.18.2-0.6.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar.asc"
   },
   {
     "name": "lightfall-client-1.18.2-1.0.2.jar",
