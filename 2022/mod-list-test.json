@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-30/firecrafting-0.1.0-30.jar.asc"
   },
   {
-    "name": "Firefox_Beta-1.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-21/Firefox_Beta-1.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-21/Firefox_Beta-1.0-21.jar.asc"
+    "name": "Firefox_Beta-1.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-22/Firefox_Beta-1.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-22/Firefox_Beta-1.0-22.jar.asc"
   },
   {
     "name": "firewood-0.7.0-35.jar",
