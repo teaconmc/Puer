@@ -55,9 +55,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-23/Firefox_Beta-1.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-35/firewood-0.7.0-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-35/firewood-0.7.0-35.jar.asc"
+    "name": "firewood-0.7.0-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-37/firewood-0.7.0-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-37/firewood-0.7.0-37.jar.asc"
   },
   {
     "name": "flintlock-1.0-38.jar",
