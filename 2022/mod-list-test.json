@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-30/firecrafting-0.1.0-30.jar.asc"
   },
   {
-    "name": "Firefox_Beta-1.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-22/Firefox_Beta-1.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-22/Firefox_Beta-1.0-22.jar.asc"
+    "name": "Firefox_Beta-1.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-23/Firefox_Beta-1.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-23/Firefox_Beta-1.0-23.jar.asc"
   },
   {
     "name": "firewood-0.7.0-35.jar",
@@ -125,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-83.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-83/EmberOfPhoenix-1.0-83.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-83/EmberOfPhoenix-1.0-83.jar.asc"
+    "name": "EmberOfPhoenix-1.0-84.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-84/EmberOfPhoenix-1.0-84.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-84/EmberOfPhoenix-1.0-84.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-14.jar",
