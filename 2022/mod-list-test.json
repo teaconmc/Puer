@@ -55,9 +55,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-30/firecrafting-0.1.0-30.jar.asc"
   },
   {
-    "name": "Firefox_Beta-1.0-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-23/Firefox_Beta-1.0-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-23/Firefox_Beta-1.0-23.jar.asc"
+    "name": "Firefox_Beta-1.0-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-24/Firefox_Beta-1.0-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firefox/build-24/Firefox_Beta-1.0-24.jar.asc"
   },
   {
     "name": "firewood-0.7.0-38.jar",
@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-24/lighterfe-1.18.2-1-2-24.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.9.2-27.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-27/Multiblocked-1.18.2-0.9.2-27.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-27/Multiblocked-1.18.2-0.9.2-27.jar.asc"
+    "name": "Multiblocked-1.18.2-0.9.2-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-28/Multiblocked-1.18.2-0.9.2-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-28/Multiblocked-1.18.2-0.9.2-28.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-24.jar",
@@ -153,6 +153,11 @@
     "name": "briquettes-1.0.1-1.18.2-4.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar.asc"
+  },
+  {
+    "name": "handle_cane-0.9.0-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-1/handle_cane-0.9.0-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-1/handle_cane-0.9.0-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
