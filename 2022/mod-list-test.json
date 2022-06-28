@@ -135,6 +135,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-2/lostgrace-1.0.0.3-SNAPSHOT-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-2/lostgrace-1.0.0.3-SNAPSHOT-2.jar.asc"
+  },
+  {
     "name": "EmberOfPhoenix-1.0-88.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-88/EmberOfPhoenix-1.0-88.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-88/EmberOfPhoenix-1.0-88.jar.asc"
