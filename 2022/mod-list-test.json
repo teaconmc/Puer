@@ -135,9 +135,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-3/lostgrace-1.0.0.3-SNAPSHOT-3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-3/lostgrace-1.0.0.3-SNAPSHOT-3.jar.asc"
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-4/lostgrace-1.0.0.3-SNAPSHOT-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-4/lostgrace-1.0.0.3-SNAPSHOT-4.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-89.jar",
@@ -163,6 +163,11 @@
     "name": "handle_cane-0.9.1-2.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar.asc"
+  },
+  {
+    "name": "pyrotechnicraft-1.18.2-0.0.1-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-1/pyrotechnicraft-1.18.2-0.0.1-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-1/pyrotechnicraft-1.18.2-0.0.1-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
