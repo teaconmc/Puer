@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-38.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-38/sunken_world-1.0-SNAPSHOT-38.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-38/sunken_world-1.0-SNAPSHOT-38.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-39/sunken_world-1.0-SNAPSHOT-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-39/sunken_world-1.0-SNAPSHOT-39.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-57.jar",
@@ -135,14 +135,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-2/lostgrace-1.0.0.3-SNAPSHOT-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-2/lostgrace-1.0.0.3-SNAPSHOT-2.jar.asc"
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-3/lostgrace-1.0.0.3-SNAPSHOT-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-3/lostgrace-1.0.0.3-SNAPSHOT-3.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-88.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-88/EmberOfPhoenix-1.0-88.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-88/EmberOfPhoenix-1.0-88.jar.asc"
+    "name": "EmberOfPhoenix-1.0-89.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-89/EmberOfPhoenix-1.0-89.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-89/EmberOfPhoenix-1.0-89.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-14.jar",
