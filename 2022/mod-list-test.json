@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-22/rtorch-1.18.2-0.8.0-22.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-18.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-18/SimpleBBQ-1.18.2-0.1.0-beta-18.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-18/SimpleBBQ-1.18.2-0.1.0-beta-18.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-19.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-19/SimpleBBQ-1.18.2-0.1.0-beta-19.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-19/SimpleBBQ-1.18.2-0.1.0-beta-19.jar.asc"
   },
   {
     "name": "spaceplane-1.0-27.jar",
@@ -140,9 +140,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-4/lostgrace-1.0.0.3-SNAPSHOT-4.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-89.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-89/EmberOfPhoenix-1.0-89.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-89/EmberOfPhoenix-1.0-89.jar.asc"
+    "name": "EmberOfPhoenix-1.0-90.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-90/EmberOfPhoenix-1.0-90.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-90/EmberOfPhoenix-1.0-90.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-14.jar",
