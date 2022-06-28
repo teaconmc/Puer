@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar.asc"
   },
   {
-    "name": "handle_cane-0.9.0-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-1/handle_cane-0.9.0-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-1/handle_cane-0.9.0-1.jar.asc"
+    "name": "handle_cane-0.9.1-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
