@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-40.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-40/sunken_world-1.0-SNAPSHOT-40.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-40/sunken_world-1.0-SNAPSHOT-40.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-41.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-41/sunken_world-1.0-SNAPSHOT-41.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-41/sunken_world-1.0-SNAPSHOT-41.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-57.jar",
@@ -135,9 +135,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-4/lostgrace-1.0.0.3-SNAPSHOT-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-4/lostgrace-1.0.0.3-SNAPSHOT-4.jar.asc"
+    "name": "Ashihara-0.0.0.1-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-6/Ashihara-0.0.0.1-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-6/Ashihara-0.0.0.1-6.jar.asc"
+  },
+  {
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-6/lostgrace-1.0.0.3-SNAPSHOT-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-6/lostgrace-1.0.0.3-SNAPSHOT-6.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-90.jar",
