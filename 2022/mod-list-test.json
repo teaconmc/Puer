@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.1-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-10/Ashihara-0.0.0.1-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-10/Ashihara-0.0.0.1-10.jar.asc"
+    "name": "Ashihara-0.0.0.1-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-11/Ashihara-0.0.0.1-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-11/Ashihara-0.0.0.1-11.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-6.jar",
