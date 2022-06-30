@@ -105,6 +105,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-27/spaceplane-1.0-27.jar.asc"
   },
   {
+    "name": "with_fire-1.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-18/with_fire-1.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-18/with_fire-1.0-18.jar.asc"
+  },
+  {
     "name": "touhoulittlemaid-1.18.2-1.0.0-28.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar.asc"
