@@ -125,6 +125,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-42/sunken_world-1.0-SNAPSHOT-42.jar.asc"
   },
   {
+    "name": "Torchikoma-mc1.18.2-0.0.1-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-18/Torchikoma-mc1.18.2-0.0.1-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-18/Torchikoma-mc1.18.2-0.0.1-18.jar.asc"
+  },
+  {
     "name": "yu-1.18.2-1.0a-57.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
