@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
   },
   {
-    "name": "SinoCore-main-de9fa70d8a-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-de9fa70d8a-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-de9fa70d8a-1.jar.asc"
+    "name": "SinoCore-1.2.0-dev.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.0-dev.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.0-dev.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-69.jar",
