@@ -120,9 +120,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-42/sunken_world-1.0-SNAPSHOT-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-42/sunken_world-1.0-SNAPSHOT-42.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-44.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-44/sunken_world-1.0-SNAPSHOT-44.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-44/sunken_world-1.0-SNAPSHOT-44.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-18.jar",
@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.1-16.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-16/Ashihara-0.0.0.1-16.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-16/Ashihara-0.0.0.1-16.jar.asc"
+    "name": "Ashihara-0.0.0.1-17.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-17/Ashihara-0.0.0.1-17.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-17/Ashihara-0.0.0.1-17.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-6.jar",
@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-6/lostgrace-1.0.0.3-SNAPSHOT-6.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-91.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-91/EmberOfPhoenix-1.0-91.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-91/EmberOfPhoenix-1.0-91.jar.asc"
+    "name": "EmberOfPhoenix-1.0-93.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-93/EmberOfPhoenix-1.0-93.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-93/EmberOfPhoenix-1.0-93.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-14.jar",
@@ -173,6 +173,11 @@
     "name": "briquettes-1.0.1-1.18.2-4.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar.asc"
+  },
+  {
+    "name": "ShimmerFire-1.18.2-0.1-14.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-14/ShimmerFire-1.18.2-0.1-14.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-14/ShimmerFire-1.18.2-0.1-14.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-2.jar",
