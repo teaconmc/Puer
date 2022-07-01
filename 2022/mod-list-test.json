@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.1-12.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-12/Ashihara-0.0.0.1-12.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-12/Ashihara-0.0.0.1-12.jar.asc"
+    "name": "Ashihara-0.0.0.1-16.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-16/Ashihara-0.0.0.1-16.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-16/Ashihara-0.0.0.1-16.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-6.jar",
@@ -205,9 +205,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.2.jar.asc"
   },
   {
-    "name": "Isle-Forge-1.18-0.4.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/Isle-Forge-1.18/0.4.0/Isle-Forge-1.18-0.4.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.0.jar.asc"
+    "name": "Isle-Forge-1.18-0.4.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/Isle-Forge-1.18/0.4.1/Isle-Forge-1.18-0.4.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.1.jar.asc"
   },
   {
     "name": "Xibao-Forge-1.18-1.0.0.jar",
@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
   },
   {
-    "name": "SinoCore-1.2.0-dev.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.0-dev.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.0-dev.jar.asc"
+    "name": "SinoCore-1.2.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.1.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-69.jar",
