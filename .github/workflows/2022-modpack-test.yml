@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v2
@@ -27,10 +27,14 @@ jobs:
       - name: Download Related Mods
         run: |
           mkdir -p 2022/mods
+          # shimmer
+          echo Downloading Shimmer-forge-1.18.2-0.1.4.jar ...
+          wget -q -O Shimmer-forge-1.18.2-0.1.4.jar \
+            https://mediafiles.forgecdn.net/files/3856/862/Shimmer-forge-1.18.2-0.1.4.jar
           # kotlin for forge
-          echo Downloading kotlinforforge-3.5.0-obf.jar ...
-          wget -q -O 2022/mods/kotlinforforge-3.5.0-obf.jar \
-            https://media.forgecdn.net/files/3822/982/kotlinforforge-3.5.0-obf.jar
+          echo Downloading kotlinforforge-3.6.0-obf.jar ...
+          wget -q -O 2022/mods/kotlinforforge-3.6.0-obf.jar \
+            https://mediafiles.forgecdn.net/files/3829/616/kotlinforforge-3.6.0-obf.jar
           # scalable cat's force
           echo Downloading ScalableCatsForce-2.13.8-build-4-with-library.jar ...
           wget -q -O 2022/mods/ScalableCatsForce-2.13.8-build-4-with-library.jar \
