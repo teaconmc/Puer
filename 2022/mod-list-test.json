@@ -215,6 +215,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
+    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+6fdaa4d.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B6fdaa4d.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT+6fdaa4d.jar.asc"
+  },
+  {
     "name": "geckolib-1.18-forge-3.0.18.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
