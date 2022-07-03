@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-25/CannonFire-Forge-1.18-0.1.4-25.jar.asc"
   },
   {
-    "name": "catinbucket-1.18.2-0.0.2-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-21/catinbucket-1.18.2-0.0.2-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-21/catinbucket-1.18.2-0.0.2-21.jar.asc"
+    "name": "catinbucket-1.18.2-0.0.2-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar.asc"
   },
   {
     "name": "caupona-1.18.2-0.1.0-24.jar",
@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-39/FlooPowder-1.4.1-39.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-18.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-18/CrockPot-1.18.2-1.2.0-release-18.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-18/CrockPot-1.18.2-1.2.0-release-18.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-20.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-20/CrockPot-1.18.2-1.2.0-release-20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-20/CrockPot-1.18.2-1.2.0-release-20.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-27.jar",
@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-33/Fire-Protection-Equipment-1.0-33.jar.asc"
   },
   {
-    "name": "fireballgame-1.0-43.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-43/fireballgame-1.0-43.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-43/fireballgame-1.0-43.jar.asc"
+    "name": "fireballgame-1.0-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-45/fireballgame-1.0-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-45/fireballgame-1.0-45.jar.asc"
   },
   {
     "name": "firecrafting-0.1.0-30.jar",
@@ -60,9 +60,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-41/firewood-0.7.0-41.jar.asc"
   },
   {
-    "name": "flintlock-1.0-38.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-38/flintlock-1.0-38.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-38/flintlock-1.0-38.jar.asc"
+    "name": "flintlock-1.0-40.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-40/flintlock-1.0-40.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-40/flintlock-1.0-40.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-2-43.jar",
@@ -185,9 +185,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-2/pyrotechnicraft-1.18.2-0.0.1-2.jar.asc"
   },
   {
-    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-1/locusazzurro_icaruswings-1.18.2-0.4.0-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-1/locusazzurro_icaruswings-1.18.2-0.4.0-1.jar.asc"
+    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.4.1.jar",
