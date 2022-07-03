@@ -29,7 +29,7 @@ jobs:
           mkdir -p 2022/mods
           # shimmer
           echo Downloading Shimmer-forge-1.18.2-0.1.4.jar ...
-          wget -q -O Shimmer-forge-1.18.2-0.1.4.jar \
+          wget -q -O 2022/mods/Shimmer-forge-1.18.2-0.1.4.jar \
             https://mediafiles.forgecdn.net/files/3856/862/Shimmer-forge-1.18.2-0.1.4.jar
           # kotlin for forge
           echo Downloading kotlinforforge-3.6.0-obf.jar ...
