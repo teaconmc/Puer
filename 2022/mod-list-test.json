@@ -1,8 +1,8 @@
 [
   {
-    "name": "CannonFire-Forge-1.18-0.1.4-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-23/CannonFire-Forge-1.18-0.1.4-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-23/CannonFire-Forge-1.18-0.1.4-23.jar.asc"
+    "name": "CannonFire-Forge-1.18-0.1.4-25.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-25/CannonFire-Forge-1.18-0.1.4-25.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-25/CannonFire-Forge-1.18-0.1.4-25.jar.asc"
   },
   {
     "name": "catinbucket-1.18.2-0.0.2-21.jar",
@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-18/CrockPot-1.18.2-1.2.0-release-18.jar.asc"
   },
   {
-    "name": "eldenmessage-1.0-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-25/eldenmessage-1.0-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-25/eldenmessage-1.0-25.jar.asc"
+    "name": "eldenmessage-1.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-27/eldenmessage-1.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-27/eldenmessage-1.0-27.jar.asc"
   },
   {
     "name": "exp1182-1.0-26.jar",
@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-43/kitchenkarrot-1.18.2-2-2-43.jar.asc"
   },
   {
-    "name": "lighterfe-1.18.2-1-2-24.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-24/lighterfe-1.18.2-1-2-24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-24/lighterfe-1.18.2-1-2-24.jar.asc"
+    "name": "lighterfe-1.18.2-1-2-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-26/lighterfe-1.18.2-1-2-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-26/lighterfe-1.18.2-1-2-26.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.3-30.jar",
@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-30/Multiblocked-1.18.2-0.9.3-30.jar.asc"
   },
   {
-    "name": "omni_card-1.18.2-1.2.3-24.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-24/omni_card-1.18.2-1.2.3-24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-24/omni_card-1.18.2-1.2.3-24.jar.asc"
+    "name": "omni_card-1.18.2-1.2.3-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-26/omni_card-1.18.2-1.2.3-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-26/omni_card-1.18.2-1.2.3-26.jar.asc"
   },
   {
     "name": "paimonfood-1.1.4-21.jar",
