@@ -55,6 +55,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-32/firecrafting-0.1.0-32.jar.asc"
   },
   {
+    "name": "firestealer-1.0.0-21.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
+  },
+  {
     "name": "firewood-0.7.0-41.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-41/firewood-0.7.0-41.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-41/firewood-0.7.0-41.jar.asc"
@@ -120,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-45/sunken_world-1.0-SNAPSHOT-45.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-21/Torchikoma-mc1.18.2-0.0.1-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-21/Torchikoma-mc1.18.2-0.0.1-21.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-22/Torchikoma-mc1.18.2-0.0.1-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-22/Torchikoma-mc1.18.2-0.0.1-22.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-57.jar",
@@ -145,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-17/Ashihara-0.0.0.1-17.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-10/lostgrace-1.0.0.3-SNAPSHOT-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-10/lostgrace-1.0.0.3-SNAPSHOT-10.jar.asc"
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-11/lostgrace-1.0.0.3-SNAPSHOT-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-11/lostgrace-1.0.0.3-SNAPSHOT-11.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-96.jar",
