@@ -75,9 +75,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-26/lighterfe-1.18.2-1-2-26.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.9.3-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-30/Multiblocked-1.18.2-0.9.3-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-30/Multiblocked-1.18.2-0.9.3-30.jar.asc"
+    "name": "Multiblocked-1.18.2-0.9.3-32.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-32/Multiblocked-1.18.2-0.9.3-32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-32/Multiblocked-1.18.2-0.9.3-32.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-26.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-21/paimonfood-1.1.4-21.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-22/rtorch-1.18.2-0.8.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-22/rtorch-1.18.2-0.8.0-22.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-24.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-20/with_fire-1.0-20.jar.asc"
   },
   {
-    "name": "touhoulittlemaid-1.18.2-1.0.0-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-28/touhoulittlemaid-1.18.2-1.0.0-28.jar.asc"
+    "name": "touhoulittlemaid-1.18.2-1.0.0-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-31/touhoulittlemaid-1.18.2-1.0.0-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-31/touhoulittlemaid-1.18.2-1.0.0-31.jar.asc"
   },
   {
     "name": "sunken_world-1.0-SNAPSHOT-45.jar",
@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-17/Ashihara-0.0.0.1-17.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-6/lostgrace-1.0.0.3-SNAPSHOT-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-6/lostgrace-1.0.0.3-SNAPSHOT-6.jar.asc"
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-10/lostgrace-1.0.0.3-SNAPSHOT-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-10/lostgrace-1.0.0.3-SNAPSHOT-10.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-96.jar",
@@ -155,19 +155,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-96/EmberOfPhoenix-1.0-96.jar.asc"
   },
   {
-    "name": "thelixir-1.18.2-1-3-14.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-14/thelixir-1.18.2-1-3-14.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-14/thelixir-1.18.2-1-3-14.jar.asc"
+    "name": "thelixir-1.18.2-1-3-16.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-16/thelixir-1.18.2-1-3-16.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-16/thelixir-1.18.2-1-3-16.jar.asc"
   },
   {
-    "name": "GravityGenerator-1.0.1b-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-2/GravityGenerator-1.0.1b-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-2/GravityGenerator-1.0.1b-2.jar.asc"
+    "name": "GravityGenerator-1.18.2-1.0.1b-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-5/GravityGenerator-1.18.2-1.0.1b-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-5/GravityGenerator-1.18.2-1.0.1b-5.jar.asc"
   },
   {
-    "name": "briquettes-1.0.1-1.18.2-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-4/briquettes-1.0.1-1.18.2-4.jar.asc"
+    "name": "briquettes-1.0.1-1.18.2-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-6/briquettes-1.0.1-1.18.2-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-6/briquettes-1.0.1-1.18.2-6.jar.asc"
   },
   {
     "name": "ShimmerFire-1.18.2-0.2-15.jar",
@@ -175,14 +175,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-15/ShimmerFire-1.18.2-0.2-15.jar.asc"
   },
   {
-    "name": "handle_cane-0.9.1-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-2/handle_cane-0.9.1-2.jar.asc"
+    "name": "handle_cane-0.9.1-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-2/pyrotechnicraft-1.18.2-0.0.1-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-2/pyrotechnicraft-1.18.2-0.0.1-2.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-4/pyrotechnicraft-1.18.2-0.0.1-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-4/pyrotechnicraft-1.18.2-0.0.1-4.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-3.jar",
