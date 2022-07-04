@@ -1,0 +1,6 @@
+
+#General Settings
+[General]
+#Disable time change
+disableTimeChange = true
+
