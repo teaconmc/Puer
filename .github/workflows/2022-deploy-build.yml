@@ -1,0 +1,95 @@
+name: TeaCon 2022 deploy to build server
+
+on:
+  push:
+    tags: [ 'v3.*' ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 50
+      - name: Check differences
+        id: diff
+        env:
+          HEAD: ${{ github.sha }}
+        run: |
+          # calculate BASE
+          BASE=`git describe --tags --abbrev=0 "$HEAD"^ 2>/dev/null || echo`
+
+          # calculate diff count
+          git_flags=`[[ -z $BASE ]] && echo ls-files || echo diff --name-only $HEAD $BASE`
+          mods_diff=`git $git_flags -- 2022/mod-list-build.json | wc -l`
+          assets_diff=`git $git_flags -- 2022/assets 2022/pack.mcmeta | wc -l`
+          data_diff=`git $git_flags -- 2022/data 2022/pack.mcmeta | wc -l`
+          serverconfig_diff=`git $git_flags -- 2022/serverconfig | wc -l`
+          config_diff=`git $git_flags -- 2022/config | wc -l`
+
+          # set diff count output
+          echo "::set-output name=mods::$mods_diff"
+          echo "::set-output name=assets::$assets_diff"
+          echo "::set-output name=data::$data_diff"
+          echo "::set-output name=serverconfig::$serverconfig_diff"
+          echo "::set-output name=config::$config_diff"
+      - name: Handle Mods
+        if: steps.diff.outputs.mods > 0
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          # rename mod list json
+          cp 2022/mod-list-build.json mod-list-build-$RUN.json
+      - name: Handle Assets
+        if: steps.diff.outputs.assets > 0
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          # zip assets
+          cd 2022; zip -r9Xo ../assets-build-$RUN.zip assets pack.mcmeta
+      - name: Handle Data
+        if: steps.diff.outputs.data > 0
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          # zip data
+          cd 2022; zip -r9Xo ../data-build-$RUN.zip data pack.mcmeta
+      - name: Handle Config
+        if: steps.diff.outputs.config > 0
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          # zip config
+          cd 2022; zip -r9Xo ../config-build-$RUN.zip config
+      - name: Handle Server Config
+        if: steps.diff.outputs.serverconfig > 0
+        env:
+          RUN: ${{ github.run_number }}
+        run: |
+          # zip server config
+          cd 2022; zip -r9Xo ../serverconfig-build-$RUN.zip serverconfig
+      - name: Deploy to Longjing Server
+        env:
+          HEAD: ${{ github.sha }}
+          RUN: ${{ github.run_number }}
+          SSH_PRIVATE_KEY: ${{ secrets.TEACON_LONGJING_SSH_PRIVATE_KEY }}
+        run: |
+          # deploy ssh private key
+          cat > ~/id_ecdsa <<< $SSH_PRIVATE_KEY
+          chmod 0600 ~/id_ecdsa # good permissions
+          mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
+          ssh-keyscan -H 2022.teacon.cn >> ~/.ssh/known_hosts
+
+          # copy to longjing server
+          dest=longjing@2022.teacon.cn:deploy/
+          echo Considering git ref $HEAD with build number $RUN
+          [[ -f mod-list-build-$RUN.json ]] && scp -i ~/id_ecdsa mod-list-build-$RUN.json $dest
+          [[ -f assets-build-$RUN.zip ]] && scp -i ~/id_ecdsa assets-build-$RUN.zip $dest
+          [[ -f data-build-$RUN.zip ]] && scp -i ~/id_ecdsa data-build-$RUN.zip $dest
+          [[ -f config-build-$RUN.zip ]] && scp -i ~/id_ecdsa config-build-$RUN.zip $dest
+          [[ -f serverconfig-build-$RUN.zip ]] && scp -i ~/id_ecdsa serverconfig-build-$RUN.zip $dest
+
+          # run deploy command
+          ssh -i ~/id_ecdsa longjing@2022.teacon.cn flock deploy.lock bash deploy-build.sh $RUN
+          echo Finished deploying to the build server.

@@ -1,8 +1,8 @@
-name: TeaCon 2022 build modpack for test server
+name: TeaCon 2022 build modpack for build server
 
 on:
   workflow_run:
-    workflows: [ 'TeaCon 2022 deploy to test server' ]
+    workflows: [ 'TeaCon 2022 deploy to build server' ]
     branches: [ dev ]
     types:
       - completed
@@ -22,9 +22,6 @@ jobs:
             /tmp/build-teacon-mods
           restore-keys: |
             ${{ runner.os }}-build-teacon-mods
-      - name: Get Short Identifier
-        uses: benjlevesque/short-sha@v1.2
-        id: short-sha
       - name: Download Related Mods
         run: |
           mkdir -p 2022/mods
@@ -48,20 +45,20 @@ jobs:
           echo Downloading ResourceSync-Forge-1.18-0.2.1.jar ...
           wget -q -O 2022/mods/ResourceSync-Forge-1.18-0.2.1.jar \
             https://archive.teacon.cn/maven/org/teacon/ResourceSync-Forge-1.18/0.2.1/ResourceSync-Forge-1.18-0.2.1.jar
-      - name: Build Modpack for Test Server
+      - name: Build Modpack for Build Server
         env:
-          COMMIT_SHA: ${{ steps.short-sha.outputs.sha }}
+          HEAD: ${{ github.sha }}
         run: |
+          version=`git describe --tags --abbrev=0 "$HEAD" | cut -c 2-`
           bash .github/build_modpack.sh -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
-             -v 3.0.0-SNAPSHOT -d 2022/servers-test.dat -r 2022/remote-sync-test.json 2022/
-          cp TeaCon2022-3.0.0-SNAPSHOT.zip TeaCon2022-3.0.0-SNAPSHOT-$COMMIT_SHA.zip
+             -v "$version" -d 2022/servers-build.dat -r 2022/remote-sync-build.json 2022/
       - name: Build Shaded Modpack
         env:
-          COMMIT_SHA: ${{ steps.short-sha.outputs.sha }}
+          HEAD: ${{ github.sha }}
         run: |
+          version=`git describe --tags --abbrev=0 "$HEAD" | cut -c 2-`
           bash .github/build_modpack.sh -s -c /tmp/build-teacon-mods -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
-             -v 3.0.0-SNAPSHOT-Shaded -d 2022/servers-test.dat -r 2022/remote-sync-test.json 2022/
-          cp TeaCon2022-3.0.0-SNAPSHOT-Shaded.zip TeaCon2022-3.0.0-SNAPSHOT-$COMMIT_SHA-Shaded.zip
+             -v "$version-Shaded" -d 2022/servers-build.dat -r 2022/remote-sync-build.json 2022/
       - name: Upload to TeaCon Archive
         env:
           S3_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
