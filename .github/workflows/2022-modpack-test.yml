@@ -1,10 +1,11 @@
 name: TeaCon 2022 build test modpack
 
 on:
-  push:
+  workflow_run:
+    workflows: [ 'TeaCon 2022 deploy to test server' ]
     branches: [ dev ]
-    paths:
-      - "2022/**"
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
