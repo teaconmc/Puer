@@ -60,9 +60,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-42/firewood-0.7.0-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-42/firewood-0.7.0-42.jar.asc"
+    "name": "firewood-0.7.0-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-43/firewood-0.7.0-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-43/firewood-0.7.0-43.jar.asc"
   },
   {
     "name": "flintlock-1.0-40.jar",
@@ -75,9 +75,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-43/kitchenkarrot-1.18.2-2-2-43.jar.asc"
   },
   {
-    "name": "lighterfe-1.18.2-1-2-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-26/lighterfe-1.18.2-1-2-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-26/lighterfe-1.18.2-1-2-26.jar.asc"
+    "name": "lighterfe-1.18.2-1-2-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.3-32.jar",
@@ -128,6 +128,11 @@
     "name": "Torchikoma-mc1.18.2-0.0.1-22.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-22/Torchikoma-mc1.18.2-0.0.1-22.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-22/Torchikoma-mc1.18.2-0.0.1-22.jar.asc"
+  },
+  {
+    "name": "sinocalligraphy-1.18.2-1.1.0-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-28/sinocalligraphy-1.18.2-1.1.0-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-28/sinocalligraphy-1.18.2-1.1.0-28.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-57.jar",
