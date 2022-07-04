@@ -14,8 +14,8 @@ jobs:
       - name: Checkout the Repository
         uses: actions/checkout@v2
         with:
-          fetch-depth: 50
-      - name: Check differences
+          fetch-depth: 0
+      - name: Check Differences
         id: diff
         env:
           HEAD: ${{ github.sha }}

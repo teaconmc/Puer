@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Apply Cache
         uses: actions/cache@v2
         with:
