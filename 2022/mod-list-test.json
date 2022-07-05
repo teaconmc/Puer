@@ -70,6 +70,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-40/flintlock-1.0-40.jar.asc"
   },
   {
+    "name": "groundfire-1.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-18/groundfire-1.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-18/groundfire-1.0-18.jar.asc"
+  },
+  {
     "name": "kitchenkarrot-1.18.2-2-2-43.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-43/kitchenkarrot-1.18.2-2-2-43.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-43/kitchenkarrot-1.18.2-2-2-43.jar.asc"
