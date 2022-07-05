@@ -1,17 +1,47 @@
 name: TeaCon 2022 deploy to build server
 
 on:
-  create:
+  push:
+    tags: [ 'v3.*' ]
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    if: ${{ startsWith(github.ref, 'refs/tags/v3.') }}
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: Auth as Github App
+        id: auth-as-github-app
+        uses: tibdex/github-app-token@v1
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          app_id: ${{ secrets.TEACON_BOT_ID }}
+          private_key: ${{ secrets.TEACON_BOT_PRIVATE_KEY }}
+          installation_id: ${{ secrets.TEACON_BOT_INSTALLATION_ID }}
+      - name: Generate Release Candidate Version
+        id: generate-next-rc
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          tags=`git tag --points-at HEAD`
+          if [[ -z $tags ]]; then
+            current_rc=(`git tag | while read tag; do
+              [[ $tag =~ v(3\.[0-9.]+)-rc\.([0-9]+) ]] && echo ${BASH_REMATCH[1]} ${BASH_REMATCH[2]}
+            done | sort -n -k1 | tail -n1`)
+            echo "The next tag to be created will be v${current_rc[0]}-rc.$((${current_rc[1]}+1))."
+            echo "::set-output name=next::v${current_rc[0]}-rc.$((${current_rc[1]}+1))"
+            echo "::set-output name=exists::true"
+          else
+            echo "::warning::The current commit has already been marked as $tags, skipping tag creation."
+          fi
+      - name: Create Tag
+        uses: rickstaa/action-create-tag@v1
+        if: github.event_name == 'workflow_dispatch' && steps.generate-next-rc.outputs.exists == 'true'
+        with:
+          tag: ${{ steps.generate-next-rc.outputs.next }}
+          github_token: ${{ steps.auth-as-github-app.outputs.token }}
       - name: Check Differences
         id: diff
         env:
