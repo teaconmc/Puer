@@ -165,9 +165,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-99/EmberOfPhoenix-1.0-99.jar.asc"
   },
   {
-    "name": "thelixir-1.18.2-1-3-16.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-16/thelixir-1.18.2-1-3-16.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-16/thelixir-1.18.2-1-3-16.jar.asc"
+    "name": "thelixir-1.18.2-1-3-17.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-17/thelixir-1.18.2-1-3-17.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-17/thelixir-1.18.2-1-3-17.jar.asc"
   },
   {
     "name": "GravityGenerator-1.18.2-1.0.1b-5.jar",
