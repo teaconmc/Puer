@@ -75,9 +75,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-18/groundfire-1.0-18.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-49.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-49/kitchenkarrot-1.18.2-2-3-49.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-49/kitchenkarrot-1.18.2-2-3-49.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-50.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-50/kitchenkarrot-1.18.2-2-3-50.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-50/kitchenkarrot-1.18.2-2-3-50.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-25/SimpleBBQ-1.18.2-0.1.0-beta-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-25/SimpleBBQ-1.18.2-0.1.0-beta-25.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-27/SimpleBBQ-1.18.2-0.1.0-beta-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-27/SimpleBBQ-1.18.2-0.1.0-beta-27.jar.asc"
   },
   {
     "name": "spaceplane-1.0-32.jar",
@@ -125,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-31/touhoulittlemaid-1.18.2-1.0.0-31.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-46.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-46/sunken_world-1.0-SNAPSHOT-46.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-46/sunken_world-1.0-SNAPSHOT-46.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-47.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-47/sunken_world-1.0-SNAPSHOT-47.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-47/sunken_world-1.0-SNAPSHOT-47.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-22.jar",
