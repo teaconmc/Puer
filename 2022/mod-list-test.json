@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-28/SimpleBBQ-1.18.2-0.1.0-beta-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-28/SimpleBBQ-1.18.2-0.1.0-beta-28.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-29/SimpleBBQ-1.18.2-0.1.0-beta-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-29/SimpleBBQ-1.18.2-0.1.0-beta-29.jar.asc"
   },
   {
     "name": "spaceplane-1.0-36.jar",
