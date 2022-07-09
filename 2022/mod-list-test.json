@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-29/SimpleBBQ-1.18.2-0.1.0-beta-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-29/SimpleBBQ-1.18.2-0.1.0-beta-29.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-30/SimpleBBQ-1.18.2-0.1.0-beta-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-30/SimpleBBQ-1.18.2-0.1.0-beta-30.jar.asc"
   },
   {
     "name": "spaceplane-1.0-36.jar",
@@ -235,39 +235,44 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B6fdaa4d.jar.asc"
   },
   {
-    "name": "geckolib-1.18-forge-3.0.18.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-1.18-forge-3.0.18.jar.asc"
+    "name": "geckolib-forge-1.18-3.0.28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/geckolib-forge-1.18-3.0.28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-forge-1.18-3.0.28.jar.asc"
   },
   {
-    "name": "SinoCore-1.2.1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.1.jar.asc"
+    "name": "SinoCore-1.2.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.2.jar.asc"
   },
   {
-    "name": "Patchouli-1.18.2-69.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-69.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-69.jar.asc"
+    "name": "Patchouli-1.18.2-71.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-71.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-71.1.jar.asc"
   },
   {
-    "name": "curios-forge-1.18.2-5.0.7.0.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.0.jar.asc"
+    "name": "curios-forge-1.18.2-5.0.7.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/curios-forge-1.18.2-5.0.7.1.jar.asc"
   },
   {
-    "name": "MTR-forge-1.18.2-3.0.0.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/MTR-forge-1.18.2-3.0.0.jar.asc"
+    "name": "LibX-1.18.2-3.2.18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.18.jar.asc"
   },
   {
-    "name": "LibX-1.18.2-3.2.15.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.15.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/LibX-1.18.2-3.2.15.jar.asc"
+    "name": "mmlib-1.0.5-1.18.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.5-1.18.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.5-1.18.2.jar.asc"
   },
   {
-    "name": "mmlib-1.0.3-1.18.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.3-1.18.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/mmlib-1.0.3-1.18.2.jar.asc"
+    "name": "TerraBlender-forge-1.18.2-1.1.0.102.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.102.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.102.jar.asc"
+  },
+  {
+    "name": "ModernUI-1.18.2-3.4.7.108-universal.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/ModernUI-1.18.2-3.4.7.108-universal.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/ModernUI-1.18.2-3.4.7.108-universal.jar.asc"
   },
   {
     "name": "architectury-4.4.68.jar",
@@ -308,10 +313,5 @@
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
-  },
-  {
-    "name": "TerraBlender-forge-1.18.2-1.1.0.101.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.101.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/TerraBlender-forge-1.18.2-1.1.0.101.jar.asc"
   }
 ]
