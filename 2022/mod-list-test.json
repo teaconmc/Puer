@@ -10,9 +10,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-26/caupona-1.18.2-0.1.0-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-26/caupona-1.18.2-0.1.0-26.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-27/caupona-1.18.2-0.1.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-27/caupona-1.18.2-0.1.0-27.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.1-41.jar",
@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-40/flintlock-1.0-40.jar.asc"
   },
   {
-    "name": "groundfire-1.0-18.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-18/groundfire-1.0-18.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-18/groundfire-1.0-18.jar.asc"
+    "name": "groundfire-1.0-19.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-51.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-30/SimpleBBQ-1.18.2-0.1.0-beta-30.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-36/spaceplane-1.0-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-36/spaceplane-1.0-36.jar.asc"
+    "name": "spaceplane-1.0-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-37/spaceplane-1.0-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-37/spaceplane-1.0-37.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
