@@ -245,9 +245,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.2.jar.asc"
   },
   {
-    "name": "Patchouli-1.18.2-71.1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-71.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-71.1.jar.asc"
+    "name": "Patchouli-1.18.2-70.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-70.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Patchouli-1.18.2-70.jar.asc"
   },
   {
     "name": "curios-forge-1.18.2-5.0.7.1.jar",
