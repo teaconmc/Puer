@@ -35,6 +35,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-30/exp1182-1.0-30.jar.asc"
   },
   {
+    "name": "extinguish-0.1.0.tc-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-24/extinguish-0.1.0.tc-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-24/extinguish-0.1.0.tc-24.jar.asc"
+  },
+  {
     "name": "f_a_r-0.0.6-32.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-32/f_a_r-0.0.6-32.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-f-a-r/build-32/f_a_r-0.0.6-32.jar.asc"
@@ -60,9 +65,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-44/firewood-0.7.0-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-44/firewood-0.7.0-44.jar.asc"
+    "name": "firewood-0.7.0-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-45/firewood-0.7.0-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-45/firewood-0.7.0-45.jar.asc"
   },
   {
     "name": "flintlock-1.0-40.jar",
