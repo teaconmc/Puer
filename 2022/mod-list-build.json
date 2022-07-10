@@ -220,14 +220,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.18-0.6.2-rc.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.2/SlideShow-Forge-1.18-0.6.2-rc.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.2.jar.asc"
+    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+9d0bdb5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B9d0bdb5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B9d0bdb5.jar.asc"
   },
   {
-    "name": "Isle-Forge-1.18-0.4.1.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/Isle-Forge-1.18/0.4.1/Isle-Forge-1.18-0.4.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.1.jar.asc"
+    "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.4/SlideShow-Forge-1.18-0.6.2-rc.4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.4.jar.asc"
+  },
+  {
+    "name": "Isle-Forge-1.18-0.4.2.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/Isle-Forge-1.18/0.4.2/Isle-Forge-1.18-0.4.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.2.jar.asc"
   },
   {
     "name": "Xibao-Forge-1.18-1.0.0.jar",
@@ -235,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
-    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+6fdaa4d.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B6fdaa4d.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B6fdaa4d.jar.asc"
+    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+43fc8cb.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B43fc8cb.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B43fc8cb.jar.asc"
   },
   {
     "name": "geckolib-forge-1.18-3.0.28.jar",
