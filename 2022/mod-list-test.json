@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+9d0bdb5.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B9d0bdb5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B9d0bdb5.jar.asc"
+    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+1d6c9a6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B1d6c9a6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B1d6c9a6.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
@@ -290,6 +290,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar.asc"
   },
   {
+    "name": "decal-1.18.2-c7f5b97caf.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar.asc"
+  },
+  {
     "name": "FramedBlocks-5.2.0.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/FramedBlocks-5.2.0.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/FramedBlocks-5.2.0.jar.asc"
@@ -300,6 +305,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
   },
   {
+    "name": "lightfall-client-1.18.2-1.0.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar.asc"
+  },
+  {
     "name": "LowDragLib-1.18.2-0.6.1.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar.asc"
@@ -308,16 +318,6 @@
     "name": "lucent-1.18.2-1.2.2.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/lucent-1.18.2-1.2.2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/lucent-1.18.2-1.2.2.jar.asc"
-  },
-  {
-    "name": "lightfall-client-1.18.2-1.0.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar.asc"
-  },
-  {
-    "name": "decal-1.18.2-c7f5b97caf.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
