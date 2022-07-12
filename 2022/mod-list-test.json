@@ -310,9 +310,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.2.jar.asc"
   },
   {
-    "name": "LowDragLib-1.18.2-0.6.1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.1.jar.asc"
+    "name": "LowDragLib-1.18.2-0.6.3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.3.jar.asc"
   },
   {
     "name": "lucent-1.18.2-1.2.2.jar",
