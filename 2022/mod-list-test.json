@@ -10,9 +10,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-27.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-27/caupona-1.18.2-0.1.0-27.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-27/caupona-1.18.2-0.1.0-27.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-28/caupona-1.18.2-0.1.0-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-28/caupona-1.18.2-0.1.0-28.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.1-41.jar",
@@ -190,9 +190,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-6/briquettes-1.0.1-1.18.2-6.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.3-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-22/ShimmerFire-1.18.2-0.2.3-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-22/ShimmerFire-1.18.2-0.2.3-22.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.3-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-23/ShimmerFire-1.18.2-0.2.3-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-23/ShimmerFire-1.18.2-0.2.3-23.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
