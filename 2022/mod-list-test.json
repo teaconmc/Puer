@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-56.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-56/kitchenkarrot-1.18.2-2-3-56.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-56/kitchenkarrot-1.18.2-2-3-56.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-57.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-57/kitchenkarrot-1.18.2-2-3-57.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-57/kitchenkarrot-1.18.2-2-3-57.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
@@ -190,9 +190,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-6/briquettes-1.0.1-1.18.2-6.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.3-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-25/ShimmerFire-1.18.2-0.2.3-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-25/ShimmerFire-1.18.2-0.2.3-25.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.3-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-26/ShimmerFire-1.18.2-0.2.3-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-26/ShimmerFire-1.18.2-0.2.3-26.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
