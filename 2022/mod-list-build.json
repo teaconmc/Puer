@@ -1,8 +1,8 @@
 [
   {
-    "name": "CannonFire-Forge-1.18-0.1.4-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-25/CannonFire-Forge-1.18-0.1.4-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-25/CannonFire-Forge-1.18-0.1.4-25.jar.asc"
+    "name": "CannonFire-Forge-1.18-0.1.4-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-28/CannonFire-Forge-1.18-0.1.4-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-28/CannonFire-Forge-1.18-0.1.4-28.jar.asc"
   },
   {
     "name": "catinbucket-1.18.2-0.0.2-23.jar",
@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.3.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.3/AreaControl-Forge-1.18-0.5.3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.3.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.4/AreaControl-Forge-1.18-0.5.4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.4.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+1d6c9a6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B1d6c9a6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B1d6c9a6.jar.asc"
+    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+6aa79da.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B6aa79da.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B6aa79da.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
@@ -290,9 +290,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar.asc"
   },
   {
-    "name": "decal-1.18.2-c7f5b97caf.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-c7f5b97caf.jar.asc"
+    "name": "decal-1.18.2-a0a3b5dfe8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-a0a3b5dfe8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/decal-1.18.2-a0a3b5dfe8.jar.asc"
   },
   {
     "name": "FramedBlocks-5.2.0.jar",
