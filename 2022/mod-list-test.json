@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-33/SimpleBBQ-1.18.2-0.1.0-beta-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-33/SimpleBBQ-1.18.2-0.1.0-beta-33.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-34/SimpleBBQ-1.18.2-0.1.0-beta-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-34/SimpleBBQ-1.18.2-0.1.0-beta-34.jar.asc"
   },
   {
     "name": "spaceplane-1.0-45.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-31/touhoulittlemaid-1.18.2-1.0.0-31.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-51.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-51/sunken_world-1.0-SNAPSHOT-51.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-51/sunken_world-1.0-SNAPSHOT-51.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-52.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-52/sunken_world-1.0-SNAPSHOT-52.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-52/sunken_world-1.0-SNAPSHOT-52.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-24.jar",
