@@ -47,14 +47,14 @@ jobs:
           HEAD: ${{ github.sha }}
         run: |
           version=`git describe --tags --abbrev=0 "$HEAD" | cut -c 2-`
-          bash .github/build_modpack.sh -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
+          bash .github/build_modpack.sh -f 40.1.59 -m 1.18.2 -p "TeaCon 2022" \
              -v "$version" -d 2022/servers-build.dat -r 2022/remote-sync-build.json 2022/
       - name: Build Shaded Modpack
         env:
           HEAD: ${{ github.sha }}
         run: |
           version=`git describe --tags --abbrev=0 "$HEAD" | cut -c 2-`
-          bash .github/build_modpack.sh -s -c /tmp/build-teacon-mods -f 40.1.25 -m 1.18.2 -p "TeaCon 2022" \
+          bash .github/build_modpack.sh -s -c /tmp/build-teacon-mods -f 40.1.59 -m 1.18.2 -p "TeaCon 2022" \
              -v "$version-Shaded" -d 2022/servers-build.dat -r 2022/remote-sync-build.json 2022/
       - name: Upload to TeaCon Archive
         env:
