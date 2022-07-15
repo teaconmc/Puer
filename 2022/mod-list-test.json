@@ -65,9 +65,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-51.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-51/firewood-0.7.0-51.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-51/firewood-0.7.0-51.jar.asc"
+    "name": "firewood-0.7.0-53.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-53/firewood-0.7.0-53.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-53/firewood-0.7.0-53.jar.asc"
   },
   {
     "name": "flintlock-1.0-40.jar",
@@ -190,9 +190,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-6/briquettes-1.0.1-1.18.2-6.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.3-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-26/ShimmerFire-1.18.2-0.2.3-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-26/ShimmerFire-1.18.2-0.2.3-26.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.3-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-27/ShimmerFire-1.18.2-0.2.3-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-27/ShimmerFire-1.18.2-0.2.3-27.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -208,6 +208,16 @@
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
+  },
+  {
+    "name": "mythic_cookstoves-0.1alpha-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-1/mythic_cookstoves-0.1alpha-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-1/mythic_cookstoves-0.1alpha-1.jar.asc"
+  },
+  {
+    "name": "semishigure-0.1-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-1/semishigure-0.1-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-1/semishigure-0.1-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.4.jar",
