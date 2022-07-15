@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.4.1.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.4.1/AreaControl-Forge-1.18-0.4.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.4.1.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.3.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.3/AreaControl-Forge-1.18-0.5.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.3.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
