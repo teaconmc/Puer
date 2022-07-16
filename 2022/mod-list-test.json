@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-57.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-57/kitchenkarrot-1.18.2-2-3-57.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-57/kitchenkarrot-1.18.2-2-3-57.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-58.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-58/kitchenkarrot-1.18.2-2-3-58.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-58/kitchenkarrot-1.18.2-2-3-58.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.1-18.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-18/Ashihara-0.0.0.1-18.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-18/Ashihara-0.0.0.1-18.jar.asc"
+    "name": "Ashihara-0.0.0.7-19.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-19/Ashihara-0.0.0.7-19.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-19/Ashihara-0.0.0.7-19.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-12.jar",
