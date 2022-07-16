@@ -65,9 +65,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-54.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-54/firewood-0.7.0-54.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-54/firewood-0.7.0-54.jar.asc"
+    "name": "firewood-0.7.0-55.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-55/firewood-0.7.0-55.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-55/firewood-0.7.0-55.jar.asc"
   },
   {
     "name": "flintlock-1.0-40.jar",
@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-28/paimonfood-1.1.4-28.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-24.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-24/rtorch-1.18.2-0.8.0-24.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-25.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-25/rtorch-1.18.2-0.8.0-25.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-25/rtorch-1.18.2-0.8.0-25.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-36.jar",
@@ -170,9 +170,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-12/lostgrace-1.0.0.3-SNAPSHOT-12.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-111.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-111/EmberOfPhoenix-1.0-111.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-111/EmberOfPhoenix-1.0-111.jar.asc"
+    "name": "EmberOfPhoenix-1.0-112.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-112/EmberOfPhoenix-1.0-112.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-112/EmberOfPhoenix-1.0-112.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-17.jar",
