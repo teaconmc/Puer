@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-2/semishigure-0.1-2.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.4.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.4/AreaControl-Forge-1.18-0.5.4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.4.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.6.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.6/AreaControl-Forge-1.18-0.5.6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.6.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
