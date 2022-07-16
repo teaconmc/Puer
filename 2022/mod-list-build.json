@@ -10,9 +10,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-29/caupona-1.18.2-0.1.0-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-29/caupona-1.18.2-0.1.0-29.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-30/caupona-1.18.2-0.1.0-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-30/caupona-1.18.2-0.1.0-30.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.1-41.jar",
@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-34/exp1182-1.0-34.jar.asc"
   },
   {
-    "name": "extinguish-0.1.2.tc-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-30/extinguish-0.1.2.tc-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-30/extinguish-0.1.2.tc-30.jar.asc"
+    "name": "extinguish-0.1.3.tc-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-31/extinguish-0.1.3.tc-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-31/extinguish-0.1.3.tc-31.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-33.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-17/thelixir-1.18.2-1-3-17.jar.asc"
   },
   {
-    "name": "GravityGenerator-1.18.2-1.0.1b-5.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-5/GravityGenerator-1.18.2-1.0.1b-5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-5/GravityGenerator-1.18.2-1.0.1b-5.jar.asc"
+    "name": "GravityGenerator-1.18.2-1.0.1b-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-6/GravityGenerator-1.18.2-1.0.1b-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-6/GravityGenerator-1.18.2-1.0.1b-6.jar.asc"
   },
   {
     "name": "briquettes-1.0.1-1.18.2-6.jar",
@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
   },
   {
-    "name": "mythic_cookstoves-0.1alpha-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-1/mythic_cookstoves-0.1alpha-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-1/mythic_cookstoves-0.1alpha-1.jar.asc"
+    "name": "mythic_cookstoves-0.1alpha-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-2/mythic_cookstoves-0.1alpha-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-2/mythic_cookstoves-0.1alpha-2.jar.asc"
   },
   {
     "name": "semishigure-0.1-1.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+6aa79da.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B6aa79da.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B6aa79da.jar.asc"
+    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+c5acd79.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2Bc5acd79.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2Bc5acd79.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
@@ -335,9 +335,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lucent-1.18.2-1.2.2.jar.asc"
   },
   {
-    "name": "Shimmer-forge-1.18.2-0.1.7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.7.jar.asc"
+    "name": "Shimmer-forge-1.18.2-0.1.8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.8.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
