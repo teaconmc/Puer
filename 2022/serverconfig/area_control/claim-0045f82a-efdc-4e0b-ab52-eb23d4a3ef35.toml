@@ -1,0 +1,16 @@
+owner = "77718ac3-3223-45ec-88d1-490a03eabafd"
+uid = "0045f82a-efdc-4e0b-ab52-eb23d4a3ef35"
+min = [ -480, -2147483648, -480 ]
+max = [ -385, 2147483647, -385 ]
+name = "TeaCon 2022 展示服务器 6e 地块"
+dimension = "minecraft:overworld"
+friends = []
+
+[properties]
+"area.allow_place_block" = "true"
+"area.allow_activate_block" = "true"
+"area.allow_interact_entity" = "true"
+"area.allow_use_item" = "true"
+"area.allow_break_block" = "true"
+"area.allow_interact_entity_specific" = "true"
+"area.allow_click_block" = "true"

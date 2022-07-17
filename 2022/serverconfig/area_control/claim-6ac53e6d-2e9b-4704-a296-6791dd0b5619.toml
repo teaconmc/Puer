@@ -1,0 +1,24 @@
+owner = "00000000-0000-0000-0000-000000000000"
+uid = "6ac53e6d-2e9b-4704-a296-6791dd0b5619"
+min = [ -2147483648, -2147483648, -2147483648 ]
+max = [ 2147483647, 2147483647, 2147483647 ]
+name = "TeaCon 2022 展示服务器"
+dimension = "minecraft:overworld"
+friends = []
+
+# Remember to disable some of these checks when we are ready
+[properties]
+"area.allow_activate_block" = "true"
+"area.allow_break_block" = "true"
+"area.allow_click_block" = "true"
+"area.allow_interact_entity" = "true"
+"area.allow_interact_entity_specific" = "true"
+"area.allow_place_block" = "true"
+"area.allow_spawn" = "true"
+"area.allow_special_spawn" = "true"
+"area.allow_use_item" = "true"
+"area.allow_pvp" = "true"
+"area.allow_attack" = "true"
+"area.allow_explosion" = "true"
+"area.allow_explosion_affect_blocks" = "true"
+"area.allow_explosion_affect_entities" = "true"
