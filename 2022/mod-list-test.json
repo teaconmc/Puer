@@ -175,9 +175,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
   },
   {
-    "name": "TacticalCards-1.1.0a-build-20220604-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-29/TacticalCards-1.1.0a-build-20220604-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-29/TacticalCards-1.1.0a-build-20220604-29.jar.asc"
+    "name": "TacticalCards-1.2.0a-build-20220717-2-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-30/TacticalCards-1.2.0a-build-20220717-2-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-30/TacticalCards-1.2.0a-build-20220717-2-30.jar.asc"
   },
   {
     "name": "sinofeast-1.18.2-1.0.1-10.jar",
@@ -253,6 +253,11 @@
     "name": "FluxNetworks-1.18.2-7.0.3.4-2.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar.asc"
+  },
+  {
+    "name": "civilization_fire-1.0-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-4/civilization_fire-1.0-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-4/civilization_fire-1.0-4.jar.asc"
   },
   {
     "name": "divingcamera-1.0-2.jar",
