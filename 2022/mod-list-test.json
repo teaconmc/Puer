@@ -295,6 +295,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ModernUI-1.18.2-3.5.0.109-universal.jar.asc"
   },
   {
+    "name": "Millennium-master-f7abe5eac2-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Millennium-master-f7abe5eac2-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Millennium-master-f7abe5eac2-1.jar.asc"
+  },
+  {
     "name": "architectury-4.4.68.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/architectury-4.4.68.jar.asc"
