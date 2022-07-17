@@ -1,5 +1,10 @@
 [
   {
+    "name": "boomood-1.18.2-1.0.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-18/boomood-1.18.2-1.0.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-18/boomood-1.18.2-1.0.0-18.jar.asc"
+  },
+  {
     "name": "CannonFire-Forge-1.18-0.1.4-29.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-29/CannonFire-Forge-1.18-0.1.4-29.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cannon-fire/build-29/CannonFire-Forge-1.18-0.1.4-29.jar.asc"
@@ -65,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-21/firestealer-1.0.0-21.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-55.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-55/firewood-0.7.0-55.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-55/firewood-0.7.0-55.jar.asc"
+    "name": "firewood-0.7.0-56.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-56/firewood-0.7.0-56.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-56/firewood-0.7.0-56.jar.asc"
   },
   {
     "name": "flintlock-1.0-40.jar",
@@ -150,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
   },
   {
-    "name": "TacticalCards-1.1.0a-build-20220604-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-28/TacticalCards-1.1.0a-build-20220604-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-28/TacticalCards-1.1.0a-build-20220604-28.jar.asc"
+    "name": "TacticalCards-1.1.0a-build-20220604-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-29/TacticalCards-1.1.0a-build-20220604-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-29/TacticalCards-1.1.0a-build-20220604-29.jar.asc"
   },
   {
     "name": "sinofeast-1.18.2-1.0.1-10.jar",
@@ -228,6 +233,11 @@
     "name": "divingcamera-1.0-1.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-1/divingcamera-1.0-1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-1/divingcamera-1.0-1.jar.asc"
+  },
+  {
+    "name": "youpolazi-1.0-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-1/youpolazi-1.0-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-1/youpolazi-1.0-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.11.jar",
