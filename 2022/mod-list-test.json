@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-2/divingcamera-1.0-2.jar.asc"
   },
   {
-    "name": "youpolazi-1.0-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-1/youpolazi-1.0-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-1/youpolazi-1.0-1.jar.asc"
+    "name": "youpolazi-1.0-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-2/youpolazi-1.0-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-2/youpolazi-1.0-2.jar.asc"
   },
   {
     "name": "lavafishing-1.0-1.jar",
