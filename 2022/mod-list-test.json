@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-23/catinbucket-1.18.2-0.0.2-23.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-33/caupona-1.18.2-0.1.0-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-33/caupona-1.18.2-0.1.0-33.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-34/caupona-1.18.2-0.1.0-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-34/caupona-1.18.2-0.1.0-34.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.1-41.jar",
@@ -95,14 +95,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-19.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-19/journey-1.18.2-0.0.1.0-19.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-19/journey-1.18.2-0.0.1.0-19.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-20.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-20/journey-1.18.2-0.0.1.0-20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-20/journey-1.18.2-0.0.1.0-20.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-62/kitchenkarrot-1.18.2-2-3-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-62/kitchenkarrot-1.18.2-2-3-62.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-63.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-63/kitchenkarrot-1.18.2-2-3-63.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-63/kitchenkarrot-1.18.2-2-3-63.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
@@ -120,6 +120,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-34/Multiblocked-1.18.2-0.9.6-34.jar.asc"
   },
   {
+    "name": "Nether-Transition-Remains-1.18.2-0.0.1-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-18/Nether-Transition-Remains-1.18.2-0.0.1-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-18/Nether-Transition-Remains-1.18.2-0.0.1-18.jar.asc"
+  },
+  {
     "name": "omni_card-1.18.2-1.2.3-26.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-26/omni_card-1.18.2-1.2.3-26.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-omni-card/build-26/omni_card-1.18.2-1.2.3-26.jar.asc"
@@ -133,6 +138,11 @@
     "name": "rtorch-1.18.2-0.8.0-26.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-26/rtorch-1.18.2-0.8.0-26.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-26/rtorch-1.18.2-0.8.0-26.jar.asc"
+  },
+  {
+    "name": "umapyoi-1.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-18/umapyoi-1.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-18/umapyoi-1.0-18.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-36.jar",
@@ -160,9 +170,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-53/sunken_world-1.0-SNAPSHOT-53.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-25/Torchikoma-mc1.18.2-0.0.1-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-25/Torchikoma-mc1.18.2-0.0.1-25.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-26/Torchikoma-mc1.18.2-0.0.1-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-26/Torchikoma-mc1.18.2-0.0.1-26.jar.asc"
   },
   {
     "name": "sinocalligraphy-1.18.2-1.1.0-28.jar",
@@ -195,14 +205,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-12/lostgrace-1.0.0.3-SNAPSHOT-12.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-117.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-117/EmberOfPhoenix-1.0-117.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-117/EmberOfPhoenix-1.0-117.jar.asc"
+    "name": "EmberOfPhoenix-1.0-119.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-119/EmberOfPhoenix-1.0-119.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-119/EmberOfPhoenix-1.0-119.jar.asc"
   },
   {
-    "name": "thelixir-1.18.2-1-3-17.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-17/thelixir-1.18.2-1-3-17.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-17/thelixir-1.18.2-1-3-17.jar.asc"
+    "name": "thelixir-1.18.2-1-3-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-18/thelixir-1.18.2-1-3-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-18/thelixir-1.18.2-1-3-18.jar.asc"
   },
   {
     "name": "GravityGenerator-1.18.2-1.0.1b-6.jar",
