@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-27/eldenmessage-1.0-27.jar.asc"
   },
   {
-    "name": "exp1182-1.0-34.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-34/exp1182-1.0-34.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-34/exp1182-1.0-34.jar.asc"
+    "name": "exp1182-1.0-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-36/exp1182-1.0-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-36/exp1182-1.0-36.jar.asc"
   },
   {
     "name": "extinguish-0.1.4.tc-33.jar",
@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-36/SimpleBBQ-1.18.2-0.1.0-beta-36.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-47.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-47/spaceplane-1.0-47.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-47/spaceplane-1.0-47.jar.asc"
+    "name": "spaceplane-1.0-48.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-48/spaceplane-1.0-48.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-48/spaceplane-1.0-48.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-31/touhoulittlemaid-1.18.2-1.0.0-31.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-52.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-52/sunken_world-1.0-SNAPSHOT-52.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-52/sunken_world-1.0-SNAPSHOT-52.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-53.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-53/sunken_world-1.0-SNAPSHOT-53.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-53/sunken_world-1.0-SNAPSHOT-53.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-25.jar",
