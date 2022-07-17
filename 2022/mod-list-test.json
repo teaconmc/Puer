@@ -90,9 +90,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-19/groundfire-1.0-19.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-59.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-59/kitchenkarrot-1.18.2-2-3-59.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-59/kitchenkarrot-1.18.2-2-3-59.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-19.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-19/journey-1.18.2-0.0.1.0-19.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-19/journey-1.18.2-0.0.1.0-19.jar.asc"
+  },
+  {
+    "name": "kitchenkarrot-1.18.2-2-3-60.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-60/kitchenkarrot-1.18.2-2-3-60.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-60/kitchenkarrot-1.18.2-2-3-60.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
@@ -125,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-36/SimpleBBQ-1.18.2-0.1.0-beta-36.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-48.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-48/spaceplane-1.0-48.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-48/spaceplane-1.0-48.jar.asc"
+    "name": "spaceplane-1.0-49.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-49/spaceplane-1.0-49.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-49/spaceplane-1.0-49.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -240,9 +245,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar.asc"
   },
   {
-    "name": "divingcamera-1.0-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-1/divingcamera-1.0-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-1/divingcamera-1.0-1.jar.asc"
+    "name": "divingcamera-1.0-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-2/divingcamera-1.0-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-2/divingcamera-1.0-2.jar.asc"
   },
   {
     "name": "youpolazi-1.0-1.jar",
