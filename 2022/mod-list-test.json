@@ -1,5 +1,10 @@
 [
   {
+    "name": "Blaze-Reborn-1.0.1-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-18/Blaze-Reborn-1.0.1-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-18/Blaze-Reborn-1.0.1-18.jar.asc"
+  },
+  {
     "name": "boomood-1.18.2-1.0.0-18.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-18/boomood-1.18.2-1.0.0-18.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-18/boomood-1.18.2-1.0.0-18.jar.asc"
@@ -95,14 +100,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-19/journey-1.18.2-0.0.1.0-19.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-60.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-60/kitchenkarrot-1.18.2-2-3-60.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-60/kitchenkarrot-1.18.2-2-3-60.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-61.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-61/kitchenkarrot-1.18.2-2-3-61.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-61/kitchenkarrot-1.18.2-2-3-61.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-27.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar.asc"
+  },
+  {
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-29/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-29/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.6-34.jar",
@@ -258,6 +268,11 @@
     "name": "lavafishing-1.0-1.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-1/lavafishing-1.0-1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-1/lavafishing-1.0-1.jar.asc"
+  },
+  {
+    "name": "creeper_firework-1.18.2-1.0.0-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-1/creeper_firework-1.18.2-1.0.0-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-1/creeper_firework-1.18.2-1.0.0-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.11.jar",
