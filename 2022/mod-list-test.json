@@ -210,6 +210,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-3/locusazzurro_icaruswings-1.18.2-0.4.0-3.jar.asc"
   },
   {
+    "name": "imi-1.18.2-1-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-3/imi-1.18.2-1-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-3/imi-1.18.2-1-3.jar.asc"
+  },
+  {
     "name": "mythic_cookstoves-0.1alpha-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-3/mythic_cookstoves-0.1alpha-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-3/mythic_cookstoves-0.1alpha-3.jar.asc"
