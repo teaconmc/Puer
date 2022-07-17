@@ -25,6 +25,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-41/FlooPowder-1.4.1-41.jar.asc"
   },
   {
+    "name": "coronaaltarofsolarscorch-0.1.0-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-18/coronaaltarofsolarscorch-0.1.0-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-coronaaltarofsolarscorch/build-18/coronaaltarofsolarscorch-0.1.0-18.jar.asc"
+  },
+  {
     "name": "CrockPot-1.18.2-1.2.0-release-20.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-20/CrockPot-1.18.2-1.2.0-release-20.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-20/CrockPot-1.18.2-1.2.0-release-20.jar.asc"
@@ -175,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-12/lostgrace-1.0.0.3-SNAPSHOT-12.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-115.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-115/EmberOfPhoenix-1.0-115.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-115/EmberOfPhoenix-1.0-115.jar.asc"
+    "name": "EmberOfPhoenix-1.0-116.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-116/EmberOfPhoenix-1.0-116.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-116/EmberOfPhoenix-1.0-116.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-17.jar",
@@ -228,6 +233,11 @@
     "name": "semishigure-0.1-2.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-2/semishigure-0.1-2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-2/semishigure-0.1-2.jar.asc"
+  },
+  {
+    "name": "FluxNetworks-1.18.2-7.0.3.4-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar.asc"
   },
   {
     "name": "divingcamera-1.0-1.jar",
