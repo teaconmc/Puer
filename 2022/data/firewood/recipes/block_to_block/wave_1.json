@@ -1,0 +1,13 @@
+{
+  "type": "firewood:block_to_block",
+  "subType": "wave",
+  "ing_block": {
+    "Name": "minecraft:dirt"
+  },
+  "target_block": {
+    "Name": "minecraft:light",
+    "Properties": {
+        "level": "15"
+    }
+  }
+}
