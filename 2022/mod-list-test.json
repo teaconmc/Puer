@@ -1,8 +1,8 @@
 [
   {
-    "name": "Blaze-Reborn-1.0.1-19.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-19/Blaze-Reborn-1.0.1-19.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-19/Blaze-Reborn-1.0.1-19.jar.asc"
+    "name": "blaze-reborn-1.1.0-20.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
     "name": "boomood-1.18.2-1.0.0-20.jar",
@@ -111,8 +111,8 @@
   },
   {
     "name": "MtrSteamLoco-forge-1.18.2-0.0.1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-31/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-31/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-32/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-32/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.6-35.jar",
@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.4-32.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-32/ShimmerFire-1.18.2-0.2.4-32.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-32/ShimmerFire-1.18.2-0.2.4-32.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.4-33.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-33/ShimmerFire-1.18.2-0.2.4-33.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-33/ShimmerFire-1.18.2-0.2.4-33.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -245,9 +245,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
   },
   {
-    "name": "imi-1.18.2-1-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-7/imi-1.18.2-1-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-7/imi-1.18.2-1-7.jar.asc"
+    "name": "imi-1.18.2-2-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-8/imi-1.18.2-2-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-8/imi-1.18.2-2-8.jar.asc"
   },
   {
     "name": "mythic_cookstoves-0.1alpha-4.jar",
@@ -270,9 +270,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-5/civilization_fire-1.0-5.jar.asc"
   },
   {
-    "name": "divingcamera-1.0-3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-3/divingcamera-1.0-3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-3/divingcamera-1.0-3.jar.asc"
+    "name": "divingcamera-1.0-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-4/divingcamera-1.0-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-4/divingcamera-1.0-4.jar.asc"
   },
   {
     "name": "youpolazi-1.0-4.jar",
@@ -305,9 +305,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-4/MTR-forge-1.18.2-3.1.0-unofficial-3-4.jar.asc"
   },
   {
-    "name": "fμnken5p7ühen-forge-000.eine.null.null-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-2/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-2/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-2.jar.asc"
+    "name": "fμnken5p7ühen-forge-000.eine.null.null-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-4/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-4/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-4.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.11.jar",
