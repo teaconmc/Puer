@@ -1,0 +1,21 @@
+{
+  "type": "set_block_name",
+  "subType": "graft",
+  "color": "0x8F7748",
+  "damage": 0.1,
+  "process": 1,
+  "range": [15, 3, 15],
+  "target_limit": 5,
+  "cooldown": 10,
+  "order": [
+    "birch",
+    "oak",
+    "jungle",
+    "spruce",
+    "dark_oak",
+    "acacia"
+  ],
+  "checkOrder": [
+    4
+  ]
+}
