@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-36/exp1182-1.0-36.jar.asc"
   },
   {
-    "name": "extinguish-0.1.4.tc-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-33/extinguish-0.1.4.tc-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-33/extinguish-0.1.4.tc-33.jar.asc"
+    "name": "extinguish-0.1.4.tc-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-34/extinguish-0.1.4.tc-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-34/extinguish-0.1.4.tc-34.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-33.jar",
@@ -108,6 +108,11 @@
     "name": "lighterfe-1.18.2-1-2-27.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-27/lighterfe-1.18.2-1-2-27.jar.asc"
+  },
+  {
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-29/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-29/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.6-34.jar",
@@ -275,9 +280,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-2/youpolazi-1.0-2.jar.asc"
   },
   {
-    "name": "lavafishing-1.0-1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-1/lavafishing-1.0-1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-1/lavafishing-1.0-1.jar.asc"
+    "name": "lavafishing-1.0-2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-2/lavafishing-1.0-2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-2/lavafishing-1.0-2.jar.asc"
   },
   {
     "name": "creeper_firework-1.18.2-1.0.0-1.jar",
@@ -288,6 +293,11 @@
     "name": "fire_track-1.18.2-1.0.0-1.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-1/fire_track-1.18.2-1.0.0-1.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-1/fire_track-1.18.2-1.0.0-1.jar.asc"
+  },
+  {
+    "name": "fμnken5p7ühen-forge-000.eine.null.null-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-1/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-1/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-1.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.11.jar",
