@@ -6,3 +6,7 @@ value = true
 
 [permissions.context]
 "area_control:current_area_id" = "0015ad98-4818-40b4-9fca-86c7e30ee83e"
+
+[[permissions]]
+permission = "weight.10"
+value = true
