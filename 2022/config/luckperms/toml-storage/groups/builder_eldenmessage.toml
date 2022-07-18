@@ -1,0 +1,8 @@
+name = "builder_eldenmessage"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0024af7b-f06c-4746-a08e-3ac89cec841c"

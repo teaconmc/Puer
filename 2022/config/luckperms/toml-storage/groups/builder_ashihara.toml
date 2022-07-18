@@ -1,0 +1,8 @@
+name = "builder_ashihara"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0007c065-a248-483d-979c-01015ad24107"

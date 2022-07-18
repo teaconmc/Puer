@@ -1,0 +1,8 @@
+name = "builder_creeper_firework"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-000fe7e1-4204-47df-8cb7-c6dd275329ed"

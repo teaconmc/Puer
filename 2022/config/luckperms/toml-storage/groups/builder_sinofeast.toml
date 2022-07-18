@@ -1,0 +1,8 @@
+name = "builder_sinofeast"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0030e483-9e1c-4bbd-9212-5d93641c5554"

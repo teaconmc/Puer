@@ -1,0 +1,8 @@
+name = "builder_catinbucket"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0002b3c7-3aa1-4dc5-93b9-efc1e30d343e"

@@ -1,0 +1,8 @@
+name = "builder_blaze_reborn"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0033c805-fcc1-4355-84a1-bd2fe3007b76"

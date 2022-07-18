@@ -1,0 +1,8 @@
+name = "builder_pyrotechnicraft"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0048f940-14e4-48ea-a661-3714c8aea77e"

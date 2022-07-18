@@ -1,0 +1,8 @@
+name = "builder_cc2001_floo_powder"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0017a78b-441d-4d24-9505-c1b5e7025945"

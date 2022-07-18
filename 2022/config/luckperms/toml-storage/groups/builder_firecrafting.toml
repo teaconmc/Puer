@@ -1,0 +1,8 @@
+name = "builder_firecrafting"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0010c3a9-1dae-4f8d-a282-926f359bfb7c"

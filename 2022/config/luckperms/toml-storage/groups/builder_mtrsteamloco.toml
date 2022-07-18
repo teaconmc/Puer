@@ -1,0 +1,8 @@
+name = "builder_mtrsteamloco"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-003ab962-212b-435f-88cb-4840e917d25e"

@@ -15,11 +15,6 @@ value = false
 "area_control:current_area_id" = "6ac53e6d-2e9b-4704-a296-6791dd0b5619"
 
 [[permissions]]
-permission = "area_control.command.claim.chunk"
-value = true
-expiry = 1658294400
-
-[[permissions]]
 permission = "worldedit.*"
 value = true
 

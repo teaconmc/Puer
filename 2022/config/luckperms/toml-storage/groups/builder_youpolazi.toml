@@ -1,0 +1,8 @@
+name = "builder_youpolazi"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0028b4ae-7d18-4b39-9428-a97d38922482"

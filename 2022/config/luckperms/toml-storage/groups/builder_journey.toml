@@ -1,0 +1,8 @@
+name = "builder_journey"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-001cfbbd-9134-4e5c-963e-116b340dcce4"

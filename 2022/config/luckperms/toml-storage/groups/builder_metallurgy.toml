@@ -1,0 +1,8 @@
+name = "builder_metallurgy"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-002bcca5-7d0f-4d3a-aaf7-dbc2b84ba8a4"

@@ -1,0 +1,8 @@
+name = "builder_coronaaltarofsolarscorch"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0014dd90-5960-4e26-aff6-afe54c9f78c6"

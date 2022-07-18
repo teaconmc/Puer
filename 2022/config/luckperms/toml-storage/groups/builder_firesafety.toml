@@ -1,0 +1,8 @@
+name = "builder_firesafety"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-001be620-fe5a-4d78-b9d5-cac90555cda0"

@@ -1,0 +1,8 @@
+name = "builder_ms_bwk"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-000bcd8c-2594-4d0d-a1ab-ae8aef0dc93a"

@@ -1,0 +1,8 @@
+name = "builder_touhou_little_maid"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0044b768-72bb-468e-8e72-333fac07c99f"

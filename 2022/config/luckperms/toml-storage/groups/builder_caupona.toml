@@ -1,0 +1,8 @@
+name = "builder_caupona"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0034f23c-03cf-4186-9bfb-37af920d3391"

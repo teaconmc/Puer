@@ -1,0 +1,8 @@
+name = "builder_multiblocked"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0050b806-5f11-4ff2-a2ed-76bfc1316473"

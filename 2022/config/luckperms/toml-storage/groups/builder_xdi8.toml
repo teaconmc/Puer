@@ -1,0 +1,8 @@
+name = "builder_xdi8"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-000ac037-566a-4362-a4b6-81e18aa4ee4b"

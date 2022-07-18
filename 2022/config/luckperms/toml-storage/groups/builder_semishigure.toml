@@ -1,0 +1,8 @@
+name = "builder_semishigure"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0009f3b6-12ce-46e4-8b1f-7c7b0afd7492"

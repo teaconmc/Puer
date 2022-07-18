@@ -1,0 +1,8 @@
+name = "builder_fireballgame"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-0045f82a-efdc-4e0b-ab52-eb23d4a3ef35"

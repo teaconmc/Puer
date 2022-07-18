@@ -1,0 +1,8 @@
+name = "builder_civilization_fire"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "claim-003ef6e3-1b17-4b9b-b705-80c3af861144"

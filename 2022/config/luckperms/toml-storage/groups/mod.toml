@@ -1,0 +1,12 @@
+name = "mod"
+
+[[permissions]]
+permission = "worldedit.*"
+value = true
+
+[[permissions]]
+permission = "*"
+value = true
+
+[[parents]]
+group = "builder"
