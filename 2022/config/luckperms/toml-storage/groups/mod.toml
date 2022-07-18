@@ -5,6 +5,10 @@ permission = "worldedit.*"
 value = true
 
 [[permissions]]
+permission = "area_control.*"
+value = true
+
+[[permissions]]
 permission = "*"
 value = true
 
