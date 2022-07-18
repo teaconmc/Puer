@@ -1,0 +1,436 @@
+name = "builder"
+
+[[permissions]]
+permission = "area_control.command.unclaim"
+value = true
+
+[permissions.context]
+"area_control:owning_current_position" = "true"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = false
+
+[permissions.context]
+"area_control:current_area_id" = "6ac53e6d-2e9b-4704-a296-6791dd0b5619"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+expiry = 1658294400
+
+[[permissions]]
+permission = "worldedit.*"
+value = true
+
+[[permissions]]
+permission = "area_control.command.claim.marked"
+value = false
+
+[[permissions]]
+permission = "area_control.command.mark"
+value = false
+
+[[permissions]]
+permission = "area_control.command.unclaim"
+value = false
+
+[[permissions]]
+permission = "command.ac"
+value = true
+
+[[permissions]]
+permission = "command.advancement"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol"
+value = true
+
+[[permissions]]
+permission = "command.attribute"
+value = true
+
+[[permissions]]
+permission = "command.bossbar"
+value = true
+
+[[permissions]]
+permission = "command.clear"
+value = true
+
+[[permissions]]
+permission = "command.clone"
+value = true
+
+[[permissions]]
+permission = "command.data"
+value = true
+
+[[permissions]]
+permission = "command.datapack"
+value = true
+
+[[permissions]]
+permission = "command.defaultgamemode"
+value = true
+
+[[permissions]]
+permission = "command.difficulty"
+value = true
+
+[[permissions]]
+permission = "command.effect"
+value = true
+
+[[permissions]]
+permission = "command.enchant"
+value = true
+
+[[permissions]]
+permission = "command.execute"
+value = true
+
+[[permissions]]
+permission = "command.experience"
+value = true
+
+[[permissions]]
+permission = "command.fill"
+value = true
+
+[[permissions]]
+permission = "command.forceload"
+value = true
+
+[[permissions]]
+permission = "command.function"
+value = true
+
+[[permissions]]
+permission = "command.gamemode"
+value = true
+
+[[permissions]]
+permission = "command.gamerule"
+value = true
+
+[[permissions]]
+permission = "command.give"
+value = true
+
+[[permissions]]
+permission = "command.item"
+value = true
+
+[[permissions]]
+permission = "command.kill"
+value = true
+
+[[permissions]]
+permission = "command.locate"
+value = true
+
+[[permissions]]
+permission = "command.locatebiome"
+value = true
+
+[[permissions]]
+permission = "command.loot"
+value = true
+
+[[permissions]]
+permission = "command.particle"
+value = true
+
+[[permissions]]
+permission = "command.placefeature"
+value = true
+
+[[permissions]]
+permission = "command.playsound"
+value = true
+
+[[permissions]]
+permission = "command.recipe"
+value = true
+
+[[permissions]]
+permission = "command.reload"
+value = true
+
+[[permissions]]
+permission = "command.say"
+value = true
+
+[[permissions]]
+permission = "command.schedule"
+value = true
+
+[[permissions]]
+permission = "command.scoreboard"
+value = true
+
+[[permissions]]
+permission = "command.seed"
+value = true
+
+[[permissions]]
+permission = "command.setblock"
+value = true
+
+[[permissions]]
+permission = "command.setworldspawn"
+value = true
+
+[[permissions]]
+permission = "command.spawnpoint"
+value = true
+
+[[permissions]]
+permission = "command.spectate"
+value = true
+
+[[permissions]]
+permission = "command.spreadplayers"
+value = true
+
+[[permissions]]
+permission = "command.stopsound"
+value = true
+
+[[permissions]]
+permission = "command.summon"
+value = true
+
+[[permissions]]
+permission = "command.tag"
+value = true
+
+[[permissions]]
+permission = "command.team"
+value = true
+
+[[permissions]]
+permission = "command.teleport"
+value = true
+
+[[permissions]]
+permission = "command.tellraw"
+value = true
+
+[[permissions]]
+permission = "command.time"
+value = true
+
+[[permissions]]
+permission = "command.title"
+value = true
+
+[[permissions]]
+permission = "command.tp"
+value = true
+
+[[permissions]]
+permission = "command.weather"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.ac"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.advancement"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.areacontrol"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.attribute"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.bossbar"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.clear"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.clone"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.data"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.datapack"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.defaultgamemode"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.difficulty"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.effect"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.enchant"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.execute"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.experience"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.fill"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.forceload"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.function"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.gamemode"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.gamerule"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.give"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.item"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.kill"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.locate"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.locatebiome"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.loot"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.particle"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.placefeature"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.playsound"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.recipe"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.reload"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.say"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.schedule"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.scoreboard"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.seed"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.setblock"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.setworldspawn"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.spawnpoint"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.spectate"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.spreadplayers"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.stopsound"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.summon"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.tag"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.team"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.teleport"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.tellraw"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.time"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.title"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.tp"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.weather"
+value = true
