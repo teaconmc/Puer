@@ -1,0 +1,20 @@
+name: TeaCon 2022 Pull Request Expedited
+on:
+  pull_request:
+    types:
+      - opened
+    path:
+      - 2022/config/**
+      - 2022/serverconfig/**
+      - 2022/data/**
+      - 2022/assets/**
+jobs:
+  expedited_merge:
+    name: Expedited Merge
+    runs-on: ubuntu-latest
+    steps:
+      - name: Expedited Merge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr merge $PR_URL --merge
