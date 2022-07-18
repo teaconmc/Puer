@@ -1,0 +1,12 @@
+name = "builder_funken5p7uhen"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "002ab15f-5526-48ff-9829-ab573440bdae"
+
+[[permissions]]
+permission = "weight.10"
+value = true

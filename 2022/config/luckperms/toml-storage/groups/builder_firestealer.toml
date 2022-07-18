@@ -1,0 +1,12 @@
+name = "builder_firestealer"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "000eb5b8-4020-49af-ab49-980861440620"
+
+[[permissions]]
+permission = "weight.10"
+value = true

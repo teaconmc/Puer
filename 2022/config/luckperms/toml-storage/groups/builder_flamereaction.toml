@@ -1,0 +1,12 @@
+name = "builder_flamereaction"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "002fa9f9-e7a0-482c-bd3f-feb686695b83"
+
+[[permissions]]
+permission = "weight.10"
+value = true

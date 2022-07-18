@@ -1,1 +1,12 @@
 name = "builder_omni_card"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "0004ab59-8ac4-42d5-a214-e0987a4932a7"
+
+[[permissions]]
+permission = "weight.10"
+value = true

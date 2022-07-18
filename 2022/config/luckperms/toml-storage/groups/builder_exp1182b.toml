@@ -1,0 +1,12 @@
+name = "builder_exp1182b"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "000cc4b6-b5fb-4be7-bec3-c0089066bcaa"
+
+[[permissions]]
+permission = "weight.10"
+value = true

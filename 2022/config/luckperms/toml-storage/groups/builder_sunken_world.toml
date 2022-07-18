@@ -1,1 +1,12 @@
 name = "builder_sunken_world"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "0013bd33-1068-4625-aa02-5cfe447deee7"
+
+[[permissions]]
+permission = "weight.10"
+value = true
