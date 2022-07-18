@@ -95,14 +95,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-20/groundfire-1.0-20.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-21/journey-1.18.2-0.0.1.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-21/journey-1.18.2-0.0.1.0-21.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-67.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-67/kitchenkarrot-1.18.2-2-3-67.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-67/kitchenkarrot-1.18.2-2-3-67.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-68.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-68/kitchenkarrot-1.18.2-2-3-68.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-68/kitchenkarrot-1.18.2-2-3-68.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
   },
   {
-    "name": "imi-1.18.2-2-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-9/imi-1.18.2-2-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-9/imi-1.18.2-2-9.jar.asc"
+    "name": "imi-1.18.2-2-10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-10/imi-1.18.2-2-10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-10/imi-1.18.2-2-10.jar.asc"
   },
   {
     "name": "mythic_cookstoves-0.1alpha-5.jar",
@@ -305,9 +305,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-4/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-4.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.11.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.11/AreaControl-Forge-1.18-0.5.11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.11.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.12.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.12/AreaControl-Forge-1.18-0.5.12.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.12.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
