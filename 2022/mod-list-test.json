@@ -110,11 +110,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-32/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-32/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
-  },
-  {
     "name": "Multiblocked-1.18.2-0.9.6-35.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar.asc"
