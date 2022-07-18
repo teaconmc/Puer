@@ -11,9 +11,6 @@ value = true
 permission = "area_control.command.claim.chunk"
 value = false
 
-[permissions.context]
-"area_control:current_area_id" = "6ac53e6d-2e9b-4704-a296-6791dd0b5619"
-
 [[permissions]]
 permission = "worldedit.*"
 value = true

@@ -5,4 +5,4 @@ permission = "area_control.command.claim.chunk"
 value = true
 
 [permissions.context]
-"area_control:current_area_id" = "claim-003cb99d-0225-453b-bc11-8347c09b9cb6"
+"area_control:current_area_id" = "003cb99d-0225-453b-bc11-8347c09b9cb6"
