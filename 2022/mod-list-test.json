@@ -110,6 +110,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-31/MtrSteamLoco-forge-1.18.2-0.0.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-31/MtrSteamLoco-forge-1.18.2-0.0.1.jar.asc"
+  },
+  {
     "name": "Multiblocked-1.18.2-0.9.6-35.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar.asc"
@@ -140,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-19/umapyoi-1.0-19.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-37.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-37/SimpleBBQ-1.18.2-0.1.0-beta-37.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-37/SimpleBBQ-1.18.2-0.1.0-beta-37.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-38.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-38/SimpleBBQ-1.18.2-0.1.0-beta-38.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-38/SimpleBBQ-1.18.2-0.1.0-beta-38.jar.asc"
   },
   {
     "name": "spaceplane-1.0-50.jar",
@@ -160,9 +165,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-32/touhoulittlemaid-1.18.2-1.0.0-32.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-54.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-54/sunken_world-1.0-SNAPSHOT-54.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-54/sunken_world-1.0-SNAPSHOT-54.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-55.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-55/sunken_world-1.0-SNAPSHOT-55.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-55/sunken_world-1.0-SNAPSHOT-55.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-27.jar",
@@ -220,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.4-31.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-31/ShimmerFire-1.18.2-0.2.4-31.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-31/ShimmerFire-1.18.2-0.2.4-31.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.4-32.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-32/ShimmerFire-1.18.2-0.2.4-32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-32/ShimmerFire-1.18.2-0.2.4-32.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -240,9 +245,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
   },
   {
-    "name": "imi-1.18.2-1-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-6/imi-1.18.2-1-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-6/imi-1.18.2-1-6.jar.asc"
+    "name": "imi-1.18.2-1-7.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-7/imi-1.18.2-1-7.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-7/imi-1.18.2-1-7.jar.asc"
   },
   {
     "name": "mythic_cookstoves-0.1alpha-4.jar",
@@ -270,9 +275,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-3/divingcamera-1.0-3.jar.asc"
   },
   {
-    "name": "youpolazi-1.0-3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-3/youpolazi-1.0-3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-3/youpolazi-1.0-3.jar.asc"
+    "name": "youpolazi-1.0-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-4/youpolazi-1.0-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-4/youpolazi-1.0-4.jar.asc"
   },
   {
     "name": "lavafishing-1.0-3.jar",
