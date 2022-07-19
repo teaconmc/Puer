@@ -8,6 +8,6 @@
     }
   },
   "target_block": {
-    "Name": "minecraft:dirt"
+    "Name": "shimmerfire:colored_bloom_block_light_blue"
   }
 }

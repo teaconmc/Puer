@@ -2,7 +2,7 @@
   "type": "firewood:block_to_block",
   "subType": "wave",
   "ing_block": {
-    "Name": "minecraft:dirt"
+    "Name": "shimmerfire:colored_bloom_block_light_blue"
   },
   "target_block": {
     "Name": "minecraft:light",
