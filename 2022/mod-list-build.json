@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-21/boomood-1.18.2-1.0.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-21/boomood-1.18.2-1.0.0-21.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-22/boomood-1.18.2-1.0.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-22/boomood-1.18.2-1.0.0-22.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-34/caupona-1.18.2-0.1.0-34.jar.asc"
   },
   {
-    "name": "FlooPowder-1.4.1-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-42/FlooPowder-1.4.1-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-42/FlooPowder-1.4.1-42.jar.asc"
+    "name": "FlooPowder-1.4.2-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-43/FlooPowder-1.4.2-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-43/FlooPowder-1.4.2-43.jar.asc"
   },
   {
     "name": "coronaaltarofsolarscorch-0.1.0-19.jar",
@@ -50,9 +50,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-37/exp1182-1.0-37.jar.asc"
   },
   {
-    "name": "extinguish-0.1.4.tc-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-35/extinguish-0.1.4.tc-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-35/extinguish-0.1.4.tc-35.jar.asc"
+    "name": "extinguish-0.1.5.tc-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-36/extinguish-0.1.5.tc-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-36/extinguish-0.1.5.tc-36.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-34.jar",
@@ -108,6 +108,11 @@
     "name": "lighterfe-1.18.2-1-2-28.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
+  },
+  {
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-33.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-33/MtrSteamLoco-forge-1.18.2-0.0.1-33.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-33/MtrSteamLoco-forge-1.18.2-0.0.1-33.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.6-35.jar",
