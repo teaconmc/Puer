@@ -260,6 +260,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar.asc"
   },
   {
+    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220719.1303-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
+  },
+  {
     "name": "FluxNetworks-1.18.2-7.0.3.4-2.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar.asc"
