@@ -1,9 +1,12 @@
 name: TeaCon 2022 Pull Request Expedited
+permissions:
+  contents: write
+  pull-requests: write
 on:
   pull_request:
     types:
       - opened
-    path:
+    paths:
       - 2022/config/**
       - 2022/serverconfig/**
       - 2022/data/**
