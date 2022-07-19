@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-22/boomood-1.18.2-1.0.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-22/boomood-1.18.2-1.0.0-22.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-23/boomood-1.18.2-1.0.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-23/boomood-1.18.2-1.0.0-23.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -120,9 +120,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar.asc"
   },
   {
-    "name": "Nether-Transition-Remains-1.18.2-0.0.1-20.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-20/Nether-Transition-Remains-1.18.2-0.0.1-20.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-20/Nether-Transition-Remains-1.18.2-0.0.1-20.jar.asc"
+    "name": "Nether-Transition-Remains-1.18.2-0.0.2-21.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-21/Nether-Transition-Remains-1.18.2-0.0.2-21.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-21/Nether-Transition-Remains-1.18.2-0.0.2-21.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
@@ -195,9 +195,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.8-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-21/Ashihara-0.0.0.8-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-21/Ashihara-0.0.0.8-21.jar.asc"
+    "name": "Ashihara-0.0.0.9-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-22/Ashihara-0.0.0.9-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-22/Ashihara-0.0.0.9-22.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-14.jar",
@@ -225,9 +225,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.5-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-35/ShimmerFire-1.18.2-0.2.5-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-35/ShimmerFire-1.18.2-0.2.5-35.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.5-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-36/ShimmerFire-1.18.2-0.2.5-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-36/ShimmerFire-1.18.2-0.2.5-36.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -245,9 +245,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
   },
   {
-    "name": "imi-1.18.2-2-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-10/imi-1.18.2-2-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-10/imi-1.18.2-2-10.jar.asc"
+    "name": "imi-1.18.2-2-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-imi/build-11/imi-1.18.2-2-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-imi/build-11/imi-1.18.2-2-11.jar.asc"
   },
   {
     "name": "mythic_cookstoves-0.1alpha-5.jar",
@@ -265,9 +265,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
   },
   {
-    "name": "FluxNetworks-1.18.2-7.0.3.4-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-2/FluxNetworks-1.18.2-7.0.3.4-2.jar.asc"
+    "name": "FluxNetworks-1.18.2-7.0.4.5-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-4/FluxNetworks-1.18.2-7.0.4.5-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-4/FluxNetworks-1.18.2-7.0.4.5-4.jar.asc"
   },
   {
     "name": "civilization_fire-1.0-7.jar",
