@@ -96,6 +96,22 @@ permission = "command.forceload"
 value = true
 
 [[permissions]]
+permission = "command.forge.dimensions"
+value = true
+
+[[permissions]]
+permission = "command.forge.entity"
+value = true
+
+[[permissions]]
+permission = "command.forge.mods"
+value = true
+
+[[permissions]]
+permission = "command.forge.tps"
+value = true
+
+[[permissions]]
 permission = "command.function"
 value = true
 
