@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-30/sinocalligraphy-1.18.2-1.1.0-30.jar.asc"
   },
   {
-    "name": "yu-1.18.2-1.0a-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-62/yu-1.18.2-1.0a-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-62/yu-1.18.2-1.0a-62.jar.asc"
+    "name": "yu-1.18.2-1.0a-57.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
   },
   {
     "name": "TacticalCards-1.3.0a-build-20220719-33.jar",
@@ -435,9 +435,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lucent-1.18.2-1.2.2.jar.asc"
   },
   {
-    "name": "Shimmer-forge-1.18.2-0.1.9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9.jar.asc"
+    "name": "Shimmer-forge-1.18.2-0.1.9-hotfix.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9-hotfix.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9-hotfix.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
