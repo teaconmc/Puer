@@ -265,9 +265,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-6/FluxNetworks-1.18.2-7.0.5.6-6.jar.asc"
   },
   {
-    "name": "civilization_fire-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-7/civilization_fire-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-7/civilization_fire-1.0-7.jar.asc"
+    "name": "civilization_fire-1.0-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-6/civilization_fire-1.0-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-6/civilization_fire-1.0-6.jar.asc"
   },
   {
     "name": "divingcamera-1.0-4.jar",
