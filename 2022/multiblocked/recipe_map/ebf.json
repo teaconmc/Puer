@@ -1,0 +1,33 @@
+{
+  "name": "ebf",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "05659f3d-dd5d-4917-b5e6-ead97f4dd465",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "amount": 1,
+              "matches": {
+                "item": "minecraft:iron_ingot"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {},
+      "tickInputs": {},
+      "tickOutputs": {
+        "fluid": [
+          {
+            "content": "{FluidName:\"minecraft:lava\",Amount:100}",
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}
