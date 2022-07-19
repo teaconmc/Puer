@@ -20,14 +20,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-24/catinbucket-1.18.2-0.0.2-24.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-38.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-38/caupona-1.18.2-0.1.0-38.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-38/caupona-1.18.2-0.1.0-38.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-34/caupona-1.18.2-0.1.0-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-34/caupona-1.18.2-0.1.0-34.jar.asc"
   },
   {
-    "name": "FlooPowder-1.4.2-43.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-43/FlooPowder-1.4.2-43.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-43/FlooPowder-1.4.2-43.jar.asc"
+    "name": "FlooPowder-1.4.3-46.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-46/FlooPowder-1.4.3-46.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-46/FlooPowder-1.4.3-46.jar.asc"
   },
   {
     "name": "coronaaltarofsolarscorch-0.1.0-19.jar",
@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-68.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-68/kitchenkarrot-1.18.2-2-3-68.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-68/kitchenkarrot-1.18.2-2-3-68.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-69.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-69/kitchenkarrot-1.18.2-2-3-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-69/kitchenkarrot-1.18.2-2-3-69.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -195,9 +195,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-10/sinofeast-1.18.2-1.0.1-10.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.12-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-25/Ashihara-0.0.0.12-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-25/Ashihara-0.0.0.12-25.jar.asc"
+    "name": "Ashihara-0.0.0.8-21.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-21/Ashihara-0.0.0.8-21.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-21/Ashihara-0.0.0.8-21.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-14.jar",
@@ -258,6 +258,11 @@
     "name": "semishigure-0.1-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar.asc"
+  },
+  {
+    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220719.1303-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
   },
   {
     "name": "FluxNetworks-1.18.2-7.0.5.6-6.jar",
