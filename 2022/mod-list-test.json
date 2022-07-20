@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-30/sinocalligraphy-1.18.2-1.1.0-30.jar.asc"
   },
   {
-    "name": "yu-1.18.2-1.0a-64.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-64/yu-1.18.2-1.0a-64.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-64/yu-1.18.2-1.0a-64.jar.asc"
+    "name": "yu-1.18.2-1.0a-57.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
   },
   {
     "name": "TacticalCards-1.3.0a-build-20220719-33.jar",
