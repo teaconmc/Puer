@@ -140,9 +140,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-28/rtorch-1.18.2-0.8.0-28.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-20.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-20/umapyoi-1.0-20.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-20/umapyoi-1.0-20.jar.asc"
+    "name": "umapyoi-1.0-21.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-21/umapyoi-1.0-21.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-21/umapyoi-1.0-21.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-44.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-44/SimpleBBQ-1.18.2-0.1.0-beta-44.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-55.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-55/spaceplane-1.0-55.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-55/spaceplane-1.0-55.jar.asc"
+    "name": "spaceplane-1.0-56.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-56/spaceplane-1.0-56.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-56/spaceplane-1.0-56.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
