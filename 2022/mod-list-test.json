@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-29/eldenmessage-1.0-29.jar.asc"
   },
   {
-    "name": "exp1182-1.0-37.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-37/exp1182-1.0-37.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-37/exp1182-1.0-37.jar.asc"
+    "name": "exp1182-1.0-38.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-38/exp1182-1.0-38.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-38/exp1182-1.0-38.jar.asc"
   },
   {
     "name": "extinguish-0.1.5.tc-36.jar",
@@ -110,6 +110,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
+    "name": "meteorcertainidea-1.0-20.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-20/meteorcertainidea-1.0-20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-20/meteorcertainidea-1.0-20.jar.asc"
+  },
+  {
     "name": "MtrSteamLoco-forge-1.18.2-0.0.1-35.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-35/MtrSteamLoco-forge-1.18.2-0.0.1-35.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-35/MtrSteamLoco-forge-1.18.2-0.0.1-35.jar.asc"
@@ -120,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-35/Multiblocked-1.18.2-0.9.6-35.jar.asc"
   },
   {
-    "name": "Nether-Transition-Remains-1.18.2-0.0.2-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-21/Nether-Transition-Remains-1.18.2-0.0.2-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-21/Nether-Transition-Remains-1.18.2-0.0.2-21.jar.asc"
+    "name": "Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
