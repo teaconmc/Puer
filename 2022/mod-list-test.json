@@ -145,14 +145,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-20/umapyoi-1.0-20.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-41.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-41/SimpleBBQ-1.18.2-0.1.0-beta-41.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-41/SimpleBBQ-1.18.2-0.1.0-beta-41.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-42.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-42/SimpleBBQ-1.18.2-0.1.0-beta-42.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-42/SimpleBBQ-1.18.2-0.1.0-beta-42.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-54.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-54/spaceplane-1.0-54.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-54/spaceplane-1.0-54.jar.asc"
+    "name": "spaceplane-1.0-55.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-55/spaceplane-1.0-55.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-55/spaceplane-1.0-55.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -265,9 +265,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
   },
   {
-    "name": "FluxNetworks-1.18.2-7.0.5.6-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-6/FluxNetworks-1.18.2-7.0.5.6-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-6/FluxNetworks-1.18.2-7.0.5.6-6.jar.asc"
+    "name": "FluxNetworks-1.18.2-7.0.5.6-7.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-7/FluxNetworks-1.18.2-7.0.5.6-7.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-7/FluxNetworks-1.18.2-7.0.5.6-7.jar.asc"
   },
   {
     "name": "civilization_fire-1.0-7.jar",
