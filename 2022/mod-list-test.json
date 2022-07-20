@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-27.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-27/boomood-1.18.2-1.0.0-27.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-27/boomood-1.18.2-1.0.0-27.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-28/boomood-1.18.2-1.0.0-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-28/boomood-1.18.2-1.0.0-28.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-39/caupona-1.18.2-0.1.0-39.jar.asc"
   },
   {
-    "name": "FlooPowder-1.4.3-48.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-48/FlooPowder-1.4.3-48.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-48/FlooPowder-1.4.3-48.jar.asc"
+    "name": "FlooPowder-1.4.4-49.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-49/FlooPowder-1.4.4-49.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-49/FlooPowder-1.4.4-49.jar.asc"
   },
   {
     "name": "coronaaltarofsolarscorch-0.1.0-19.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-20/umapyoi-1.0-20.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-43.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-43/SimpleBBQ-1.18.2-0.1.0-beta-43.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-43/SimpleBBQ-1.18.2-0.1.0-beta-43.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-44.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-44/SimpleBBQ-1.18.2-0.1.0-beta-44.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-44/SimpleBBQ-1.18.2-0.1.0-beta-44.jar.asc"
   },
   {
     "name": "spaceplane-1.0-55.jar",
@@ -320,9 +320,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-7/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-7.jar.asc"
   },
   {
-    "name": "item_and_block_properties-0.5.0-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-2/item_and_block_properties-0.5.0-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-2/item_and_block_properties-0.5.0-2.jar.asc"
+    "name": "item_and_block_properties-0.5.0-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.13.jar",
