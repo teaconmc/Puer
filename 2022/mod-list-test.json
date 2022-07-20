@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-26/boomood-1.18.2-1.0.0-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-26/boomood-1.18.2-1.0.0-26.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-27/boomood-1.18.2-1.0.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-27/boomood-1.18.2-1.0.0-27.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-20/umapyoi-1.0-20.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-42/SimpleBBQ-1.18.2-0.1.0-beta-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-42/SimpleBBQ-1.18.2-0.1.0-beta-42.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-43/SimpleBBQ-1.18.2-0.1.0-beta-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-43/SimpleBBQ-1.18.2-0.1.0-beta-43.jar.asc"
   },
   {
     "name": "spaceplane-1.0-55.jar",
@@ -270,9 +270,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-7/FluxNetworks-1.18.2-7.0.5.6-7.jar.asc"
   },
   {
-    "name": "civilization_fire-1.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-7/civilization_fire-1.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-7/civilization_fire-1.0-7.jar.asc"
+    "name": "civilization_fire-1.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-8/civilization_fire-1.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-civilization-fire/build-8/civilization_fire-1.0-8.jar.asc"
   },
   {
     "name": "divingcamera-1.0-4.jar",
@@ -310,9 +310,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-4/MTR-forge-1.18.2-3.1.0-unofficial-3-4.jar.asc"
   },
   {
-    "name": "fμnken5p7ühen-forge-000.eine.null.null-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-6/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-6/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-6.jar.asc"
+    "name": "fμnken5p7ühen-forge-000.eine.null.null-7.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-7/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-7.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-7/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-7.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-2.jar",
