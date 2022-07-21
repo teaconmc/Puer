@@ -1,6 +1,6 @@
 {
   "type": "block_to_block",
-  "subType": "wave",
+  "sub_type": "wave",
   "color": "0xCCFFFF",
   "damage": 0,
   "process": 1,

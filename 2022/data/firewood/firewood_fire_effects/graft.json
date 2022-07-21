@@ -1,6 +1,6 @@
 {
   "type": "set_block_name",
-  "subType": "graft",
+  "sub_type": "graft",
   "color": "0x8F7748",
   "damage": 0.1,
   "process": 1,
