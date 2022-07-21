@@ -1,31 +1,38 @@
 
 [energy]
-	#The default transfer limit of a flux connector
+	#The default transfer limit of a Gargantuan Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	defaultLimit = 800000
+	gargantuanTransfer = 720000
+	#The maximum energy storage of a Basic Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	basicCapacity = 1000000
+	basicCapacity = 2000000
+	#The default transfer limit of a Basic Flux Storage
 	#Range: 0 ~ 9223372036854775807
 	basicTransfer = 20000
+	#The maximum energy storage of a Herculean Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	herculeanCapacity = 8000000
-	#Range: 0 ~ 9223372036854775807
-	herculeanTransfer = 120000
+	herculeanCapacity = 16000000
+	#The maximum energy storage of a Gargantuan Flux Storage
 	#Range: 0 ~ 9223372036854775807
 	gargantuanCapacity = 128000000
+	#The default transfer limit of a Flux Plug, Point and Controller
 	#Range: 0 ~ 9223372036854775807
-	gargantuanTransfer = 1440000
+	defaultLimit = 800000
+	#The default transfer limit of a Herculean Flux Storage
+	#Range: 0 ~ 9223372036854775807
+	herculeanTransfer = 120000
 
 [networks]
 	#Maximum networks each player can have. Super admin can bypass this limit. -1 = no limit
+	#Setting this to 0 will only allow super admins to create networks.
 	#Range: > -1
 	maximumPerPlayer = 0
 	#Allows someone to be a network super admin. Otherwise, no one can access a flux device or delete a network without permission.
-	#Single player can bypass this limit.
 	enableSuperAdmin = true
-	#See ops.json. If the player has permission level equal or greater to the value set here they will be able to Activate Super Admin.
+	#See ops.json. If the player has permission level equal or greater to the value set here they will be able to activate Super Admin.
 	#Setting this to 0 will allow anyone to active Super Admin. Single player can bypass this limit.
-	#Range: > 0
+	#Players have permission level 3 or 4 can use commands to set others as Super Admin whether others have this permission level or not.
+	#Range: 0 ~ 3
 	superAdminRequiredPermission = 1
 
 [general]
