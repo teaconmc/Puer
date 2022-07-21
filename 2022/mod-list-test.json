@@ -335,6 +335,16 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B81826d3.jar.asc"
   },
   {
+    "name": "PowerTool-Forge-1.18-1.0.0.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.0.0/PowerTool-Forge-1.18-1.0.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.0.0.jar.asc"
+  },
+  {
+    "name": "SignMeUp-Forge-1.18-0.2.0.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.18/0.2.0/SignMeUp-Forge-1.18-0.2.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.2.0.jar.asc"
+  },
+  {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.4/SlideShow-Forge-1.18-0.6.2-rc.4.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.4.jar.asc"
