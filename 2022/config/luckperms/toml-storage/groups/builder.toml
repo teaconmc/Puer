@@ -9,6 +9,20 @@ permission = "minecraft.command.selector"
 value = true
 
 [[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:owning_current_position" = "true"
+
+[[permissions]]
+permission = "area_control.command.claim.marked"
+value = true
+
+[permissions.context]
+"area_control:owning_current_position" = "true"
+
+[[permissions]]
 permission = "area_control.command.unclaim"
 value = true
 
@@ -16,12 +30,12 @@ value = true
 "area_control:owning_current_position" = "true"
 
 [[permissions]]
-permission = "area_control.command.claim.chunk"
-value = false
-
-[[permissions]]
 permission = "worldedit.*"
 value = true
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = false
 
 [[permissions]]
 permission = "area_control.command.claim.marked"
@@ -29,7 +43,7 @@ value = false
 
 [[permissions]]
 permission = "area_control.command.mark"
-value = false
+value = true
 
 [[permissions]]
 permission = "area_control.command.unclaim"
@@ -392,6 +406,10 @@ permission = "minecraft.command.seed"
 value = true
 
 [[permissions]]
+permission = "minecraft.command.selector"
+value = true
+
+[[permissions]]
 permission = "minecraft.command.setblock"
 value = true
 
@@ -449,4 +467,8 @@ value = true
 
 [[permissions]]
 permission = "minecraft.command.weather"
+value = true
+
+[[permissions]]
+permission = "minecraft.use_gamemaster_block"
 value = true
