@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-28/boomood-1.18.2-1.0.0-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-28/boomood-1.18.2-1.0.0-28.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-29/boomood-1.18.2-1.0.0-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-29/boomood-1.18.2-1.0.0-29.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-39/caupona-1.18.2-0.1.0-39.jar.asc"
   },
   {
-    "name": "FlooPowder-1.4.4-49.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-49/FlooPowder-1.4.4-49.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-49/FlooPowder-1.4.4-49.jar.asc"
+    "name": "FlooPowder-1.4.4-50.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-50/FlooPowder-1.4.4-50.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-50/FlooPowder-1.4.4-50.jar.asc"
   },
   {
     "name": "coronaaltarofsolarscorch-0.1.0-19.jar",
@@ -40,14 +40,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-21/CrockPot-1.18.2-1.2.0-release-21.jar.asc"
   },
   {
-    "name": "eldenmessage-1.0-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-29/eldenmessage-1.0-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-29/eldenmessage-1.0-29.jar.asc"
+    "name": "eldenmessage-1.0-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-30/eldenmessage-1.0-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-30/eldenmessage-1.0-30.jar.asc"
   },
   {
-    "name": "exp1182-1.0-38.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-38/exp1182-1.0-38.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-38/exp1182-1.0-38.jar.asc"
+    "name": "exp1182-1.0-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-39/exp1182-1.0-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-39/exp1182-1.0-39.jar.asc"
   },
   {
     "name": "extinguish-0.1.5.tc-36.jar",
@@ -75,6 +75,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firecrafting/build-33/firecrafting-0.1.0-33.jar.asc"
   },
   {
+    "name": "FireSafety-Forge-1.18.2-build2206242007-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-34/FireSafety-Forge-1.18.2-build2206242007-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-34/FireSafety-Forge-1.18.2-build2206242007-34.jar.asc"
+  },
+  {
     "name": "firestealer-1.0.0-22.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-22/firestealer-1.0.0-22.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-22/firestealer-1.0.0-22.jar.asc"
@@ -100,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-69.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-69/kitchenkarrot-1.18.2-2-3-69.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-69/kitchenkarrot-1.18.2-2-3-69.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-72.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-72/kitchenkarrot-1.18.2-2-3-72.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-72/kitchenkarrot-1.18.2-2-3-72.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -110,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-36/MtrSteamLoco-forge-1.18.2-0.0.1-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-36/MtrSteamLoco-forge-1.18.2-0.0.1-36.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-39/MtrSteamLoco-forge-1.18.2-0.0.1-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-39/MtrSteamLoco-forge-1.18.2-0.0.1-39.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.9.6-35.jar",
@@ -140,19 +145,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-28/rtorch-1.18.2-0.8.0-28.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-21/umapyoi-1.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-21/umapyoi-1.0-21.jar.asc"
+    "name": "umapyoi-1.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-22/umapyoi-1.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-22/umapyoi-1.0-22.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-44/SimpleBBQ-1.18.2-0.1.0-beta-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-44/SimpleBBQ-1.18.2-0.1.0-beta-44.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-45/SimpleBBQ-1.18.2-0.1.0-beta-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-45/SimpleBBQ-1.18.2-0.1.0-beta-45.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-56.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-56/spaceplane-1.0-56.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-56/spaceplane-1.0-56.jar.asc"
+    "name": "spaceplane-1.0-57.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-57/spaceplane-1.0-57.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-57/spaceplane-1.0-57.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -180,9 +185,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-30/sinocalligraphy-1.18.2-1.1.0-30.jar.asc"
   },
   {
-    "name": "yu-1.18.2-1.0a-57.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
+    "name": "yu-1.18.2-1.0a-66.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-66/yu-1.18.2-1.0a-66.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-66/yu-1.18.2-1.0a-66.jar.asc"
   },
   {
     "name": "TacticalCards-1.3.0a-build-20220719-33.jar",
@@ -225,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.5-37.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-37/ShimmerFire-1.18.2-0.2.5-37.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-37/ShimmerFire-1.18.2-0.2.5-37.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.5-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-39/ShimmerFire-1.18.2-0.2.5-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-39/ShimmerFire-1.18.2-0.2.5-39.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -265,9 +270,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
   },
   {
-    "name": "FluxNetworks-1.18.2-7.0.5.6-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-7/FluxNetworks-1.18.2-7.0.5.6-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-7/FluxNetworks-1.18.2-7.0.5.6-7.jar.asc"
+    "name": "FluxNetworks-1.18.2-7.0.6.7-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-8/FluxNetworks-1.18.2-7.0.6.7-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-8/FluxNetworks-1.18.2-7.0.6.7-8.jar.asc"
   },
   {
     "name": "civilization_fire-1.0-8.jar",
@@ -295,9 +300,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-artoftnt/build-2/artoftnt-1.0-2.jar.asc"
   },
   {
-    "name": "creeper_firework-1.18.2-1.0.0-2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-2/creeper_firework-1.18.2-1.0.0-2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-2/creeper_firework-1.18.2-1.0.0-2.jar.asc"
+    "name": "creeper_firework-teacon2022--1.0.0-3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-3/creeper_firework-teacon2022--1.0.0-3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-3/creeper_firework-teacon2022--1.0.0-3.jar.asc"
   },
   {
     "name": "fire_track-1.18.2-1.0.0-2.jar",
