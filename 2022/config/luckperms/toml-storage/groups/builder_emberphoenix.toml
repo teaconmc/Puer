@@ -8,5 +8,12 @@ value = true
 "area_control:current_area_id" = "0027e75b-d344-4735-87ad-1f98fba707f1"
 
 [[permissions]]
+permission = "area_control.*"
+value = true
+
+[permissions.context]
+world = "world/emberphoenix/phoenix"
+
+[[permissions]]
 permission = "weight.10"
 value = true
