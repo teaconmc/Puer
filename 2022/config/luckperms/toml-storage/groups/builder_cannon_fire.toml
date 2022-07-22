@@ -10,17 +10,3 @@ value = true
 [[permissions]]
 permission = "weight.10"
 value = true
-
-[[permissions]]
-permission = "area_control.command.claim.marked"
-value = true
-
-[permissions.context]
-"area_control:current_area_id" = "0000e4b6-60c7-4633-986c-54e2292a7fdf"
-
-[[permissions]]
-permission = "area_control.command.mark"
-value = true
-
-[permissions.context]
-"area_control:current_area_id" = "0000e4b6-60c7-4633-986c-54e2292a7fdf"
