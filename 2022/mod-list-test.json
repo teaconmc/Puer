@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-29/boomood-1.18.2-1.0.0-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-29/boomood-1.18.2-1.0.0-29.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-31/boomood-1.18.2-1.0.0-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-31/boomood-1.18.2-1.0.0-31.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-22/firestealer-1.0.0-22.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-58.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-58/firewood-0.7.0-58.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-58/firewood-0.7.0-58.jar.asc"
+    "name": "firewood-0.7.0-60.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-60/firewood-0.7.0-60.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-60/firewood-0.7.0-60.jar.asc"
   },
   {
     "name": "flintlock-1.0-41.jar",
@@ -180,14 +180,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-28/Torchikoma-mc1.18.2-0.0.1-28.jar.asc"
   },
   {
-    "name": "sinocalligraphy-1.18.2-1.1.0-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-30/sinocalligraphy-1.18.2-1.1.0-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-30/sinocalligraphy-1.18.2-1.1.0-30.jar.asc"
+    "name": "sinocalligraphy-1.18.2-1.1.0-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-31/sinocalligraphy-1.18.2-1.1.0-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-31/sinocalligraphy-1.18.2-1.1.0-31.jar.asc"
   },
   {
-    "name": "yu-1.18.2-1.0a-57.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-57/yu-1.18.2-1.0a-57.jar.asc"
+    "name": "yu-1.18.2-1.0a-67.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-yu/build-67/yu-1.18.2-1.0a-67.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-67/yu-1.18.2-1.0a-67.jar.asc"
   },
   {
     "name": "TacticalCards-1.3.0a-build-20220719-33.jar",
