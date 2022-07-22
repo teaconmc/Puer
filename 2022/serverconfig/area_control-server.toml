@@ -1,4 +1,4 @@
 #The format in which the area data are stored. Currently supports json and toml.
 persistenceMode = "toml"
 #The item id of the item that should be used when marking areas for claiming. For example: minecraft:stick.
-areaClaimTool = "minecraft:stick"
+areaClaimTool = "exhibition_toolkit:useless_stick"
