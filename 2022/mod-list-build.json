@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-24/catinbucket-1.18.2-0.0.2-24.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-39.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-39/caupona-1.18.2-0.1.0-39.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-39/caupona-1.18.2-0.1.0-39.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-41.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-41/caupona-1.18.2-0.1.0-41.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-41/caupona-1.18.2-0.1.0-41.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.4-50.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-21/pyrotechnicraft-1.18.2-0.0.1-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-21/pyrotechnicraft-1.18.2-0.0.1-21.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-23/pyrotechnicraft-1.18.2-0.0.1-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-23/pyrotechnicraft-1.18.2-0.0.1-23.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
@@ -290,9 +290,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-4/youpolazi-1.0-4.jar.asc"
   },
   {
-    "name": "lavafishing-1.0-3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-3/lavafishing-1.0-3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-3/lavafishing-1.0-3.jar.asc"
+    "name": "lavafishing-1.0-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-4/lavafishing-1.0-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-4/lavafishing-1.0-4.jar.asc"
   },
   {
     "name": "artoftnt-1.0-2.jar",
@@ -445,9 +445,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lightfall-client-1.18.2-1.0.3.jar.asc"
   },
   {
-    "name": "LowDragLib-1.18.2-0.6.4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.4.jar.asc"
+    "name": "LowDragLib-1.18.2-0.6.5-hotfix2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.5-hotfix2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/LowDragLib-1.18.2-0.6.5-hotfix2.jar.asc"
   },
   {
     "name": "lucent-1.18.2-1.2.2.jar",
