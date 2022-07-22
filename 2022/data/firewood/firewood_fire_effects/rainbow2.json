@@ -1,6 +1,6 @@
 {
   "type": "set_block_name",
-  "subType": "rainbow_teacon",
+  "sub_type": "rainbow_teacon",
   "color": "0x70f3ff",
   "damage": 0.1,
   "process": 1,
