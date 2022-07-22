@@ -325,9 +325,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.19.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.19/AreaControl-Forge-1.18-0.5.19.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.19.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.20.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.20/AreaControl-Forge-1.18-0.5.20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.20.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
@@ -348,6 +348,11 @@
     "name": "SignMeUp-Forge-1.18-0.2.0.jar",
     "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.18/0.2.0/SignMeUp-Forge-1.18-0.2.0.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.2.0.jar.asc"
+  },
+  {
+    "name": "ExhibitionToolkit-Forge-1.18-0.1.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/ExhibitionToolkit-Forge-1.18/0.1.1/ExhibitionToolkit-Forge-1.18-0.1.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/ExhibitionToolkit-Forge-1.18-0.1.1.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
@@ -438,6 +443,11 @@
     "name": "jei-1.18.2-9.7.0.195.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
+  },
+  {
+    "name": "curious-armor-stands-1.18.1-4.0.0.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.0.jar.asc"
   },
   {
     "name": "lightfall-client-1.18.2-1.0.3.jar",
