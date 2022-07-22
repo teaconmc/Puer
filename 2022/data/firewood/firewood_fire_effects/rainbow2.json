@@ -1,0 +1,32 @@
+{
+  "type": "set_block_name",
+  "sub_type": "rainbow_teacon",
+  "color": "0x70f3ff",
+  "damage": 0.1,
+  "process": 1,
+  "range": [2,4,2],
+  "target_limit": 5,
+  "cooldown": 10,
+  "order": [
+    "green",
+    "lime",
+    "yellow",
+    "orange",
+    "red",
+    "pink",
+    "magenta",
+    "purple",
+    "blue",
+    "cyan",
+    "light_blue",
+    "white",
+    "light_gray",
+    "gray",
+    "black",
+    "brown"
+  ],
+  "checkOrder": [
+    10,
+    12
+  ]
+}
