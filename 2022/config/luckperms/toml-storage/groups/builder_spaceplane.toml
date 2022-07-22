@@ -17,3 +17,10 @@ value = true
 
 [permissions.context]
 "area_control:current_area_id" = "0018e4d9-d70f-461d-b380-b3958f64ec0c"
+
+[[permissions]]
+permission = "area_control.command.mark"
+value = true
+
+[permissions.context]
+"area_control:current_area_id" = "0018e4d9-d70f-461d-b380-b3958f64ec0c"
