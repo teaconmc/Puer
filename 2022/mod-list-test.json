@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-49/SimpleBBQ-1.18.2-0.1.0-beta-49.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-60.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-60/spaceplane-1.0-60.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-60/spaceplane-1.0-60.jar.asc"
+    "name": "spaceplane-1.0-61.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-61/spaceplane-1.0-61.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-61/spaceplane-1.0-61.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
