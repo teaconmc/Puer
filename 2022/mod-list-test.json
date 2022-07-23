@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-33/boomood-1.18.2-1.0.0-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-33/boomood-1.18.2-1.0.0-33.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-34/boomood-1.18.2-1.0.0-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-34/boomood-1.18.2-1.0.0-34.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-15/lostgrace-1.0.0.3-SNAPSHOT-15.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-128.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-128/EmberOfPhoenix-1.0-128.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-128/EmberOfPhoenix-1.0-128.jar.asc"
+    "name": "EmberOfPhoenix-1.0-129.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-129/EmberOfPhoenix-1.0-129.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-129/EmberOfPhoenix-1.0-129.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-19.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.5-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-42/ShimmerFire-1.18.2-0.2.5-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-42/ShimmerFire-1.18.2-0.2.5-42.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.6-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-43/ShimmerFire-1.18.2-0.2.6-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-43/ShimmerFire-1.18.2-0.2.6-43.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -315,9 +315,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-8/MTR-forge-1.18.2-3.1.0-unofficial-3-8.jar.asc"
   },
   {
-    "name": "fμnken5p7ühen-forge-000.eine.null.null-6.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-6/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-6.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-6/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-6.jar.asc"
+    "name": "fμnken5p7ühen-forge-000.eine.null.null-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-8/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-8/f%CE%BCnken5p7%C3%BChen-forge-000.eine.null.null-8.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-3.jar",
