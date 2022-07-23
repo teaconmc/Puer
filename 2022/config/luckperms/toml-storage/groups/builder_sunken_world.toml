@@ -5,7 +5,7 @@ permission = "area_control.command.claim.chunk"
 value = true
 
 [permissions.context]
-"area_control:current_area_id" = "0013bd33-1068-4625-aa02-5cfe447deee7"
+"area_control:current_area_id" = "0017a78b-441d-4d24-9505-c1b5e7025945"
 
 [[permissions]]
 permission = "weight.10"
