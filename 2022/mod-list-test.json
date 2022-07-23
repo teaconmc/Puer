@@ -335,9 +335,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.0.0-SNAPSHOT+81826d3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B81826d3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B81826d3.jar.asc"
+    "name": "Garlic-Forge-1.18-1.1.0-SNAPSHOT+0413440.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.0.0-SNAPSHOT%2B0413440.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.0-SNAPSHOT%2B0413440.jar.asc"
   },
   {
     "name": "PowerTool-Forge-1.18-1.0.0.jar",
@@ -380,9 +380,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-forge-1.18-3.0.28.jar.asc"
   },
   {
-    "name": "SinoCore-1.2.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.2.jar.asc"
+    "name": "SinoCore-1.2.3.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.3.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-70.jar",
