@@ -334,6 +334,10 @@ permission = "minecraft.command.forceload"
 value = true
 
 [[permissions]]
+permission = "minecraft.command.forge"
+value = true
+
+[[permissions]]
 permission = "minecraft.command.function"
 value = true
 
