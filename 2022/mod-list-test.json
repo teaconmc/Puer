@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-35/boomood-1.18.2-1.0.0-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-35/boomood-1.18.2-1.0.0-35.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-36/boomood-1.18.2-1.0.0-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-36/boomood-1.18.2-1.0.0-36.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -105,9 +105,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-72.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-72/kitchenkarrot-1.18.2-2-3-72.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-72/kitchenkarrot-1.18.2-2-3-72.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-73.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-73/kitchenkarrot-1.18.2-2-3-73.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-73/kitchenkarrot-1.18.2-2-3-73.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-briquettes/build-7/briquettes-1.0.1-1.18.2-7.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.6-43.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-43/ShimmerFire-1.18.2-0.2.6-43.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-43/ShimmerFire-1.18.2-0.2.6-43.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.6-46.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-46/ShimmerFire-1.18.2-0.2.6-46.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-46/ShimmerFire-1.18.2-0.2.6-46.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
