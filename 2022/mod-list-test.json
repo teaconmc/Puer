@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-74.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-74/kitchenkarrot-1.18.2-2-3-74.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-74/kitchenkarrot-1.18.2-2-3-74.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-75.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-75/kitchenkarrot-1.18.2-2-3-75.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-75/kitchenkarrot-1.18.2-2-3-75.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -140,9 +140,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-28/rtorch-1.18.2-0.8.0-28.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-22/umapyoi-1.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-22/umapyoi-1.0-22.jar.asc"
+    "name": "umapyoi-1.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-23/umapyoi-1.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-23/umapyoi-1.0-23.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-49.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-13/sinodivination-1.18.2-1.0.1-13.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.6-47.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-47/ShimmerFire-1.18.2-0.2.6-47.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-47/ShimmerFire-1.18.2-0.2.6-47.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.6-48.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-48/ShimmerFire-1.18.2-0.2.6-48.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-48/ShimmerFire-1.18.2-0.2.6-48.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.2.0.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.18-0.6.2-rc.4.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.4/SlideShow-Forge-1.18-0.6.2-rc.4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.4.jar.asc"
+    "name": "SlideShow-Forge-1.18-0.6.2-rc.5.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2-rc.5/SlideShow-Forge-1.18-0.6.2-rc.5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2-rc.5.jar.asc"
   },
   {
     "name": "Isle-Forge-1.18-0.4.2.jar",
