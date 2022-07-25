@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-24/catinbucket-1.18.2-0.0.2-24.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-45.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-45/caupona-1.18.2-0.1.0-45.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-45/caupona-1.18.2-0.1.0-45.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-47.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-47/caupona-1.18.2-0.1.0-47.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-47/caupona-1.18.2-0.1.0-47.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.4-50.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-44/MtrSteamLoco-forge-1.18.2-0.0.1-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-44/MtrSteamLoco-forge-1.18.2-0.0.1-44.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-45/MtrSteamLoco-forge-1.18.2-0.0.1-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-45/MtrSteamLoco-forge-1.18.2-0.0.1-45.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.10.0-37.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-54/SimpleBBQ-1.18.2-0.1.0-beta-54.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-63.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-63/spaceplane-1.0-63.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-63/spaceplane-1.0-63.jar.asc"
+    "name": "spaceplane-1.0-64.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-64/spaceplane-1.0-64.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-64/spaceplane-1.0-64.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
