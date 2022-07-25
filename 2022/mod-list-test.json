@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-75.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-75/kitchenkarrot-1.18.2-2-3-75.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-75/kitchenkarrot-1.18.2-2-3-75.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-76.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-76/kitchenkarrot-1.18.2-2-3-76.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-76/kitchenkarrot-1.18.2-2-3-76.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-42/MtrSteamLoco-forge-1.18.2-0.0.1-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-42/MtrSteamLoco-forge-1.18.2-0.0.1-42.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-44.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-44/MtrSteamLoco-forge-1.18.2-0.0.1-44.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-44/MtrSteamLoco-forge-1.18.2-0.0.1-44.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.10.0-37.jar",
@@ -145,14 +145,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-24/umapyoi-1.0-24.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-52.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-52/SimpleBBQ-1.18.2-0.1.0-beta-52.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-52/SimpleBBQ-1.18.2-0.1.0-beta-52.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-54.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-54/SimpleBBQ-1.18.2-0.1.0-beta-54.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-54/SimpleBBQ-1.18.2-0.1.0-beta-54.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-62/spaceplane-1.0-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-62/spaceplane-1.0-62.jar.asc"
+    "name": "spaceplane-1.0-63.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-63/spaceplane-1.0-63.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-63/spaceplane-1.0-63.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
