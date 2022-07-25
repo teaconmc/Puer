@@ -135,9 +135,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-30/paimonfood-1.1.4-30.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-28/rtorch-1.18.2-0.8.0-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-28/rtorch-1.18.2-0.8.0-28.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-29/rtorch-1.18.2-0.8.0-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-29/rtorch-1.18.2-0.8.0-29.jar.asc"
   },
   {
     "name": "umapyoi-1.0-23.jar",
@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-23/umapyoi-1.0-23.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-50.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-50/SimpleBBQ-1.18.2-0.1.0-beta-50.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-50/SimpleBBQ-1.18.2-0.1.0-beta-50.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-51.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-51/SimpleBBQ-1.18.2-0.1.0-beta-51.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-51/SimpleBBQ-1.18.2-0.1.0-beta-51.jar.asc"
   },
   {
     "name": "spaceplane-1.0-62.jar",
@@ -460,9 +460,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/lucent-1.18.2-1.2.2.jar.asc"
   },
   {
-    "name": "Shimmer-forge-1.18.2-0.1.9-hotfix.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9-hotfix.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.9-hotfix.jar.asc"
+    "name": "Shimmer-forge-1.18.2-0.1.10.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Shimmer-forge-1.18.2-0.1.10.jar.asc"
   },
   {
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
