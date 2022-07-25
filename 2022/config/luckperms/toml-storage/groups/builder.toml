@@ -9,6 +9,10 @@ permission = "minecraft.command.selector"
 value = true
 
 [[permissions]]
+permission = "area_control.bypass.attack"
+value = true
+
+[[permissions]]
 permission = "area_control.command.claim.chunk"
 value = true
 
