@@ -1,4 +1,5 @@
 {
     "tooltip.firewood.tinder_item.major_effect.block_to_block.wave": "海浪（Teacon 展示）",
-        "tooltip.firewood.tinder_item.major_effect.set_block_name.rainbow_teacon": "彩虹（Teacon 展示）"
+        "tooltip.firewood.tinder_item.major_effect.set_block_name.rainbow_teacon": "彩虹（Teacon 展示）",
+            "tooltip.firewood.tinder_item.major_effect.set_block_name.graft_teacon": "嫁接（Teacon 展示）"
 }
