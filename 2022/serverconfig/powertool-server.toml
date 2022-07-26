@@ -9,7 +9,7 @@ AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/
 ------------------------
 技术问题不要找马雷，找马雷等于拖慢问题的解决速度。请找 3TUSK、4z 等人。
 如果你在远处看向世界中心处感觉非常卡，请考虑调低视距到 8 区块。我们会尽最大可能优化这玩意。
-F3+L 导致客户端崩溃的问题可能与 Lucent 有关，请找到 lucent-client.toml，找到 vanillaDynamicLighting 和 threadedRendering，均改为 
+F3+L 导致客户端崩溃的问题可能与 Lucent 有关，请找到 lucent-client.toml，找到 vanillaDynamicLighting 和 threadedRendering，均改为 false
 ------------------------
 Shimmer的泛光与彩光效果皆支持配置,可根据个人喜好进行调节、开关（游戏内可通过./shimmer指令设置），详情参见 https://github.com/Low-Drag-MC/Shimmer/wiki
 ------------------------
