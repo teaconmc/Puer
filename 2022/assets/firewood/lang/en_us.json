@@ -1,5 +1,8 @@
 {
     "tooltip.firewood.tinder_item.major_effect.block_to_block.wave": "Wave (Teacon Only)",
-        "tooltip.firewood.tinder_item.major_effect.set_block_name.rainbow_teacon": "Rainbow (Teacon Only)",
-            "tooltip.firewood.tinder_item.major_effect.set_block_name.graft_teacon": "Graft (Teacon Only)"
+    "tooltip.firewood.tinder_item.major_effect.set_block_name.rainbow_teacon": "Rainbow (Teacon Only)",
+    "tooltip.firewood.tinder_item.major_effect.set_block_name.graft_teacon": "Graft (Teacon Only)",
+    "tooltip.firewood.tinder_item.major_effect.potion.lingering_potion_teacon": "Lighing (Teacon Only)",
+    "tooltip.firewood.tinder_item.major_effect.mob_to_item.teacon_flame": "Teacon Flame (Teacon Only)",
+    "tooltip.firewood.tinder_item.major_effect.mob_to_item.teacon_flame.desc.1": "燃命燃本，见性见真。"
 }
