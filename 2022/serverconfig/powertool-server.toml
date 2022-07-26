@@ -1,8 +1,7 @@
 #Message-of-the-day content.
 motd = """欢迎来到 TeaCon 2022 展示服务器
 ------------------------
-建筑服的 Mod 列表通常会滞后于测试服，因为测试服需要相对稳定的建造环境。更新一般发生在半夜。
-龙井的更新频率是从每天零时起，大约两小时一次。
+龙井的更新频率是从每天零时起，大约两小时一次。新 Mod 首先会部署在测试服，待确认正常后才能更新到建筑服。
 ------------------------
 AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/AreaControl/wiki 还有疑问或特殊请求请及时联系 3TUSK
 请先 /ac claim chunk 声明你的建筑范围的「核心地块」，然后才能在你声明的核心地块内使用 /ac claim marked。
@@ -10,7 +9,8 @@ AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/
 ------------------------
 技术问题不要找马雷，找马雷等于拖慢问题的解决速度。请找 3TUSK、4z 等人。
 如果你在远处看向世界中心处感觉非常卡，请考虑调低视距到 8 区块。我们会尽最大可能优化这玩意。
+F3+L 导致客户端崩溃的问题可能与 Lucent 有关，请找到 lucent-client.toml，找到 vanillaDynamicLighting 和 threadedRendering，均改为 
 ------------------------
-shimmer的泛光与彩光效果皆支持配置,可根据个人喜好进行调节、开关（游戏内可通过./shimmer指令设置），详情参见 https://github.com/Low-Drag-MC/Shimmer/wiki
+Shimmer的泛光与彩光效果皆支持配置,可根据个人喜好进行调节、开关（游戏内可通过./shimmer指令设置），详情参见 https://github.com/Low-Drag-MC/Shimmer/wiki
 ------------------------
 祝建筑愉快！"""
