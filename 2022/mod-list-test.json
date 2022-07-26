@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-42/exp1182-1.0-42.jar.asc"
   },
   {
-    "name": "extinguish-0.1.5.tc-37.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-37/extinguish-0.1.5.tc-37.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-37/extinguish-0.1.5.tc-37.jar.asc"
+    "name": "extinguish-0.1.6.tc-38.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-38/extinguish-0.1.6.tc-38.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-38/extinguish-0.1.6.tc-38.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-34.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-41/flintlock-1.0-41.jar.asc"
   },
   {
-    "name": "groundfire-1.0-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-21/groundfire-1.0-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-21/groundfire-1.0-21.jar.asc"
+    "name": "groundfire-1.0-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-22/groundfire-1.0-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-22/groundfire-1.0-22.jar.asc"
   },
   {
     "name": "journey-1.18.2-0.0.1.0-22.jar",
@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-77.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-77/kitchenkarrot-1.18.2-2-3-77.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-77/kitchenkarrot-1.18.2-2-3-77.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-78.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-78/kitchenkarrot-1.18.2-2-3-78.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-78/kitchenkarrot-1.18.2-2-3-78.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -230,9 +230,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-13/sinodivination-1.18.2-1.0.1-13.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.6-49.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-49/ShimmerFire-1.18.2-0.2.6-49.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-49/ShimmerFire-1.18.2-0.2.6-49.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.6-50.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-50/ShimmerFire-1.18.2-0.2.6-50.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-50/ShimmerFire-1.18.2-0.2.6-50.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-27.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-27/pyrotechnicraft-1.18.2-0.0.1-27.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-27/pyrotechnicraft-1.18.2-0.0.1-27.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-28.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-28/pyrotechnicraft-1.18.2-0.0.1-28.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-28/pyrotechnicraft-1.18.2-0.0.1-28.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
@@ -323,6 +323,11 @@
     "name": "item_and_block_properties-0.5.0-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
+  },
+  {
+    "name": "ModernStylism-2.0-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-6/ModernStylism-2.0-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-6/ModernStylism-2.0-6.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.24.jar",
