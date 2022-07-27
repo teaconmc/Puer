@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-13/sinodivination-1.18.2-1.0.1-13.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-53.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-53/ShimmerFire-1.18.2-0.2.7-53.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-53/ShimmerFire-1.18.2-0.2.7-53.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-54.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-54/ShimmerFire-1.18.2-0.2.7-54.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-54/ShimmerFire-1.18.2-0.2.7-54.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -260,9 +260,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-33/pyrotechnicraft-1.18.2-0.0.1-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-33/pyrotechnicraft-1.18.2-0.0.1-33.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-34/pyrotechnicraft-1.18.2-0.0.1-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-34/pyrotechnicraft-1.18.2-0.0.1-34.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-6/ModernStylism-2.0-6.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.24.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.24/AreaControl-Forge-1.18-0.5.24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.24.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.25.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.25/AreaControl-Forge-1.18-0.5.25.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.25.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
