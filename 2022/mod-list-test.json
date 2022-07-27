@@ -115,14 +115,19 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.10.0-38.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-38/Multiblocked-1.18.2-0.10.0-38.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-38/Multiblocked-1.18.2-0.10.0-38.jar.asc"
+    "name": "Multiblocked-1.18.2-0.10.1-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-39/Multiblocked-1.18.2-0.10.1-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-39/Multiblocked-1.18.2-0.10.1-39.jar.asc"
   },
   {
     "name": "Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
+  },
+  {
+    "name": "oildrums-1.18.2-1.0.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-27/oildrums-1.18.2-1.0.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-27/oildrums-1.18.2-1.0.0-27.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
@@ -150,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-56/SimpleBBQ-1.18.2-0.1.0-beta-56.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-64.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-64/spaceplane-1.0-64.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-64/spaceplane-1.0-64.jar.asc"
+    "name": "spaceplane-1.0-65.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-65/spaceplane-1.0-65.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-65/spaceplane-1.0-65.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -245,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-29/pyrotechnicraft-1.18.2-0.0.1-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-29/pyrotechnicraft-1.18.2-0.0.1-29.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-30/pyrotechnicraft-1.18.2-0.0.1-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-30/pyrotechnicraft-1.18.2-0.0.1-30.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
