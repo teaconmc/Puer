@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-51/FlooPowder-1.4.5-51.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-22/CrockPot-1.18.2-1.2.0-release-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-22/CrockPot-1.18.2-1.2.0-release-22.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-23/CrockPot-1.18.2-1.2.0-release-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-23/CrockPot-1.18.2-1.2.0-release-23.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-31.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-13/sinodivination-1.18.2-1.0.1-13.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.6-51.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-51/ShimmerFire-1.18.2-0.2.6-51.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-51/ShimmerFire-1.18.2-0.2.6-51.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.6-52.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-52/ShimmerFire-1.18.2-0.2.6-52.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-52/ShimmerFire-1.18.2-0.2.6-52.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Garlic-Forge-1.18-1.1.1-SNAPSHOT+447d720.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.0-SNAPSHOT%2B447d720.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2B447d720.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2B447d720.jar.asc"
   },
   {
