@@ -9,6 +9,10 @@ permission = "minecraft.command.selector"
 value = true
 
 [[permissions]]
+permission = "command.nocaet.lookup"
+value = true
+
+[[permissions]]
 permission = "area_control.bypass.attack"
 value = true
 
