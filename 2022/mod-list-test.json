@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-51/FlooPowder-1.4.5-51.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-23/CrockPot-1.18.2-1.2.0-release-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-23/CrockPot-1.18.2-1.2.0-release-23.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-24/CrockPot-1.18.2-1.2.0-release-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-24/CrockPot-1.18.2-1.2.0-release-24.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-31.jar",
@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.10.1-39.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-39/Multiblocked-1.18.2-0.10.1-39.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-39/Multiblocked-1.18.2-0.10.1-39.jar.asc"
+    "name": "Multiblocked-1.18.2-0.10.1-40.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-40/Multiblocked-1.18.2-0.10.1-40.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-40/Multiblocked-1.18.2-0.10.1-40.jar.asc"
   },
   {
     "name": "Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
