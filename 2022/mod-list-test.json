@@ -25,14 +25,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-53/caupona-1.18.2-0.1.0-53.jar.asc"
   },
   {
-    "name": "FlooPowder-1.4.4-50.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-50/FlooPowder-1.4.4-50.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-50/FlooPowder-1.4.4-50.jar.asc"
+    "name": "FlooPowder-1.4.5-51.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-51/FlooPowder-1.4.5-51.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-51/FlooPowder-1.4.5-51.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-21.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-21/CrockPot-1.18.2-1.2.0-release-21.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-21/CrockPot-1.18.2-1.2.0-release-21.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-22.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-22/CrockPot-1.18.2-1.2.0-release-22.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-22/CrockPot-1.18.2-1.2.0-release-22.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-31.jar",
@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-65.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-65/firewood-0.7.0-65.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-65/firewood-0.7.0-65.jar.asc"
+    "name": "firewood-0.7.0-66.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar.asc"
   },
   {
     "name": "flintlock-1.0-41.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-30/Torchikoma-mc1.18.2-0.0.1-30.jar.asc"
   },
   {
-    "name": "sinocalligraphy-1.18.2-1.1.0-34.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-34/sinocalligraphy-1.18.2-1.1.0-34.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-34/sinocalligraphy-1.18.2-1.1.0-34.jar.asc"
+    "name": "sinocalligraphy-1.18.2-1.1.0-35.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-35/sinocalligraphy-1.18.2-1.1.0-35.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-35/sinocalligraphy-1.18.2-1.1.0-35.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-73.jar",
