@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-51/FlooPowder-1.4.5-51.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-24.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-24/CrockPot-1.18.2-1.2.0-release-24.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-24/CrockPot-1.18.2-1.2.0-release-24.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-25.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-25/CrockPot-1.18.2-1.2.0-release-25.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-25/CrockPot-1.18.2-1.2.0-release-25.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-31.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-25/umapyoi-1.0-25.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-56.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-56/SimpleBBQ-1.18.2-0.1.0-beta-56.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-56/SimpleBBQ-1.18.2-0.1.0-beta-56.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-57.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-57/SimpleBBQ-1.18.2-0.1.0-beta-57.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-57/SimpleBBQ-1.18.2-0.1.0-beta-57.jar.asc"
   },
   {
     "name": "spaceplane-1.0-65.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-30/Torchikoma-mc1.18.2-0.0.1-30.jar.asc"
   },
   {
-    "name": "sinocalligraphy-1.18.2-1.1.0-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-35/sinocalligraphy-1.18.2-1.1.0-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-35/sinocalligraphy-1.18.2-1.1.0-35.jar.asc"
+    "name": "sinocalligraphy-1.18.2-1.1.0-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-36/sinocalligraphy-1.18.2-1.1.0-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-36/sinocalligraphy-1.18.2-1.1.0-36.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-73.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-13/sinodivination-1.18.2-1.0.1-13.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.6-52.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-52/ShimmerFire-1.18.2-0.2.6-52.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-52/ShimmerFire-1.18.2-0.2.6-52.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-53.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-53/ShimmerFire-1.18.2-0.2.7-53.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-53/ShimmerFire-1.18.2-0.2.7-53.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-30/pyrotechnicraft-1.18.2-0.0.1-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-30/pyrotechnicraft-1.18.2-0.0.1-30.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-31/pyrotechnicraft-1.18.2-0.0.1-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-31/pyrotechnicraft-1.18.2-0.0.1-31.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
