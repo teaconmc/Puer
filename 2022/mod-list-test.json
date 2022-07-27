@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-36/boomood-1.18.2-1.0.0-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-36/boomood-1.18.2-1.0.0-36.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-37/boomood-1.18.2-1.0.0-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-37/boomood-1.18.2-1.0.0-37.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -40,9 +40,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-33/eldenmessage-1.0-33.jar.asc"
   },
   {
-    "name": "exp1182-1.0-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-42/exp1182-1.0-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-42/exp1182-1.0-42.jar.asc"
+    "name": "exp1182-1.0-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-43/exp1182-1.0-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-43/exp1182-1.0-43.jar.asc"
   },
   {
     "name": "extinguish-0.1.6.tc-38.jar",
@@ -83,6 +83,11 @@
     "name": "firewood-0.7.0-66.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar.asc"
+  },
+  {
+    "name": "flamereaction-0.1.1-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-26/flamereaction-0.1.1-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-26/flamereaction-0.1.1-26.jar.asc"
   },
   {
     "name": "flintlock-1.0-41.jar",
