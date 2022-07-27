@@ -85,11 +85,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar.asc"
   },
   {
-    "name": "flamereaction-0.1.1-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-26/flamereaction-0.1.1-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-26/flamereaction-0.1.1-26.jar.asc"
-  },
-  {
     "name": "flintlock-1.0-41.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-41/flintlock-1.0-41.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-41/flintlock-1.0-41.jar.asc"
