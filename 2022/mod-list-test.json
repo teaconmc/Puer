@@ -35,9 +35,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-25/CrockPot-1.18.2-1.2.0-release-25.jar.asc"
   },
   {
-    "name": "eldenmessage-1.0-31.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-31/eldenmessage-1.0-31.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-31/eldenmessage-1.0-31.jar.asc"
+    "name": "eldenmessage-1.0-32.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-32/eldenmessage-1.0-32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-32/eldenmessage-1.0-32.jar.asc"
   },
   {
     "name": "exp1182-1.0-42.jar",
@@ -110,6 +110,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
   },
   {
+    "name": "Metallurgy-MC1.18.2-0.1-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-31/Metallurgy-MC1.18.2-0.1-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-31/Metallurgy-MC1.18.2-0.1-31.jar.asc"
+  },
+  {
     "name": "MtrSteamLoco-forge-1.18.2-0.0.1-46.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar.asc"
@@ -140,14 +145,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-30/paimonfood-1.1.4-30.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-29.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-29/rtorch-1.18.2-0.8.0-29.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-29/rtorch-1.18.2-0.8.0-29.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-30.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-30/rtorch-1.18.2-0.8.0-30.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-30/rtorch-1.18.2-0.8.0-30.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-25/umapyoi-1.0-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-25/umapyoi-1.0-25.jar.asc"
+    "name": "umapyoi-1.0-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-26/umapyoi-1.0-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-26/umapyoi-1.0-26.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-57.jar",
@@ -180,9 +185,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-30/Torchikoma-mc1.18.2-0.0.1-30.jar.asc"
   },
   {
-    "name": "sinocalligraphy-1.18.2-1.1.0-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-36/sinocalligraphy-1.18.2-1.1.0-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-36/sinocalligraphy-1.18.2-1.1.0-36.jar.asc"
+    "name": "sinocalligraphy-1.18.2-1.1.0-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-37/sinocalligraphy-1.18.2-1.1.0-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sinocalligraphy/build-37/sinocalligraphy-1.18.2-1.1.0-37.jar.asc"
   },
   {
     "name": "yu-1.18.2-1.0a-73.jar",
@@ -250,9 +255,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-31.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-31/pyrotechnicraft-1.18.2-0.0.1-31.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-31/pyrotechnicraft-1.18.2-0.0.1-31.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-32.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-32/pyrotechnicraft-1.18.2-0.0.1-32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-32/pyrotechnicraft-1.18.2-0.0.1-32.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
