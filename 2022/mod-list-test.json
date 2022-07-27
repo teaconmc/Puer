@@ -115,6 +115,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-31/Metallurgy-MC1.18.2-0.1-31.jar.asc"
   },
   {
+    "name": "meteorcertainidea-1.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-23/meteorcertainidea-1.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-23/meteorcertainidea-1.0-23.jar.asc"
+  },
+  {
     "name": "MtrSteamLoco-forge-1.18.2-0.0.1-46.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-46/MtrSteamLoco-forge-1.18.2-0.0.1-46.jar.asc"
@@ -280,9 +285,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar.asc"
   },
   {
-    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220719.1303-9.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-9/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220719.1303-9.jar.asc"
+    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220727.2138-11.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-11/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220727.2138-11.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-11/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220727.2138-11.jar.asc"
   },
   {
     "name": "FluxNetworks-1.18.2-7.0.6.7-8.jar",
