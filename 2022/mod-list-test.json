@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-66/firewood-0.7.0-66.jar.asc"
   },
   {
-    "name": "flintlock-1.0-41.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-41/flintlock-1.0-41.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-41/flintlock-1.0-41.jar.asc"
+    "name": "flintlock-1.0-42.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-42/flintlock-1.0-42.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-flintlock/build-42/flintlock-1.0-42.jar.asc"
   },
   {
     "name": "groundfire-1.0-25.jar",
@@ -200,9 +200,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-74/yu-1.18.2-1.0a-74.jar.asc"
   },
   {
-    "name": "TacticalCards-1.3.0a-build-20220719-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-35/TacticalCards-1.3.0a-build-20220719-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-35/TacticalCards-1.3.0a-build-20220719-35.jar.asc"
+    "name": "TacticalCards-1.3.0a-build-20220719-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-36/TacticalCards-1.3.0a-build-20220719-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-36/TacticalCards-1.3.0a-build-20220719-36.jar.asc"
   },
   {
     "name": "sinofeast-1.18.2-1.0.2-25.jar",
