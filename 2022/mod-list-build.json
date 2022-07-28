@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-30/paimonfood-1.1.4-30.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-28/umapyoi-1.0-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-28/umapyoi-1.0-28.jar.asc"
+    "name": "umapyoi-1.0-29.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-29/umapyoi-1.0-29.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-29/umapyoi-1.0-29.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-0.1.0-beta-59.jar",
@@ -345,9 +345,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-6/ModernStylism-2.0-6.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.26.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.26/AreaControl-Forge-1.18-0.5.26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.26.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.27.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.27/AreaControl-Forge-1.18-0.5.27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.27.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
