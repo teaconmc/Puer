@@ -1,0 +1,9 @@
+#Fire Source Vanilla Overrides
+#Is furnace block a fire source?
+furnace_fs = false
+#Is campfire a fire source?
+campfire_fs = false
+#Is torch a fire source?
+torch_fs = false
+#Is magma a fire source?
+magma_fs = false
