@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-32/Metallurgy-MC1.18.2-0.1-32.jar.asc"
   },
   {
-    "name": "meteorcertainidea-1.0-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-23/meteorcertainidea-1.0-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-23/meteorcertainidea-1.0-23.jar.asc"
+    "name": "meteorcertainidea-1.0-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-24/meteorcertainidea-1.0-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-24/meteorcertainidea-1.0-24.jar.asc"
   },
   {
     "name": "MtrSteamLoco-forge-1.18.2-0.0.1-50.jar",
@@ -200,9 +200,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-yu/build-74/yu-1.18.2-1.0a-74.jar.asc"
   },
   {
-    "name": "TacticalCards-1.3.0a-build-20220719-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-33/TacticalCards-1.3.0a-build-20220719-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-33/TacticalCards-1.3.0a-build-20220719-33.jar.asc"
+    "name": "TacticalCards-1.3.0a-build-20220719-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-34/TacticalCards-1.3.0a-build-20220719-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-tactical-cards/build-34/TacticalCards-1.3.0a-build-20220719-34.jar.asc"
   },
   {
     "name": "sinofeast-1.18.2-1.0.2-23.jar",
@@ -215,9 +215,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-26/Ashihara-0.0.0.12-26.jar.asc"
   },
   {
-    "name": "lostgrace-1.0.0.3-SNAPSHOT-15.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-15/lostgrace-1.0.0.3-SNAPSHOT-15.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-15/lostgrace-1.0.0.3-SNAPSHOT-15.jar.asc"
+    "name": "lostgrace-1.0.0.3-SNAPSHOT-16.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-16/lostgrace-1.0.0.3-SNAPSHOT-16.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-16/lostgrace-1.0.0.3-SNAPSHOT-16.jar.asc"
   },
   {
     "name": "EmberOfPhoenix-1.0-129.jar",
@@ -325,9 +325,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-4/creeper_firework-teacon2022--1.0.0-4.jar.asc"
   },
   {
-    "name": "fire_track-1.18.2-1.0.0-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-4/fire_track-1.18.2-1.0.0-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-4/fire_track-1.18.2-1.0.0-4.jar.asc"
+    "name": "fire_track-teacon2022--1.0.0-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-5/fire_track-teacon2022--1.0.0-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-5/fire_track-teacon2022--1.0.0-5.jar.asc"
   },
   {
     "name": "MTR-forge-1.18.2-3.1.0-unofficial-3-8.jar",
