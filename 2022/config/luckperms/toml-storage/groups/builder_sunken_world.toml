@@ -8,5 +8,13 @@ value = true
 "area_control:current_area_id" = "0017a78b-441d-4d24-9505-c1b5e7025945"
 
 [[permissions]]
+permission = "area_control.*"
+value = true
+
+[permissions.context]
+world = "world/sunken_world/sunken_world"
+
+
+[[permissions]]
 permission = "weight.10"
 value = true
