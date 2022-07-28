@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-37.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-37/boomood-1.18.2-1.0.0-37.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-37/boomood-1.18.2-1.0.0-37.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-38.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-38/boomood-1.18.2-1.0.0-38.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-38/boomood-1.18.2-1.0.0-38.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-78.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-78/kitchenkarrot-1.18.2-2-3-78.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-78/kitchenkarrot-1.18.2-2-3-78.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-79.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-79/kitchenkarrot-1.18.2-2-3-79.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-79/kitchenkarrot-1.18.2-2-3-79.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
