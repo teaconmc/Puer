@@ -7,6 +7,7 @@ AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/
 请先 /ac claim chunk 声明你的建筑范围的「核心地块」，然后才能在你声明的核心地块内使用 /ac claim marked。
 标记领地用到的物品现在是「看起来没用的木棍儿」，/give @s powertool:useless_stick
 请及时关闭领地内的 area.allow_break_block 权限，避免游客意外破坏。
+领地内放置方块和破坏方块的权限是两个权限。AreaControl 的使用说明中也明确分开列出了这两个领地权限。
 ------------------------
 技术问题不要找马雷，找马雷等于拖慢问题的解决速度。请找 3TUSK、4z 等人。
 如果你在远处看向世界中心处感觉非常卡，请考虑调低视距到 8 区块。我们会尽最大可能优化这玩意。
