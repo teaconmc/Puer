@@ -1,0 +1,14 @@
+{
+  "type": "firewood:mob_to_item",
+  "sub_type": "teacon_flame",
+  "mobs_blacklist": false,
+  "mobs_list": [
+    "minecraft:player"
+  ],
+  "items_list": [
+    {
+      "nocaet": "minecraft:spiritual_glow",
+      "count": 1
+    }
+  ]
+}
