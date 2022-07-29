@@ -1,0 +1,73 @@
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "match": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "situations": [
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:zombie"
+        }
+      },
+      "weight": 120
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:zombie_villager"
+        }
+      },
+      "weight": 5
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:zombie_horse"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:husk"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:drowned"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:zoglin"
+        }
+      },
+      "weight": 5
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:zombified_piglin"
+        }
+      },
+      "weight": 10
+    }
+  ]
+}

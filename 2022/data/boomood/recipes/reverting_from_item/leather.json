@@ -1,0 +1,79 @@
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "match": {
+      "item": "minecraft:leather"
+    }
+  },
+  "situations": [
+    {
+      "detail": {
+        "type":"chest_destruction"
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:cow"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:mooshroom"
+        }
+      },
+      "weight": 1
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:donkey"
+        }
+      },
+      "weight": 5
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:mule"
+        }
+      },
+      "weight": 5
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:llama"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:trader_llama"
+        }
+      },
+      "weight": 1
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:hoglin"
+        }
+      },
+      "weight": 5
+    }
+  ]
+}

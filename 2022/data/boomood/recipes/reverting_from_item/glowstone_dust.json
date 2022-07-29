@@ -1,0 +1,22 @@
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "mode": "standard",
+    "match": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "min": 2,
+    "max": 4
+  },
+  "situation": {
+    "detail": {
+      "type":"block_destruction",
+      "block": {
+        "blockstate": {
+          "Name": "minecraft:glowstone"
+        }
+      }
+    },
+    "weight": 1
+  }
+}
