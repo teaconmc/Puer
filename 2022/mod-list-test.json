@@ -5,9 +5,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
   },
   {
-    "name": "boomood-1.18.2-1.0.0-39.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-39/boomood-1.18.2-1.0.0-39.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-39/boomood-1.18.2-1.0.0-39.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-40.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-53.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-53/caupona-1.18.2-0.1.0-53.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-53/caupona-1.18.2-0.1.0-53.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-64.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-64/caupona-1.18.2-0.1.0-64.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-64/caupona-1.18.2-0.1.0-64.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -150,9 +150,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-30/paimonfood-1.1.4-30.jar.asc"
   },
   {
-    "name": "rtorch-1.18.2-0.8.0-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-30/rtorch-1.18.2-0.8.0-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-30/rtorch-1.18.2-0.8.0-30.jar.asc"
+    "name": "rtorch-1.18.2-0.8.0-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-31/rtorch-1.18.2-0.8.0-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-31/rtorch-1.18.2-0.8.0-31.jar.asc"
   },
   {
     "name": "umapyoi-1.0-29.jar",
