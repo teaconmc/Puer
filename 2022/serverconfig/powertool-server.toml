@@ -1,11 +1,7 @@
 #Message-of-the-day content.
 motd = """欢迎来到 TeaCon 2022 展示服务器
 ------------------------
-AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/AreaControl/wiki 还有疑问或特殊请求请及时联系 3TUSK
-请先 /ac claim chunk 声明你的建筑范围的「核心地块」，然后才能在你声明的核心地块内使用 /ac claim marked。
-标记领地用到的物品现在是「看起来没用的木棍儿」，/give @s powertool:useless_stick
-请及时关闭领地内的 area.allow_break_block 权限，避免游客意外破坏。
-领地内放置方块和破坏方块的权限是两个权限。AreaControl 的使用说明中也明确分开列出了这两个领地权限。
+请评审员和试玩员加入我们的 Kook 频道反馈问题 https://kook.teacon.cn，游览导引手册在官网首页下载，请务必看看
 ------------------------
 还投票不了！
 重复，还投票不了！
@@ -20,4 +16,4 @@ AreaControl 最新的使用说明会在这里更新 https://github.com/teaconmc/
 ------------------------
 Shimmer的泛光与彩光效果皆支持配置,可根据个人喜好进行调节、开关（游戏内可通过./shimmer指令设置），详情参见 https://github.com/Low-Drag-MC/Shimmer/wiki
 ------------------------
-祝建筑愉快！"""
+玩得开心点"""
