@@ -220,11 +220,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-129/EmberOfPhoenix-1.0-129.jar.asc"
   },
   {
-    "name": "FireSource-Forge-1.18.2-1.0.0-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firesource/build-10/FireSource-Forge-1.18.2-1.0.0-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firesource/build-10/FireSource-Forge-1.18.2-1.0.0-10.jar.asc"
-  },
-  {
     "name": "thelixir-1.18.2-1-3-19.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-19/thelixir-1.18.2-1-3-19.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-19/thelixir-1.18.2-1-3-19.jar.asc"
