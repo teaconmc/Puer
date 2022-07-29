@@ -7,7 +7,7 @@
   ],
   "items_list": [
     {
-      "nocaet": "minecraft:spiritual_glow",
+      "item": "nocaet:spiritual_glow",
       "count": 1
     }
   ]
