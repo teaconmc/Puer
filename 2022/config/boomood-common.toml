@@ -1,0 +1,23 @@
+
+[common]
+	#The reversion area shape
+	#Allowed Values: SPHERE, CUBE
+	AREA_SHAPE = "SPHERE"
+	#If there is no enough space in reversion area, it decides how are is reverting process will be extend.
+	#Allowed Values: UPWARD, SHATTER_IN_DOUBLE_RADIUS
+	REMEDY_TYPE = "SHATTER_IN_DOUBLE_RADIUS"
+	#The reversion area radius.
+	#Range: 2 ~ 16
+	RADIUS = 5
+
+[itemstack_reversion]
+	#Will the reversion process put tnt block back?
+	CREATE_TNT = false
+	#Will the reversion process put armor stand with randomized pose?
+	ARMOR_STAND_POSE_RANDOMIZE = true
+	#The possibility of the reversion process putting glow item frame?
+	#Range: 0.0 ~ 1.0
+	GLOW_ITEM_FRAME_POSSIBILITY = 0.2
+	FALLING_BLOCK_SHOULD_HAVE_SUPPORT_BLOCK = false
+	ARMOR_STAND_SHOULD_HAVE_SUPPORT_BLOCK = true
+

@@ -1,0 +1,37 @@
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "match": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "situations": [
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:creeper"
+        }
+      },
+      "weight": 100
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:witch"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:ghast"
+        }
+      },
+      "weight": 10
+    }
+  ]
+}

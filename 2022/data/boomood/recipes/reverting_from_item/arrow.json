@@ -1,0 +1,35 @@
+
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "match": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "situations": [
+    {
+      "detail": {
+        "type":"chest_destruction"
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:skeleton"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:stray"
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

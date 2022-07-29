@@ -1,0 +1,46 @@
+{
+  "type": "boomood:reverting_from_item",
+  "cause": {
+    "match": {
+      "item": "minecraft:bone"
+    }
+  },
+  "situations": [
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:skeleton"
+        }
+      },
+      "weight": 100
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:wither_skeleton"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:skeleton_horse"
+        }
+      },
+      "weight": 10
+    },
+    {
+      "detail": {
+        "type":"entity_death",
+        "entity": {
+          "id": "minecraft:stray"
+        }
+      },
+      "weight": 10
+    }
+  ]
+}
