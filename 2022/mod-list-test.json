@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-70.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-70/caupona-1.18.2-0.1.0-70.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-70/caupona-1.18.2-0.1.0-70.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-71.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-71/caupona-1.18.2-0.1.0-71.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-71/caupona-1.18.2-0.1.0-71.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-59/SimpleBBQ-1.18.2-0.1.0-beta-59.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-67.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-67/spaceplane-1.0-67.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-67/spaceplane-1.0-67.jar.asc"
+    "name": "spaceplane-1.0-68.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-68/spaceplane-1.0-68.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-68/spaceplane-1.0-68.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
