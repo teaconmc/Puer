@@ -145,6 +145,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-paimonfood/build-30/paimonfood-1.1.4-30.jar.asc"
   },
   {
+    "name": "rtorch-1.18.2-0.8.0-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-31/rtorch-1.18.2-0.8.0-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-31/rtorch-1.18.2-0.8.0-31.jar.asc"
+  },
+  {
     "name": "umapyoi-1.0-32.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar.asc"
