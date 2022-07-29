@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-65.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-65/caupona-1.18.2-0.1.0-65.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-65/caupona-1.18.2-0.1.0-65.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-67.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-67/caupona-1.18.2-0.1.0-67.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-67/caupona-1.18.2-0.1.0-67.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-32/touhoulittlemaid-1.18.2-1.0.0-32.jar.asc"
   },
   {
-    "name": "sunken_world-1.0-SNAPSHOT-74.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-74/sunken_world-1.0-SNAPSHOT-74.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-74/sunken_world-1.0-SNAPSHOT-74.jar.asc"
+    "name": "sunken_world-1.0-SNAPSHOT-75.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-75/sunken_world-1.0-SNAPSHOT-75.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-75/sunken_world-1.0-SNAPSHOT-75.jar.asc"
   },
   {
     "name": "Torchikoma-mc1.18.2-0.0.1-30.jar",
