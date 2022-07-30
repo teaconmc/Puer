@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-73.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-73/caupona-1.18.2-0.1.0-73.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-73/caupona-1.18.2-0.1.0-73.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-75.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-75/caupona-1.18.2-0.1.0-75.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-75/caupona-1.18.2-0.1.0-75.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-46/exp1182-1.0-46.jar.asc"
   },
   {
-    "name": "extinguish-0.1.7.tc-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-42/extinguish-0.1.7.tc-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-42/extinguish-0.1.7.tc-42.jar.asc"
+    "name": "extinguish-0.1.8.tc-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-43/extinguish-0.1.8.tc-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-43/extinguish-0.1.8.tc-43.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-34.jar",
@@ -108,6 +108,11 @@
     "name": "lighterfe-1.18.2-1-2-28.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lighterfe/build-28/lighterfe-1.18.2-1-2-28.jar.asc"
+  },
+  {
+    "name": "Metallurgy-MC1.18.2-0.1-41.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-41/Metallurgy-MC1.18.2-0.1-41.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-metallurgy/build-41/Metallurgy-MC1.18.2-0.1-41.jar.asc"
   },
   {
     "name": "meteorcertainidea-1.0-25.jar",
@@ -270,9 +275,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-5/mythic_cookstoves-0.1alpha-5.jar.asc"
   },
   {
-    "name": "semishigure-0.1-3.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-3/semishigure-0.1-3.jar.asc"
+    "name": "semishigure-0.1-4.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-4/semishigure-0.1-4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-4/semishigure-0.1-4.jar.asc"
   },
   {
     "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220729.0028-13.jar",
