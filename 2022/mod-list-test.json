@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.1.1-SNAPSHOT+e59fcda.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2Be59fcda.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2Be59fcda.jar.asc"
+    "name": "Garlic-Forge-1.18-1.1.1-SNAPSHOT+ee8b6c0.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2Bee8b6c0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.1-SNAPSHOT%2Bee8b6c0.jar.asc"
   },
   {
     "name": "PowerTool-Forge-1.18-1.1.5.jar",
@@ -465,9 +465,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.0.jar.asc"
   },
   {
-    "name": "lazydfu-0.1.2.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/lazydfu-0.1.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/lazydfu-0.1.2.jar.asc"
+    "name": "lazydfu-1.0-1.18+.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/lazydfu-1.0-1.18%2B.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/lazydfu-1.0-1.18%2B.jar.asc"
   },
   {
     "name": "lightfall-client-1.18.2-1.0.3.jar",
