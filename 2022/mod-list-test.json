@@ -40,9 +40,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-33/eldenmessage-1.0-33.jar.asc"
   },
   {
-    "name": "exp1182-1.0-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-44/exp1182-1.0-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-44/exp1182-1.0-44.jar.asc"
+    "name": "exp1182-1.0-45.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-45/exp1182-1.0-45.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-45/exp1182-1.0-45.jar.asc"
   },
   {
     "name": "extinguish-0.1.7.tc-41.jar",
@@ -60,9 +60,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-protection-equipment/build-42/Fire-Protection-Equipment-1.0-42.jar.asc"
   },
   {
-    "name": "fireballgame-1.1-49.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-49/fireballgame-1.1-49.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-49/fireballgame-1.1-49.jar.asc"
+    "name": "fireballgame-1.1-51.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-51/fireballgame-1.1-51.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fireballgame/build-51/fireballgame-1.1-51.jar.asc"
   },
   {
     "name": "firecrafting-0.2.0-38.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
   },
   {
-    "name": "oildrums-1.18.2-1.0.1-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-30/oildrums-1.18.2-1.0.1-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-30/oildrums-1.18.2-1.0.1-30.jar.asc"
+    "name": "oildrums-1.18.2-1.0.1-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-31/oildrums-1.18.2-1.0.1-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-31/oildrums-1.18.2-1.0.1-31.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
@@ -215,9 +215,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lostgrace/build-18/lostgrace-1.0.0.3-SNAPSHOT-18.jar.asc"
   },
   {
-    "name": "EmberOfPhoenix-1.0-129.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-129/EmberOfPhoenix-1.0-129.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-129/EmberOfPhoenix-1.0-129.jar.asc"
+    "name": "EmberOfPhoenix-1.0-130.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-130/EmberOfPhoenix-1.0-130.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-130/EmberOfPhoenix-1.0-130.jar.asc"
   },
   {
     "name": "thelixir-1.18.2-1-3-19.jar",
