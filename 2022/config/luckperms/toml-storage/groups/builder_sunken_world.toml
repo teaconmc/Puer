@@ -14,6 +14,19 @@ value = true
 [permissions.context]
 world = "world/sunken_world/sunken_world"
 
+[[permissions]]
+permission = "area_control.command.claim.*"
+value = true
+
+[permissions.context]
+world = "world/sunken_world/sunken_world"
+
+[[permissions]]
+permission = "area_control.command.*"
+value = true
+
+[permissions.context]
+world = "world/sunken_world/sunken_world"
 
 [[permissions]]
 permission = "weight.10"
