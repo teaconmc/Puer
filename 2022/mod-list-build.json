@@ -40,11 +40,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-eldenmessage/build-33/eldenmessage-1.0-33.jar.asc"
   },
   {
-    "name": "exp1182-1.0-45.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-45/exp1182-1.0-45.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-45/exp1182-1.0-45.jar.asc"
-  },
-  {
     "name": "extinguish-0.1.7.tc-42.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-42/extinguish-0.1.7.tc-42.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-42/extinguish-0.1.7.tc-42.jar.asc"
