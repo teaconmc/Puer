@@ -17,6 +17,3 @@ friends = []
 "area.allow_use_item" = "true"
 "area.allow_pvp" = "true"
 "area.allow_attack" = "true"
-"area.allow_explosion" = "true"
-"area.allow_explosion_affect_blocks" = "true"
-"area.allow_explosion_affect_entities" = "true"
