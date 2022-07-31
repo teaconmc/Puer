@@ -1,1 +1,5 @@
 name = "default"
+
+[[permissions]]
+permission = "slide_show.interact.projector"
+value = false

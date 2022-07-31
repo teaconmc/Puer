@@ -13,6 +13,10 @@ permission = "command.nocaet.lookup"
 value = true
 
 [[permissions]]
+permission = "slide_show.interact.projector"
+value = true
+
+[[permissions]]
 permission = "area_control.bypass.attack"
 value = true
 
