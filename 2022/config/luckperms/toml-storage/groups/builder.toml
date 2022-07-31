@@ -42,6 +42,14 @@ permission = "worldedit.*"
 value = true
 
 [[permissions]]
+permission = "area_control.bypass.break_block"
+value = true
+
+[[permissions]]
+permission = "area_control.bypass.place_block"
+value = true
+
+[[permissions]]
 permission = "area_control.command.claim.chunk"
 value = false
 
