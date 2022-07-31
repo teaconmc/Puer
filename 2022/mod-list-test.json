@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-76.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-76/caupona-1.18.2-0.1.0-76.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-76/caupona-1.18.2-0.1.0-76.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-77.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-77/caupona-1.18.2-0.1.0-77.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-77/caupona-1.18.2-0.1.0-77.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-25/CrockPot-1.18.2-1.2.0-release-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-25/CrockPot-1.18.2-1.2.0-release-25.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-26/CrockPot-1.18.2-1.2.0-release-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-26/CrockPot-1.18.2-1.2.0-release-26.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -135,9 +135,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
   },
   {
-    "name": "oildrums-1.18.2-1.0.1-32.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-32/oildrums-1.18.2-1.0.1-32.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-32/oildrums-1.18.2-1.0.1-32.jar.asc"
+    "name": "oildrums-1.18.2-1.0.1-33.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-33/oildrums-1.18.2-1.0.1-33.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-33/oildrums-1.18.2-1.0.1-33.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
