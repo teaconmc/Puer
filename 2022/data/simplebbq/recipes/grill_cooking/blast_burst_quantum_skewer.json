@@ -1,0 +1,8 @@
+{
+  "type": "simplebbq:grill_cooking",
+  "ingredient": {
+    "item": "noceat:quantum_skewer"
+  },
+  "result": "noceat:blast_burst_quantum_skewer",
+  "cookingtime": 200
+}
