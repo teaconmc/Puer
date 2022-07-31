@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-67.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-67/firewood-0.7.0-67.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-67/firewood-0.7.0-67.jar.asc"
+    "name": "firewood-0.7.0-68.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-68/firewood-0.7.0-68.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-68/firewood-0.7.0-68.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -340,9 +340,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
-    "name": "ModernStylism-2.0-11.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-11/ModernStylism-2.0-11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-11/ModernStylism-2.0-11.jar.asc"
+    "name": "ModernStylism-2.0-12.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.29.jar",
