@@ -15,7 +15,14 @@ value = true
 world = "world/emberphoenix/phoenix"
 
 [[permissions]]
-permission = "area_control.command.claim.*"
+permission = "area_control.command.claim.marked"
+value = true
+
+[permissions.context]
+world = "world/emberphoenix/phoenix"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
 value = true
 
 [permissions.context]

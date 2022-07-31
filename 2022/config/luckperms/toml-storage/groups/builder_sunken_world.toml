@@ -15,7 +15,14 @@ value = true
 world = "world/sunken_world/sunken_world"
 
 [[permissions]]
-permission = "area_control.command.claim.*"
+permission = "area_control.command.claim.marked"
+value = true
+
+[permissions.context]
+world = "world/sunken_world/sunken_world"
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
 value = true
 
 [permissions.context]
