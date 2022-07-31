@@ -1,9 +1,9 @@
 {
   "type": "simplebbq:skewering",
   "ingredient": {
-    "item": "noceat:quantum_fruit"
+    "item": "nocaet:quantum_fruit"
   },
   "result": {
-    "item": "noceat:quantum_skewer"
+    "item": "nocaet:quantum_skewer"
   }
 }
