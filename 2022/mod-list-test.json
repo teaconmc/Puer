@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-60.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-60/SimpleBBQ-1.18.2-0.1.0-beta-60.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-60/SimpleBBQ-1.18.2-0.1.0-beta-60.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-61.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-61/SimpleBBQ-1.18.2-0.1.0-beta-61.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-61/SimpleBBQ-1.18.2-0.1.0-beta-61.jar.asc"
   },
   {
     "name": "spaceplane-1.0-68.jar",
@@ -320,9 +320,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-creeper-firework/build-4/creeper_firework-teacon2022--1.0.0-4.jar.asc"
   },
   {
-    "name": "fire_track-teacon2022--1.0.0-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-7/fire_track-teacon2022--1.0.0-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-7/fire_track-teacon2022--1.0.0-7.jar.asc"
+    "name": "fire_track-teacon2022--1.0.0-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar.asc"
   },
   {
     "name": "MTR-forge-1.18.2-3.1.0-unofficial-3-8.jar",
