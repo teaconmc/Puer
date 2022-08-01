@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-80.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-80/kitchenkarrot-1.18.2-2-3-80.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-80/kitchenkarrot-1.18.2-2-3-80.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-81.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-81/kitchenkarrot-1.18.2-2-3-81.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-81/kitchenkarrot-1.18.2-2-3-81.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-63.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-63/SimpleBBQ-1.18.2-0.1.0-beta-63.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-63/SimpleBBQ-1.18.2-0.1.0-beta-63.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-64.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-64/SimpleBBQ-1.18.2-0.1.0-beta-64.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-64/SimpleBBQ-1.18.2-0.1.0-beta-64.jar.asc"
   },
   {
     "name": "spaceplane-1.0-68.jar",
