@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-25/catinbucket-1.18.2-0.0.3-25.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-77.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-77/caupona-1.18.2-0.1.0-77.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-77/caupona-1.18.2-0.1.0-77.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-81.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-81/caupona-1.18.2-0.1.0-81.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-81/caupona-1.18.2-0.1.0-81.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-26/CrockPot-1.18.2-1.2.0-release-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-26/CrockPot-1.18.2-1.2.0-release-26.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-27/CrockPot-1.18.2-1.2.0-release-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-27/CrockPot-1.18.2-1.2.0-release-27.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-67.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-67/firewood-0.7.0-67.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-67/firewood-0.7.0-67.jar.asc"
+    "name": "firewood-0.7.0-69.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-69/firewood-0.7.0-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-69/firewood-0.7.0-69.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
   },
   {
-    "name": "oildrums-1.18.2-1.0.1-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-33/oildrums-1.18.2-1.0.1-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-33/oildrums-1.18.2-1.0.1-33.jar.asc"
+    "name": "oildrums-1.18.2-1.0.3-35.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-35/oildrums-1.18.2-1.0.3-35.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-oildrums/build-35/oildrums-1.18.2-1.0.3-35.jar.asc"
   },
   {
     "name": "omni_card-1.18.2-1.2.3-27.jar",
@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar.asc"
   },
   {
-    "name": "SimpleBBQ-1.18.2-0.1.0-beta-61.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-61/SimpleBBQ-1.18.2-0.1.0-beta-61.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-61/SimpleBBQ-1.18.2-0.1.0-beta-61.jar.asc"
+    "name": "SimpleBBQ-1.18.2-0.1.0-beta-62.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-62/SimpleBBQ-1.18.2-0.1.0-beta-62.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-62/SimpleBBQ-1.18.2-0.1.0-beta-62.jar.asc"
   },
   {
     "name": "spaceplane-1.0-68.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-75/sunken_world-1.0-SNAPSHOT-75.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-30.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-30/Torchikoma-mc1.18.2-0.0.1-30.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-30/Torchikoma-mc1.18.2-0.0.1-30.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-31/Torchikoma-mc1.18.2-0.0.1-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-31/Torchikoma-mc1.18.2-0.0.1-31.jar.asc"
   },
   {
     "name": "sinocalligraphy-1.18.2-1.1.0-41.jar",
@@ -270,9 +270,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-5/mythic_cookstoves-0.1alpha-5.jar.asc"
   },
   {
-    "name": "semishigure-0.1-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-4/semishigure-0.1-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-4/semishigure-0.1-4.jar.asc"
+    "name": "semishigure-0.1-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-5/semishigure-0.1-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-5/semishigure-0.1-5.jar.asc"
   },
   {
     "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220729.0028-13.jar",
@@ -335,9 +335,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
-    "name": "ModernStylism-2.0-11.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-11/ModernStylism-2.0-11.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-11/ModernStylism-2.0-11.jar.asc"
+    "name": "ModernStylism-2.0-12.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.29.jar",
