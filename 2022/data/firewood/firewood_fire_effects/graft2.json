@@ -8,12 +8,13 @@
   "target_limit": 5,
   "cooldown": 10,
   "order": [
-    "birch",
+    ["birch", "minecraft"],
     "oak",
     "jungle",
     "spruce",
     "dark_oak",
-    "acacia"
+    ["acacia", "minecraft"],
+    ["walnut", "caupona"]
   ],
   "checkOrder": [
     4
