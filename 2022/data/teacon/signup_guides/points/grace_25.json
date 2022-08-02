@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "赐福点",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -441,
+      67,
+      39
+    ],
+    "render": [
+      -441,
+      67,
+      39
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_west"
+  ]
+}

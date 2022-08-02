@@ -1,3 +1,5 @@
+bossbar set teacon:bossbar players @a[tag=!teacon_hide_bossbar]
+
 tag @a remove teacon_judge_craftsman
 execute as e76830b6-fd3a-4cf9-aacb-1a8fe28fe2b8 run tag @s add teacon_judge_craftsman
 execute as c30e40e1-987a-4458-8edd-bf76ba40359c run tag @s add teacon_judge_craftsman
