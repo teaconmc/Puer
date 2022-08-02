@@ -100,9 +100,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
   },
   {
-    "name": "kitchenkarrot-1.18.2-2-3-81.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-81/kitchenkarrot-1.18.2-2-3-81.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-81/kitchenkarrot-1.18.2-2-3-81.jar.asc"
+    "name": "kitchenkarrot-1.18.2-2-3-83.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-83/kitchenkarrot-1.18.2-2-3-83.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-kitchenkarrot/build-83/kitchenkarrot-1.18.2-2-3-83.jar.asc"
   },
   {
     "name": "lighterfe-1.18.2-1-2-28.jar",
@@ -210,9 +210,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinofeast/build-26/sinofeast-1.18.2-1.0.2-26.jar.asc"
   },
   {
-    "name": "Ashihara-0.0.0.12-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-26/Ashihara-0.0.0.12-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-26/Ashihara-0.0.0.12-26.jar.asc"
+    "name": "Ashihara-0.0.0.12-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-27/Ashihara-0.0.0.12-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ashihara/build-27/Ashihara-0.0.0.12-27.jar.asc"
   },
   {
     "name": "lostgrace-1.0.0.3-SNAPSHOT-18.jar",
@@ -365,9 +365,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.1.6.jar.asc"
   },
   {
-    "name": "SignMeUp-Forge-1.18-0.2.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.18/0.2.0/SignMeUp-Forge-1.18-0.2.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.2.0.jar.asc"
+    "name": "SignMeUp-Forge-1.18-0.3.0.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SignMeUp-Forge-1.18/0.3.0/SignMeUp-Forge-1.18-0.3.0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.3.0.jar.asc"
   },
   {
     "name": "SlideShow-Forge-1.18-0.6.2.jar",
