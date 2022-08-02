@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "完全恢复",
+  "title": "恢复血量",
   "selector": "@a",
   "description": "回复自身血量、饥饿值、和经验等级",
   "executes": [

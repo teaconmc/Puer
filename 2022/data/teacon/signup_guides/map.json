@@ -57,8 +57,8 @@
   "triggers": [
     "teacon:triggers/bossbar_off",
     "teacon:triggers/bossbar_on",
-    "teacon:triggers/clear",
     "teacon:triggers/heal",
+    "teacon:triggers/clear",
     "teacon:triggers/clear_effect"
   ]
 }
