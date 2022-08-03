@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-71.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-71/firewood-0.7.0-71.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-71/firewood-0.7.0-71.jar.asc"
+    "name": "firewood-0.7.0-72.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-72/firewood-0.7.0-72.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-72/firewood-0.7.0-72.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -125,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-59/MtrSteamLoco-forge-1.18.2-0.0.1-59.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.10.1-42.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-42/Multiblocked-1.18.2-0.10.1-42.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-42/Multiblocked-1.18.2-0.10.1-42.jar.asc"
+    "name": "Multiblocked-1.18.2-0.11.0-43.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-43/Multiblocked-1.18.2-0.11.0-43.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-43/Multiblocked-1.18.2-0.11.0-43.jar.asc"
   },
   {
     "name": "Nether-Transition-Remains-1.18.2-0.0.2-23.jar",
