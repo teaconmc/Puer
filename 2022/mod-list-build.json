@@ -80,9 +80,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
-    "name": "firewood-0.7.0-70.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-70/firewood-0.7.0-70.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-70/firewood-0.7.0-70.jar.asc"
+    "name": "firewood-0.7.0-71.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-71/firewood-0.7.0-71.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-71/firewood-0.7.0-71.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -335,9 +335,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
-    "name": "ModernStylism-2.0-12.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-12/ModernStylism-2.0-12.jar.asc"
+    "name": "ModernStylism-2.0-13.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-13/ModernStylism-2.0-13.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-13/ModernStylism-2.0-13.jar.asc"
   },
   {
     "name": "AreaControl-Forge-1.18-0.5.31.jar",
@@ -385,9 +385,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
-    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+79d5c51.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B79d5c51.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B79d5c51.jar.asc"
+    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+eb88724.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2Beb88724.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2Beb88724.jar.asc"
   },
   {
     "name": "geckolib-forge-1.18-3.0.28.jar",
