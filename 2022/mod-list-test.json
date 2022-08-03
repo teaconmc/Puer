@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-85.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-85/caupona-1.18.2-0.1.0-85.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-85/caupona-1.18.2-0.1.0-85.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-86.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-86/caupona-1.18.2-0.1.0-86.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-86/caupona-1.18.2-0.1.0-86.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-32/rtorch-1.18.2-0.8.0-32.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-32.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-32/umapyoi-1.0-32.jar.asc"
+    "name": "umapyoi-1.0-33.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-33/umapyoi-1.0-33.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-33/umapyoi-1.0-33.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-1.0.0-release-66.jar",
