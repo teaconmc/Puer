@@ -130,9 +130,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-42/Multiblocked-1.18.2-0.10.1-42.jar.asc"
   },
   {
-    "name": "Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-22/Nether-Transition-Remains-1.18.2-0.0.2-22.jar.asc"
+    "name": "Nether-Transition-Remains-1.18.2-0.0.2-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-23/Nether-Transition-Remains-1.18.2-0.0.2-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-23/Nether-Transition-Remains-1.18.2-0.0.2-23.jar.asc"
   },
   {
     "name": "oildrums-1.18.2-1.0.3-35.jar",
@@ -300,9 +300,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-divingcamera/build-4/divingcamera-1.0-4.jar.asc"
   },
   {
-    "name": "youpolazi-1.0-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-4/youpolazi-1.0-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-4/youpolazi-1.0-4.jar.asc"
+    "name": "youpolazi-1.0-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-5/youpolazi-1.0-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-youpolazi/build-5/youpolazi-1.0-5.jar.asc"
   },
   {
     "name": "lavafishing-1.0-6.jar",
