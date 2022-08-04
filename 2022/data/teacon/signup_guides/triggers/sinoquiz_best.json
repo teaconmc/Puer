@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "问答成绩",
+  "selector": "@a",
+  "description": "查询自己在华夏问答中的最好成绩",
+  "executes": [
+    "/sinocore quiz rank player @s",
+    "/signmeup map close"
+  ]
+}
