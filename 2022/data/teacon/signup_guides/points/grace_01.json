@@ -1,21 +1,21 @@
 {
   "type": "point",
-  "title": "癫火灯塔附近",
+  "title": "游览之始",
   "description": "TeaCon 2022 展示服务器赐福点（传送点）",
   "selector": "@a",
   "location": {
     "actual": [
-      129,
-      124,
-      -108
+      -41,
+      65,
+      176
     ],
     "render": [
-      129,
-      124,
-      -108
+      -41,
+      65,
+      176
     ]
   },
   "triggers": [
-    "teacon:triggers/teleport_facing_west"
+    "teacon:triggers/teleport_facing_east"
   ]
 }
