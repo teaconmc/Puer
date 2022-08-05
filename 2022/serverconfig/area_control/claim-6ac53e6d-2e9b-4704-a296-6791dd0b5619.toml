@@ -17,6 +17,7 @@ friends = []
 "area.allow_spawn.mtr" = true
 "area.allow_spawn.minecraft:item" = true
 "area.allow_spawn.minecraft:falling_block" = true
+"area.allow_spawn.minecraft:fishing_bobber" = true
 "area.allow_special_spawn" = "true"
 "area.allow_use_item" = "true"
 "area.allow_pvp" = "true"
