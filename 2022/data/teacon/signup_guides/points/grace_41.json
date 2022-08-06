@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "稻荷神社",
+  "description": "车万女仆（Touhou Little Maid）展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -443,
+      142,
+      -318
+    ],
+    "render": [
+      -443,
+      142,
+      -318
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}
