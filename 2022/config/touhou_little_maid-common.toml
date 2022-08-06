@@ -50,5 +50,5 @@
 
 [teacon]
 	#The model pack downloaded at game launch
-	DownloadModelPack = ["lolicon_model_pack-1.1.4.zip", "azuru_line-1.1.0.zip", "senren_banka-1.0.0.zip"]
+	DownloadModelPack = ["lilies_model_pack-1.1.5.zip", "azuru_line-1.1.0.zip", "senren_banka-1.0.0.zip"]
 
