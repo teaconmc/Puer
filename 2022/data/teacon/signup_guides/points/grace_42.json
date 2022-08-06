@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "冶金工坊",
+  "description": "硬核模组冶金（Metallurgy）的展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      28,
+      105,
+      311
+    ],
+    "render": [
+      28,
+      105,
+      311
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_north"
+  ]
+}
