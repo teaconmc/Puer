@@ -360,9 +360,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+016d9cf.jar ",
+    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+016d9cf.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar+.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar.asc"
   },
   {
     "name": "PowerTool-Forge-1.18-1.1.6.jar",
@@ -395,9 +395,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
-    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+88a827a.jar ",
+    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+88a827a.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B88a827a.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B88a827a.jar+.asc"
+    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B88a827a.jar.asc"
   },
   {
     "name": "geckolib-forge-1.18-3.0.28.jar",
