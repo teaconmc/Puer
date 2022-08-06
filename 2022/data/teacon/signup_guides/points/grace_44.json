@@ -1,21 +1,21 @@
 {
   "type": "point",
-  "title": "铁博前",
+  "title": "赐福场馆",
   "description": "TeaCon 2022 展示服务器赐福点（传送点）",
   "selector": "@a",
   "location": {
     "actual": [
-      647,
-      67,
-      473
+      267,
+      135,
+      -391
     ],
     "render": [
-      647,
-      67,
-      473
+      267,
+      135,
+      -391
     ]
   },
   "triggers": [
-    "teacon:triggers/teleport_facing_east"
+    "teacon:triggers/teleport_facing_west"
   ]
 }

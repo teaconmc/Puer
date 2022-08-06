@@ -1,18 +1,18 @@
 {
   "type": "point",
   "title": "稻荷神社",
-  "description": "车万女仆（Touhou Little Maid）展馆",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点），车万女仆（Touhou Little Maid）展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      -443,
-      142,
-      -318
+      -457,
+      136,
+      -316
     ],
     "render": [
-      -443,
-      142,
-      -318
+      -457,
+      136,
+      -316
     ]
   },
   "triggers": [

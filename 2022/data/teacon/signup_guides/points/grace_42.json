@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "冶金工坊",
-  "description": "硬核模组冶金（Metallurgy）的展馆",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点），硬核模组冶金（Metallurgy）的展馆",
   "selector": "@a",
   "location": {
     "actual": [

@@ -56,7 +56,11 @@
     "teacon:points/grace_37",
     "teacon:points/grace_38",
     "teacon:points/grace_39",
-    "teacon:points/grace_40"
+    "teacon:points/grace_40",
+    "teacon:points/grace_41",
+    "teacon:points/grace_42",
+    "teacon:points/grace_43",
+    "teacon:points/grace_44"
   ],
   "triggers": [
     "teacon:triggers/bossbar_off",
