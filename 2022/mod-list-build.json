@@ -45,9 +45,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-46/exp1182-1.0-46.jar.asc"
   },
   {
-    "name": "extinguish-0.1.8.tc-44.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-44/extinguish-0.1.8.tc-44.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-44/extinguish-0.1.8.tc-44.jar.asc"
+    "name": "extinguish-0.1.9.tc-47.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-47/extinguish-0.1.9.tc-47.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-47/extinguish-0.1.9.tc-47.jar.asc"
   },
   {
     "name": "f_a_r-0.0.7-34.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-20/with_fire-1.0-20.jar.asc"
   },
   {
-    "name": "touhoulittlemaid-1.18.2-1.0.0-32.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-32/touhoulittlemaid-1.18.2-1.0.0-32.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-32/touhoulittlemaid-1.18.2-1.0.0-32.jar.asc"
+    "name": "touhoulittlemaid-1.18.2-1.0.0-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-34/touhoulittlemaid-1.18.2-1.0.0-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-34/touhoulittlemaid-1.18.2-1.0.0-34.jar.asc"
   },
   {
     "name": "sunken_world-1.0-SNAPSHOT-75.jar",
@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-58.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-58/ShimmerFire-1.18.2-0.2.7-58.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-58/ShimmerFire-1.18.2-0.2.7-58.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-61.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-61/ShimmerFire-1.18.2-0.2.7-61.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-61/ShimmerFire-1.18.2-0.2.7-61.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -280,9 +280,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mythic-cookstoves/build-5/mythic_cookstoves-0.1alpha-5.jar.asc"
   },
   {
-    "name": "semishigure-0.1-5.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-5/semishigure-0.1-5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-5/semishigure-0.1-5.jar.asc"
+    "name": "semishigure-0.1-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-6/semishigure-0.1-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-6/semishigure-0.1-6.jar.asc"
   },
   {
     "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220801.2258-14.jar",
@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-14/ModernStylism-2.0-14.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.31.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.31/AreaControl-Forge-1.18-0.5.31.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.31.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.5.32.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.32/AreaControl-Forge-1.18-0.5.32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.32.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
@@ -360,9 +360,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.1.2-SNAPSHOT+bc5282d.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.2-SNAPSHOT%2Bbc5282d.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.1.2-SNAPSHOT%2Bbc5282d.jar.asc"
+    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+016d9cf.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar.asc"
   },
   {
     "name": "PowerTool-Forge-1.18-1.1.6.jar",
@@ -395,9 +395,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Xibao-Forge-1.18-1.0.0.jar.asc"
   },
   {
-    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+4b582c8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B4b582c8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B4b582c8.jar.asc"
+    "name": "XKDeco-Forge-1.18-0.3.0-SNAPSHOT+88a827a.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B88a827a.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/XKDeco-Forge-1.18-0.3.0-SNAPSHOT%2B88a827a.jar.asc"
   },
   {
     "name": "geckolib-forge-1.18-3.0.28.jar",
