@@ -375,9 +375,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.3.0.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.18-0.6.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2/SlideShow-Forge-1.18-0.6.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2.jar.asc"
+    "name": "SlideShow-Forge-1.18-0.6.3.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.3/SlideShow-Forge-1.18-0.6.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.3.jar.asc"
   },
   {
     "name": "Isle-Forge-1.18-0.4.2.jar",
