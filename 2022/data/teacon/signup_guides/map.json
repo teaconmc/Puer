@@ -67,6 +67,8 @@
     "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
     "teacon:triggers/clear",
-    "teacon:triggers/clear_effect"
+    "teacon:triggers/clear_effect",
+    "teacon:triggers/sinoquiz_rank",
+    "teacon:triggers/sinoquiz_best"
   ]
 }
