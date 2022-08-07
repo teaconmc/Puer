@@ -20,9 +20,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-87.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-87/caupona-1.18.2-0.1.0-87.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-87/caupona-1.18.2-0.1.0-87.jar.asc"
+    "name": "caupona-1.18.2-0.1.0-88.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -30,9 +30,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-28.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-28/CrockPot-1.18.2-1.2.0-release-28.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-28/CrockPot-1.18.2-1.2.0-release-28.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-31.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-31/CrockPot-1.18.2-1.2.0-release-31.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-31/CrockPot-1.18.2-1.2.0-release-31.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -125,14 +125,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-62/MtrSteamLoco-forge-1.18.2-0.0.1-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-62/MtrSteamLoco-forge-1.18.2-0.0.1-62.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar.asc"
   },
   {
-    "name": "Multiblocked-1.18.2-0.11.0-43.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-43/Multiblocked-1.18.2-0.11.0-43.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-43/Multiblocked-1.18.2-0.11.0-43.jar.asc"
+    "name": "Multiblocked-1.18.2-0.11.1-44.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-44/Multiblocked-1.18.2-0.11.1-44.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-44/Multiblocked-1.18.2-0.11.1-44.jar.asc"
   },
   {
     "name": "Nether-Transition-Remains-1.18.2-0.0.4-26.jar",
@@ -160,9 +160,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-32/rtorch-1.18.2-0.8.0-32.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-33/umapyoi-1.0-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-33/umapyoi-1.0-33.jar.asc"
+    "name": "umapyoi-1.0-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-34/umapyoi-1.0-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-34/umapyoi-1.0-34.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-1.0.0-release-66.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-20/with_fire-1.0-20.jar.asc"
   },
   {
-    "name": "touhoulittlemaid-1.18.2-1.0.0-34.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-34/touhoulittlemaid-1.18.2-1.0.0-34.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-34/touhoulittlemaid-1.18.2-1.0.0-34.jar.asc"
+    "name": "touhoulittlemaid-1.18.2-1.0.0-35.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-35/touhoulittlemaid-1.18.2-1.0.0-35.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-35/touhoulittlemaid-1.18.2-1.0.0-35.jar.asc"
   },
   {
     "name": "sunken_world-1.0-SNAPSHOT-75.jar",
@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-61.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-61/ShimmerFire-1.18.2-0.2.7-61.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-61/ShimmerFire-1.18.2-0.2.7-61.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-62.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -375,9 +375,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/SignMeUp-Forge-1.18-0.3.0.jar.asc"
   },
   {
-    "name": "SlideShow-Forge-1.18-0.6.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.2/SlideShow-Forge-1.18-0.6.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.2.jar.asc"
+    "name": "SlideShow-Forge-1.18-0.6.3.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/SlideShow-Forge-1.18/0.6.3/SlideShow-Forge-1.18-0.6.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SlideShow-Forge-1.18-0.6.3.jar.asc"
   },
   {
     "name": "Isle-Forge-1.18-0.4.2.jar",
