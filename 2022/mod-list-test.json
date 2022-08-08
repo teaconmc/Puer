@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-44.jar",
@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.4.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.4/PowerTool-Forge-1.18-1.2.4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.4.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.5.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.5/PowerTool-Forge-1.18-1.2.5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.5.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.0.jar",
