@@ -350,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.3.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.3/PowerTool-Forge-1.18-1.2.3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.3.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.4.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.4/PowerTool-Forge-1.18-1.2.4.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.4.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.0.jar",
@@ -493,5 +493,10 @@
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
+  },
+  {
+    "name": "ferritecore-4.2.1-forge.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar.asc"
   }
 ]
