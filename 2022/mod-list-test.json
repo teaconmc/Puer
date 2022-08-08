@@ -15,9 +15,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-88.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar.asc"
+    "name": "caupona-1.18.2-0.3.0-89.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-89/caupona-1.18.2-0.3.0-89.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-89/caupona-1.18.2-0.3.0-89.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-26/groundfire-1.0-26.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-83.jar",
@@ -180,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-75/sunken_world-1.0-SNAPSHOT-75.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-36/Torchikoma-mc1.18.2-0.0.1-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-36/Torchikoma-mc1.18.2-0.0.1-36.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar.asc"
   },
   {
     "name": "sinocalligraphy-1.18.2-1.1.1-42.jar",
@@ -240,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-63.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
