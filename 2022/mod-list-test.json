@@ -1,10 +1,5 @@
 [
   {
-    "name": "blaze-reborn-1.1.0-20.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
-  },
-  {
     "name": "boomood-1.18.2-1.0.0-40.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar.asc"
@@ -73,11 +68,6 @@
     "name": "FireSafety-Forge-1.18.2-build2206242007-34.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-34/FireSafety-Forge-1.18.2-build2206242007-34.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-34/FireSafety-Forge-1.18.2-build2206242007-34.jar.asc"
-  },
-  {
-    "name": "firestealer-1.0.0-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
   },
   {
     "name": "firewood-0.7.0-72.jar",
@@ -335,11 +325,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-13/MTR-forge-1.18.2-3.1.0-unofficial-3-13.jar.asc"
   },
   {
-    "name": "fμnken5p7ühen-forge-0.1.0-alpha-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-10/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-10/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha-10.jar.asc"
-  },
-  {
     "name": "item_and_block_properties-0.5.0-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
@@ -463,6 +448,11 @@
     "name": "ftbbackups2-forge-1.18.2-1.0.11.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/ftbbackups2-forge-1.18.2-1.0.11.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/ftbbackups2-forge-1.18.2-1.0.11.jar.asc"
+  },
+  {
+    "name": "fμnken5p7ühen-forge-0.1.0-alpha.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha.jar.asc"
   },
   {
     "name": "jei-1.18.2-9.7.0.195.jar",
