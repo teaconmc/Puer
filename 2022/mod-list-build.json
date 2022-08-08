@@ -1,10 +1,5 @@
 [
   {
-    "name": "blaze-reborn-1.1.0-20.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-blaze-reborn/build-20/blaze-reborn-1.1.0-20.jar.asc"
-  },
-  {
     "name": "boomood-1.18.2-1.0.0-40.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar.asc"
@@ -20,9 +15,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.1.0-88.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-88/caupona-1.18.2-0.1.0-88.jar.asc"
+    "name": "caupona-1.18.2-0.3.0-89.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-89/caupona-1.18.2-0.3.0-89.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-89/caupona-1.18.2-0.3.0-89.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -75,11 +70,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firesafety/build-34/FireSafety-Forge-1.18.2-build2206242007-34.jar.asc"
   },
   {
-    "name": "firestealer-1.0.0-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-firestealer/build-23/firestealer-1.0.0-23.jar.asc"
-  },
-  {
     "name": "firewood-0.7.0-72.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-72/firewood-0.7.0-72.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-72/firewood-0.7.0-72.jar.asc"
@@ -100,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-26/groundfire-1.0-26.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-22.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-22/journey-1.18.2-0.0.1.0-22.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-23.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-83.jar",
@@ -125,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-63/MtrSteamLoco-forge-1.18.2-0.0.1-63.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-44.jar",
@@ -190,9 +180,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-75/sunken_world-1.0-SNAPSHOT-75.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-36/Torchikoma-mc1.18.2-0.0.1-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-36/Torchikoma-mc1.18.2-0.0.1-36.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-39.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar.asc"
   },
   {
     "name": "sinocalligraphy-1.18.2-1.1.1-42.jar",
@@ -250,9 +240,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-62.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-62/ShimmerFire-1.18.2-0.2.7-62.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-63.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -335,11 +325,6 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-13/MTR-forge-1.18.2-3.1.0-unofficial-3-13.jar.asc"
   },
   {
-    "name": "fμnken5p7ühen-forge-0.1.0-alpha-10.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-10/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha-10.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-funken5p7uhen/build-10/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha-10.jar.asc"
-  },
-  {
     "name": "item_and_block_properties-0.5.0-3.jar",
     "file": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar",
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
@@ -365,9 +350,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.3.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.3/PowerTool-Forge-1.18-1.2.3.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.3.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.5.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.5/PowerTool-Forge-1.18-1.2.5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.5.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.0.jar",
@@ -465,6 +450,11 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ftbbackups2-forge-1.18.2-1.0.11.jar.asc"
   },
   {
+    "name": "fμnken5p7ühen-forge-0.1.0-alpha.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/f%CE%BCnken5p7%C3%BChen-forge-0.1.0-alpha.jar.asc"
+  },
+  {
     "name": "jei-1.18.2-9.7.0.195.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
@@ -503,5 +493,10 @@
     "name": "WaitingForServer-1.18-5.1.0-8.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/WaitingForServer-1.18-5.1.0-8.jar.asc"
+  },
+  {
+    "name": "ferritecore-4.2.1-forge.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar.asc"
   }
 ]
