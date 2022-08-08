@@ -365,9 +365,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.1.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.1/PowerTool-Forge-1.18-1.2.1.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.1.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.2.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.2/PowerTool-Forge-1.18-1.2.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.2.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.0.jar",
@@ -470,9 +470,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/jei-1.18.2-9.7.0.195.jar.asc"
   },
   {
-    "name": "curious-armor-stands-1.18.1-4.0.0.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.0.jar.asc"
+    "name": "curious-armor-stands-1.18.1-4.0.1-teacon.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.1-teacon.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/curious-armor-stands-1.18.1-4.0.1-teacon.jar.asc"
   },
   {
     "name": "dynview-1.18.2-2.8.jar",
