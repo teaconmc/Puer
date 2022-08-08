@@ -360,14 +360,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+016d9cf.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B016d9cf.jar.asc"
+    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+369e833.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.2/PowerTool-Forge-1.18-1.2.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.2.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.3.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.3/PowerTool-Forge-1.18-1.2.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.3.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.0.jar",
