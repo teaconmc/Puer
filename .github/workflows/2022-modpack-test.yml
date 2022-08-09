@@ -38,9 +38,9 @@ jobs:
           wget -q -O 2022/mods/ScalableCatsForce-2.13.8-build-4-with-library.jar \
             https://media.forgecdn.net/files/3759/354/ScalableCatsForce-2.13.8-build-4-with-library.jar
           # remote sync
-          echo Downloading RemoteSync-FML-0.2.1-all.jar ...
-          wget -q -O 2022/mods/RemoteSync-FML-0.2.1-all.jar \
-            https://archive.teacon.cn/maven/org/teacon/RemoteSync-FML/0.2.1/RemoteSync-FML-0.2.1-all.jar
+          echo Downloading RemoteSync-FML-0.2.2-all.jar ...
+          wget -q -O 2022/mods/RemoteSync-FML-0.2.2-all.jar \
+            https://archive.teacon.cn/maven/org/teacon/RemoteSync-FML/0.2.2/RemoteSync-FML-0.2.2-all.jar
           # resource sync
           echo Downloading ResourceSync-Forge-1.18-0.2.1.jar ...
           wget -q -O 2022/mods/ResourceSync-Forge-1.18-0.2.1.jar \
