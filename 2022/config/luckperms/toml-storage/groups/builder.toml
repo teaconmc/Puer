@@ -13,6 +13,14 @@ permission = "command.nocaet.lookup"
 value = true
 
 [[permissions]]
+permission = "command.voteme.give"
+value = true
+
+[[permissions]]
+permission = "voteme.give"
+value = true
+
+[[permissions]]
 permission = "slide_show.interact.projector"
 value = true
 
@@ -495,4 +503,8 @@ value = true
 
 [[permissions]]
 permission = "minecraft.use_gamemaster_block"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.voteme"
 value = true
