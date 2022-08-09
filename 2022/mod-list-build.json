@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-31.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-31/CrockPot-1.18.2-1.2.0-release-31.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-31/CrockPot-1.18.2-1.2.0-release-31.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-32.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-32/CrockPot-1.18.2-1.2.0-release-32.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-32/CrockPot-1.18.2-1.2.0-release-32.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -90,9 +90,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-26/groundfire-1.0-26.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-23.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-23/journey-1.18.2-0.0.1.0-23.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-24.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-24/journey-1.18.2-0.0.1.0-24.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-24/journey-1.18.2-0.0.1.0-24.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-83.jar",
@@ -115,9 +115,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-64/MtrSteamLoco-forge-1.18.2-0.0.1-64.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-65.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-65/MtrSteamLoco-forge-1.18.2-0.0.1-65.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-65/MtrSteamLoco-forge-1.18.2-0.0.1-65.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-44.jar",
@@ -125,9 +125,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-multiblocked/build-44/Multiblocked-1.18.2-0.11.1-44.jar.asc"
   },
   {
-    "name": "Nether-Transition-Remains-1.18.2-0.0.4-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-26/Nether-Transition-Remains-1.18.2-0.0.4-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-26/Nether-Transition-Remains-1.18.2-0.0.4-26.jar.asc"
+    "name": "Nether-Transition-Remains-1.18.2-0.0.6-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-27/Nether-Transition-Remains-1.18.2-0.0.6-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ntr/build-27/Nether-Transition-Remains-1.18.2-0.0.6-27.jar.asc"
   },
   {
     "name": "oildrums-1.18.2-1.0.3-35.jar",
@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-handle-cane/build-4/handle_cane-0.9.1-4.jar.asc"
   },
   {
-    "name": "pyrotechnicraft-1.18.2-0.0.1-36.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-36/pyrotechnicraft-1.18.2-0.0.1-36.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-36/pyrotechnicraft-1.18.2-0.0.1-36.jar.asc"
+    "name": "pyrotechnicraft-1.18.2-0.0.1-37.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-37/pyrotechnicraft-1.18.2-0.0.1-37.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-37/pyrotechnicraft-1.18.2-0.0.1-37.jar.asc"
   },
   {
     "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
@@ -275,9 +275,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-semishigure/build-6/semishigure-0.1-6.jar.asc"
   },
   {
-    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220801.2258-14.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-14/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220801.2258-14.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-14/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220801.2258-14.jar.asc"
+    "name": "Xdi8aho-Mod-1.18.2-1.0.0+build.220810.0328-16.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-16/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220810.0328-16.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-16/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220810.0328-16.jar.asc"
   },
   {
     "name": "FluxNetworks-1.18.2-7.0.6.7-8.jar",
@@ -305,9 +305,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-lavafishing/build-6/lavafishing-1.0-6.jar.asc"
   },
   {
-    "name": "artoftnt-1.0-5.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-artoftnt/build-5/artoftnt-1.0-5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-artoftnt/build-5/artoftnt-1.0-5.jar.asc"
+    "name": "artoftnt-0.1.0-6.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-artoftnt/build-6/artoftnt-0.1.0-6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-artoftnt/build-6/artoftnt-0.1.0-6.jar.asc"
   },
   {
     "name": "creeper_firework-teacon2022--1.0.0-4.jar",
@@ -330,14 +330,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-item-and-block-properties/build-3/item_and_block_properties-0.5.0-3.jar.asc"
   },
   {
-    "name": "ModernStylism-2.0-14.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-14/ModernStylism-2.0-14.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-14/ModernStylism-2.0-14.jar.asc"
+    "name": "ModernStylism-2.0-15.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-15/ModernStylism-2.0-15.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-15/ModernStylism-2.0-15.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.5.33.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.5.33/AreaControl-Forge-1.18-0.5.33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.5.33.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.6.2.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.6.2/AreaControl-Forge-1.18-0.6.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.6.2.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
