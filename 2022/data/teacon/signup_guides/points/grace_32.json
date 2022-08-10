@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "分茶食肆",
-  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）。可以前往分茶展馆（以热能为核心的自由烹饪模组）、百脑汇、天士力站，并可搭乘轨道交通环线、观光线。",
   "selector": "@a",
   "location": {
     "actual": [
