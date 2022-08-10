@@ -19,6 +19,6 @@
     "teacon:triggers/teleport_facing_south"
   ],
   "images": [
-    "caupona:textures/gui/visual_1_zh.png"
+    "caupona:textures/gui/caupona_teleportation_banner.png"
   ]
 }
