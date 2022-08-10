@@ -16,7 +16,12 @@
     {
       "type": "category_min",
       "category": "MEAT",
-      "min": 2.0
+      "min": 1.0
+    },
+    {
+      "type": "category_max",
+      "category": "MEAT",
+      "max": 1.0
     },
     {
       "type": "category_max",
