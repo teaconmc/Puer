@@ -1,0 +1,10 @@
+{
+  "type": "potion",
+  "sub_type": "potion",
+  "color": "0x000000",
+  "damage": 0.01,
+  "process": 1,
+  "range": -1,
+  "cooldown": 100,
+  "effect_multi": 0.5
+}
