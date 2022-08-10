@@ -26,3 +26,5 @@ friends = []
 "area.allow_use_item" = "true"
 "area.allow_pvp" = "true"
 "area.allow_attack" = "true"
+"area.allow_fire_spread" = false
+"area.display_welcome_message" = true
