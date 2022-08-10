@@ -1,0 +1,9 @@
+{
+  "type": "teleport",
+  "sub_type": "teleport",
+  "color": "0x336666",
+  "damage": 0.5,
+  "process": 1,
+  "range": -1,
+  "cooldown": 100
+}
