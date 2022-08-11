@@ -365,9 +365,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.2.jar.asc"
   },
   {
-    "name": "VoteMe-Forge-1.18-0.6.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.18/0.6.0/VoteMe-Forge-1.18-0.6.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/VoteMe-Forge-1.18-0.6.0.jar.asc"
+    "name": "VoteMe-Forge-1.18-0.6.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.18/0.6.1/VoteMe-Forge-1.18-0.6.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/VoteMe-Forge-1.18-0.6.1.jar.asc"
   },
   {
     "name": "Xibao-Forge-1.18-1.0.0.jar",
