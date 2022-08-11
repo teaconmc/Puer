@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-33/CrockPot-1.18.2-1.2.0-release-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-33/CrockPot-1.18.2-1.2.0-release-33.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-34.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-34/CrockPot-1.18.2-1.2.0-release-34.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-34/CrockPot-1.18.2-1.2.0-release-34.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-66.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-66/MtrSteamLoco-forge-1.18.2-0.0.1-66.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-66/MtrSteamLoco-forge-1.18.2-0.0.1-66.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-67.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-67/MtrSteamLoco-forge-1.18.2-0.0.1-67.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-67/MtrSteamLoco-forge-1.18.2-0.0.1-67.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-45.jar",
@@ -155,9 +155,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-simplebbq/build-67/SimpleBBQ-1.18.2-1.0.0-release-67.jar.asc"
   },
   {
-    "name": "spaceplane-1.0-68.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-68/spaceplane-1.0-68.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-68/spaceplane-1.0-68.jar.asc"
+    "name": "spaceplane-1.0-69.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-69/spaceplane-1.0-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-spaceplane/build-69/spaceplane-1.0-69.jar.asc"
   },
   {
     "name": "with_fire-1.0-20.jar",
@@ -315,9 +315,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar.asc"
   },
   {
-    "name": "MTR-forge-1.18.2-3.1.0-unofficial-3-13.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-13/MTR-forge-1.18.2-3.1.0-unofficial-3-13.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-13/MTR-forge-1.18.2-3.1.0-unofficial-3-13.jar.asc"
+    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-15/MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-15/MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-3.jar",
@@ -340,14 +340,14 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.2.0-SNAPSHOT+369e833.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.0-SNAPSHOT%2B369e833.jar.asc"
+    "name": "Garlic-Forge-1.18-1.2.1-SNAPSHOT+b21b7af.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.1-SNAPSHOT%2Bb21b7af.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.1-SNAPSHOT%2Bb21b7af.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.5.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.5/PowerTool-Forge-1.18-1.2.5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.5.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.6.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.6/PowerTool-Forge-1.18-1.2.6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.6.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.1.jar",
@@ -365,9 +365,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Isle-Forge-1.18-0.4.2.jar.asc"
   },
   {
-    "name": "VoteMe-Forge-1.18-0.6.0.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.18/0.6.0/VoteMe-Forge-1.18-0.6.0.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/VoteMe-Forge-1.18-0.6.0.jar.asc"
+    "name": "VoteMe-Forge-1.18-0.6.1.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/VoteMe-Forge-1.18/0.6.1/VoteMe-Forge-1.18-0.6.1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/VoteMe-Forge-1.18-0.6.1.jar.asc"
   },
   {
     "name": "Xibao-Forge-1.18-1.0.0.jar",
