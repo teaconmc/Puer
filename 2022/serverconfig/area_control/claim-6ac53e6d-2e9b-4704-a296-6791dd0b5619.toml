@@ -29,3 +29,6 @@ friends = []
 "area.allow_attack" = "true"
 "area.allow_fire_spread" = false
 "area.display_welcome_message" = true
+"area.allow_explosion" = false
+"area.allow_explosion_affect_blocks" = false
+"area.allow_explosion_affect_entities" = false
