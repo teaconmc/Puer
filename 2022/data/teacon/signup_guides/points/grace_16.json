@@ -1,21 +1,21 @@
 {
   "type": "point",
-  "title": "秋之城堡前",
+  "title": "风车与铁锅",
   "description": "TeaCon 2022 展示服务器赐福点（传送点）",
   "selector": "@a",
   "location": {
     "actual": [
-      -297,
-      88,
-      -134
+      121,
+      151,
+      -197
     ],
     "render": [
-      -297,
-      88,
-      -134
+      121,
+      151,
+      -197
     ]
   },
   "triggers": [
-    "teacon:triggers/teleport_facing_north"
+    "teacon:triggers/teleport_facing_west"
   ]
 }
