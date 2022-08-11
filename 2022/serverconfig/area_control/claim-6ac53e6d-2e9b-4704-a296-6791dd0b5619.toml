@@ -16,6 +16,7 @@ friends = []
 "area.allow_spawn.xkdeco" = true
 "area.allow_spawn.mtr" = true
 "area.allow_spawn.minecraft" = true
+"kitchenkarrot:can" = true
 "area.allow_spawn.minecraft:tnt" = false
 "area.allow_spawn.tactical_cards" = false
 "area.allow_possess.tactical_cards" = false
