@@ -68,6 +68,10 @@
     "teacon:triggers/heal",
     "teacon:triggers/clear",
     "teacon:triggers/clear_effect",
+    "teacon:triggers/equip_cyber_google",
+    "teacon:triggers/unequip_helmet",
+    "teacon:triggers/get_scroll",
+    "teacon:triggers/get_memory_of_grace",
     "teacon:triggers/sinoquiz_rank",
     "teacon:triggers/sinoquiz_best"
   ]

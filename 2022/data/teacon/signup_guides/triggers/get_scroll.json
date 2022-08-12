@@ -1,0 +1,9 @@
+{
+  "type": "trigger",
+  "title": "领取古老卷轴",
+  "selector": "@a",
+  "description": "重新踏上寻火之路",
+  "executes": [
+    "/give @s nocaet:elder_scroll"
+  ]
+}

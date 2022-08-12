@@ -1,0 +1,9 @@
+{
+  "type": "trigger",
+  "title": "领取赐福记忆",
+  "selector": "@a",
+  "description": "手持赐福记忆长按回到最近一个赐福",
+  "executes": [
+    "/give @s lostgrace:memory_of_grace"
+  ]
+}
