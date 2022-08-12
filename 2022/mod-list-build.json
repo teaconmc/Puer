@@ -235,9 +235,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-63.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-63/ShimmerFire-1.18.2-0.2.7-63.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-65.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-65/ShimmerFire-1.18.2-0.2.7-65.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-65/ShimmerFire-1.18.2-0.2.7-65.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -315,9 +315,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar.asc"
   },
   {
-    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-15/MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-15/MTR-forge-1.18.2-3.1.0-unofficial-4-15.jar.asc"
+    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-16/MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-16/MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-3.jar",
