@@ -12,6 +12,7 @@ friends = []
 "area.allow_click_block" = "true"
 "area.allow_interact_entity" = "true"
 "area.allow_interact_entity_specific" = "true"
+"area.allow_activate_block.ashihara:pail" = false
 "area.allow_spawn" = "true"
 "area.allow_spawn.xkdeco" = true
 "area.allow_spawn.mtr" = true
