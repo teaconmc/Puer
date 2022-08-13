@@ -340,9 +340,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/ChromeBall-Forge-1.18-0.4.0.jar.asc"
   },
   {
-    "name": "Garlic-Forge-1.18-1.2.1-SNAPSHOT+b21b7af.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.1-SNAPSHOT%2Bb21b7af.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.1-SNAPSHOT%2Bb21b7af.jar.asc"
+    "name": "Garlic-Forge-1.18-1.2.2-SNAPSHOT+e7ea711.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.2-SNAPSHOT%2Be7ea711.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.2-SNAPSHOT%2Be7ea711.jar.asc"
   },
   {
     "name": "PowerTool-Forge-1.18-1.2.7.jar",
