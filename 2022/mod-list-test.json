@@ -1,8 +1,8 @@
 [
   {
-    "name": "boomood-1.18.2-1.0.0-40.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar.asc"
+    "name": "boomood-1.18.2-1.0.0-41.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-41/boomood-1.18.2-1.0.0-41.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-41/boomood-1.18.2-1.0.0-41.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -15,9 +15,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.3.1-90.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-90/caupona-1.18.2-0.3.1-90.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-90/caupona-1.18.2-0.3.1-90.jar.asc"
+    "name": "caupona-1.18.2-0.3.1-91.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-91/caupona-1.18.2-0.3.1-91.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-91/caupona-1.18.2-0.3.1-91.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-26/groundfire-1.0-26.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-25.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-25/journey-1.18.2-0.0.1.0-25.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-25/journey-1.18.2-0.0.1.0-25.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-26.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-26/journey-1.18.2-0.0.1.0-26.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-26/journey-1.18.2-0.0.1.0-26.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-83.jar",
@@ -145,9 +145,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-rtorch/build-32/rtorch-1.18.2-0.8.0-32.jar.asc"
   },
   {
-    "name": "umapyoi-1.0-34.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-34/umapyoi-1.0-34.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-34/umapyoi-1.0-34.jar.asc"
+    "name": "umapyoi-1.0-35.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-35/umapyoi-1.0-35.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-umapyoi/build-35/umapyoi-1.0-35.jar.asc"
   },
   {
     "name": "SimpleBBQ-1.18.2-1.0.0-release-67.jar",
@@ -175,9 +175,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sunken-world/build-76/sunken_world-1.0-SNAPSHOT-76.jar.asc"
   },
   {
-    "name": "Torchikoma-mc1.18.2-0.0.1-39.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-39/Torchikoma-mc1.18.2-0.0.1-39.jar.asc"
+    "name": "Torchikoma-mc1.18.2-0.0.1-40.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-40/Torchikoma-mc1.18.2-0.0.1-40.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-torchikoma/build-40/Torchikoma-mc1.18.2-0.0.1-40.jar.asc"
   },
   {
     "name": "sinocalligraphy-1.18.2-1.1.1-42.jar",
@@ -275,9 +275,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-xdi8/build-16/Xdi8aho-Mod-1.18.2-1.0.0%2Bbuild.220810.0328-16.jar.asc"
   },
   {
-    "name": "FluxNetworks-1.18.2-7.0.6.7-8.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-8/FluxNetworks-1.18.2-7.0.6.7-8.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-8/FluxNetworks-1.18.2-7.0.6.7-8.jar.asc"
+    "name": "FluxNetworks-1.18.2-7.0.7.8-9.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-9/FluxNetworks-1.18.2-7.0.7.8-9.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-fluxnetworks/build-9/FluxNetworks-1.18.2-7.0.7.8-9.jar.asc"
   },
   {
     "name": "civilization_fire-1.0-14.jar",
