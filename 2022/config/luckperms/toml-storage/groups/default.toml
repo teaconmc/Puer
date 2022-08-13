@@ -7,3 +7,11 @@ value = false
 [[permissions]]
 permission = "nocaet.lookup.self"
 value = true
+
+[[permissions]]
+permission = "command.nocaet.lookup"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.nocaet"
+value = true
