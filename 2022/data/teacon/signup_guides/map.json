@@ -66,6 +66,7 @@
     "teacon:triggers/bossbar_off",
     "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
+    "teacon:triggers/get_bundle",
     "teacon:triggers/clear",
     "teacon:triggers/clear_effect",
     "teacon:triggers/equip_cyber_google",

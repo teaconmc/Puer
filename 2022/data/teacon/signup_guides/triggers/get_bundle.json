@@ -1,0 +1,9 @@
+{
+  "type": "trigger",
+  "title": "领取火种收纳袋",
+  "selector": "@a",
+  "description": "送给喜欢收集火种的人",
+  "executes": [
+    "/give @s minecraft:bundle{display:{Name:'{\"text\":\"火种收集者手袋\"}'}}"
+  ]
+}
