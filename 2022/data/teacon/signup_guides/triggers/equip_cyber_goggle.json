@@ -4,6 +4,7 @@
   "selector": "@a[tag=!on_chanllenge]",
   "description": "戴上酷酷的赛博墨镜，游览酷酷的赛博城",
   "executes": [
-    "/item replace entity @s armor.head with shimmerfire:cyberpunk_glasses"
+    "/item replace entity @s armor.head with shimmerfire:cyberpunk_glasses",
+    "/signmeup map close"
   ]
 }

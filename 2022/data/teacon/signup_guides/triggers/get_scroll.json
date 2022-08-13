@@ -4,6 +4,7 @@
   "selector": "@a",
   "description": "重新踏上寻火之路",
   "executes": [
-    "/give @s nocaet:elder_scroll"
+    "/give @s nocaet:elder_scroll",
+    "/signmeup map close"
   ]
 }

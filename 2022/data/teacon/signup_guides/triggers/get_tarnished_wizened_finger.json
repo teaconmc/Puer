@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "领取褪色者勾指",
+  "selector": "@a",
+  "description": "右键留下谏言，按L管理你的谏言，谏言每日清空",
+  "executes": [
+    "/give @s eldenmessage:tarnished_wizened_finger",
+    "/signmeup map close"
+  ]
+}
