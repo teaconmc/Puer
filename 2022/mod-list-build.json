@@ -1,8 +1,8 @@
 [
   {
-    "name": "boomood-1.18.2-1.0.0-40.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-40/boomood-1.18.2-1.0.0-40.jar.asc"
+    "name": "boomood-1.18.2-1.0.1-42.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-42/boomood-1.18.2-1.0.1-42.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-42/boomood-1.18.2-1.0.1-42.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -330,9 +330,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-15/ModernStylism-2.0-15.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.6.2.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.6.2/AreaControl-Forge-1.18-0.6.2.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.6.2.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.6.3.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.6.3/AreaControl-Forge-1.18-0.6.3.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.6.3.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
@@ -385,9 +385,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-forge-1.18-3.0.28.jar.asc"
   },
   {
-    "name": "SinoCore-1.2.15.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.15.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.15.jar.asc"
+    "name": "SinoCore-main-974a6b2b30-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-974a6b2b30-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-974a6b2b30-1.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-70.jar",
