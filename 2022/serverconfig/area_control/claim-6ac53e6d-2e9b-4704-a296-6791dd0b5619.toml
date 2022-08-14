@@ -39,3 +39,5 @@ friends = []
 "area.allow_explosion" = false
 "area.allow_explosion_affect_blocks" = false
 "area.allow_explosion_affect_entities" = false
+"area.allow_ride" = true
+"area.allow_ride.mtr" = true
