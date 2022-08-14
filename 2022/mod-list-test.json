@@ -385,9 +385,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/geckolib-forge-1.18-3.0.28.jar.asc"
   },
   {
-    "name": "SinoCore-1.2.15.jar",
-    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.15.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-1.2.15.jar.asc"
+    "name": "SinoCore-main-974a6b2b30-1.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-974a6b2b30-1.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/SinoCore-main-974a6b2b30-1.jar.asc"
   },
   {
     "name": "Patchouli-1.18.2-70.jar",
