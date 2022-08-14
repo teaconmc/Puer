@@ -1,8 +1,8 @@
 [
   {
-    "name": "boomood-1.18.2-1.0.0-41.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-41/boomood-1.18.2-1.0.0-41.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-41/boomood-1.18.2-1.0.0-41.jar.asc"
+    "name": "boomood-1.18.2-1.0.1-42.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-42/boomood-1.18.2-1.0.1-42.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-boomood/build-42/boomood-1.18.2-1.0.1-42.jar.asc"
   },
   {
     "name": "CannonFire-Forge-1.18-0.1.4-30.jar",
@@ -85,9 +85,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-groundfire/build-26/groundfire-1.0-26.jar.asc"
   },
   {
-    "name": "journey-1.18.2-0.0.1.0-26.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-26/journey-1.18.2-0.0.1.0-26.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-26/journey-1.18.2-0.0.1.0-26.jar.asc"
+    "name": "journey-1.18.2-0.0.1.0-27.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-journey/build-27/journey-1.18.2-0.0.1.0-27.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-journey/build-27/journey-1.18.2-0.0.1.0-27.jar.asc"
   },
   {
     "name": "kitchenkarrot-1.18.2-2-3-83.jar",
