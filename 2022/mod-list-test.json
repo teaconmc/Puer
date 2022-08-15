@@ -25,9 +25,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-cc2001-floo-powder/build-52/FlooPowder-1.4.5-52.jar.asc"
   },
   {
-    "name": "CrockPot-1.18.2-1.2.0-release-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-35/CrockPot-1.18.2-1.2.0-release-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-35/CrockPot-1.18.2-1.2.0-release-35.jar.asc"
+    "name": "CrockPot-1.18.2-1.2.0-release-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-36/CrockPot-1.18.2-1.2.0-release-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-crockpot/build-36/CrockPot-1.18.2-1.2.0-release-36.jar.asc"
   },
   {
     "name": "eldenmessage-1.0-33.jar",
@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-74/firewood-0.7.0-74.jar.asc"
   },
   {
-    "name": "flamereaction-0.1.1-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-33/flamereaction-0.1.1-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-33/flamereaction-0.1.1-33.jar.asc"
+    "name": "flamereaction-0.1.1-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-36/flamereaction-0.1.1-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-36/flamereaction-0.1.1-36.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-68.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-68/MtrSteamLoco-forge-1.18.2-0.0.1-68.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-68/MtrSteamLoco-forge-1.18.2-0.0.1-68.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-69.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-69/MtrSteamLoco-forge-1.18.2-0.0.1-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-69/MtrSteamLoco-forge-1.18.2-0.0.1-69.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-45.jar",
@@ -215,9 +215,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-emberphoenix/build-131/EmberOfPhoenix-1.0-131.jar.asc"
   },
   {
-    "name": "thelixir-1.18.2-1-3-19.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-19/thelixir-1.18.2-1-3-19.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-19/thelixir-1.18.2-1-3-19.jar.asc"
+    "name": "thelixir-1.18.2-1-3-20.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-20/thelixir-1.18.2-1-3-20.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-20/thelixir-1.18.2-1-3-20.jar.asc"
   },
   {
     "name": "GravityGenerator-1.18.2-1.0.1b-7.jar",
