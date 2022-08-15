@@ -24,5 +24,9 @@ value = true
 permission = "slide_show.interact.projector"
 value = true
 
+[[permissions]]
+permission = "weight.20"
+value = true
+
 [[parents]]
 group = "builder"
