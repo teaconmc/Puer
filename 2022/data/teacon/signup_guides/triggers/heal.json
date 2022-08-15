@@ -1,7 +1,6 @@
 {
   "type": "trigger",
   "title": "恢复血量",
-  "__comment": "/execute if entity @p[area=dd722865-449c-42bc-a133-d271a43618da,area=dd722865-449c-42bc-a133-d271a43618da] run say hello",
   "selector": "@a[tag=!on_chanllenge,area=!#Zone-0-Dropper,area=!#'TeaCon2022 展示服务器 3g 地块']",
   "description": "回复自身血量、饥饿值、和经验等级",
   "executes": [
