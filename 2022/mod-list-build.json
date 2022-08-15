@@ -70,9 +70,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-firewood/build-74/firewood-0.7.0-74.jar.asc"
   },
   {
-    "name": "flamereaction-0.1.1-33.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-33/flamereaction-0.1.1-33.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-33/flamereaction-0.1.1-33.jar.asc"
+    "name": "flamereaction-0.1.1-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-36/flamereaction-0.1.1-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-flamereaction/build-36/flamereaction-0.1.1-36.jar.asc"
   },
   {
     "name": "flintlock-1.0-42.jar",
@@ -110,9 +110,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-meteorcertainidea/build-25/meteorcertainidea-1.0-25.jar.asc"
   },
   {
-    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-67.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-67/MtrSteamLoco-forge-1.18.2-0.0.1-67.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-67/MtrSteamLoco-forge-1.18.2-0.0.1-67.jar.asc"
+    "name": "MtrSteamLoco-forge-1.18.2-0.0.1-69.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-69/MtrSteamLoco-forge-1.18.2-0.0.1-69.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtrsteamloco/build-69/MtrSteamLoco-forge-1.18.2-0.0.1-69.jar.asc"
   },
   {
     "name": "Multiblocked-1.18.2-0.11.1-45.jar",
@@ -330,9 +330,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-ms-bwk/build-15/ModernStylism-2.0-15.jar.asc"
   },
   {
-    "name": "AreaControl-Forge-1.18-0.6.5.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.6.5/AreaControl-Forge-1.18-0.6.5.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.6.5.jar.asc"
+    "name": "AreaControl-Forge-1.18-0.6.6.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/AreaControl-Forge-1.18/0.6.6/AreaControl-Forge-1.18-0.6.6.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/AreaControl-Forge-1.18-0.6.6.jar.asc"
   },
   {
     "name": "ChromeBall-Forge-1.18-0.4.0.jar",
@@ -345,9 +345,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.2-SNAPSHOT%2Be7ea711.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.7.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.7/PowerTool-Forge-1.18-1.2.7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.7.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.8.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.8/PowerTool-Forge-1.18-1.2.8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.8.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.1.jar",
