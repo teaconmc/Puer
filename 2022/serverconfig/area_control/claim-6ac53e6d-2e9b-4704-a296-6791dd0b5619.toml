@@ -22,6 +22,7 @@ friends = []
 "area.allow_spawn.minecraft:tnt" = false
 "area.allow_spawn.tactical_cards" = false
 "area.allow_possess.tactical_cards" = false
+"area.allow_possess.artoftnt" = false
 "area.allow_possess.boomood:result_reverser" = false
 "area.allow_use_item.tactical_cards" = false
 "area.allow_use_item.torchikoma:torch_launcher" = false
