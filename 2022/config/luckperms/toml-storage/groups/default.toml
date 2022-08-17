@@ -25,13 +25,5 @@ permission = "command.sinocore.quiz.rank"
 value = true
 
 [[permissions]]
-permission = "minecraft.command.gamemode"
-value = false
-
-[[permissions]]
-permission = "command.gamemode"
-value = false
-
-[[permissions]]
 permission = "area_control.bypass.*"
 value = false
