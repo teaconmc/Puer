@@ -15,9 +15,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-catinbucket/build-26/catinbucket-1.18.2-0.0.4-26.jar.asc"
   },
   {
-    "name": "caupona-1.18.2-0.3.1-91.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-91/caupona-1.18.2-0.3.1-91.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-91/caupona-1.18.2-0.3.1-91.jar.asc"
+    "name": "caupona-1.18.2-0.3.3-92.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-92/caupona-1.18.2-0.3.3-92.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-caupona/build-92/caupona-1.18.2-0.3.3-92.jar.asc"
   },
   {
     "name": "FlooPowder-1.4.5-52.jar",
@@ -40,9 +40,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-exp1182/build-46/exp1182-1.0-46.jar.asc"
   },
   {
-    "name": "extinguish-0.1.9.tc-48.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-48/extinguish-0.1.9.tc-48.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-48/extinguish-0.1.9.tc-48.jar.asc"
+    "name": "extinguish-0.1.10.tc-49.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-49/extinguish-0.1.10.tc-49.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-extinguish/build-49/extinguish-0.1.10.tc-49.jar.asc"
   },
   {
     "name": "Fire-Protection-Equipment-1.0-43.jar",
@@ -220,9 +220,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-thelixir/build-20/thelixir-1.18.2-1-3-20.jar.asc"
   },
   {
-    "name": "GravityGenerator-1.18.2-1.0.1b-7.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-7/GravityGenerator-1.18.2-1.0.1b-7.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-7/GravityGenerator-1.18.2-1.0.1b-7.jar.asc"
+    "name": "GravityGenerator-1.18.2-1.0.1b-8.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-8/GravityGenerator-1.18.2-1.0.1b-8.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-gravity-generator/build-8/GravityGenerator-1.18.2-1.0.1b-8.jar.asc"
   },
   {
     "name": "briquettes-1.0.1-1.18.2-7.jar",
@@ -235,9 +235,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-sinodivination/build-16/sinodivination-1.18.2-1.0.2-16.jar.asc"
   },
   {
-    "name": "ShimmerFire-1.18.2-0.2.7-65.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-65/ShimmerFire-1.18.2-0.2.7-65.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-65/ShimmerFire-1.18.2-0.2.7-65.jar.asc"
+    "name": "ShimmerFire-1.18.2-0.2.7-66.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-66/ShimmerFire-1.18.2-0.2.7-66.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-shimmerfire/build-66/ShimmerFire-1.18.2-0.2.7-66.jar.asc"
   },
   {
     "name": "handle_cane-0.9.1-4.jar",
@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-37/pyrotechnicraft-1.18.2-0.0.1-37.jar.asc"
   },
   {
-    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
+    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-5/locusazzurro_icaruswings-1.18.2-0.4.0-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-5/locusazzurro_icaruswings-1.18.2-0.4.0-5.jar.asc"
   },
   {
     "name": "imi-1.18.2-2-14.jar",
@@ -315,9 +315,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar.asc"
   },
   {
-    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-16/MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-16/MTR-forge-1.18.2-3.1.0-unofficial-4-16.jar.asc"
+    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-17/MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-17/MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-3.jar",
