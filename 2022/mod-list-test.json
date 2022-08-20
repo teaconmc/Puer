@@ -165,9 +165,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-with-fire/build-20/with_fire-1.0-20.jar.asc"
   },
   {
-    "name": "touhoulittlemaid-1.18.2-1.0.0-35.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-35/touhoulittlemaid-1.18.2-1.0.0-35.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-35/touhoulittlemaid-1.18.2-1.0.0-35.jar.asc"
+    "name": "touhoulittlemaid-1.18.2-1.0.0-36.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-36/touhoulittlemaid-1.18.2-1.0.0-36.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-touhou-little-maid/build-36/touhoulittlemaid-1.18.2-1.0.0-36.jar.asc"
   },
   {
     "name": "sunken_world-1.0-SNAPSHOT-76.jar",
@@ -315,9 +315,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-fire-track/build-8/fire_track-teacon2022--1.0.0-8.jar.asc"
   },
   {
-    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-17/MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-17/MTR-forge-1.18.2-3.1.0-unofficial-4-17.jar.asc"
+    "name": "MTR-forge-1.18.2-3.1.0-unofficial-4-18.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-18/MTR-forge-1.18.2-3.1.0-unofficial-4-18.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-mtr/build-18/MTR-forge-1.18.2-3.1.0-unofficial-4-18.jar.asc"
   },
   {
     "name": "item_and_block_properties-0.5.0-3.jar",
@@ -493,5 +493,15 @@
     "name": "ferritecore-4.2.1-forge.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar.asc"
+  },
+  {
+    "name": "balm-3.2.0+0.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/balm-3.2.0%2B0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/balm-3.2.0%2B0.jar.asc"
+  },
+  {
+    "name": "trashslot-forge-1.18.1-11.0.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/trashslot-forge-1.18.1-11.0.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/trashslot-forge-1.18.1-11.0.2.jar.asc"
   }
 ]
