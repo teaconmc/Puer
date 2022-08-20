@@ -13,7 +13,7 @@
 	#Range: 3 ~ 64
 	MaidHomeRange = 8
 	#Maid can switch models freely
-	MaidChangeModel = true
+	MaidChangeModel = false
 	#The maximum number of maids the player own
 	#Range: > 0
 	OwnerMaxMaidNum = 2147483647
@@ -22,7 +22,7 @@
 
 [chair]
 	#Chair can switch models freely
-	ChairChangeModel = true
+	ChairChangeModel = false
 	#Chair can be destroyed by anyone
 	ChairCanDestroyedByAnyone = true
 
