@@ -250,9 +250,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/build/team-pyrotechnicraft/build-37/pyrotechnicraft-1.18.2-0.0.1-37.jar.asc"
   },
   {
-    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
-    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-4/locusazzurro_icaruswings-1.18.2-0.4.0-4.jar.asc"
+    "name": "locusazzurro_icaruswings-1.18.2-0.4.0-5.jar",
+    "file": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-5/locusazzurro_icaruswings-1.18.2-0.4.0-5.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/build/team-locusazzurro-icaruswings/build-5/locusazzurro_icaruswings-1.18.2-0.4.0-5.jar.asc"
   },
   {
     "name": "imi-1.18.2-2-14.jar",
@@ -493,5 +493,15 @@
     "name": "ferritecore-4.2.1-forge.jar",
     "file": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar",
     "sig": "https://archive.teacon.cn/2022/ci/extra/ferritecore-4.2.1-forge.jar.asc"
+  },
+  {
+    "name": "balm-3.2.0+0.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/balm-3.2.0%2B0.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/balm-3.2.0%2B0.jar.asc"
+  },
+  {
+    "name": "trashslot-forge-1.18.1-11.0.2.jar",
+    "file": "https://archive.teacon.cn/2022/ci/extra/trashslot-forge-1.18.1-11.0.2.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/trashslot-forge-1.18.1-11.0.2.jar.asc"
   }
 ]
