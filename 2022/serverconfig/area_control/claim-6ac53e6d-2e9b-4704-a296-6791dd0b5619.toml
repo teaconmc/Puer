@@ -9,6 +9,7 @@ friends = []
 # Remember to disable some of these checks when we are ready
 [properties]
 "area.allow_activate_block" = "true"
+"area.allow_activate_block.powertool:item_supplier" = "true"
 "area.allow_click_block" = "true"
 "area.allow_interact_entity" = "true"
 "area.allow_interact_entity_specific" = "true"
