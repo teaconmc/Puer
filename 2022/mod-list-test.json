@@ -345,9 +345,9 @@
     "sig": "https://archive.teacon.cn/2022/ci/extra/Garlic-Forge-1.18-1.2.2-SNAPSHOT%2Bd0949de.jar.asc"
   },
   {
-    "name": "PowerTool-Forge-1.18-1.2.9.jar",
-    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.9/PowerTool-Forge-1.18-1.2.9.jar",
-    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.9.jar.asc"
+    "name": "PowerTool-Forge-1.18-1.2.10.jar",
+    "file": "https://archive.teacon.cn/maven/org/teacon/PowerTool-Forge-1.18/1.2.10/PowerTool-Forge-1.18-1.2.10.jar",
+    "sig": "https://archive.teacon.cn/2022/ci/extra/PowerTool-Forge-1.18-1.2.10.jar.asc"
   },
   {
     "name": "SignMeUp-Forge-1.18-0.3.2.jar",
