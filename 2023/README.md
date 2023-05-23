@@ -1,6 +1,6 @@
-# 普洱（PUER / Packed User Exhibition Resources） V2？ 目录结构
+# 普洱（PUER / Packed User Exhibition Resources）2023 目录结构
 
-适配 TeaCon 2023 的普洱分为以下两部分：
+适配 TeaCon 2023 的普洱分为以下三部分：
 
   1. `vanilla-assets`，一个标准的 Gradle 项目，用于将 TeaCon 2023 所需要的资源包（Resource Pack）打包成基于 [FML low-code language provider][ref-1] 的「模组」文件。
   2. `vanilla-data`，一个标准的 Gradle 项目，用于将 TeaCon 2023 所需要的数据包（Data Pack）打包成基于 [FML low-code language provider][ref-1] 的「模组」文件。
