@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "pack_format": 13,
+        "description": "TeaCon 2023 data pack and resource pack",
+        "forge:resource_pack_format": 13,
+        "forge:data_pack_format": 12
+    }
+}

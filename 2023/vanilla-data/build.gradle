@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+archivesBaseName = 'teacon2023-data'
+version = '1.0-SNAPSHOT'
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = "org.teacon"
+            artifactId = "teacon2023-data"
+            version project.version
+
+            artifact jar
+
+            pom {
+                name = 'TeaCon 2023 Resources'
+                description = 'Data pack used in TeaCon 2023'
+                url = 'https://github.com/teaconmc/Puer'
+                licenses {
+                    license {
+                        name = 'Public Domain'
+                        url = 'https://github.com/teaconmc/Puer/blob/dev/README.md'
+                    }
+                }
+                issueManagement {
+                    system = 'GitHub Issues'
+                    url = 'https://github.com/teaconmc/Puer/issues'
+                }
+                scm {
+                    url = 'https://github.com/teaconmc/Puer'
+                    connection = 'scm:git:git://github.com/teaconmc/Puer.git'
+                    developerConnection = 'scm:git:git@github.com:teaconmc/Puer.git'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "teacon"
+            url = "s3://maven/"
+            credentials(AwsCredentials) {
+                accessKey = System.env.ARCHIVE_ACCESS_KEY
+                secretKey = System.env.ARCHIVE_SECRET_KEY
+            }
+        }
+    }
+}
