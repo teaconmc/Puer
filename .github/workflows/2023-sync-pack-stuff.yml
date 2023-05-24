@@ -1,0 +1,33 @@
+name: TeaCon 2023 Sync Pack-building Files
+
+on:
+  push:
+    paths:
+      - "2023/shared/**"
+    branches: [ dev ]
+    tags: '**'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup profile
+        env:
+          REGION: ${{ secrets.REGION }}
+          ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: aliyun configure set --profile main --region $REGION --mode AK --access-key-id $ACCESS_KEY --access-key-secret $SECRET_KEY
+      - name: Sync For Test
+        id: sync-test
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+        run: aliyun oss sync --profile main --delete --backup-dir backup ./2023/shared/ oss://$BUCKET/2023/puer/test/
+      - name: Sync For Prod
+        id: sync-prod
+        if: ${{ startsWith(github.ref, 'refs/tags') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+        run: aliyun oss sync --profile main --delete --backup-dir backup ./2023/shared/ oss://$BUCKET/2023/puer/prod/
