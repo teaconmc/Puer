@@ -1,0 +1,8 @@
+name = "builder"
+
+[[parents]]
+group = "default"
+
+[[prefixes]]
+prefix = "[参展选手] "
+priority = 1

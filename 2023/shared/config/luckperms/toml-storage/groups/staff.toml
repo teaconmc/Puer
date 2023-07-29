@@ -1,0 +1,8 @@
+name = "staff"
+
+[[parents]]
+group = "builder"
+
+[[prefixes]]
+prefix = "[茶馆员工] "
+priority = 1
