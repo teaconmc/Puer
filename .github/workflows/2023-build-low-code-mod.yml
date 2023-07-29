@@ -30,8 +30,8 @@ jobs:
         id: build
         env:
           ARCHIVE_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
-          ARCHIVE_ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
-          ARCHIVE_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+          ARCHIVE_ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          ARCHIVE_SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
         run: |
           cd 2023/vanilla-data
           gradle -Dorg.gradle.s3.endpoint=$ARCHIVE_ENDPOINT publishReleasePublicationToTeaconRepository
