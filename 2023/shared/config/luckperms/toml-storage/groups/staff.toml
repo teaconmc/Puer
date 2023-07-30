@@ -14,3 +14,11 @@ value = true
 [[permissions]]
 permission = "slide_show.interact.projector.create_url"
 value = true
+
+[[permissions]]
+permission = "area_control.*"
+value = true
+
+[[permissions]]
+permission = "luckperms.*"
+value = true
