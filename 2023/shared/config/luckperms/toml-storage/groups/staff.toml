@@ -6,3 +6,11 @@ group = "builder"
 [[prefixes]]
 prefix = "[茶馆员工] "
 priority = 1
+
+[[permissions]]
+permission = "slide_show.interact.projector"
+value = true
+
+[[permissions]]
+permission = "slide_show.interact.projector.create_url"
+value = true
