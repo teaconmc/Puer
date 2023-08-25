@@ -1,1 +1,9 @@
 name = "default"
+
+[[permissions]]
+permission = "command.fly"
+value = true
+
+[[permissions]]
+permission = "madparticle.commands.mp_demo"
+value = true
