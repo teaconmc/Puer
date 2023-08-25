@@ -1,57 +1,93 @@
 include(Resources.idRelative("models.js"));
 include(Resources.idRelative("particles.js"));
+include(Resources.idRelative("pis.js"));
 
 function createTrain(ctx, state, train, trainExt) {
   state.particleRateLimit = new RateLimit(0.1);
+  state.pisTexture = createPisTexture(state);
+  state.bodyModel = models["body"].copyForMaterialChanges();
+  state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier);
+}
+
+function disposeTrain(ctx, state, train, trainExt) {
+  state.pisTexture.close();
 }
 
 function renderTrain(ctx, state, train, trainExt) {
   matrices = new Matrices();
 
+  /*
+  matrices.pushPose();
+  matrices.translate(1, 1, 1);
+  for (i = 0; i < train.trainCars; i++) {
+    ctx.drawCarModel(modelGizmo, i, matrices);
+  }
+  matrices.popPose();
+  */
+
   fwdRail = train.path.get(train.getIndex(0, train.spacing, true)).rail;
-  bwdRail = train.path.get(train.getIndex(train.trainCars - 1, train.spacing, true)).rail;
+  bwdRail = train.path.get(train.getIndex(train.trainCars, train.spacing, false)).rail;
   trainInAir = fwdRail.getModelKey() == "null" || bwdRail.getModelKey() == "null";
   modelBogieToUse = trainInAir ? modelBogieAir : modelBogie;
 
   if (state.particleRateLimit.shouldUpdate()) {
     renderTrainParticles(ctx, state, train, trainExt, trainInAir);
+    updatePisTexture(state.pisTexture, state, train, trainExt);
   }
 
   for (i = 0; i < train.trainCars; i++) {
-    modelsToUse = null;
     matrices.pushPose();
     if (i == 0 && train.trainCars == 1) {
-      modelsToUse = modelHead12;
+      matrices.rotateY(Math.PI);
+      ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
+      matrices.popPushPose();
+      ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
+
       matrices.translate(0, 2.45, 0);
       ctx.drawCarModel(modelBogieToUse, i, matrices);
+      matrices.popPushPose();
     } else if (i == 0) {
-      modelsToUse = modelHead1;
+      matrices.rotateY(Math.PI);
+      ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
+      ctx.drawCarModel(models["end"], i, matrices);
+      matrices.popPushPose();
+
       matrices.translate(0, 2.45, 3);
       ctx.drawCarModel(modelBogieToUse, i, matrices);
+      matrices.popPushPose();
     } else if (i == train.trainCars - 1) {
-      modelsToUse = modelHead2;
+      ctx.drawCarModel(models["head"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
+      ctx.drawCarModel(models["end"], i, matrices);
+
       matrices.translate(0, 2.45, -3);
       ctx.drawCarModel(modelBogieToUse, i, matrices);
     } else {
-      modelsToUse = modelCenter;
+      matrices.rotateY(Math.PI);
+      ctx.drawCarModel(models["end"], i, matrices);
+      matrices.popPushPose();
+      ctx.drawCarModel(models["end"], i, matrices);
     }
     matrices.popPose();
-    ctx.drawCarModel(modelsToUse["body"], i, null);
+    ctx.drawCarModel(state.bodyModel, i, null);
     
     doorValueConv = easeOutCubic(Math.min(train.getDoorValue() * 2, 1));
-    doorXP = trainExt.doorRightOpen[i] ? doorValueConv * 0.81 : 0;
-    doorXN = trainExt.doorLeftOpen[i] ? doorValueConv * 0.81 : 0;
+    doorXP = trainExt.doorLeftOpen[i] ? doorValueConv * 0.81 : 0;
+    doorXN = trainExt.doorRightOpen[i] ? doorValueConv * 0.81 : 0;
     matrices.pushPose();
     matrices.translate(0, 0, -doorXN);
-    ctx.drawCarModel(modelsToUse["doorXNZN"], i, matrices);
+    ctx.drawCarModel(models["doorXNZN"], i, matrices);
     matrices.translate(0, 0, 2 * doorXN);
-    ctx.drawCarModel(modelsToUse["doorXNZP"], i, matrices);
+    ctx.drawCarModel(models["doorXNZP"], i, matrices);
     matrices.popPose();
     matrices.pushPose();
     matrices.translate(0, 0, -doorXP);
-    ctx.drawCarModel(modelsToUse["doorXPZN"], i, matrices);
+    ctx.drawCarModel(models["doorXPZN"], i, matrices);
     matrices.translate(0, 0, 2 * doorXP);
-    ctx.drawCarModel(modelsToUse["doorXPZP"], i, matrices);
+    ctx.drawCarModel(models["doorXPZP"], i, matrices);
     matrices.popPose();
   }
 
