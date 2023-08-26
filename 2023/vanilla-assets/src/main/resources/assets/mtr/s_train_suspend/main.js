@@ -1,6 +1,8 @@
-include(Resources.idRelative("models.js"));
-include(Resources.idRelative("particles.js"));
-include(Resources.idRelative("pis.js"));
+include("models.js");
+include("particles.js");
+include("pis/pis.js");
+
+include("pis_config.js");
 
 function createTrain(ctx, state, train, trainExt) {
   state.particleRateLimit = new RateLimit(0.1);
@@ -98,8 +100,4 @@ function renderTrain(ctx, state, train, trainExt) {
     matrices.popPose();
     ctx.drawConnStretchTexture(idTexConnector, i);
   }
-}
-
-function easeOutCubic(x) {
-  return 1 - Math.pow(1 - x, 3);
 }
