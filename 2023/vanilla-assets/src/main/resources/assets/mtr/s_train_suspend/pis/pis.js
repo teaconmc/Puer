@@ -23,32 +23,32 @@ function createPisTexture(state) {
   return pisTexture;
 }
 
-function updatePisTexture(texture, state, train, trainExt) {
+function updatePisTexture(texture, state, train) {
   var g = texture.graphics;
   var transform = g.getTransform();
 
   g.setClip(0, 0, 1000, 100);
-  paintPisSideScreen(g, state, train, trainExt, -1);
+  paintPisSideScreen(g, state, train, -1);
 
   g.transform(AffineTransform.getTranslateInstance(0, 256));
   g.setClip(0, 0, 1000, 100);
-  paintPisSideScreen(g, state, train, trainExt, 1);
+  paintPisSideScreen(g, state, train, 1);
 
   g.setTransform(transform);
   texture.upload();
 }
 
-function paintPisSideScreen(g, state, train, trainExt, side) {
+function paintPisSideScreen(g, state, train, side) {
   state.pageCycle.tick();
   g.setColor(Color.BLACK);
   g.fillRect(0, 0, 1000, 100);
-  paintPisCommonElement(g, state, train, trainExt);
-  // paintPisArrivePage(g, state, train, trainExt);
+  paintPisCommonElement(g, state, train);
+  // paintPisArrivePage(g, state, train);
 
-  var stations = trainExt.getThisRoutePlatforms();
+  var stations = train.getThisRoutePlatforms();
   if (stations.size() <= 1) return;
-  var nextIndex = trainExt.getThisRoutePlatformsNextIndex();
-  // var stations = trainExt.getDebugPlatforms(10);
+  var nextIndex = train.getThisRoutePlatformsNextIndex();
+  // var stations = train.getDebugPlatforms(10);
   // var nextIndex = 5;
 
   var stationConfig = getStationConfig(stations, nextIndex);
@@ -65,8 +65,8 @@ function paintPisSideScreen(g, state, train, trainExt, side) {
   state.stationConfig = stationConfig;
   state.doorWillOpen = doorDirection == side;
 
-  if (nextIndex < stations.size() && (stations.get(nextIndex).distance - train.getRailProgress()) < stationConfig.arriveDistance) {
-    state.atPlatform |= train.getDoorValue() > 0;
+  if (nextIndex < stations.size() && (stations.get(nextIndex).distance - train.railProgress()) < stationConfig.arriveDistance) {
+    state.atPlatform |= train.doorValue() > 0;
     if (state.atPlatform) {
       paintPisNextStationPage(g, state, train, stations, nextIndex);
     } else {

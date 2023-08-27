@@ -2,7 +2,7 @@ pisConfig = {
   "routes": {
     "": {
       "": {
-        "arriveDistance": 100,
+        "arriveDistance": 4,
         "exitStrFontSize": 14,
         "doorDirection": "both"
       }

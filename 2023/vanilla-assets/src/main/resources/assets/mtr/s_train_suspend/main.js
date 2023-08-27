@@ -4,42 +4,42 @@ include("pis/pis.js");
 
 include("pis_config.js");
 
-function createTrain(ctx, state, train, trainExt) {
+function createTrain(ctx, state, train) {
   state.particleRateLimit = new RateLimit(0.1);
   state.pisTexture = createPisTexture(state);
   state.bodyModel = models["body"].copyForMaterialChanges();
   state.bodyModel.replaceTexture("pis_placeholder.png", state.pisTexture.identifier);
 }
 
-function disposeTrain(ctx, state, train, trainExt) {
+function disposeTrain(ctx, state, train) {
   state.pisTexture.close();
 }
 
-function renderTrain(ctx, state, train, trainExt) {
+function renderTrain(ctx, state, train) {
   matrices = new Matrices();
 
   /*
   matrices.pushPose();
   matrices.translate(1, 1, 1);
-  for (i = 0; i < train.trainCars; i++) {
+  for (i = 0; i < train.trainCars(); i++) {
     ctx.drawCarModel(modelGizmo, i, matrices);
   }
   matrices.popPose();
   */
 
-  fwdRail = train.path.get(train.getIndex(0, train.spacing, true)).rail;
-  bwdRail = train.path.get(train.getIndex(train.trainCars, train.spacing, false)).rail;
+  fwdRail = train.path().get(train.getRailIndex(train.getRailProgress(0), true)).rail;
+  bwdRail = train.path().get(train.getRailIndex(train.getRailProgress(train.trainCars()), false)).rail;
   trainInAir = fwdRail.getModelKey() == "null" || bwdRail.getModelKey() == "null";
   modelBogieToUse = trainInAir ? modelBogieAir : modelBogie;
 
   if (state.particleRateLimit.shouldUpdate()) {
-    renderTrainParticles(ctx, state, train, trainExt, trainInAir);
-    updatePisTexture(state.pisTexture, state, train, trainExt);
+    renderTrainParticles(ctx, state, train, trainInAir);
+    updatePisTexture(state.pisTexture, state, train);
   }
 
-  for (i = 0; i < train.trainCars; i++) {
+  for (i = 0; i < train.trainCars(); i++) {
     matrices.pushPose();
-    if (i == 0 && train.trainCars == 1) {
+    if (i == 0 && train.trainCars() == 1) {
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["head"], i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
@@ -60,7 +60,7 @@ function renderTrain(ctx, state, train, trainExt) {
       matrices.translate(0, 2.45, 3);
       ctx.drawCarModel(modelBogieToUse, i, matrices);
       matrices.popPushPose();
-    } else if (i == train.trainCars - 1) {
+    } else if (i == train.trainCars() - 1) {
       ctx.drawCarModel(models["head"], i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
@@ -76,9 +76,9 @@ function renderTrain(ctx, state, train, trainExt) {
     matrices.popPose();
     ctx.drawCarModel(state.bodyModel, i, null);
     
-    doorValueConv = easeOutCubic(Math.min(train.getDoorValue() * 2, 1));
-    doorXP = trainExt.doorLeftOpen[i] ? doorValueConv * 0.81 : 0;
-    doorXN = trainExt.doorRightOpen[i] ? doorValueConv * 0.81 : 0;
+    doorValueConv = easeOutCubic(Math.min(train.doorValue() * 2, 1));
+    doorXP = train.doorLeftOpen[i] ? doorValueConv * 0.81 : 0;
+    doorXN = train.doorRightOpen[i] ? doorValueConv * 0.81 : 0;
     matrices.pushPose();
     matrices.translate(0, 0, -doorXN);
     ctx.drawCarModel(models["doorXNZN"], i, matrices);
@@ -93,7 +93,7 @@ function renderTrain(ctx, state, train, trainExt) {
     matrices.popPose();
   }
 
-  for (i = 0; i < train.trainCars - 1; i++) {
+  for (i = 0; i < train.trainCars() - 1; i++) {
     matrices.pushPose();
     matrices.translate(0, 2.45, 0);
     ctx.drawConnModel(modelBogieToUse, i, matrices);

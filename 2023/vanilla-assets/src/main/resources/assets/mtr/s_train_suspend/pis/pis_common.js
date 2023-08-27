@@ -1,11 +1,11 @@
-function paintPisCommonElement(g, state, train, trainExt) {
+function paintPisCommonElement(g, state, train) {
   g.setColor(new Color(36/255, 57/255, 94/255));
   g.fillRect(0, 80, 140, 20);
   g.setColor(Color.WHITE);
   g.setFont(sansFont.deriveFont(Font.BOLD, 14));
   g.drawString(java.time.LocalTime.now().toString().substring(0, 5), 10, 95);
   g.fillRect(60, 81, 2, 17);
-  g.drawString(Math.round(train.speed * 20 * 3600.0 / 1000).toString(), 70, 95);
+  g.drawString(Math.round(train.speed() * 20 * 3600.0 / 1000).toString(), 70, 95);
   g.setFont(sansFont.deriveFont(Font.BOLD, 10));
   g.drawString("km/h", 95, 95);
 

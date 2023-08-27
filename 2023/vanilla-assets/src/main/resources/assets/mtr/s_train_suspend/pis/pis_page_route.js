@@ -66,7 +66,7 @@ function paintPisRoutePage(g, state, train, stations, nextIndex) {
       
       if (i >= nextIndex) {
         g.setFont(sansFont.deriveFont(Font.BOLD, 12));
-        var timeStr = Math.round((stations.get(i).distance - train.getRailProgress()) / (40 * 1000 / 3600) / 60).toString();
+        var timeStr = Math.round((stations.get(i).distance - train.railProgress()) / (40 * 1000 / 3600) / 60).toString();
         var fontMetrics = g.getFontMetrics();
         g.drawString(timeStr, xPadding + xSpacing * i - fontMetrics.stringWidth(timeStr) / 2, 94);
       }
