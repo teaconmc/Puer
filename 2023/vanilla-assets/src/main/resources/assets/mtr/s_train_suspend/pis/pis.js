@@ -2,8 +2,7 @@ importPackage(java.awt);
 importPackage(java.awt.geom);
 
 pisAtlas = Resources.readBufferedImage(Resources.idRelative("../pis_placeholder.png"));
-sansFont = Resources.readFont(Resources.identifier("mtr:font/noto-sans-cjk-sc-medium.otf"));
-serifFont = Resources.getBuiltinFont(true, true);
+sansFont = Resources.getSystemFont("Noto Sans");
 
 include("pis_config_parser.js");
 include("pis_common.js");
