@@ -9,21 +9,14 @@ function uploadPartedModels(rawModels) {
   return result;
 }
 
+rawModelGizmo = ModelManager.loadRawModel(Resources.manager(), Resources.idRelative("gizmo.obj"), null);
+modelGizmo = ModelManager.uploadVertArrays(rawModelGizmo);
+
 // S-Train Mini
 
-rawModelsHead1 = ModelManager.loadPartedRawModel(Resources.manager(), 
-  Resources.idRelative("s_train_mini_head1.obj"), null);
-rawModelsCenter = ModelManager.loadPartedRawModel(Resources.manager(),
-  Resources.idRelative("s_train_mini_head0.obj"), null);
-rawModelsHead2 = ModelManager.loadPartedRawModel(Resources.manager(), 
-  Resources.idRelative("s_train_mini_head2.obj"), null);
-rawModelsHead12 = ModelManager.loadPartedRawModel(Resources.manager(), 
-  Resources.idRelative("s_train_mini_head12.obj"), null);
-
-modelHead1 = uploadPartedModels(rawModelsHead1);
-modelCenter = uploadPartedModels(rawModelsCenter);
-modelHead2 = uploadPartedModels(rawModelsHead2);
-modelHead12 = uploadPartedModels(rawModelsHead12);
+rawModels = ModelManager.loadPartedRawModel(Resources.manager(), 
+  Resources.idRelative("s_train_mini.obj"), null);
+models = uploadPartedModels(rawModels);
 
 idTexConnector = Resources.idRelative("s_train_connector.png");
 

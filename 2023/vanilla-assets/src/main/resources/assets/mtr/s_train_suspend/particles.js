@@ -1,27 +1,27 @@
 
-function renderTrainParticles(ctx, state, train, trainExt, trainInAir) {
+function renderTrainParticles(ctx, state, train, trainInAir) {
   if (!foundMadParticle) return;
-  trainSpeed = train.isReversed() ? -train.getSpeed() : train.getSpeed();
+  trainSpeed = train.isReversed() ? -train.speed() : train.speed();
 
-  for (i = 0; i < train.trainCars; i++) {
+  for (i = 0; i < train.trainCars(); i++) {
     zPos = 0;
-    if (i == 0 && train.trainCars == 1) {
+    if (i == 0 && train.trainCars() == 1) {
       zPos = 0;
     } else if (i == 0) {
       zPos = 3;
-    } else if (i == train.trainCars - 1) {
+    } else if (i == train.trainCars() - 1) {
       zPos = -3;
     } else {
       zPos = false;
     }
 
     if (zPos !== false && trainInAir) {
-      addEngineParticles(trainExt.lastWorldPose[i], new Vector3f(3.8, 3.5, zPos), trainSpeed);
-      addEngineParticles(trainExt.lastWorldPose[i], new Vector3f(-3.8, 3.5, zPos), trainSpeed);
+      addEngineParticles(train.lastWorldPose[i], new Vector3f(3.8, 3.5, zPos), trainSpeed);
+      addEngineParticles(train.lastWorldPose[i], new Vector3f(-3.8, 3.5, zPos), trainSpeed);
     }
-    if (i != train.trainCars - 1 && train.trainCars > 1 && trainInAir) {
-      addEngineParticles(trainExt.lastWorldPose[i], new Vector3f(3.8, 3.5, -5), trainSpeed);
-      addEngineParticles(trainExt.lastWorldPose[i], new Vector3f(-3.8, 3.5, -5), trainSpeed);
+    if (i != train.trainCars() - 1 && train.trainCars() > 1 && trainInAir) {
+      addEngineParticles(train.lastWorldPose[i], new Vector3f(3.8, 3.5, -5), trainSpeed);
+      addEngineParticles(train.lastWorldPose[i], new Vector3f(-3.8, 3.5, -5), trainSpeed);
     }
   }
 }
@@ -54,7 +54,7 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     InheritableBoolean.TRUE, 2,
     java.lang.Double.MAX_VALUE, java.lang.Double.MAX_VALUE, java.lang.Double.MAX_VALUE, 0.2, 0.2, 0.2,
     java.lang.Double.MAX_VALUE, java.lang.Double.MAX_VALUE, java.lang.Double.MAX_VALUE, 0.02, 0.04, 0.02,
-    0.98, 0, InheritableBoolean.TRUE, 0,
+    0.98, 0, InheritableBoolean.FALSE, 0,
     0.2, 0.2,
     0.98, 0,
     InheritableBoolean.FALSE,
@@ -98,7 +98,7 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     InheritableBoolean.FALSE, 2,
     particleOrigin.x(), particleOrigin.y(), particleOrigin.z(), 0.5, 0.5, 0.5,
     particleDirection.x(), particleDirection.y(), particleDirection.z(), 0.1, 0.2, 0.1,
-    0.98, 0, InheritableBoolean.TRUE, 0,
+    0.98, 0, InheritableBoolean.FALSE, 0,
     0, 0,
     0.98, 0,
     InheritableBoolean.FALSE,
@@ -124,7 +124,7 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     InheritableBoolean.FALSE, 4,
     particleOrigin.x(), particleOrigin.y(), particleOrigin.z(), 0.5, 0.5, 0.5,
     particleDirection.x(), particleDirection.y(), particleDirection.z(), 0, 0.2, 0,
-    0.98, 0, InheritableBoolean.TRUE, 0,
+    0.98, 0, InheritableBoolean.FALSE, 0,
     0, 0,
     0.98, 0,
     InheritableBoolean.FALSE,
