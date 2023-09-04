@@ -53,7 +53,7 @@ function renderTrain(ctx, state, train) {
     } else if (i == 0) {
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["head"], i, matrices);
-      ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
       matrices.popPushPose();
 
@@ -62,7 +62,7 @@ function renderTrain(ctx, state, train) {
       matrices.popPushPose();
     } else if (i == train.trainCars() - 1) {
       ctx.drawCarModel(models["head"], i, matrices);
-      ctx.drawCarModel(train.isReversed() ? models["taillight"] : models["headlight"], i, matrices);
+      ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
 
       matrices.translate(0, 2.45, -3);
