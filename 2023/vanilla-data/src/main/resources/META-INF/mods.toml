@@ -1,0 +1,15 @@
+modLoader="lowcodefml"
+loaderVersion="[45,)"
+license="Public Domain"
+# According to https://github.com/MinecraftForge/MinecraftForge/pull/8633#discussion_r884308581,
+# I don't think this will have any effect, but having it here does not cause any harm.
+displayTest="IGNORE_ALL_VERSION"
+
+[[mods]]
+modId="teacon_2023_data"
+version="0.1.0"
+displayName="TeaCon 2023 Datapack"
+displayURL="https://www.teacon.cn/2023"
+description="Datapack used in TeaCon 2023"
+authors="TeaCon Executive Committee"
+credits="All TeaCon 2023 participants"

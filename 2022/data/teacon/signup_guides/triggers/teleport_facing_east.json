@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "传送",
+  "selector": "@a",
+  "description": "传送到目标地点",
+  "executes": [
+    "/teleport @s ~ ~ ~ 270 ~",
+    "/signmeup map close"
+  ]
+}

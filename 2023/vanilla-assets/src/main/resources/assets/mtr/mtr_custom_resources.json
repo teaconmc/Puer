@@ -1,0 +1,11 @@
+{
+  "custom_trains": {
+    "s_train_suspend": {
+      "name": "S-Train Suspend (Mini)",
+      "base_type": "train_9_2",
+      "color": "2AF0AD",
+      "script_files": [ "mtr:s_train_suspend/main.js" ],
+      "bve_sound_base_id": "optonix1500"
+    }
+  }
+}

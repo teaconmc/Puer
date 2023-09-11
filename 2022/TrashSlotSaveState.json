@@ -1,0 +1,46 @@
+{
+  "settingsMap": {
+    "net/minecraft/client/gui/screens/inventory/InventoryScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": true
+    },
+    "top/theillusivec4/curios/client/gui/CuriosScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": false
+    },
+    "net/minecraft/client/gui/screens/inventory/EnchantmentScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": false
+    },
+    "org/yu/register/item/SilkBagScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": false
+    },
+    "org/yu/register/item/RefractoryTankScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": false
+    },
+    "org/yu/register/machine/LlandudnoScreen": {
+      "slotX": 60,
+      "slotY": 83,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "isEnabled": false
+    }
+  }
+}

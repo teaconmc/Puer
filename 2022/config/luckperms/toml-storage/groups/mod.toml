@@ -12,5 +12,21 @@ value = true
 permission = "*"
 value = true
 
+[[permissions]]
+permission = "minecraft.command.gamemode"
+value = true
+
+[[permissions]]
+permission = "command.gamemode"
+value = true
+
+[[permissions]]
+permission = "slide_show.interact.projector"
+value = true
+
+[[permissions]]
+permission = "weight.20"
+value = true
+
 [[parents]]
 group = "builder"

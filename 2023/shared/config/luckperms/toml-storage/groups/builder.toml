@@ -1,0 +1,16 @@
+name = "builder"
+
+[[parents]]
+group = "default"
+
+[[prefixes]]
+prefix = "[参展选手] "
+priority = 1
+
+[[permissions]]
+permission = "area_control.commands.claim"
+value = true
+
+[[permissions]]
+permission = "area_control.commands.build"
+value = true

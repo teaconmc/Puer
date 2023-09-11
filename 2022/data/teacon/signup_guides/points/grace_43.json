@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "蒙马特广场",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      326,
+      133,
+      80
+    ],
+    "render": [
+      326,
+      133,
+      80
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_south"
+  ]
+}

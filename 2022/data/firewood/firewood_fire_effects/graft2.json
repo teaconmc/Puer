@@ -1,6 +1,6 @@
 {
   "type": "set_block_name",
-  "subType": "graft",
+  "sub_type": "graft_teacon",
   "color": "0x8F7748",
   "damage": 0.1,
   "process": 1,
@@ -8,12 +8,13 @@
   "target_limit": 5,
   "cooldown": 10,
   "order": [
-    "birch",
+    ["birch", "minecraft"],
     "oak",
     "jungle",
     "spruce",
     "dark_oak",
-    "acacia"
+    ["acacia", "minecraft"],
+    ["walnut", "caupona"]
   ],
   "checkOrder": [
     4

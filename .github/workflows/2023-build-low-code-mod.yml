@@ -1,0 +1,37 @@
+name: TeaCon 2023 Resource & Data pack
+
+on:
+  push:
+    paths:
+      - "2023/vanilla-assets/src/**"
+      - "2023/vanilla-data/src/**"
+    branches: [ dev ]
+  workflow_dispatch:
+
+jobs:
+  publish-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        id: build
+        env:
+          ARCHIVE_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
+          ARCHIVE_ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          ARCHIVE_SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: |
+          cd 2023/vanilla-assets
+          gradle -Dorg.gradle.s3.endpoint=$ARCHIVE_ENDPOINT publishReleasePublicationToTeaconRepository
+  publish-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        id: build
+        env:
+          ARCHIVE_ENDPOINT: ${{ secrets.TEACON_ARCHIVE_ENDPOINT }}
+          ARCHIVE_ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          ARCHIVE_SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: |
+          cd 2023/vanilla-data
+          gradle -Dorg.gradle.s3.endpoint=$ARCHIVE_ENDPOINT publishReleasePublicationToTeaconRepository

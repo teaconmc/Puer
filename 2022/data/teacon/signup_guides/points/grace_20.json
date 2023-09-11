@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "魔城炮台",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      419,
+      64,
+      468
+    ],
+    "render": [
+      419,
+      64,
+      468
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}

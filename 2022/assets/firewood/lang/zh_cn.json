@@ -1,3 +1,7 @@
 {
-    "tooltip.firewood.tinder_item.major_effect.block_to_block.wave": "海浪"
+    "tooltip.firewood.tinder_item.major_effect.block_to_block.wave": "海浪（Teacon 展示）",
+    "tooltip.firewood.tinder_item.major_effect.set_block_name.rainbow_teacon": "彩虹（Teacon 展示）",
+    "tooltip.firewood.tinder_item.major_effect.set_block_name.graft_teacon": "嫁接（Teacon 展示）",
+    "tooltip.firewood.tinder_item.major_effect.potion.lingering_potion_teacon": "照明（Teacon 展示）",
+    "tooltip.firewood.tinder_item.major_effect.mob_to_item.teacon_flame": "传承之火（Teacon 展示）"
 }

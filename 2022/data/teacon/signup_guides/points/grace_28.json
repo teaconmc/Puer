@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "白郊",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -694,
+      71,
+      168
+    ],
+    "render": [
+      -694,
+      71,
+      168
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_west"
+  ]
+}

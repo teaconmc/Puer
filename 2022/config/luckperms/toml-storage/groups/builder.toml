@@ -1,6 +1,52 @@
 name = "builder"
 
 [[permissions]]
+permission = "minecraft.use_gamemaster_block"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.selector"
+value = true
+
+[[permissions]]
+permission = "voteme.create.counter"
+value = false
+
+[[permissions]]
+permission = "command.nocaet.lookup"
+value = true
+
+[[permissions]]
+permission = "command.voteme.give"
+value = true
+
+[[permissions]]
+permission = "voteme.give"
+value = true
+
+[[permissions]]
+permission = "slide_show.interact.projector"
+value = true
+
+[[permissions]]
+permission = "area_control.bypass.attack"
+value = true
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = true
+
+[permissions.context]
+"area_control:owning_current_position" = "true"
+
+[[permissions]]
+permission = "area_control.command.claim.marked"
+value = true
+
+[permissions.context]
+"area_control:owning_current_position" = "true"
+
+[[permissions]]
 permission = "area_control.command.unclaim"
 value = true
 
@@ -8,12 +54,20 @@ value = true
 "area_control:owning_current_position" = "true"
 
 [[permissions]]
-permission = "area_control.command.claim.chunk"
-value = false
-
-[[permissions]]
 permission = "worldedit.*"
 value = true
+
+[[permissions]]
+permission = "area_control.bypass.break_block"
+value = true
+
+[[permissions]]
+permission = "area_control.bypass.place_block"
+value = true
+
+[[permissions]]
+permission = "area_control.command.claim.chunk"
+value = false
 
 [[permissions]]
 permission = "area_control.command.claim.marked"
@@ -21,7 +75,7 @@ value = false
 
 [[permissions]]
 permission = "area_control.command.mark"
-value = false
+value = true
 
 [[permissions]]
 permission = "area_control.command.unclaim"
@@ -93,6 +147,22 @@ value = true
 
 [[permissions]]
 permission = "command.forceload"
+value = true
+
+[[permissions]]
+permission = "command.forge.dimensions"
+value = true
+
+[[permissions]]
+permission = "command.forge.entity"
+value = true
+
+[[permissions]]
+permission = "command.forge.mods"
+value = true
+
+[[permissions]]
+permission = "command.forge.tps"
 value = true
 
 [[permissions]]
@@ -296,6 +366,10 @@ permission = "minecraft.command.forceload"
 value = true
 
 [[permissions]]
+permission = "minecraft.command.forge"
+value = true
+
+[[permissions]]
 permission = "minecraft.command.function"
 value = true
 
@@ -368,6 +442,10 @@ permission = "minecraft.command.seed"
 value = true
 
 [[permissions]]
+permission = "minecraft.command.selector"
+value = true
+
+[[permissions]]
 permission = "minecraft.command.setblock"
 value = true
 
@@ -425,4 +503,12 @@ value = true
 
 [[permissions]]
 permission = "minecraft.command.weather"
+value = true
+
+[[permissions]]
+permission = "minecraft.use_gamemaster_block"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.voteme"
 value = true

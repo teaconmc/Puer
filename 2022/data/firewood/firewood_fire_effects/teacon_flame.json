@@ -1,0 +1,10 @@
+{
+  "type": "mob_to_item",
+  "sub_type": "teacon_flame",
+  "color": "0x21a675",
+  "damage": 1,
+  "process": 9,
+  "range": -1,
+  "chance": 1,
+  "cooldown": 10
+}

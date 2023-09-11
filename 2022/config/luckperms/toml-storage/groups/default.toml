@@ -1,1 +1,29 @@
 name = "default"
+
+[[permissions]]
+permission = "slide_show.interact.projector"
+value = false
+
+[[permissions]]
+permission = "nocaet.lookup.self"
+value = true
+
+[[permissions]]
+permission = "command.nocaet.lookup"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.nocaet"
+value = true
+
+[[permissions]]
+permission = "minecraft.command.sinocore"
+value = true
+
+[[permissions]]
+permission = "command.sinocore.quiz.rank"
+value = true
+
+[[permissions]]
+permission = "area_control.bypass.*"
+value = false

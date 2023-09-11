@@ -7,10 +7,11 @@ dimension = "minecraft:overworld"
 friends = []
 
 [properties]
-"area.allow_place_block" = "true"
 "area.allow_activate_block" = "true"
 "area.allow_interact_entity" = "true"
 "area.allow_use_item" = "true"
-"area.allow_break_block" = "true"
 "area.allow_interact_entity_specific" = "true"
 "area.allow_click_block" = "true"
+"area.allow_possess.meteorcertainidea" = false
+"area.allow_use_item.meteorcertainidea" = false
+"area.allow_ride.meteorcertainidea" = false

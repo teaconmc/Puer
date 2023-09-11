@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "雾之湖",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -60,
+      62,
+      542
+    ],
+    "render": [
+      -60,
+      62,
+      542
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}
