@@ -1,6 +1,6 @@
 # Blender 3.6.1
 # www.blender.org
-mtllib text_lowdragmc.mtl
+mtllib Text_LowDragMC.mtl
 o 文本
 v 3.939311 0.000000 -0.183771
 v 4.037163 0.000000 -0.152745
@@ -2767,7 +2767,6 @@ vt 0.400000 0.000000
 vt 0.395349 0.000000
 vt 0.390698 0.000000
 s 0
-usemtl none
 f 73/1/1 75/2/1 74/3/1
 f 73/1/1 76/4/1 75/2/1
 f 72/5/1 76/4/1 73/1/1

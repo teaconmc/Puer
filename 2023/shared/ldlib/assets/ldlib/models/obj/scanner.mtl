@@ -1,0 +1,6 @@
+# Made in Blockbench 4.3.1
+newmtl m_0
+map_Kd #scanner
+newmtl m_1
+map_Kd #scanscreen
+newmtl none
