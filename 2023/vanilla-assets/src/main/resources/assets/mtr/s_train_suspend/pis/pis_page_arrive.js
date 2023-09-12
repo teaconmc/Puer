@@ -83,13 +83,25 @@ function paintPisArrivePage(g, state, train, stations, nextIndex) {
   if (state.stationConfig.exitStr != void 0) {
     var exitFontSize = state.stationConfig.exitStrFontSize;
     var exitStrLines = state.stationConfig.exitStr.split("\n");
-    yOffset = 20 + exitFontSize + 4;
+    yOffset = 20 + 4;
     g.setColor(new Color(36/255, 57/255, 94/255));
-    g.setFont(sansFont.deriveFont(exitFontSize));
     for (var i = 0; i < exitStrLines.length; i++) {
-      var rAlighWidth = g.getFontMetrics().stringWidth(exitStrLines[i]);
-      g.drawString(exitStrLines[i], 720 + 140 - rAlighWidth - 8, yOffset);
-      yOffset += exitFontSize + exitFontSize * 0.25;
+      var cjkLine = "" + TextUtil.getCjkParts(exitStrLines[i]);
+      if (cjkLine.length > 0) {
+        g.setFont(sansFont.deriveFont(exitFontSize));
+        var rAlignWidth = g.getFontMetrics().stringWidth(cjkLine);
+        
+        g.drawString(cjkLine, 720 + 140 - rAlignWidth - 14, yOffset + exitFontSize);
+        yOffset += (exitFontSize) * 1.25;
+      }
+      var nonCjkLine = "" + TextUtil.getNonCjkParts(exitStrLines[i]);
+      if (nonCjkLine.length > 0) {
+        var engFontSize = cjkLine.length > 0 ? exitFontSize / 2 : exitFontSize;
+        g.setFont(sansFont.deriveFont(engFontSize));
+        var rAlignWidth = g.getFontMetrics().stringWidth(nonCjkLine);
+        g.drawString(nonCjkLine, 720 + 140 - rAlignWidth - 14, yOffset + engFontSize);
+        yOffset += (engFontSize) * 1.25;
+      }
     }
   }
 }
