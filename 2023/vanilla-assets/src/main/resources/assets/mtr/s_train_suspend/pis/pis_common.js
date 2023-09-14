@@ -9,12 +9,21 @@ function paintPisCommonElement(g, state, train) {
   g.setFont(sansFont.deriveFont(Font.BOLD, 10));
   g.drawString("km/h", 95, 95);
 
-  g.setColor(new Color(145/255, 220/255, 240/255));
-  g.fillRect(860, 0, 140, 100);
+  var lastImgX = Math.floor(Timing.elapsed() % 36 / 6);
+  var imgX = Math.floor((Timing.elapsed() + 6) % 36 / 6);
+  var divisorY = Math.min(Timing.elapsed() % 6, 0.5) * 2 * 100;
+  if (divisorY > 0 && divisorY < 100) {
+    g.drawImage(pisAtlas, 860, divisorY, 860 + 140, 100, lastImgX * 140, 412 + divisorY, lastImgX * 140 + 140, 512, null);
+    g.drawImage(pisAtlas, 860, 0, 860 + 140, divisorY, imgX * 140, 412, imgX * 140 + 140, 412 + divisorY, null);
+  } else {
+    g.drawImage(pisAtlas, 860, 0, 860 + 140, 100, imgX * 140, 412, imgX * 140 + 140, 512, null);
+  }
 }
 
 function paintDestinationText(g, stations, nextIndex, dark) {
-  var nextSta = stations.get(Math.max(nextIndex - 1, 0));
+  if (stations.size() < 2) return;
+  
+  var nextSta = stations.get(Math.min(nextIndex, stations.size() - 1));
   g.setColor(dark ? Color.WHITE : Color.decode("#2D7FDD"));
   g.fillRect(10, 8, 20, 20);
 

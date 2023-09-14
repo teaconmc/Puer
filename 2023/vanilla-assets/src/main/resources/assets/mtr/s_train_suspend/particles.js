@@ -89,7 +89,7 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     1,
     Resources.parseNbtString('{"life":30,"light":"15"}')
   );
-  AddParticleHelper.addParticle(particleOption1);
+  AddParticleHelper.asyncAddParticle(particleOption1);
 
   particleDirection = basePose.transform3(new Vector3f(0, -0.3, trainSpeed));
   particleOption = new MadParticleOption(
@@ -113,7 +113,7 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     1,
     Resources.parseNbtString('{"light":"15"}')
   );
-  AddParticleHelper.addParticle(particleOption);
+  AddParticleHelper.asyncAddParticle(particleOption);
 
   originOffset.add(0, 6, 0);
   particleOrigin = basePose.transform(originOffset);
@@ -139,6 +139,6 @@ function addEngineParticles(basePose, originOffset, trainSpeed) {
     0,
     new CompoundTag()
   );
-  AddParticleHelper.addParticle(particleOption);
+  AddParticleHelper.asyncAddParticle(particleOption);
 
 }
