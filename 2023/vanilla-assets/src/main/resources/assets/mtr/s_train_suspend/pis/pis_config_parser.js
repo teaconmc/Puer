@@ -1,5 +1,5 @@
 function getStationConfig(stations, nextIndex) {
-  var result = pisConfig["default"];
+  var result = Object.assign({}, pisConfig["default"]);
   if (nextIndex >= stations.size() || nextIndex < 0) return result;
   
   var exitStr = "";
@@ -8,9 +8,7 @@ function getStationConfig(stations, nextIndex) {
     if (entry.getKey().startsWith("Z")) {
       for (var index in entry.getValue()) {
         var stationCfg = JSON.parse(entry.getValue().get(index));
-        for (var attrname in stationCfg) {
-          result[attrname] = stationCfg[attrname];
-        }
+        Object.assign(result, stationCfg);
       }
     } else {
       for (var index in entry.getValue()) {
@@ -19,5 +17,15 @@ function getStationConfig(stations, nextIndex) {
     }
   }
   result["exitStr"] = exitStr.trim();
+  
+  var routeCode = ("" + TextUtil.getExtraParts(stations.get(nextIndex).route.name))
+    .split("/")[0].toLowerCase();
+  var stationCode = result["code"] === (void 0) ? "" : result["code"].toLowerCase();
+  result["routeStationCode"] = routeCode + "_" + stationCode;
+
+  if (pisConfig["routeStations"][result["routeStationCode"]] !== (void 0)) {
+    Object.assign(result, pisConfig["routeStations"][result["routeStationCode"]]);
+  }
+
   return result;  
 }
