@@ -7,6 +7,9 @@
     "actual": [ 0, -32, 96 ],
     "render": [ 0, -32, 96 ]
   },
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
   "triggers": [
     "teacon:triggers/teleport_facing_north"
   ]
