@@ -64,7 +64,7 @@ VAR player_name = "Player"
 ==mission_briefing==
 ~ putVariable("mission_flag_cat_02", 1)
 卡斯利安·库特：前往巡洋舰上的修道院吧，修道院的机械神甫和占卜师需要你的帮助
-卡斯利安·库特：回来时请帮我带上一件飞行套件，我们称呼其为[羽翼]；一件用于附魔的[亚麻长衫]；还有一份[灵风精髓]，这是星语者们占卜所需的物品。
+卡斯利安·库特：回来时请帮我带上一件飞行套件，我们称呼其为[羽翼]；一件用于附魔的[亚麻长衫]；还有一个[灵风瓶]，这是星语者们占卜所需的物品。
 * \[接受任务\]
     -> mission_accepted 
 * \[拒绝任务\]
@@ -82,7 +82,7 @@ VAR player_name = "Player"
 ==in_mission==
 ~ temp has_wings = hasItemStack("\{id:\"locusazzurro_icaruswings:feather_wings\",Count:1\}")
 ~ temp has_linen = hasItemStack("\{id:\"locusazzurro_icaruswings:linen_cloak\",Count:1\}")
-~ temp has_essence = hasItemStack("\{id:\"locusazzurro_icaruswings:zephir_essence\",Count:1\}")
+~ temp has_essence = hasItemStack("\{id:\"locusazzurro_icaruswings:zephir_air_jar\",Count:1\}")
 卡斯利安·库特：年轻的朝圣者啊，捎来了什么好消息吗？
 * {has_wings && has_linen && has_essence} 这三件事，我已置办妥当。
     -> item_turnin
@@ -93,11 +93,11 @@ VAR player_name = "Player"
 ~ putVariable("progress_flag_cat_main", 2)
 ~ takeItemStack("\{id:\"locusazzurro_icaruswings:feather_wings\",Count:1\}")
 ~ takeItemStack("\{id:\"locusazzurro_icaruswings:linen_cloak\",Count:1\}")
-~ takeItemStack("\{id:\"locusazzurro_icaruswings:zephir_essence\",Count:1\}")
+~ takeItemStack("\{id:\"locusazzurro_icaruswings:zephir_air_jar\",Count:1\}")
 卡斯利安·库特：做的很好，我的连队兄弟们一直在注视着你的成果。稍息片刻，我有一个比较重要的请求。
 卡斯利安·库特：我们这艘巡洋舰的舰长希望指派你完成一个比较重要的任务。
 卡斯利安·库特：你可以去舰长室找他，舰长室就在主堂的正上方，舰桥的至高处，希望你能和他合作愉快。
-卡斯利安·库特：愿神皇保佑你
+卡斯利安·库特：愿神皇保佑你。
 -> ending
 
 ==no_item==

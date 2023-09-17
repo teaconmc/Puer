@@ -33,7 +33,8 @@ VAR mission_flag_cat_11 = 0
 
 ==take_item==
 ~ putVariable("mission_flag_cat_11", 1)
-~ giveItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+~ giveItemStack("\{id: \"locusazzurro_icaruswings:purpur_ingot\", Count: 1b, tag: \{display: \{Lore: \[\'\{\"text\":\"任务用品\",\"color\":\"blue\",\"italic\":false\}\'\]\}\}\}")
+//~ giveItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
 得到了一块[紫珀锭]
 -> ending
 

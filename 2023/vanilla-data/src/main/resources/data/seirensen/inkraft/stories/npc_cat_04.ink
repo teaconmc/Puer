@@ -68,7 +68,7 @@ VAR player_name = "Player"
 
 
 ==in_mission==
-~ temp has_purpur = hasItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+~ temp has_purpur = hasItemStack("\{id: \"locusazzurro_icaruswings:purpur_ingot\", Count: 1b, tag: \{display: \{Lore: \[\'\{\"text\":\"任务用品\",\"color\":\"blue\",\"italic\":false\}\'\]\}\}\}")
 ~ temp has_steel = hasItemStack("\{id:\"locusazzurro_icaruswings:steel_ingot\",Count:5\}")
 ~ temp has_membrane = hasItemStack("\{id:\"minecraft:phantom_membrane\",Count:1\}")
 海森·卡山德：材料收集的如何？
@@ -79,7 +79,7 @@ VAR player_name = "Player"
 
 ==item_turnin==
 ~ putVariable("progress_flag_cat_main", 5)
-~ takeItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+~ takeItemStack("\{id: \"locusazzurro_icaruswings:purpur_ingot\", Count: 1b, tag: \{display: \{Lore: \[\'\{\"text\":\"任务用品\",\"color\":\"blue\",\"italic\":false\}\'\]\}\}\}")
 ~ takeItemStack("\{id:\"locusazzurro_icaruswings:steel_ingot\",Count:5\}")
 ~ takeItemStack("\{id:\"minecraft:phantom_membrane\",Count:1\}")
 ~ putVariable("mission_flag_cat_11", 0)
@@ -103,15 +103,15 @@ VAR player_name = "Player"
 * 速度型
     ~ giveItemStack("\{id:\"locusazzurro_icaruswings:astraea_wings\",Count:1\}")
 
-- 海森·卡山德：希望它可以祝你一臂之力
+- 海森·卡山德：希望它可以祝你一臂之力。
 -> ending
 
 
 ==regular_response==
-~ temp has_material = hasItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+~ temp has_material = hasItemStack("\{id: \"locusazzurro_icaruswings:purpur_ingot\", Count: 1b, tag: \{display: \{Lore: \[\'\{\"text\":\"任务用品\",\"color\":\"blue\",\"italic\":false\}\'\]\}\}\}")
 海森·卡山德：你好，{player_name}。
 * {progress_flag_cat_main >=5 && has_material} 我需要一件新的飞行套件。
-    ~ takeItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+    ~ takeItemStack("\{id: \"locusazzurro_icaruswings:purpur_ingot\", Count: 1b, tag: \{display: \{Lore: \[\'\{\"text\":\"任务用品\",\"color\":\"blue\",\"italic\":false\}\'\]\}\}\}")
     ~ putVariable("mission_flag_cat_11", 0)
     -> wing_choosing
 * \[向海森·卡山德问好\]
