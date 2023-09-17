@@ -1,0 +1,13 @@
+{
+  "name": {
+    "text": "侧写师评审员"
+  },
+  "selector": "@a[tag=teacon_judge_profiler]",
+  "participations": [
+    {
+      "category": "teacon:c_profiler",
+      "truncation": 1,
+      "weight": 1.0
+    }
+  ]
+}

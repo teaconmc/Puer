@@ -1,0 +1,16 @@
+{
+  "name": {
+    "text": "玩家"
+  },
+  "selector": "@a",
+  "participations": [
+    {
+      "category": "teacon:e_frenzied",
+      "weight": 1.0
+    },
+    {
+      "category": "teacon:f_meme",
+      "weight": 1.0
+    }
+  ]
+}

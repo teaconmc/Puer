@@ -1,0 +1,17 @@
+{
+  "type": "trigger",
+  "title": "恢复血量",
+  "__comment": "dd722865 -> Zone-0-Dropper, 001ee409 -> Area 3g (aka 魔城传说)",
+  "selector": "@a[tag=!on_chanllenge,area=!dd722865-449c-42bc-a133-d271a43618da,area=!001ee409-b3fd-4b15-97a5-393dc8af75c7]",
+  "description": "回复自身血量、饥饿值、和经验等级",
+  "executes": [
+    "/effect clear @s",
+    "/effect give @s minecraft:saturation 1 5 true",
+    "/effect give @s minecraft:regeneration 1 5 true",
+    "/experience add @s -2147483648 points",
+    "/experience set @s 2022 levels",
+    "/experience add @s 9020 points",
+    "/signmeup map close",
+    "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、和经验等级\"]"
+  ]
+}

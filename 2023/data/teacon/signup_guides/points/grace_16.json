@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "风车与铁锅",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      121,
+      151,
+      -197
+    ],
+    "render": [
+      121,
+      151,
+      -197
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_west"
+  ]
+}

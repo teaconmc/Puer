@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "竹林深处",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -122,
+      64,
+      802
+    ],
+    "render": [
+      -122,
+      64,
+      802
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}

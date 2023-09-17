@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "黄金树近郊",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -69,
+      72,
+      -75
+    ],
+    "render": [
+      -69,
+      72,
+      -75
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}

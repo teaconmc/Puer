@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "拓奇科马脚边",
+  "description": "TeaCon 2022 展示服务器赐福点（传送点）",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -6,
+      69,
+      334
+    ],
+    "render": [
+      -6,
+      69,
+      334
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_facing_south"
+  ]
+}
