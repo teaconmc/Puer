@@ -6,7 +6,7 @@
 INCLUDE common_functions.ink
 
 ~ setAutoContinue(true)
-~ setAutoContinueSpeed(20)
+~ setAutoContinueSpeed(40)
 
 VAR mission_flag_cat_02 = 0
 VAR progress_flag_cat_main = 0 

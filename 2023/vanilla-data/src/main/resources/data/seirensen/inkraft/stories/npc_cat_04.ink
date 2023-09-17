@@ -6,7 +6,7 @@
 INCLUDE common_functions.ink
 
 ~ setAutoContinue(true)
-~ setAutoContinueSpeed(20)
+~ setAutoContinueSpeed(40)
 
 VAR mission_flag_cat_04 = 0
 VAR progress_flag_cat_main = 0 
@@ -82,9 +82,10 @@ VAR player_name = "Player"
 ~ takeItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
 ~ takeItemStack("\{id:\"locusazzurro_icaruswings:steel_ingot\",Count:5\}")
 ~ takeItemStack("\{id:\"minecraft:phantom_membrane\",Count:1\}")
+~ putVariable("mission_flag_cat_11", 0)
 海森·卡山德：感谢你为帝国做出的贡献，你将会获得一副我们制作的改进型飞行组件，作为你对帝皇献上忠诚的犒赏。
 海森·卡山德：如果你可以回收更多的[紫珀锭]，我将可以批量制造这一型号的飞行组件，你也可以再领一件，如果你有需要的话。
-海森·卡山德：好的，年轻的朝圣者，去给我们的智库汇报情况吧，你也该休息一下了，幸苦了。
+海森·卡山德：好的，年轻的朝圣者，去给我们的智库汇报情况吧，你也该休息一下了，辛苦了。
 -> wing_choosing
 
 
@@ -111,6 +112,7 @@ VAR player_name = "Player"
 海森·卡山德：你好，{player_name}。
 * {progress_flag_cat_main >=5 && has_material} 我需要一件新的飞行套件。
     ~ takeItemStack("\{id:\"locusazzurro_icaruswings:purpur_ingot\",Count:1\}")
+    ~ putVariable("mission_flag_cat_11", 0)
     -> wing_choosing
 * \[向海森·卡山德问好\]
 -> ending

@@ -51,6 +51,8 @@ VAR lv_1_cur = 1
     ~ point += 1 
 + 不接受
 + 无所谓
+* 中断测试
+-> INTERRUPT
 
 - -> point_check
 
@@ -82,6 +84,8 @@ VAR lv_2_cur = 1
 + 不接受
 + 无所谓
     ~ point += 1 
+* 中断测试
+-> INTERRUPT
 
 - -> point_check
 
@@ -113,6 +117,8 @@ VAR lv_3_cur = 1
 + 不接受
 + 无所谓
     ~ point += 1 
+* 中断测试
+-> INTERRUPT
 
 - -> point_check
 
@@ -144,6 +150,8 @@ VAR lv_4_cur = 1
 + 不接受
 + 无所谓
     ~ point += 1 
+* 中断测试
+-> INTERRUPT
 
 - -> point_check
 
@@ -158,6 +166,10 @@ VAR lv_4_cur = 1
     -> question
 }
 
+
+== INTERRUPT ==
+\[测试已中断\]
+-> DONE
 
 == RESULT ==
 §l总分：§9{point}分§r
