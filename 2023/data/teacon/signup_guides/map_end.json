@@ -1,13 +1,13 @@
 {
   "type": "map",
   "title": {
-    "text": "TeaCon 2022 展示服务器"
+    "text": "TeaCon 2023 展示服务器"
   },
   "subtitle": {
     "text": "末地"
   },
   "description": {
-    "text": "TeaCon 2022 展示服务器末地，感谢末影龙对本届比赛的支持。点击侧边按钮回到主世界。"
+    "text": "TeaCon 2023 展示服务器末地，感谢末影龙对本届比赛的支持。点击侧边按钮回到主世界。"
   },
   "range": 2048,
   "center": [ 0, 0 ],

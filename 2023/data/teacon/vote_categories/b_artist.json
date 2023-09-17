@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "妙笔生花"
+  },
+  "enabled": {
+    "default": false,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组在画面、材质、动画效果、音乐等艺术创作方面有多吸引人？"
+  }
+}

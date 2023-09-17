@@ -1,9 +1,0 @@
-{
-  "type": "trigger",
-  "title": "关闭 Boss 栏",
-  "selector": "@a[tag=!teacon_hide_bossbar]",
-  "description": "关闭位于游戏界面顶部的 Boss 栏",
-  "executes": [
-    "/tag @s add teacon_hide_bossbar"
-  ]
-}

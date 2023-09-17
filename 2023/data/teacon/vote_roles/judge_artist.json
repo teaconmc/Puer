@@ -5,7 +5,7 @@
   "selector": "@a[tag=teacon_judge_artist]",
   "participations": [
     {
-      "category": "teacon:d_artist",
+      "category": "teacon:b_artist",
       "truncation": 1,
       "weight": 1.0
     }

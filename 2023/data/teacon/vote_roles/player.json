@@ -5,11 +5,7 @@
   "selector": "@a",
   "participations": [
     {
-      "category": "teacon:e_frenzied",
-      "weight": 1.0
-    },
-    {
-      "category": "teacon:f_meme",
+      "category": "teacon:d_theme",
       "weight": 1.0
     }
   ]

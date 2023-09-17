@@ -1,13 +1,13 @@
 {
   "type": "map",
   "title": {
-    "text": "TeaCon 2022 展示服务器"
+    "text": "TeaCon 2023 展示服务器"
   },
   "subtitle": {
     "text": "主世界"
   },
   "description": {
-    "text": "TeaCon 2022 展示服务器主世界（主岛）。点击地图传送点查看主世界的不同打卡点。"
+    "text": "TeaCon 2023 展示服务器主世界。点击地图传送点查看主世界的不同打卡点。"
   },
   "range": 2304,
   "center": [ 0, 0 ],
@@ -17,65 +17,13 @@
     "teacon:textures/gui/banner.png"
   ],
   "points": [
-    "teacon:points/grace_01",
-    "teacon:points/grace_02",
-    "teacon:points/grace_03",
-    "teacon:points/grace_04",
-    "teacon:points/grace_05",
-    "teacon:points/grace_06",
-    "teacon:points/grace_07",
-    "teacon:points/grace_08",
-    "teacon:points/grace_09",
-    "teacon:points/grace_10",
-    "teacon:points/grace_11",
-    "teacon:points/grace_12",
-    "teacon:points/grace_13",
-    "teacon:points/grace_14",
-    "teacon:points/grace_15",
-    "teacon:points/grace_16",
-    "teacon:points/grace_17",
-    "teacon:points/grace_18",
-    "teacon:points/grace_19",
-    "teacon:points/grace_20",
-    "teacon:points/grace_21",
-    "teacon:points/grace_22",
-    "teacon:points/grace_23",
-    "teacon:points/grace_24",
-    "teacon:points/grace_25",
-    "teacon:points/grace_26",
-    "teacon:points/grace_27",
-    "teacon:points/grace_28",
-    "teacon:points/grace_29",
-    "teacon:points/grace_30",
-    "teacon:points/grace_31",
-    "teacon:points/grace_32",
-    "teacon:points/grace_33",
-    "teacon:points/grace_34",
-    "teacon:points/grace_35",
-    "teacon:points/grace_36",
-    "teacon:points/grace_37",
-    "teacon:points/grace_38",
-    "teacon:points/grace_39",
-    "teacon:points/grace_40",
-    "teacon:points/grace_41",
-    "teacon:points/grace_42",
-    "teacon:points/grace_43",
-    "teacon:points/grace_44"
+    "teacon:points/unique_01",
+    "teacon:points/spawn"
   ],
   "triggers": [
-    "teacon:triggers/bossbar_off",
-    "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
-    "teacon:triggers/get_bundle",
     "teacon:triggers/clear",
     "teacon:triggers/clear_effect",
-    "teacon:triggers/get_spyglass",
-    "teacon:triggers/equip_cyber_google",
-    "teacon:triggers/unequip_helmet",
-    "teacon:triggers/get_scroll",
-    "teacon:triggers/get_tarnished_wizened_finger",
-    "teacon:triggers/get_memory_of_grace",
-    "teacon:triggers/sinoquiz_rank",
-    "teacon:triggers/sinoquiz_best"
+    "teacon:triggers/get_spyglass"
   ]
 }
