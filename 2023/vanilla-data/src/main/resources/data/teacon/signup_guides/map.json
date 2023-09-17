@@ -1,0 +1,29 @@
+{
+  "type": "map",
+  "title": {
+    "text": "TeaCon 2023 展示服务器"
+  },
+  "subtitle": {
+    "text": "主世界"
+  },
+  "description": {
+    "text": "TeaCon 2023 展示服务器主世界（主岛）。点击地图传送点查看主世界的不同打卡点。"
+  },
+  "range": 2304,
+  "center": [ -96, -96 ],
+  "world": "minecraft:overworld",
+  "texture": "teacon:textures/gui/guide_map.png",
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
+  "points": [
+    "teacon:points/spawn"
+  ],
+  "triggers": [
+    "teacon:triggers/bossbar_off",
+    "teacon:triggers/bossbar_on",
+    "teacon:triggers/heal",
+    "teacon:triggers/clear",
+    "teacon:triggers/clear_effect"
+  ]
+}
