@@ -1,0 +1,17 @@
+
+#Settings for the WorldBoss
+[world_boss]
+	#Enable boss spawn
+	enableSpawnBoss = true
+	#Spawn each minute instead of each hour
+	fastSpawnBoss = false
+	#World Boss Spawn X
+	#Range: -3.4028234663852886E38 ~ 3.4028234663852886E38
+	spawnX = -933.556
+	#World Boss Spawn Y
+	#Range: -3.4028234663852886E38 ~ 3.4028234663852886E38
+	spawnY = 119.0
+	#World Boss Spawn Z
+	#Range: -3.4028234663852886E38 ~ 3.4028234663852886E38
+	spawnZ = -10.5
+

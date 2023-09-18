@@ -1,11 +1,15 @@
 {
   "custom_trains": {
     "s_train_suspend": {
-      "name": "S-Train Suspend (Mini)",
+      "name": "S-Train 悬挂单轨 (Mini)",
+      "description": "魔改成了 Wuppertal 式悬挂单轨的 S-Train。\n制作: Zbx1425",
       "base_type": "train_9_2",
       "color": "2AF0AD",
       "script_files": [ "mtr:s_train_suspend/main.js" ],
-      "bve_sound_base_id": "optonix1500"
+      "bve_sound_base_id": "optonix1500",
+      "has_gangway_connection": true,
+      "is_jacobs_bogie": true,
+      "bogie_position": 2.45
     }
   }
 }
