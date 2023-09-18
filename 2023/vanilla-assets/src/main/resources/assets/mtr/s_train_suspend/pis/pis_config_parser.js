@@ -1,32 +1,31 @@
 function getStationConfig(stations, nextIndex) {
-  result = pisConfig["routes"][""][""];
-  if (stations.size() < 2) return result;
-  var routeQueryName1 = TextUtil.getNonCjkAndExtraParts(stations.get(0).route.name);
-  var routeQueryName2 = TextUtil.getNonCjkParts(stations.get(0).route.name);
-  var stationQueryName = nextIndex < stations.size() ? TextUtil.getNonCjkAndExtraParts(stations.get(nextIndex).station.name) : "";
-  if (pisConfig["routes"][routeQueryName2] != void 0) {
-    if (pisConfig["routes"][routeQueryName2][""] != void 0) {
-      for (var attrname in pisConfig["routes"][routeQueryName2][""]) {
-        result[attrname] = pisConfig["routes"][routeQueryName2][""][attrname];
+  var result = Object.assign({}, pisConfig["default"]);
+  if (nextIndex >= stations.size() || nextIndex < 0) return result;
+  
+  var exitStr = "";
+  for (var it = stations.get(nextIndex).station.exits.entrySet().iterator(); it.hasNext(); ) {
+    var entry = it.next();
+    if (entry.getKey().startsWith("Z")) {
+      for (var index in entry.getValue()) {
+        var stationCfg = JSON.parse(entry.getValue().get(index));
+        Object.assign(result, stationCfg);
       }
-    }
-    if (pisConfig["routes"][routeQueryName2][stationQueryName] != void 0) {
-      for (var attrname in pisConfig["routes"][routeQueryName2][stationQueryName]) {
-        result[attrname] = pisConfig["routes"][routeQueryName2][stationQueryName][attrname];
-      }
-    }
-  }
-  if (pisConfig["routes"][routeQueryName1] != void 0) {
-    if (pisConfig["routes"][routeQueryName1][""] != void 0) {
-      for (var attrname in pisConfig["routes"][routeQueryName1][""]) { 
-        result[attrname] = pisConfig["routes"][routeQueryName1][""][attrname];
-      }
-    }
-    if (pisConfig["routes"][routeQueryName1][stationQueryName] != void 0) {
-      for (var attrname in pisConfig["routes"][routeQueryName1][stationQueryName]) { 
-        result[attrname] = pisConfig["routes"][routeQueryName1][stationQueryName][attrname];
+    } else {
+      for (var index in entry.getValue()) {
+        exitStr += entry.getValue().get(index) + "\n";
       }
     }
   }
+  result["exitStr"] = exitStr.trim();
+  
+  var routeCode = ("" + TextUtil.getExtraParts(stations.get(nextIndex).route.name))
+    .split("/")[0].toLowerCase();
+  var stationCode = result["code"] === (void 0) ? "" : result["code"].toLowerCase();
+  result["routeStationCode"] = routeCode + "_" + stationCode;
+
+  if (pisConfig["routeStations"][result["routeStationCode"]] !== (void 0)) {
+    Object.assign(result, pisConfig["routeStations"][result["routeStationCode"]]);
+  }
+
   return result;  
 }

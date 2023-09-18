@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "门庭若市"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组是否将「热闹」的主题体现在方方面面？"
+  }
+}

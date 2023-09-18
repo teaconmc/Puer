@@ -1,0 +1,13 @@
+{
+  "name": {
+    "text": "完成度评审员"
+  },
+  "selector": "@a[tag=teacon_judge_completeness]",
+  "participations": [
+    {
+      "category": "teacon:c_completeness",
+      "truncation": 1,
+      "weight": 1.0
+    }
+  ]
+}

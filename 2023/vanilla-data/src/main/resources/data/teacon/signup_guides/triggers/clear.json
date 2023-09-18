@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "清空背包",
+  "selector": "@a[tag=!on_chanllenge]",
+  "description": "清空自身背包里的所有物品",
+  "executes": [
+    "/clear @s",
+    "/signmeup map close"
+  ]
+}

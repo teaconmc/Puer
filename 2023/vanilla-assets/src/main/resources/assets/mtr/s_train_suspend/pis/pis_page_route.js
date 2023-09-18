@@ -29,21 +29,53 @@ function paintPisRoutePage(g, state, train, stations, nextIndex) {
 
     g.setStroke(new BasicStroke(2));
     for (i = 0; i < stations.size(); i++) {
+      // Interchanges
+      // print(java.lang.Long.toString(stations.get(i).station.id));
+      var stationRoutes = MTRClientData.DATA_CACHE.stationIdToRoutes.get(
+        new java.lang.Long(stations.get(i).station.id)
+      );
+      // print(stationRoutes);
+      var transferTuple = null;
+      for (var it = stationRoutes.values().iterator(); it.hasNext(); ) {
+        var colorNameTuple = it.next();
+        if (colorNameTuple.color != stations.get(i).route.color) {
+          transferTuple = colorNameTuple;
+          break;
+        }
+      }
+
+      // Border
       var composite = g.getComposite();
       var alphaProgress = Timing.elapsed() % 2 / 2;
       var alpha = alphaProgress > 1/2 ? 0.5 : 1;
+
       if (i == nextIndex) {
         g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha));
         g.drawImage(pisAtlas, xPadding + xSpacing * i - 15, 62, xPadding + xSpacing * i - 8, 62+16, 0, 137, 20, 137+40, null);
       } else if (i < nextIndex) {
         g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.5));
       }
-      g.setColor(i >= nextIndex ? Color.WHITE : Color.decode("#A9DFF9"));
-      g.fillRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
-      g.setColor(Color.decode("#13A2F0"));
-      g.drawRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
+
+      if (transferTuple != null) {
+        g.setColor(new Color(transferTuple.color));
+        g.fillRect(xPadding + xSpacing * i - 4, 10, 8, 52);
+        g.fillRoundRect(xPadding + xSpacing * i - 8, 60, 16, 20, 6, 6);
+      }
+
+      if (i == stations.size() - 1) {
+        g.setColor(Color.decode("#13A2F0"));
+        g.fillRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
+        g.setColor(Color.WHITE);
+        g.drawRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
+      } else {
+        g.setColor(i >= nextIndex ? Color.WHITE : Color.decode("#A9DFF9"));
+        g.fillRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
+        g.setColor(Color.decode("#13A2F0"));
+        g.drawRoundRect(xPadding + xSpacing * i - 6, 62, 12, 16, 6, 6);
+      }
       g.setComposite(composite);
 
+      // Name
       var transform = g.getTransform();
       g.transform(AffineTransform.getTranslateInstance(xPadding + xSpacing * i, 56));
       g.transform(AffineTransform.getRotateInstance(-Math.PI / 6));
@@ -63,7 +95,8 @@ function paintPisRoutePage(g, state, train, stations, nextIndex) {
       g.drawString(TextUtil.getCjkParts(stations.get(i).station.name), 0, -8);
     
       g.setTransform(transform);
-      
+
+      // Remaining Trip Time
       if (i >= nextIndex) {
         g.setFont(sansFont.deriveFont(Font.BOLD, 12));
         var timeStr = Math.round((stations.get(i).distance - train.railProgress()) / (40 * 1000 / 3600) / 60).toString();

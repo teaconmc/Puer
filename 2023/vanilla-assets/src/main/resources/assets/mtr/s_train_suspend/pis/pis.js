@@ -52,17 +52,17 @@ function paintPisSideScreen(g, state, train, side) {
 
   var stationConfig = getStationConfig(stations, nextIndex);
   var doorDirection;
-  if (stationConfig.doorDirection == "both") {
+  if (stationConfig.door == "both") {
     doorDirection = 2;
-  } else if (stationConfig.doorDirection == "left") {
+  } else if (stationConfig.door == "left") {
     doorDirection = train.isReversed() ? 1 : -1;
-  } else if (stationConfig.doorDirection == "right") {
+  } else if (stationConfig.door == "right") {
     doorDirection = train.isReversed() ? -1 : 1;
   } else {
     doorDirection = 0;
   }
   state.stationConfig = stationConfig;
-  state.doorWillOpen = doorDirection == side;
+  state.doorWillOpen = doorDirection == 2 || doorDirection == side;
 
   if (nextIndex < stations.size() && (stations.get(nextIndex).distance - train.railProgress()) < stationConfig.arriveDistance) {
     state.atPlatform |= train.doorValue() > 0;

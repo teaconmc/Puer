@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "玩家"
+  },
+  "selector": "@a",
+  "participations": [
+    {
+      "category": "teacon:d_theme",
+      "weight": 1.0
+    }
+  ]
+}
