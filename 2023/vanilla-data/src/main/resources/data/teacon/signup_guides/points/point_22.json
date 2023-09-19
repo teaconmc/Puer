@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "工业基石打卡点",
+  "description": "industrybase 的工业基石打卡点展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      36,
+      148,
+      -704
+    ],
+    "render": [
+      36,
+      148,
+      -704
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

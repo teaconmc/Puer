@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "会堂二楼",
+  "description": "214 的会堂二楼展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      612,
+      98,
+      -19
+    ],
+    "render": [
+      612,
+      98,
+      -19
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "组装傀儡",
+  "description": "modulargolems 的组装傀儡展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      487,
+      133,
+      273
+    ],
+    "render": [
+      487,
+      133,
+      273
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "WonderLand",
+  "description": "Vida 的 WonderLand 展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -696,
+      252,
+      -80
+    ],
+    "render": [
+      -696,
+      252,
+      -80
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "末影龙舟",
+  "description": "TeaCon 2023 示例模组：把末地城的龙首拿去做龙舟划",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -7,
+      -46,
+      77
+    ],
+    "render": [
+      -7,
+      -46,
+      77
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

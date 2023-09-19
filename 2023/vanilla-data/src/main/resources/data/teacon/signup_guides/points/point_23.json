@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "Romantic Tp Exhibition Hall",
+  "description": "Art of TNT Committee 的 Romantic Tp Exhibition Hall 展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      86,
+      109,
+      219
+    ],
+    "render": [
+      86,
+      109,
+      219
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

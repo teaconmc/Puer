@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "假人交战区",
+  "description": "fakepeople 的假人交战区展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -936,
+      97,
+      8
+    ],
+    "render": [
+      -936,
+      97,
+      8
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

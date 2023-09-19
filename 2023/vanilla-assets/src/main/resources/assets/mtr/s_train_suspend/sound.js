@@ -10,6 +10,8 @@ function playAnn(ctx, state, train) {
   if (nextIndex <= 0 || nextIndex >= stations.size()) return;
 
   var stationConfig = getStationConfig(stations, nextIndex);
+  var prevStationConfig = nextIndex > 0 ? getStationConfig(stations, nextIndex - 1) : {};
+
   if (stationConfig.code === undefined || stationConfig.code === "") {
     state.playingAnn.setState("");
   } else {
@@ -23,7 +25,13 @@ function playAnn(ctx, state, train) {
         soundToPlay = stationConfig.routeStationCode + "_arr";
       }
     } else if (distLastStation > 15) {
-      soundToPlay = stationConfig.routeStationCode + "_next";
+      if (nextIndex == stations.size() - 1) {
+        soundToPlay = stationConfig.routeStationCode + "_next_term";
+      } else if (!!prevStationConfig["specDep"]) {
+        soundToPlay = stationConfig.routeStationCode + "_next_specdep";
+      } else {
+        soundToPlay = stationConfig.routeStationCode + "_next";
+      }
     } else {
       soundToPlay = "";
     }

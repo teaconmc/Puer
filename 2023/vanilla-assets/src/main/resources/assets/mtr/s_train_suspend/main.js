@@ -16,7 +16,7 @@ function createTrain(ctx, state, train) {
 }
 
 function disposeTrain(ctx, state, train) {
-  state.pisTexture.close();
+  // state.pisTexture.close();
 }
 
 function renderTrain(ctx, state, train) {
@@ -82,7 +82,7 @@ function renderTrain(ctx, state, train) {
     matrices.popPose();
     ctx.drawCarModel(state.bodyModel, i, null);
     
-    doorValueConv = easeOutCubic(Math.min(train.doorValue() * 2, 1));
+    doorValueConv = smoothEnds(0, 1, 0, 0.8, train.doorValue());
     doorXP = train.doorLeftOpen[i] ? doorValueConv * 0.81 : 0;
     doorXN = train.doorRightOpen[i] ? doorValueConv * 0.81 : 0;
     matrices.pushPose();
@@ -135,4 +135,12 @@ function renderBogie(ctx, state, matrices, i, trainInAir, isCar) {
     ctx.drawConnModel(modelBogieWheel, i, matrices);
   }
   matrices.popPose();
+}
+
+function smoothEnds(startValue, endValue, startTime, endTime, time) {
+  if (time < startTime) return startValue;
+  if (time > endTime) return endValue;
+  var timeChange = endTime - startTime;
+  var valueChange = endValue - startValue;
+  return valueChange * (1 - Math.cos(Math.PI * (time - startTime) / timeChange)) / 2 + startValue;
 }

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "白门实验室",
+  "description": "轨道速滑 PipeSlide 展馆。你可以在此挑战白门实验室迷宫。",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      691,
+      108,
+      447
+    ],
+    "render": [
+      691,
+      108,
+      447
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "讴哭圣徒号车站",
+  "description": "locusazzurro_icaruswings 的讴哭圣徒号车站展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      432,
+      116,
+      124
+    ],
+    "render": [
+      432,
+      116,
+      124
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

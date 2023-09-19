@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "召唤扩展 mod 之实体竞技场",
+  "description": "Lych 的召唤扩展 mod 之实体竞技场展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -604,
+      68,
+      185
+    ],
+    "render": [
+      -604,
+      68,
+      185
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

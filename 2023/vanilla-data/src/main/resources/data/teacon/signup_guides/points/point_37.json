@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "剧场中央",
+  "description": "IEEM Trivium Society 的剧场中央展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -291,
+      85,
+      85
+    ],
+    "render": [
+      -291,
+      85,
+      85
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

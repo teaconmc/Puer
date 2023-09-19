@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "讴哭圣徒号车站",
+  "description": "inkraft 的讴哭圣徒号车站展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      432,
+      116,
+      118
+    ],
+    "render": [
+      432,
+      116,
+      118
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}
