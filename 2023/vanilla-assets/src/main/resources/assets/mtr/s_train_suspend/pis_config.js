@@ -1,20 +1,15 @@
 pisConfig = {
-  "routes": {
-    "": {
-      "": {
-        "arriveDistance": 4,
-        "exitStrFontSize": 14,
-        "doorDirection": "both"
-      }
+  "default": {
+    "arriveDistance": 100,
+    "exitStrFontSize": 18,
+    "door": "both"
+  },
+  "routeStations": {
+    "amb_nsn": {
+      "door": "left"
     },
-    "Test Line": {
-      "Test A": {
-        "doorDirection": "right",
-        "exitStr": "这里，这里，那里\n可以多行\n通过资源包设置\nExit To This and That"
-      },
-      "Test B": {
-        "doorDirection": "left"
-      }
+    "blu_nsn": {
+      "door": "right"
     }
   }
 };

@@ -1,0 +1,6 @@
+# Made in Blockbench 4.5.1
+newmtl m_4d969f5d-5e57-750c-f1a6-cd46c667f85f
+map_Kd #node_stabilizer
+newmtl m_475d63a5-11aa-ef59-1462-7ec4c790f163
+map_Kd #node_stabilizer_over
+newmtl none

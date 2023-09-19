@@ -1,0 +1,16 @@
+{
+  "type": "point",
+  "title": "TeaCon 主场馆",
+  "description": "TeaCon 主场馆",
+  "selector": "@a",
+  "location": {
+    "actual": [ 0, -32, 96 ],
+    "render": [ 0, -32, 96 ]
+  },
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
+  "triggers": [
+    "teacon:triggers/teleport_facing_north"
+  ]
+}
