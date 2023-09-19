@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "混沌塔",
-  "description": "pipeslide 的混沌塔展馆",
+  "title": "白门实验室",
+  "description": "轨道速滑 PipeSlide 展馆。你可以在此挑战白门实验室迷宫。",
   "selector": "@a",
   "location": {
     "actual": [
-      610,
-      -55,
-      468
+      691,
+      108,
+      447
     ],
     "render": [
-      610,
-      -55,
-      468
+      691,
+      108,
+      447
     ]
   },
   "triggers": [
