@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "我的世界铁路",
+  "description": "mtr 的我的世界铁路展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      11,
+      98,
+      417
+    ],
+    "render": [
+      11,
+      98,
+      417
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "Live House",
+  "description": "disc_jockey 的 Live House 展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -471,
+      115,
+      515
+    ],
+    "render": [
+      -471,
+      115,
+      515
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

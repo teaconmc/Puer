@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "实验天空站 BSF3",
+  "description": "bsf 的实验天空站 BSF3 展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -176,
+      88,
+      -673
+    ],
+    "render": [
+      -176,
+      88,
+      -673
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

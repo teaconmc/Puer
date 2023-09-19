@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "混沌塔",
+  "description": "pipeslide 的混沌塔展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      610,
+      -55,
+      468
+    ],
+    "render": [
+      610,
+      -55,
+      468
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

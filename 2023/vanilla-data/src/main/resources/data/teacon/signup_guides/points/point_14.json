@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "劫掠岛",
+  "description": "TeamPancake 的劫掠岛展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      120,
+      95,
+      408
+    ],
+    "render": [
+      120,
+      95,
+      408
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "魔城门外",
+  "description": "exp1182 的魔城门外展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -928,
+      97,
+      -11
+    ],
+    "render": [
+      -928,
+      97,
+      -11
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "世野之炊",
+  "description": "potw 的世野之炊展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -890,
+      139,
+      -176
+    ],
+    "render": [
+      -890,
+      139,
+      -176
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

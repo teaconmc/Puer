@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "纸带八音盒展馆",
+  "description": "cc_mb 的纸带八音盒展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -830,
+      79,
+      476
+    ],
+    "render": [
+      -830,
+      79,
+      476
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

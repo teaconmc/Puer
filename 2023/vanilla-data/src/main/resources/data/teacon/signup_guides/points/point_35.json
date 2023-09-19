@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "纸板箱的交通扩展",
+  "description": "mtrsteamloco 的纸板箱的交通扩展展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -27,
+      98,
+      493
+    ],
+    "render": [
+      -27,
+      98,
+      493
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

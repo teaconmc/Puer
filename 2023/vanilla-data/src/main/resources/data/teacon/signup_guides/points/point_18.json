@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "疯狂粒子",
+  "description": "madparticle 的疯狂粒子展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -356,
+      109,
+      -111
+    ],
+    "render": [
+      -356,
+      109,
+      -111
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

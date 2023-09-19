@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "通量网络",
+  "description": "fluxnetworks 的通量网络展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      40,
+      148,
+      -656
+    ],
+    "render": [
+      40,
+      148,
+      -656
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}
