@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "缤纷弹幕",
-  "description": "lively_danmaku 的缤纷弹幕展馆",
+  "description": "缤纷弹幕展馆",
   "selector": "@a",
   "location": {
     "actual": [

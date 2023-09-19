@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "魔城门外",
-  "description": "exp1182 的魔城门外展馆",
+  "title": "异格（Shiny）展馆",
+  "description": "异格（Shiny）展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      -928,
-      97,
-      -11
+      478,
+      96,
+      830
     ],
     "render": [
-      -928,
-      97,
-      -11
+      478,
+      96,
+      830
     ]
   },
   "triggers": [

@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "剧场中央",
-  "description": "IEEM Trivium Society 的剧场中央展馆",
+  "description": "会饮的剧场中央展馆",
   "selector": "@a",
   "location": {
     "actual": [

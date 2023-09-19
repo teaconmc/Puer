@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "工业基石打卡点",
-  "description": "industrybase 的工业基石打卡点展馆",
+  "title": "工业基石 + 微型机械 + 通量网络打卡点",
+  "description": "工业基石 + 微型机械 + 通量网络打卡点及展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      36,
+      40,
       148,
-      -704
+      -674
     ],
     "render": [
-      36,
+      40,
       148,
-      -704
+      -674
     ]
   },
   "triggers": [
