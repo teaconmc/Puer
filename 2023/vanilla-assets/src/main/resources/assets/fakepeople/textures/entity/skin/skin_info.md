@@ -1,4 +1,7 @@
-a02 Admiral
-a03 Strategist
-a04 Tech.Op.
-a05 Sage
+a02 舰长
+a03 智库
+a04 技术军士
+a05 大贤者
+a06 神甫
+a07 灵能者
+a08 战士

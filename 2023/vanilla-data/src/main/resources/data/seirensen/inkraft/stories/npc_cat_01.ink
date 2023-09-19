@@ -31,7 +31,7 @@ VAR player_name = "Player"
 ~ putVariable("mission_flag_cat_01", 1)
 -> ending
 ==normal_contact==
-[1/1] 导引机仆：正在执行接待协议，欢迎回到讴哭圣徒号，{player_name}。
+导引机仆：正在执行接待协议，欢迎回到讴哭圣徒号，{player_name}。
 -> ending
 
 ==ending==
