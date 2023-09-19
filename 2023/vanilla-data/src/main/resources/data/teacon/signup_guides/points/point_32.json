@@ -1,7 +1,7 @@
 {
   "type": "point",
-  "title": "烹饪集会",
-  "description": "crockpot 的烹饪集会展馆",
+  "title": "烹饪集会 + 疯狂粒子",
+  "description": "烹饪集会 + 疯狂粒子展馆",
   "selector": "@a",
   "location": {
     "actual": [

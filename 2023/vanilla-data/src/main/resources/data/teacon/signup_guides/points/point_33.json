@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "讴哭圣徒号车站",
-  "description": "nch 的讴哭圣徒号车站展馆",
+  "title": "食堂",
+  "description": "Dining Hall 的食堂展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      432,
-      116,
-      121
+      819,
+      2,
+      -284
     ],
     "render": [
-      432,
-      116,
-      121
+      819,
+      2,
+      -284
     ]
   },
   "triggers": [

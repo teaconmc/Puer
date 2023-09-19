@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "讴哭圣徒号车站",
-  "description": "locusazzurro_icaruswings 的讴哭圣徒号车站展馆",
+  "title": "桌游工艺",
+  "description": "桌游工艺展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      432,
-      116,
-      124
+      -274,
+      90,
+      358
     ],
     "render": [
-      432,
-      116,
-      124
+      -274,
+      90,
+      358
     ]
   },
   "triggers": [

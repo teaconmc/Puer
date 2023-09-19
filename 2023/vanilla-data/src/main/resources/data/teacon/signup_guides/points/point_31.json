@@ -1,18 +1,18 @@
 {
   "type": "point",
   "title": "讴哭圣徒号车站",
-  "description": "inkraft 的讴哭圣徒号车站展馆",
+  "description": "异空孤城 + 墨迹工艺 + 伊卡洛斯之翼的讴哭圣徒号车站展馆",
   "selector": "@a",
   "location": {
     "actual": [
       432,
       116,
-      118
+      121
     ],
     "render": [
       432,
       116,
-      118
+      121
     ]
   },
   "triggers": [

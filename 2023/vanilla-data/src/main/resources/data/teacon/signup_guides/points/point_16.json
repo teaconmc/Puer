@@ -1,7 +1,7 @@
 {
   "type": "point",
-  "title": "召唤扩展 mod 之实体竞技场",
-  "description": "Lych 的召唤扩展 mod 之实体竞技场展馆",
+  "title": "召唤扩展 Mod 之实体竞技场",
+  "description": "召唤扩展 - Summoning Extensions 展馆",
   "selector": "@a",
   "location": {
     "actual": [

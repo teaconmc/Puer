@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "音乐花园",
-  "description": "Net Music 的音乐花园展馆",
+  "description": "网络音乐机的音乐花园展馆",
   "selector": "@a",
   "location": {
     "actual": [

@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "纸带八音盒展馆",
-  "description": "纸带八音盒展馆",
+  "title": "锡茶科技",
+  "description": "锡茶科技（TinTeaTech）展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      -830,
-      79,
-      476
+      -43,
+      73,
+      -345
     ],
     "render": [
-      -830,
-      79,
-      476
+      -43,
+      73,
+      -345
     ]
   },
   "triggers": [

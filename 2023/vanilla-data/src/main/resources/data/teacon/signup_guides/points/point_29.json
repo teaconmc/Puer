@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "厨房",
-  "description": "cuisinedelight 的厨房展馆",
+  "description": "料理乐事（Cuisine Delight）的厨房展馆",
   "selector": "@a",
   "location": {
     "actual": [

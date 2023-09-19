@@ -4,8 +4,16 @@
   "description": "TeaCon 主场馆",
   "selector": "@a",
   "location": {
-    "actual": [ 0, -32, 96 ],
-    "render": [ 0, -32, 96 ]
+    "actual": [
+      0,
+      -32,
+      96
+    ],
+    "render": [
+      0,
+      -32,
+      112
+    ]
   },
   "images": [
     "teacon:textures/gui/banner.png"
