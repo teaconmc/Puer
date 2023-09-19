@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "核桃树（塔前）",
+  "description": "Teammoeg 的核桃树（塔前）展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -217,
+      94,
+      1
+    ],
+    "render": [
+      -217,
+      94,
+      1
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

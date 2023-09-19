@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "钓鱼台",
+  "description": "lavafishing 的钓鱼台展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -417,
+      115,
+      478
+    ],
+    "render": [
+      -417,
+      115,
+      478
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

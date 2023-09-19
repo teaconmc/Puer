@@ -1,0 +1,66 @@
+{
+  "type": "map",
+  "title": {
+    "text": "TeaCon 2023 展示服务器"
+  },
+  "subtitle": {
+    "text": "主世界"
+  },
+  "description": {
+    "text": "TeaCon 2023 展示服务器主世界（主岛）。点击地图传送点查看主世界的不同打卡点。"
+  },
+  "range": 2304,
+  "center": [ -96, -96 ],
+  "world": "minecraft:overworld",
+  "texture": "teacon:textures/gui/guide_map.png",
+  "points": [
+    "teacon:points/point_01",
+    "teacon:points/point_02",
+    "teacon:points/point_03",
+    "teacon:points/point_04",
+    "teacon:points/point_05",
+    "teacon:points/point_06",
+    "teacon:points/point_07",
+    "teacon:points/point_08",
+    "teacon:points/point_09",
+    "teacon:points/point_10",
+    "teacon:points/point_11",
+    "teacon:points/point_12",
+    "teacon:points/point_13",
+    "teacon:points/point_14",
+    "teacon:points/point_15",
+    "teacon:points/point_16",
+    "teacon:points/point_17",
+    "teacon:points/point_18",
+    "teacon:points/point_19",
+    "teacon:points/point_20",
+    "teacon:points/point_21",
+    "teacon:points/point_22",
+    "teacon:points/point_23",
+    "teacon:points/point_24",
+    "teacon:points/point_25",
+    "teacon:points/point_26",
+    "teacon:points/point_27",
+    "teacon:points/point_28",
+    "teacon:points/point_29",
+    "teacon:points/point_30",
+    "teacon:points/point_31",
+    "teacon:points/point_32",
+    "teacon:points/point_33",
+    "teacon:points/point_34",
+    "teacon:points/point_35",
+    "teacon:points/point_36",
+    "teacon:points/point_37",
+    "teacon:points/point_38",
+    "teacon:points/point_39",
+    "teacon:points/spawn"
+  ],
+  "triggers": [
+    "teacon:triggers/bossbar_off",
+    "teacon:triggers/bossbar_on",
+    "teacon:triggers/heal",
+    "teacon:triggers/clear",
+    "teacon:triggers/clear_effect", 
+    "teacon:triggers/equip_vision"
+  ]
+}

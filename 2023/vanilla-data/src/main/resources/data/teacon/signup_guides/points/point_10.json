@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "音乐花园",
+  "description": "Net Music 的音乐花园展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -443,
+      115,
+      556
+    ],
+    "render": [
+      -443,
+      115,
+      556
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

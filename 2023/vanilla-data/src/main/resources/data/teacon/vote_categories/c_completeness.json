@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "神笔马良"
+  },
+  "enabled": {
+    "default": true,
+    "modifiable": true
+  },
+  "description": {
+    "text": "参赛模组是否已有较高完成度，是否已经可以自成体系或者自圆其说？"
+  }
+}

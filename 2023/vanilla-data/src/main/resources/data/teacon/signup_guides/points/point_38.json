@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "五子棋亭",
+  "description": "MaxPixel Studios Development 的五子棋亭展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      658,
+      96,
+      -617
+    ],
+    "render": [
+      658,
+      96,
+      -617
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

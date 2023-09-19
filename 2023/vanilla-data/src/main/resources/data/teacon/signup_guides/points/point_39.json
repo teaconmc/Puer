@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "下北泽入口",
+  "description": "Mi Hub 的下北泽入口展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -3,
+      98,
+      351
+    ],
+    "render": [
+      -3,
+      98,
+      351
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

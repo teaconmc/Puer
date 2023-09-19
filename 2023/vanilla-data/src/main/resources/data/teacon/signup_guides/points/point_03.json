@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "村庄堡垒车站",
+  "description": "LeoMCM+Team Starry+HO-Artisan 的村庄堡垒车站展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -152,
+      107,
+      560
+    ],
+    "render": [
+      -152,
+      107,
+      560
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

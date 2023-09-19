@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "日千惠神社表门",
+  "description": "ashihara 的日千惠神社表门展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      336,
+      105,
+      33
+    ],
+    "render": [
+      336,
+      105,
+      33
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

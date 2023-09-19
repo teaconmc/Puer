@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "开拓者的房间",
+  "description": "我去，初音未来的开拓者的房间展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      173,
+      108,
+      -557
+    ],
+    "render": [
+      173,
+      108,
+      -557
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

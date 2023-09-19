@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "微型机械打卡点",
+  "description": "micro_machinery 的微型机械打卡点展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      44,
+      148,
+      -704
+    ],
+    "render": [
+      44,
+      148,
+      -704
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "厨房",
+  "description": "cuisinedelight 的厨房展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      660,
+      98,
+      312
+    ],
+    "render": [
+      660,
+      98,
+      312
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}
