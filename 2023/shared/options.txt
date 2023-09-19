@@ -1,1 +1,2 @@
 lang:zh_cn
+resourcePacks:["vanilla","mod_resources","file/teacon_2023"]
