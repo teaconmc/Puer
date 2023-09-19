@@ -21,6 +21,7 @@
     "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
     "teacon:triggers/clear",
-    "teacon:triggers/clear_effect"
+    "teacon:triggers/clear_effect", 
+    "teacon:triggers/equip_vision"
   ]
 }
