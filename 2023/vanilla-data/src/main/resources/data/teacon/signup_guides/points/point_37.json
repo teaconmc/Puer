@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "剧场中央",
-  "description": "IEEM Trivium Society 的剧场中央展馆",
+  "description": "IEEM Trivium Society 的会饮（Convivium）展馆：举办一场宏大的饕餮盛宴吧！",
   "selector": "@a",
   "location": {
     "actual": [
@@ -15,6 +15,9 @@
       85
     ]
   },
+  "images":[
+    "convivium:textures/gui/banner.png"
+  ],
   "triggers": [
     "teacon:triggers/teleport_center"
   ]
