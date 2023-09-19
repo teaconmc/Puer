@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "核桃树（塔前）",
-  "description": "分茶的核桃树（塔前）展馆",
+  "description": "Teammoeg 的分茶（Caupona）展馆：热力驱动的沉浸式烹饪模组。",
   "selector": "@a",
   "location": {
     "actual": [
@@ -15,6 +15,9 @@
       1
     ]
   },
+  "images":[
+    "caupona:textures/gui/banner.png"
+  ],
   "triggers": [
     "teacon:triggers/teleport_center"
   ]
