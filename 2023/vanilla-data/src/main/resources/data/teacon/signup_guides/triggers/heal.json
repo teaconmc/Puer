@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "恢复血量",
+  "title": "恢复所有状态",
   "selector": "@a[tag=!on_chanllenge]",
   "description": "回复自身血量、饥饿值、和经验等级",
   "executes": [

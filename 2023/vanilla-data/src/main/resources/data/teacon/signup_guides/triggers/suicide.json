@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "脱困",
+  "selector": "@a",
+  "description": "把你的生命值设为零，大概会导致你回到重生点罢",
+  "executes": [
+    "/kill @s",
+    "/signmeup map close"
+  ]
+}
