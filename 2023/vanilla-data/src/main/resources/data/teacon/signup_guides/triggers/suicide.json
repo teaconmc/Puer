@@ -1,6 +1,6 @@
 {
   "type": "trigger",
-  "title": "脱困",
+  "title": "紧急脱困按钮",
   "selector": "@a",
   "description": "把你的生命值设为零，大概会导致你回到重生点罢",
   "executes": [
