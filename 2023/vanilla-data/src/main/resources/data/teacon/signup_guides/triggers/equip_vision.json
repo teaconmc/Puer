@@ -4,7 +4,8 @@
   "selector": "@a",
   "description": "注意：此选项会清空头部护甲栏",
   "executes": [
-    "/item replace entity @s armor.head with bctrl:bullet_vision_flat",
+    "/item replace entity @s[tag=!vision_pro] armor.head with bctrl:bullet_vision_flat",
+    "/item replace entity @s[tag=vision_pro] armor.head with bctrl:bullet_vision",
     "/signmeup map close"
   ]
 }
