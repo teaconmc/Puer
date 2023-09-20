@@ -3,3 +3,7 @@ name = "default"
 [[permissions]]
 permission = "madparticle.commands.mp_demo"
 value = true
+
+[[permissions]]
+permission = "teaconhailuoutil.go"
+value = true
