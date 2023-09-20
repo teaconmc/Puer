@@ -1,5 +1,5 @@
-# Blender MTL File: 's_train.blend'
-# Material Count: 5
+# Blender MTL File: 'None'
+# Material Count: 6
 
 newmtl pis_placeholder#light
 Ns 250.000000
@@ -46,6 +46,17 @@ illum 1
 map_Kd s_train.png
 
 newmtl s_train#light
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd s_train.png
+
+newmtl s_train#lighttranslucent
 Ns 0.000000
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
