@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "组装傀儡",
-  "description": "modulargolems 的组装傀儡展馆",
+  "description": "傀儡装配（Modular Golems）的组装傀儡展馆",
   "selector": "@a",
   "location": {
     "actual": [

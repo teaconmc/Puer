@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "通量网络",
-  "description": "fluxnetworks 的通量网络展馆",
+  "title": "地火 + 端午复兴展馆",
+  "description": "地火 + 端午复兴展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      40,
-      148,
-      -656
+      245,
+      95,
+      -300
     ],
     "render": [
-      40,
-      148,
-      -656
+      245,
+      95,
+      -300
     ]
   },
   "triggers": [

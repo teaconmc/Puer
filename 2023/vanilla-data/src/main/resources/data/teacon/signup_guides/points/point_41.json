@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "胡萝卜空岛游览开始点",
+  "description": "胡萝卜厨房（Kitchen Karrot）展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      -381,
+      89,
+      54
+    ],
+    "render": [
+      -381,
+      89,
+      54
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "type": "point",
-  "title": "实验天空站 BSF3",
-  "description": "bsf 的实验天空站 BSF3 展馆",
+  "title": "实验天空站 BSFIII",
+  "description": "更好的打雪仗 3 的实验天空站 BSFIII 展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      -176,
-      88,
+      -248,
+      97,
       -673
     ],
     "render": [
-      -176,
-      88,
+      -248,
+      97,
       -673
     ]
   },

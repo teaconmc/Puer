@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "疯狂粒子",
-  "description": "madparticle 的疯狂粒子展馆",
+  "title": "天青号",
+  "description": "华夏基础 + 华夏丹青 + 华夏飨宴 + 华夏九筮 + EveryXHotpot 一起火锅 + 群青 Ultramarine 的天青号展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      -356,
-      109,
-      -111
+      175,
+      99,
+      -15
     ],
     "render": [
-      -356,
-      109,
-      -111
+      175,
+      99,
+      -15
     ]
   },
   "triggers": [

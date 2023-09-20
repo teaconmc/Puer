@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "我的世界铁路",
-  "description": "mtr 的我的世界铁路展馆",
+  "description": "我的世界铁路 Minecraft Transit Railway 展馆",
   "selector": "@a",
   "location": {
     "actual": [

@@ -1,18 +1,18 @@
 {
   "type": "point",
-  "title": "微型机械打卡点",
-  "description": "micro_machinery 的微型机械打卡点展馆",
+  "title": "Quaedam 展馆",
+  "description": "Quaedam 展馆",
   "selector": "@a",
   "location": {
     "actual": [
-      44,
-      148,
-      -704
+      -697,
+      101,
+      692
     ],
     "render": [
-      44,
-      148,
-      -704
+      -697,
+      101,
+      692
     ]
   },
   "triggers": [

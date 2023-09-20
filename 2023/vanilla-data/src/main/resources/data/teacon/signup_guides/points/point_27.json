@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "钓鱼台",
-  "description": "lavafishing 的钓鱼台展馆",
+  "description": "岩浆钓鱼（Lava Fishing）的钓鱼台展馆",
   "selector": "@a",
   "location": {
     "actual": [

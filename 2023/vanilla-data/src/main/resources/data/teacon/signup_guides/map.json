@@ -1,13 +1,13 @@
 {
   "type": "map",
   "title": {
-    "text": "TeaCon 2023 展示服务器"
+    "text": "TeaCon 2023 展示服"
   },
   "subtitle": {
     "text": "主世界"
   },
   "description": {
-    "text": "TeaCon 2023 展示服务器主世界（主岛）。点击地图传送点查看主世界的不同打卡点。"
+    "text": "TeaCon 2023 展示服务器主世界。点击地图传送点查看主世界的不同打卡点。"
   },
   "range": 2304,
   "center": [ -96, -96 ],
@@ -53,6 +53,9 @@
     "teacon:points/point_37",
     "teacon:points/point_38",
     "teacon:points/point_39",
+    "teacon:points/point_40",
+    "teacon:points/point_41",
+    "teacon:points/point_42",
     "teacon:points/spawn"
   ],
   "triggers": [

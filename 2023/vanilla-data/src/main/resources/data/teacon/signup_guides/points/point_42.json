@@ -1,0 +1,21 @@
+{
+  "type": "point",
+  "title": "随处随笔展厅",
+  "description": "随处随笔（World Comment）展馆",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      600,
+      131,
+      68
+    ],
+    "render": [
+      600,
+      131,
+      68
+    ]
+  },
+  "triggers": [
+    "teacon:triggers/teleport_center"
+  ]
+}

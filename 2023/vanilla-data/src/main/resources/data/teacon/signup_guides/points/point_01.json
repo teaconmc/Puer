@@ -1,7 +1,7 @@
 {
   "type": "point",
   "title": "末影龙舟",
-  "description": "TeaCon 2023 示例模组：把末地城的龙首拿去做龙舟划",
+  "description": "TeaCon 2023 示例模组：末影龙舟展馆",
   "selector": "@a",
   "location": {
     "actual": [
