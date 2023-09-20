@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "获取打卡工具",
+  "selector": "@a",
+  "description": "手持拍立得，靠近打卡点，右键即可打卡。",
+  "executes": [
+    "/give @s check_in:checker",
+    "/signmeup map close"
+  ]
+}

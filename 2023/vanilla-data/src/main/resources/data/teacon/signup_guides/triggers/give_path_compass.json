@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "获取路径点指南针",
+  "selector": "@a",
+  "description": "右键指南针打开导航点选择，点击路径名字开始导航，你可以看到指向下一个路径点的可视化提示。",
+  "executes": [
+    "/give @s check_in:nvg_path",
+    "/signmeup map close"
+  ]
+}
