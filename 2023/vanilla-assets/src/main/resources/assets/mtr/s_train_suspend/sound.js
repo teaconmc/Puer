@@ -17,15 +17,16 @@ function playAnn(ctx, state, train) {
   } else {
     var distLastStation = train.railProgress() - stations.get(nextIndex - 1).distance;
     var distNextStation = stations.get(nextIndex).distance - train.railProgress();
+    var isLoopLine = stations.get(0).station.id == stations.get(stations.size() - 1).station.id;
     var soundToPlay;
     if (distNextStation < stationConfig.arriveDistance) {
-      if (nextIndex == stations.size() - 1) {
+      if (nextIndex == stations.size() - 1 && !isLoopLine) {
         soundToPlay = stationConfig.routeStationCode + "_arr_term";
       } else {
         soundToPlay = stationConfig.routeStationCode + "_arr";
       }
     } else if (distLastStation > 15) {
-      if (nextIndex == stations.size() - 1) {
+      if (nextIndex == stations.size() - 1 && !isLoopLine) {
         soundToPlay = stationConfig.routeStationCode + "_next_term";
       } else if (!!prevStationConfig["specDep"]) {
         soundToPlay = stationConfig.routeStationCode + "_next_specdep";
