@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "获取随笔工具",
+  "selector": "@a",
+  "description": "手持工具即可查看评论，按 F2 即可截图并评论。",
+  "executes": [
+    "/give @s worldcomment:comment_tool",
+    "/signmeup map close"
+  ]
+}
