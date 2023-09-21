@@ -59,10 +59,9 @@
     "teacon:points/spawn"
   ],
   "triggers": [
-    "teacon:triggers/bossbar_off",
-    "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
     "teacon:triggers/clear",
+    "teacon:triggers/suicide",
     "teacon:triggers/clear_effect", 
     "teacon:triggers/equip_vision",
     "teacon:triggers/give_checker",
