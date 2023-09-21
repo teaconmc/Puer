@@ -15,6 +15,9 @@
       -673
     ]
   },
+  "images":[
+    "bsf:textures/gui/banner.png"
+  ],
   "triggers": [
     "teacon:triggers/teleport_center"
   ]
