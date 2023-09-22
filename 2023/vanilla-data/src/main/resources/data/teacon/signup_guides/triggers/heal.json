@@ -5,8 +5,8 @@
   "description": "回复自身血量、饥饿值、和经验等级",
   "executes": [
     "/effect clear @s",
-    "/effect give @s minecraft:saturation 1 5 true",
-    "/effect give @s minecraft:regeneration 1 5 true",
+    "/effect give @s minecraft:saturation 3 50 true",
+    "/effect give @s minecraft:regeneration 3 50 true",
     "/experience add @s -2147483648 points",
     "/experience set @s 2023 levels",
     "/experience add @s 9020 points",

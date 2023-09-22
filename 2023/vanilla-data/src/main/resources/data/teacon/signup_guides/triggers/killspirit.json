@@ -1,0 +1,10 @@
+{
+  "type": "trigger",
+  "title": "击杀幽灵",
+  "selector": "@a",
+  "description": "对抗幽灵生物的最强武器—— kill @e，如果杀不掉，那么可能是渲染错误的玩家",
+  "executes": [
+    "/kill @e[type=askway_origin:spirit]",
+    "/signmeup map close"
+  ]
+}
