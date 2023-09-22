@@ -1,0 +1,10 @@
+{
+    "type": "trigger",
+    "title": "快速饥饿",
+    "selector": "@a",
+    "description": "获取10s的饥饿效果，方便试吃食物",
+    "executes": [
+        "/effect give @s minecraft:hunger 10 255",
+        "/signmeup map close"
+    ]
+}
