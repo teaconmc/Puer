@@ -66,6 +66,7 @@
     "teacon:triggers/equip_vision",
     "teacon:triggers/give_checker",
     "teacon:triggers/give_comment_tool",
-    "teacon:triggers/give_path_compass"
+    "teacon:triggers/give_path_compass", 
+    "teacon:triggers/quick_hunger"
   ]
 }
