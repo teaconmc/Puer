@@ -16,7 +16,7 @@ function createTrain(ctx, state, train) {
 }
 
 function disposeTrain(ctx, state, train) {
-  // state.pisTexture.close();
+  state.pisTexture.close();
 }
 
 function renderTrain(ctx, state, train) {
