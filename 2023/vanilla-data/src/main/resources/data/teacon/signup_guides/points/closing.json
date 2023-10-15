@@ -1,0 +1,24 @@
+{
+  "type": "point",
+  "title": "TeaCon 闭幕式展厅传送点",
+  "description": "TeaCon 闭幕式展厅传送点",
+  "selector": "@a",
+  "location": {
+    "actual": [
+      6,
+      222,
+      0
+    ],
+    "render": [
+      6,
+      222,
+      0
+    ]
+  },
+  "images": [
+    "teacon:textures/gui/banner.png"
+  ],
+  "triggers": [
+    "teacon:triggers/teleport_facing_east"
+  ]
+}
