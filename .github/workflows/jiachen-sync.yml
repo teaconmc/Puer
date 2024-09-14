@@ -28,7 +28,7 @@ jobs:
           zip -qu TeaCon-JiaChen-Data.zip pack.mcmeta
           mkdir resourcepacks
           mv TeaCon-JiaChen-Resource.zip resourcepacks/
-          mkdir -p world/data
+          mkdir -p world/datapacks
           mv TeaCon-JiaChen-Data.zip world/datapacks/
       - name: Sync For Test
         id: sync-test
