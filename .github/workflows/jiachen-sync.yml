@@ -23,9 +23,9 @@ jobs:
         run: |
           cd jiachen
           ls -l
-          zip -qm TeaCon-JiaChen-Resource.zip assets
+          zip -qrm TeaCon-JiaChen-Resource.zip assets
           zip -qu TeaCon-JiaChen-Resource.zip pack.mcmeta
-          zip -qm TeaCon-JiaChen-Data.zip data
+          zip -qrm TeaCon-JiaChen-Data.zip data
           zip -qu TeaCon-JiaChen-Data.zip pack.mcmeta
           ls -l
           unzip -l TeaCon-JiaChen-Resource.zip
