@@ -29,7 +29,7 @@ jobs:
           mkdir resourcepacks
           mv TeaCon-JiaChen-Resource.zip resourcepacks/
           mkdir -p world/data
-          mv TeaCon-JiaChen-Data.zip world/data/
+          mv TeaCon-JiaChen-Data.zip world/datapacks/
       - name: Sync For Test
         id: sync-test
         if: ${{ startsWith(github.ref, 'refs/heads') }}
