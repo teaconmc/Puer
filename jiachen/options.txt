@@ -1,0 +1,3 @@
+forceUnicodeFont:true
+lang:zh_cn
+resourcePacks:["file/TeaCon-JiaChen-Resource.zip"]

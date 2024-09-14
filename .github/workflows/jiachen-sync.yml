@@ -22,14 +22,14 @@ jobs:
       - name: Create Resource / Data Pack Archive
         run: |
           cd jiachen
-          ls -l
           zip -qrm TeaCon-JiaChen-Resource.zip assets
           zip -qu TeaCon-JiaChen-Resource.zip pack.mcmeta
           zip -qrm TeaCon-JiaChen-Data.zip data
           zip -qu TeaCon-JiaChen-Data.zip pack.mcmeta
-          ls -l
-          unzip -l TeaCon-JiaChen-Resource.zip
-          unzip -l TeaCon-JiaChen-Data.zip
+          mkdir resourcepacks
+          mv TeaCon-JiaChen-Resource.zip resourcepacks/
+          mkdir -p world/data
+          mv TeaCon-JiaChen-Data.zip world/data/
       - name: Sync For Test
         id: sync-test
         if: ${{ startsWith(github.ref, 'refs/heads') }}
