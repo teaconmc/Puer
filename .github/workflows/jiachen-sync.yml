@@ -35,6 +35,9 @@ jobs:
         if: ${{ startsWith(github.ref, 'refs/heads') }}
         env:
           BUCKET: ${{ secrets.BUCKET }}
+          # https://github.com/aliyun/aliyun-cli?tab=readme-ov-file#supported-environment-variables
+          # We pass in the profile via env var.
+          # Apparently `aliyun oss' won't accept --profile args as it used to be.
           ALIBABA_CLOUD_PROFILE: main
         run: aliyun oss sync --delete --force --backup-dir backup ./jiachen/ oss://$BUCKET/jiachen/puer/test/
       - name: Sync For Prod
