@@ -7,7 +7,7 @@
 [Season]
 	#The lasting days of each term (24 in total).
 	#Range: 1 ~ 1000
-	LastingDaysOfEachTerm = 7
+	LastingDaysOfEachTerm = 12
 	#The index of the initial solar term.
 	#Range: 1 ~ 24
 	InitialSolarTermIndex = 1
