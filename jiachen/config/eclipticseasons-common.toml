@@ -7,7 +7,7 @@
 [Season]
 	#The lasting days of each term (24 in total).
 	#Range: 1 ~ 1000
-	LastingDaysOfEachTerm = 12
+	LastingDaysOfEachTerm = 7
 	#The index of the initial solar term.
 	#Range: 1 ~ 24
 	InitialSolarTermIndex = 1
@@ -17,7 +17,10 @@
 	EnableInform = true
 	#Set the percentage multiplier of the probability of rain, the range should be between 0 and 1000.
 	#Range: 0 ~ 1000
-	RainChancePercentMultiplier = 60
+	RainChancePercentMultiplier = 20
+	#Set the percentage multiplier of the probability of thunder in the rain, the range should be between 0 and 1000.
+	#Range: 0 ~ 1000
+	ThunderChancePercentMultiplier = 0
 
 [Debug]
 	#Enable debug option to detect illegal use of functions.
