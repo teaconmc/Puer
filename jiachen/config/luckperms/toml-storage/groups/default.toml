@@ -19,3 +19,7 @@ value = false
 [[permissions]]
 permission = "voteme.modify.counter"
 value = false
+
+[[permissions]]
+permission = "powertool.see_command_feedback_from_others"
+value = false
