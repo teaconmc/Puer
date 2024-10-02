@@ -17,7 +17,10 @@
 	EnableInform = true
 	#Set the percentage multiplier of the probability of rain, the range should be between 0 and 1000.
 	#Range: 0 ~ 1000
-	RainChancePercentMultiplier = 60
+	RainChancePercentMultiplier = 20
+	#Set the percentage multiplier of the probability of thunder in the rain, the range should be between 0 and 1000.
+	#Range: 0 ~ 1000
+	ThunderChancePercentMultiplier = 0
 
 [Debug]
 	#Enable debug option to detect illegal use of functions.
