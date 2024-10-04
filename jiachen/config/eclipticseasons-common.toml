@@ -27,3 +27,5 @@
 	Debug = false
 	#Enable solar term weather system.
 	UseSolarWeather = true
+	#Without snowy block under the light blocks which level is 0.
+	NotSnowyUnderLight = true
