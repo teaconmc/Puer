@@ -1,0 +1,50 @@
+name: TeaCon 甲辰 Sync Pack-building Files
+
+on:
+  push:
+    paths:
+      - "jiachen/**"
+    branches: [ dev ]
+    tags: '**'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup profile
+        env:
+          REGION: ${{ secrets.REGION }}
+          ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: aliyun configure set --profile main --region $REGION --mode AK --access-key-id $ACCESS_KEY --access-key-secret $SECRET_KEY
+      - name: Create Resource / Data Pack Archive
+        run: |
+          cd jiachen
+          rm .gitignore README.md
+          zip -qrm TeaCon-JiaChen-Resource.zip assets
+          zip -qu TeaCon-JiaChen-Resource.zip pack.mcmeta pack.png
+          zip -qrm TeaCon-JiaChen-Data.zip data
+          zip -qu TeaCon-JiaChen-Data.zip pack.mcmeta pack.png
+          mkdir resourcepacks
+          mv TeaCon-JiaChen-Resource.zip resourcepacks/
+          mkdir -p world/datapacks
+          mv TeaCon-JiaChen-Data.zip world/datapacks/
+      - name: Sync For Test
+        id: sync-test
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          # https://github.com/aliyun/aliyun-cli?tab=readme-ov-file#supported-environment-variables
+          # We pass in the profile via env var.
+          # Apparently `aliyun oss' won't accept --profile args as it used to be.
+          ALIBABA_CLOUD_PROFILE: main
+        run: aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./jiachen/ oss://$BUCKET/jiachen/puer/test/
+      - name: Sync For Prod
+        id: sync-prod
+        if: ${{ startsWith(github.ref, 'refs/tags') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          ALIBABA_CLOUD_PROFILE: main
+        run: aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./jiachen/ oss://$BUCKET/jiachen/puer/prod/

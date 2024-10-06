@@ -14,6 +14,7 @@
   "world": "minecraft:overworld",
   "texture": "teacon:textures/gui/guide_map.png",
   "points": [
+    "teacon:points/closing",
     "teacon:points/point_01",
     "teacon:points/point_02",
     "teacon:points/point_03",
@@ -59,14 +60,15 @@
     "teacon:points/spawn"
   ],
   "triggers": [
-    "teacon:triggers/bossbar_off",
-    "teacon:triggers/bossbar_on",
     "teacon:triggers/heal",
     "teacon:triggers/clear",
-    "teacon:triggers/clear_effect", 
-    "teacon:triggers/equip_vision",
+    "teacon:triggers/suicide",
+    "teacon:triggers/give_path_compass", 
+    "teacon:triggers/killspirit",
+    "teacon:triggers/quick_hunger",
     "teacon:triggers/give_checker",
     "teacon:triggers/give_comment_tool",
-    "teacon:triggers/give_path_compass"
+    "teacon:triggers/clear_effect",
+    "teacon:triggers/equip_vision"
   ]
 }

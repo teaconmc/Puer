@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "甲辰茶会·资源包·数据包",
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 52
+    }
+  }
+}

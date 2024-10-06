@@ -7,3 +7,19 @@ value = true
 [[permissions]]
 permission = "teaconhailuoutil.go"
 value = true
+
+[[permissions]]
+permission = "voteme.create"
+value = false
+
+[[permissions]]
+permission = "voteme.create.counter"
+value = false
+
+[[permissions]]
+permission = "voteme.modify"
+value = false
+
+[[permissions]]
+permission = "voteme.modify.counter"
+value = false
