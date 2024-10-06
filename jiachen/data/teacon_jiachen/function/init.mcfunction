@@ -11,5 +11,7 @@ gamerule doTraderSpawning false
 gamerule keepInventory true
 # 关闭玩家获取进度后的全服聊天广播——Mod 一多这个就有刷屏嫌疑了
 gamerule announceAdvancements false
+# 打开方块掉落。强行关闭这个会影响不少 Mod 的功能展示。
+gamerule doTileDrops true
 
 say 欢迎来到甲辰茶会
