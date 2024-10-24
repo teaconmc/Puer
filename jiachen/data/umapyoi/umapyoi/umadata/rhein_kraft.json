@@ -1,5 +1,5 @@
 {
-  "identifier": "umapyoi:happy_meek",
+  "identifier": "umapyoi:rhein_kraft",
   "maxProperty": [
     18,
     18,
@@ -15,11 +15,11 @@
     1
   ],
   "propertyRate": [
-    6,
-    6,
-    6,
-    6,
-    6
+    0,
+    0,
+    15,
+    15,
+    0
   ],
   "ranking": "sr",
   "uniqueSkill": "umapyoi:basic_pace"

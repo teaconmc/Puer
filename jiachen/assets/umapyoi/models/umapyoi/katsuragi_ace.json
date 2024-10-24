@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "hat",
-					"pivot": [0, 0, 0],
+					"pivot": [0, 24, 0],
 					"cubes": [
 						{"origin": [-5.75, 30.75, -1.25], "size": [2, 2, 2], "inflate": -0.4, "uv": [80, 13]},
 						{
@@ -136,7 +136,7 @@
 					]
 				},
 				{
-					"name": "long_hair2",
+					"name": "long_hair",
 					"parent": "head",
 					"pivot": [0, 25.75, 8.15],
 					"rotation": [7.5, 0, 0],
@@ -158,7 +158,7 @@
 				},
 				{
 					"name": "bone49",
-					"parent": "long_hair2",
+					"parent": "long_hair",
 					"pivot": [0, 25.75, 8.15],
 					"rotation": [15, 0, 0]
 				},
@@ -366,13 +366,13 @@
 					]
 				},
 				{
-					"name": "right_ear2",
+					"name": "right_ear",
 					"parent": "head",
 					"pivot": [-2, 30, -1]
 				},
 				{
 					"name": "ear14",
-					"parent": "right_ear2",
+					"parent": "right_ear",
 					"pivot": [-3, 32, -1],
 					"rotation": [10, 0, -20],
 					"cubes": [
@@ -561,13 +561,13 @@
 					]
 				},
 				{
-					"name": "left_ear2",
+					"name": "left_ear",
 					"parent": "head",
 					"pivot": [2, 30, -1]
 				},
 				{
 					"name": "ear20",
-					"parent": "left_ear2",
+					"parent": "left_ear",
 					"pivot": [3, 32, -1],
 					"rotation": [10, 0, 20],
 					"cubes": [
