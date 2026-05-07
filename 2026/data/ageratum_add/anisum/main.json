@@ -1,0 +1,15 @@
+{
+  "location": "ageratum_add:guidebooks",
+  "name": {
+    "translate": "itemGroup.ageratum_add.guidebooks"
+  },
+  "icon": {
+    "id": "ageratum:guidebook"
+  },
+  "include": [
+    "ageratum_add:*"
+  ],
+  "sort": [
+    "ageratum_add:*"
+  ]
+}
