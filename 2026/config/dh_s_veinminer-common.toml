@@ -1,0 +1,20 @@
+#最大连锁挖矿方块数量 (默认: 16384) / Maximum number of blocks to mine in a chain (default: 16384)
+# Default: 16384
+# Range: 1 ~ 16384
+veinMinerMaxBlocks = 64
+#最大连锁挖矿搜索半径 (默认: 64) / Maximum search radius for vein mining (default: 64)
+# Default: 64
+# Range: 1 ~ 64
+veinMinerMaxDistance = 8
+#是否启用连锁挖矿功能 (默认: true) / Whether vein mining is enabled (default: true)
+veinMinerEnabled = true
+#连锁挖矿时每个额外方块是否消耗额外耐久度 (默认: true) / Whether each extra block consumes additional durability (default: true)
+veinMinerExtraDurability = true
+#连锁挖矿模式: BLACKLIST(黑名单), WHITELIST(白名单), DISABLED(禁用) (默认: DISABLED) / Vein mining mode: BLACKLIST, WHITELIST, DISABLED (default: DISABLED)
+veinMinerMode = "WHITELIST"
+#白名单方块列表，多个用逗号分隔 (例如: minecraft:stone,minecraft:iron_ore)，仅在模式为WHITELIST时生效 / Whitelist of blocks, comma-separated (e.g., minecraft:stone,minecraft:iron_ore). Only effective when mode is WHITELIST.
+veinMinerWhitelist = "minecraft:coal_ore,minecraft:stone"
+#黑名单方块列表，多个用逗号分隔 (例如: minecraft:bedrock,minecraft:obsidian)，仅在模式为BLACKLIST时生效 / Blacklist of blocks, comma-separated (e.g., minecraft:bedrock,minecraft:obsidian). Only effective when mode is BLACKLIST.
+veinMinerBlacklist = ""
+#连锁挖矿触发方式: KEYBIND(自定义键位,默认V键), SNEAK(潜行时触发), ALWAYS(直接触发) (默认: KEYBIND) / Vein mining trigger: KEYBIND(custom key,default V), SNEAK(hold shift), ALWAYS(always active) (default: KEYBIND)
+veinMinerTriggerAction = "KEYBIND"
