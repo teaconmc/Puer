@@ -6,3 +6,8 @@ lang:zh_cn
 skipMultiplayerWarning:true
 syncChunkWrites:true
 soundCategory_music:0.0
+key_key.middle_key_ping.uniform:key.mouse.middle:ALT
+key_key.middle_key_ping.generic:key.keyboard.unknown
+key_key.middle_key_ping.warning:key.keyboard.unknown
+key_key.middle_key_ping.goto:key.keyboard.unknown
+key_key.middle_key_ping.enemy:key.keyboard.unknown
