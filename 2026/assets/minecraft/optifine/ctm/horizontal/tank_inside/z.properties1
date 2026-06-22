@@ -1,4 +1,0 @@
-method=horizontal
-tiles=0-3
-matchTiles=block/fish_tank/fish_tank_inside
-connect=tile
