@@ -1,7 +1,14 @@
+[function_settings]
 #是否允许在不使用助推器的情况下进行机动操作
 allowManeuverWithoutThruster = true
 #机动操作是否额外消耗饥饿值
 maneuverConsumeHunger = false
+#新玩家是否默认开启机动
+defaultEnableManeuver = false
+# Jed: 0.0 = 无消耗，1.0 = 完全消耗 默认值: 0.01
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+maneuverConsumeHungerAmount = 0.01
 #装备助推器时体力消耗的减免幅度
 #0.0 = 无减免，1.0 = 完全减免
 # Default: 1.0
@@ -12,25 +19,16 @@ boosterStaminaReduction = 1.0
 # Default: 4.0
 # Range: 1.0 ~ 100.0
 minSlideSpeed = 4.0
-#滑铲加速冷却（tick）
-#默认值: 40
-# Default: 40
-# Range: 0 ~ 200
-slideAccelerationCooldown = 40
-#空气阻力（0.0 - 1.0）
-#默认值: 0.998, 原版: 0.91
-# Default: 0.998
-# Range: 0.0 ~ 1.0
-airFriction = 0.998
 #墙跑最低速度（米/秒）
 #默认值: 4.0
 # Default: 4.0
 # Range: 1.0 ~ 100.0
 minWallRunSpeed = 4.0
-# Jed: 0.0 = 无消耗，1.0 = 完全消耗 默认值: 0.01
-# Default: 0.01
-# Range: 0.0 ~ 1.0
-maneuverConsumeHungerAmount = 0.01
+#滑铲加速冷却（tick）
+#默认值: 40
+# Default: 40
+# Range: 0 ~ 200
+slideAccelerationCooldown = 40
 #单次闪避冷却（tick）
 #默认值: 20
 # Default: 20
@@ -41,10 +39,39 @@ airDodgeCooldown = 20
 # Default: 2
 # Range: 0 ~ 10
 airDodgeStorage = 2
-#新玩家是否默认开启机动
-defaultEnableManeuver = false
+#空气阻力（0.0 - 1.0）
+#默认值: 0.998, 原版: 0.91
+# Default: 0.998
+# Range: 0.0 ~ 1.0
+airFriction = 0.998
 #爬梯加速倍率
 #默认值: 3.0
 # Default: 3.0
 # Range: 0.0 ~ 10.0
 climbBoostMultiplier = 3.0
+
+[function_switches]
+#是否开启趴下
+enableProne = true
+#是否开启滑铲
+enableSlide = true
+#是否开启受身准备
+enableBreakFallReady = true
+#是否开启受身
+enableBreakFall = true
+#是否开启闪避
+enableDodge = true
+#是否开启爬墙
+enableWallClimb = true
+#是否开启滑墙
+enableWallSlide = true
+#是否开启墙跑
+enableWallRun = true
+#是否开启挂墙
+enableWallHang = true
+#是否开启蹬墙跳
+enableWallKick = true
+#是否开启翻越
+enableVaultUp = true
+#是否开启翻入
+enableVaultIn = true
