@@ -1,5 +1,7 @@
 #是否开启摄像头偏移
 enableCameraOffset = true
+#是否使用双击疾跑闪避(防止误操作)
+enableDoubleClickDodge = true
 
 [key_hints]
 #是否显示按键教程
@@ -69,3 +71,11 @@ enableWallKick = true
 enableVaultUp = true
 #是否开启翻入
 enableVaultIn = true
+#是否开启水上漂(需要助推器)
+enableWaterRun = true
+#是否开启水中推进(海豚跳)
+enableWaterPush = true
+#是否开启缓降(需要助推器)
+enableFallSlow = true
+#是否开启空中二段跳(需要助推器)
+enableAirJump = true

@@ -20,20 +20,25 @@ boosterStaminaReduction = 1.0
 # Range: 1.0 ~ 100.0
 minSlideSpeed = 4.0
 #墙跑最低速度（米/秒）
-#默认值: 4.0
-# Default: 4.0
+#默认值: 6.0
+# Default: 6.0
 # Range: 1.0 ~ 100.0
-minWallRunSpeed = 4.0
+minWallRunSpeed = 6.0
+#水上漂最低速度（米/秒）
+#默认值: 10.0
+# Default: 10.0
+# Range: 1.0 ~ 100.0
+minWaterSwimSpeed = 10.0
 #滑铲加速冷却（tick）
 #默认值: 40
 # Default: 40
 # Range: 0 ~ 200
 slideAccelerationCooldown = 40
 #单次闪避冷却（tick）
-#默认值: 20
-# Default: 20
+#默认值: 40
+# Default: 40
 # Range: 0 ~ 200
-airDodgeCooldown = 20
+airDodgeCooldown = 40
 #闪避可储存次数
 #默认值: 2
 # Default: 2
@@ -49,6 +54,11 @@ airFriction = 0.998
 # Default: 3.0
 # Range: 0.0 ~ 10.0
 climbBoostMultiplier = 3.0
+#蹬墙跳加速冷却（tick）
+#默认值: 20
+# Default: 20
+# Range: 0 ~ 200
+wallKickAccelerationCooldown = 20
 
 [function_switches]
 #是否开启趴下
@@ -75,3 +85,11 @@ enableWallKick = true
 enableVaultUp = true
 #是否开启翻入
 enableVaultIn = true
+#是否开启水上漂(需要助推器)
+enableWaterRun = true
+#是否开启水中推进(海豚跳)
+enableWaterPush = true
+#是否开启缓降(需要助推器)
+enableFallSlow = true
+#是否开启空中二段跳(需要助推器)
+enableAirJump = true
