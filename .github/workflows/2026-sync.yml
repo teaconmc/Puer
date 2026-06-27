@@ -34,14 +34,56 @@ jobs:
           BUCKET: ${{ secrets.BUCKET }}
           ALIBABA_CLOUD_PROFILE: main
         run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Test Client - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Test Client - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 测试客户端 - Minecraft 26.1.2"
+          EOF
+
           ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/test/
+      - name: Sync For Build
+        id: sync-build
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          ALIBABA_CLOUD_PROFILE: main
+        run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Build Client - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Build Client - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 建筑客户端 - Minecraft 26.1.2"
+          EOF
+
+          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/internal/
       - name: Sync For Prod
         id: sync-prod
         if: ${{ startsWith(github.ref, 'refs/tags') }}
         env:
           BUCKET: ${{ secrets.BUCKET }}
           ALIBABA_CLOUD_PROFILE: main
-        run: ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/prod/
+        run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Modpack - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Modpack - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 整合包 - Minecraft 26.1.2"
+          EOF
+
+          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/prod/
       - name: Generate & Sync Toad Artifacts For Test
         if: ${{ startsWith(github.ref, 'refs/heads') }}
         env:
@@ -81,11 +123,6 @@ jobs:
 
           prefix = source.read_text(encoding="utf-8") if source.exists() else ""
           generated = "\n".join([
-              "# Title",
-              "[sync.title]",
-              'hash = "1bb1032c369e5f1c982a203b5c8de7032027b12eace903cec5c99e0e36f95d42"',
-              'file = "data:application/toml;base64,dGl0bGUgPSAiVGVhQ29uIDIwMjYgVGVzdCBDbGllbnQgLSBNaW5lY3JhZnQgMjYuMS4yIgoKW2xhbmcuZW5fdXNdCnRpdGxlID0gIlRlYUNvbiAyMDI2IFRlc3QgQ2xpZW50IC0gTWluZWNyYWZ0IDI2LjEuMiIKCltsYW5nLnpoX2NuXQp0aXRsZSA9ICJUZWFDb24gMjAyNiDmtYvor5XlrqLmiLfnq68gLSBNaW5lY3JhZnQgMjYuMS4yIgo="',
-              "",
               "# Options",
               "[sync.options]",
               f'hash = "{digest(root / files["options"])}"',
