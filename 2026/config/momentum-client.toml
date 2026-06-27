@@ -65,6 +65,8 @@ enableWallSlide = true
 enableWallRun = true
 #是否开启挂墙
 enableWallHang = true
+#是否开启蓄力跳
+enablePowerJump = true
 #是否开启蹬墙跳
 enableWallKick = true
 #是否开启翻越
