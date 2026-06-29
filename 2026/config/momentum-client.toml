@@ -1,7 +1,11 @@
 #是否开启摄像头偏移
 enableCameraOffset = true
-#是否使用双击疾跑闪避(防止误操作)
-enableDoubleClickDodge = true
+#闪避: 按住Ctrl+双击方向键 → 沿方向冲刺
+enableDodgeDirDouble = true
+#闪避: 按住方向键+按下Ctrl → 沿速度方向冲刺
+enableDodgeSprintClick = false
+#闪避: 按住方向键+双击Ctrl → 沿速度方向冲刺
+enableDodgeSprintDouble = false
 
 [key_hints]
 #是否显示按键教程
