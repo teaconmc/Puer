@@ -18,7 +18,7 @@ gamerule show_advancement_messages false
 gamerule block_drops true
 
 # 关掉下界
-gamerule allow_entering_nether_using_portals true
+gamerule allow_entering_nether_using_portals false
 # 命令方块吵死了
 gamerule command_block_output false
 # 禁用火焰更新
@@ -27,6 +27,8 @@ gamerule fire_spread_radius_around_player 0
 gamerule respawn_radius 0
 # 关掉藤蔓生长
 gamerule spread_vines false
+# 不要积雪
+gamerule max_snow_accumulation_height 0
 
 
 say 欢迎来到模组开发茶会2026

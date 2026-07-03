@@ -1,5 +1,11 @@
 #是否开启摄像头偏移
 enableCameraOffset = true
+#闪避: 按住Ctrl+双击方向键 → 沿方向冲刺
+enableDodgeDirDouble = true
+#闪避: 按住方向键+按下Ctrl → 沿速度方向冲刺
+enableDodgeSprintClick = false
+#闪避: 按住方向键+双击Ctrl → 沿速度方向冲刺
+enableDodgeSprintDouble = false
 
 [key_hints]
 #是否显示按键教程
@@ -63,9 +69,19 @@ enableWallSlide = true
 enableWallRun = true
 #是否开启挂墙
 enableWallHang = true
+#是否开启蓄力跳
+enablePowerJump = true
 #是否开启蹬墙跳
 enableWallKick = true
 #是否开启翻越
 enableVaultUp = true
 #是否开启翻入
 enableVaultIn = true
+#是否开启水上漂(需要助推器)
+enableWaterRun = true
+#是否开启水中推进(海豚跳)
+enableWaterPush = true
+#是否开启缓降(需要助推器)
+enableFallSlow = true
+#是否开启空中二段跳(需要助推器)
+enableAirJump = true
