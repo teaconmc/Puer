@@ -3,3 +3,7 @@ name = "builder"
 [[permissions]]
 permission = "command.superlead"
 value = true
+
+[[permissions]]
+  permission = "net_music_can_play_bili.whitelist.manage"
+  value = true
