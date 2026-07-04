@@ -1,0 +1,19 @@
+{
+  "maxParticleAmountOfSingleQueue": 500000,
+  "limitMaxParticleGenerateDistance": false,
+  "noWelcomeScreen": true,
+  "bufferFillerThreads": 8,
+  "takeOverRendering": "ALL",
+  "takeOverTicking": "ALL",
+  "optimizeCommandBlockEditScreen": true,
+  "lightCacheXZRange": 256,
+  "_comment": "Y Range MUST be even",
+  "lightCacheYRange": 128,
+  "forceMaxLight": false,
+  "translucentMethod": "DEPTH_FALSE",
+  "lightCacheRefreshInterval": "FRAME",
+  "takeOverRenderBlackList": [
+    "mod.chloeprime.aaaparticles.api.client.util.VanillaParticleProxy"
+  ],
+  "takeOverTickBlackList": []
+}

@@ -1,0 +1,5 @@
+name = "staff"
+
+[[permissions]]
+permission = "luckperms.*"
+value = true

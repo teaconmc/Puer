@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "items": []
+  },
+  "keep_count": false,
+  "priority": 2000,
+  "result": {
+    "id": "fresh_food:rotten_food"
+  },
+  "rot_after_ticks": 168000
+}

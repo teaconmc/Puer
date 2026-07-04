@@ -1,0 +1,10 @@
+{
+  "inputs": {
+    "items": []
+  },
+  "keep_count": false,
+  "result": {
+    "id": "fresh_food:sour_stew"
+  },
+  "rot_after_ticks": 168000
+}

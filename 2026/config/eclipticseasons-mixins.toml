@@ -1,0 +1,109 @@
+	[common.biome]
+		MixinBiome = true
+
+	[common.block]
+		MixinBeehiveBlockEntity = true
+		MixinBlockState = true
+		MixinBlockStateBase = true
+		MixinCopperGrateBlock = true
+		MixinLayeredCauldronBlock = true
+		MixinFallingBlock = true
+
+	[common.chunk]
+		MixinAccessorLevelChunkSection = true
+		MixinChunkAccess = true
+		MixinLevelChunk = true
+		MixinPalettedContainer = true
+		MixinSimpleBitStorage = true
+		MixinZeroBitStorage = true
+
+	[common.command]
+		MixinWeatherCommand = true
+
+	[common.entity]
+		MixinEntity = true
+		MixinLivingEntity = true
+		MixinWanderingTrader = true
+
+	[common.level]
+		MixinAttributeTrackSampler = true
+		MixinLevel = true
+		MixinMinecraftServer = true
+		MixinServerLevel = true
+
+	[common.worldgen]
+		MixinSurfaceSystem = true
+
+	[common.item]
+		MixinMapItem = true
+
+	[compat.neoforge]
+		BlockStateModelHooksAccessor = true
+		MixinIBlockExtension = false
+
+	[compat.sodium]
+		MixinAbstractBlockRenderContext = true
+		MixinBlockRenderer = true
+		MixinBlockRenderTask = true
+		MixinClonedChunkSection = true
+		MixinDefaultModelEmitter = true
+		MixinLevelSlice = true
+		MixinNeoForgeModelAccess = true
+
+	[compat.distanthorizons]
+		MixinAbstractDhTintGetter = true
+		MixinClientLevel = true
+		MixinFullDataToRenderDataTransformer = true
+		MixinQuadTree = true
+
+	[compat.iris]
+		MixinAbstractBlockRenderContext = true
+		MixinBiomeUniforms = true
+		MixinBlockRenderTask = true
+
+[data]
+	MixinsRegistriesDatapackGenerator = true
+	RegistrySetBuilderMixin = true
+
+[game]
+	MixinBee_BeePollinateGoal = true
+	MixinBeehiveBlockEntity = true
+	MixinBreedGoal = true
+	MixinCow = true
+	MixinFishingHook = true
+
+[client]
+	MixinClientClientLevel = true
+	MixinClientLevelChunk = true
+	MixinGameRenderer = true
+	MixinLocalPlayer = true
+	MixinMinecraftClient = true
+	MixinWeatherEffectRenderer = true
+
+	[client.biome]
+		MixinBiomeColors = true
+		MixinClientBiome = true
+
+	[client.block]
+		MixinBlockColors = true
+		MixinClientBlockState = true
+
+		[client.block.sign]
+			MixinHangingSignRenderer = true
+			MixinHangingSignScreen = true
+
+	[client.chunk]
+		MixinModelBlockRenderer = true
+		MixinRenderChunkRegion_IMapSlice = true
+		MixinSectionCompiler = true
+
+	[client.model]
+		MixinModelBakery = true
+		MixinModelManager = true
+		MixinTextureAtlasSprite = true
+
+	[client.sound]
+		MixinMusicManager = true
+
+	[client.particle]
+		MixinFallingDustParticleProvider = true

@@ -1,0 +1,3 @@
+# Test Server
+interval = 7.5
+remote = "https://archive.teacon.cn/2026/toad/test/toad-sync-common.toml"
