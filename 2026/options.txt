@@ -11,3 +11,4 @@ key_key.middle_key_ping.generic:key.keyboard.unknown
 key_key.middle_key_ping.warning:key.keyboard.unknown
 key_key.middle_key_ping.goto:key.keyboard.unknown
 key_key.middle_key_ping.enemy:key.keyboard.unknown
+key_keys.xklibmc.open_map:key.keyboard.k

@@ -12,6 +12,8 @@
   "forceMaxLight": false,
   "translucentMethod": "DEPTH_FALSE",
   "lightCacheRefreshInterval": "FRAME",
-  "takeOverRenderBlackList": [],
+  "takeOverRenderBlackList": [
+    "mod.chloeprime.aaaparticles.api.client.util.VanillaParticleProxy"
+  ],
   "takeOverTickBlackList": []
 }
