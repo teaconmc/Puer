@@ -177,7 +177,7 @@
 #Snow overlays are visual, atmospheric effects and are distinct from physical snow blocks.
 [Snow]
 	#Controls atmospheric snow overlays during cold weather. Visual snow gradually covers solid blocks and grass, even in warmer biomes.
-	SnowyWinter = false
+	SnowyWinter = true
 	#Apply frost and snow overlays to the undersides of leaves and tree branches.
 	SnowyTree = true
 	#Prevents snow overlays from building up near blocks that emit significant light.
@@ -242,4 +242,4 @@
 	#Spring brings life to grass and flowers, while autumn marks the fading.
 	SpringGrass = false
 	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
-	IndependentRiverWeather = true
+	IndependentRiverWeather = false
