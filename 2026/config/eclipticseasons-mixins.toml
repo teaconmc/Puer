@@ -44,7 +44,7 @@
 	[compat.sodium]
 		MixinAbstractBlockRenderContext = true
 		MixinBlockRenderer = true
-		MixinBlockRenderTask = true
+		MixinBlockRenderTask = false
 		MixinClonedChunkSection = true
 		MixinDefaultModelEmitter = true
 		MixinLevelSlice = true
