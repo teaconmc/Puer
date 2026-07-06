@@ -131,3 +131,7 @@ value = false
 [[permissions]]
 permission = "command.areacontrol.admin"
 value = false
+
+[[permissions]]
+permission = "net_music_can_play_bili.whitelist.manage"
+value = true
