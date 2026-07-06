@@ -195,7 +195,7 @@ allowedEntities = [
 	"minecraft:zombie_horse",
 	"minecraft:zombie_nautilus",
 	"minecraft:zombie_villager",
-	"minecraft:zombified_piglin"，
+	"minecraft:zombified_piglin",
 	"lib39:*",
 	"lendandregret:*",
 	"minopp:*",
