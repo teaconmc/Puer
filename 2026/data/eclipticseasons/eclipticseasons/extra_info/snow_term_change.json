@@ -1,0 +1,7 @@
+{
+  "registry": "eclipticseasons:snow_term",
+  "target": [
+    "eclipticseasons:snow_a"
+  ],
+  "priority": 1200
+}
