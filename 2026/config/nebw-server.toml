@@ -9,7 +9,6 @@ packet_blacklist = [
 	"c2s@minecraft:command_suggestion",
 	"s2c@minecraft:player_info_remove",
 	"s2c@minecraft:player_info_update",
-	"s2c@minecraft:set_time",
 	"s2c@minecraft:register",
 	"s2c@minecraft:unregister" 
 ]
