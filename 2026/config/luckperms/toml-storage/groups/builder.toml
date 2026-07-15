@@ -135,3 +135,11 @@ value = false
 [[permissions]]
 permission = "net_music_can_play_bili.whitelist.manage"
 value = true
+
+[[permissions]]
+permission = "command.gamerule"
+value = false
+
+[[permissions]]
+permission = "command.time"
+value = false
