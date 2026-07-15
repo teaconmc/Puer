@@ -143,3 +143,11 @@ value = true
 [[permissions]]
 permission = "command.areacontrol.*"
 value = true
+
+[[permissions]]
+permission = "command.gamerule"
+value = true
+
+[[permissions]]
+permission = "command.time"
+value = true
