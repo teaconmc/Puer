@@ -1,0 +1,41 @@
+#How much spit can player hold
+# Default: 100
+# Range: > 1
+playerSpitCapacity = 200
+#How much spit a player regenerates per second while idle, Set to 0 to disable spit natural regeneration
+# Default: 1
+# Range: > 0
+playerSpitNaturalRegenerationSpeed = 2
+#How long(in ticks) can player charge without getting suffocate damage
+# Default: 100
+# Range: > 20
+playerMaxChargingTicks = 200
+#How much spit will at least be consumed when a player spit once
+# Default: 10
+# Range: > 1
+playerMinSpitCount = 10
+#How much spit can player regenerate from drinking
+# Default: 20
+# Range: > 0
+drinkRegenerationSpitCount = 25
+#Whether entities in the same team can hurt each other
+friendlyFire = false
+#Whether players can hurt each other through spit
+playerFriendlyFire = true
+
+	#TEACON - Defines area this mod works in, trying to use this mod outside of this range will be ignord.
+	[availableRange.start]
+		# Default: -100
+		# Range: > -2147483648
+		x = 626
+		# Default: -100
+		# Range: > -2147483648
+		z = 161
+
+	[availableRange.end]
+		# Default: 100
+		# Range: > -2147483648
+		x = 653
+		# Default: 100
+		# Range: > -2147483648
+		z = 188
