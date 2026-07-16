@@ -27,15 +27,15 @@ playerFriendlyFire = true
 	[availableRange.start]
 		# Default: -100
 		# Range: > -2147483648
-		x = 626
+		x = 625
 		# Default: -100
 		# Range: > -2147483648
-		z = 161
+		z = 160
 
 	[availableRange.end]
 		# Default: 100
 		# Range: > -2147483648
-		x = 653
+		x = 654
 		# Default: 100
 		# Range: > -2147483648
-		z = 188
+		z = 189
