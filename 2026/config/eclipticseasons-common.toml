@@ -46,9 +46,9 @@
 
 [Weather]
 	#Enable localized weather patterns where rain or sun is determined per-biome.
-	UseSolarWeather = true
+	UseSolarWeather = false
 	#Disable rain/snow in biomes with no natural precipitation (e.g., Deserts).
-	NotRainInDesert = true
+	NotRainInDesert = false
 	#Force initialize weather and snow states when the mod or world is first loaded.
 	ShouldInitWeather = false
 	#Force initialize snow states for extreme cold biomes when the mod or world is first loaded.
