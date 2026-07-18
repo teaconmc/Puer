@@ -64,7 +64,7 @@
 	#Adjusts the spread rate of atmospheric snow overlays across the ground.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
-	SnowAccumulationSpeedMultiplier = 1.0
+	SnowAccumulationSpeedMultiplier = 0.0
 	#Adjusts the recession speed of atmospheric snow overlays during warmer periods.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
