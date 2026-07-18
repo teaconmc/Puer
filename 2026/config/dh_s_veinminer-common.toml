@@ -19,4 +19,4 @@ veinMinerBlacklist = ""
 #连锁挖掘触发方式: KEYBIND(自定义键位,默认V键), SNEAK(潜行时触发), ALWAYS(直接触发) (默认: KEYBIND) / Vein mining trigger: KEYBIND(custom key,default V), SNEAK(hold shift), ALWAYS(always active) (default: KEYBIND)
 veinMinerTriggerAction = "KEYBIND"
 #范围白名单 (JSON格式)，定义立方体区域的两个对角坐标([x,y,z])，只有区域内的方块才会被连锁挖掘。多个区域用数组表示。一旦到达区域边界立刻停止此方向上的连锁。例如: [{"from":[100,50,100],"to":[200,80,200]},{"from":[300,60,300],"to":[400,90,400]}] / Range whitelist (JSON format). Define cuboid regions by two opposite corners. Only blocks within these regions will be vein mined. When empty, all positions are allowed (no range restriction). Multiple disjoint regions supported.
-veinMinerRegions = "[{\"from\":[123,24,679],\"to\":[182,8,643]}]"
+veinMinerRegions = "[{\"from\":[123,24,679],\"to\":[182,8,620]}]"
