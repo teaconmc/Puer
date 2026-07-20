@@ -1,0 +1,73 @@
+[zstd]
+	# The base-2 logarithm of the compression window size. See: https://www.jefftk.com/p/zstd-window-size
+	# Default: 20
+	# Range: 19 ~ 27
+	window_log = 20
+
+# Chunk cache is used to temporarily retain chunks that have recently left the major view,
+# in order to reduce frequent enter/leave churn when the player moves near view boundaries.
+# A cached chunk will be evicted if any of the following conditions is met:
+# - It has not been within the major view boundary for a configured amount of time (timeout).
+# - It is farther than the allowed cache distance from the current view center.
+# - The cache exceeds the configured size limit, in which case the oldest cached chunks are removed first.
+[chunk_cache]
+	# The maximum capacity of the cache queue for recently visited chunks.
+	# Default: 60
+	# Range: > 0
+	buffer_size = 240
+	# The distance threshold in chunks.
+	# If the distance between a cached chunk and the player exceeds
+	# this value plus the view distance, the chunk will be forgotten.
+	# Default: 5
+	# Range: > 0
+	distance = 5
+	# The time (in seconds) since the client's last visit.
+	# If this timeout is exceeded, the cached chunks will be forgotten.
+	# Default: 60
+	# Range: > 0
+	timeout = 30
+
+# Dispatch chunks in third-party approaches.
+# When syncing chunks, the server sends a small diff instead of full data, reducing network bandwidth usage.
+[chunk_cdn]
+	# Loads chunks from remove server, accepting http (DONOT USE THIS IN PRODUCTION SERVER!) and https protocol,
+	# with Java String#format styled placeholders for %1$s (version), %2$d (gridX), %3$d (gridZ).
+	# Remote server must return this correct data, as there won't be much validation in client sides.
+	# Leave it to empty to disable this feature.
+	dynamic_dispatch_url = ""
+	# ZSTD compression level for the Preshared Chunk Bundle.
+	# Default: 22
+	# Range: > 0
+	compress_level = 22
+	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
+	retry_timeout = 10
+
+[packet]
+	# Packets excluded from processing by NotEnoughBandwidth. (For Velocity compatibility, e.g.)
+	# Each entry must be in the format "<direction>@<packet_id>", where <direction>
+	# is "c2s" or "s2c", and <packet_id> is a Minecraft packet identifier (like minecraft:register).
+	blacklist = [
+        "s2c@minecraft:login",
+        "c2s@minecraft:keep_alive",
+        "s2c@minecraft:keep_alive",
+        "s2c@minecraft:command_suggestions",
+        "s2c@minecraft:commands",
+        "c2s@minecraft:chat_command",
+        "c2s@minecraft:client_command",
+        "c2s@minecraft:command_suggestion",
+        "s2c@minecraft:player_info_remove",
+        "s2c@minecraft:player_info_update",
+        "s2c@minecraft:register",
+        "s2c@minecraft:unregister"
+	]
+
+	# The maximum number of bytes allowed for the VarInt-encoded packet length field.
+	# Larger values permit larger packets, but may increase memory usage and expose the
+	# server to out-of-memory (OOM) attacks if untrusted clients send oversized frames.
+	[packet.size_varint_max]
+		# Default: 3
+		# Range: 1 ~ 5
+		c2s = 3
+		# Default: 3
+		# Range: 1 ~ 5
+		s2c = 5

@@ -11,4 +11,5 @@ key_key.middle_key_ping.generic:key.keyboard.unknown
 key_key.middle_key_ping.warning:key.keyboard.unknown
 key_key.middle_key_ping.goto:key.keyboard.unknown
 key_key.middle_key_ping.enemy:key.keyboard.unknown
-incompatibleResourcePacks:["mod/yuushya_ctm_support"]
+key_keys.xklibmc.open_map:key.keyboard.k
+key_key.aleeve_atlas.open_settings:key.keyboard.unknown

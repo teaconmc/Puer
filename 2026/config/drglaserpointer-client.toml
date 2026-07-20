@@ -1,0 +1,9 @@
+[cube_mark_model]
+	#Set to true to enable cube mark model.
+	cubeMarkModel = false
+
+[mark_display_range]
+	#The display range of marks. Default value: 120
+	# Default: 120
+	# Range: 0 ~ 511
+	markDisplayRange = 120

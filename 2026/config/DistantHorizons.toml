@@ -13,6 +13,11 @@ enableDistantGeneration = true
 			showPoolInsufficientMemoryWarning = true
 			logGarbageCollectorWarning = true
 			showGarbageCollectorWarning = false
+	
+	[common.worldGenerator]
+		generationCenterChunkZ = 128
+		generationCenterChunkX = 128
+		generationMaxChunkRadius = 128
 
 [client]
 	showDhOptionsButtonInMinecraftUi = true
@@ -22,3 +27,12 @@ enableDistantGeneration = true
 
 		[client.advanced.multiplayer]
 			serverFolderNameMode = "NAME_ONLY"
+
+		[client.advanced.graphics]
+
+			[client.advanced.graphics.quality]
+				lodChunkRenderDistanceRadius = 144
+
+			[client.advanced.graphics.experimental]
+
+				renderingEngine = "OPEN_GL"

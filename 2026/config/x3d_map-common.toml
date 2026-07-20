@@ -1,0 +1,8 @@
+#Allow server-side sent chunk to client. When disabled, clients cannot request server-side chunk re-rendering.
+allowServerSentChunk = false
+#Override the sea level height used when compiling chunks.
+overrideSeaLevel = true
+#Sea level height used when sea level override is enabled.
+# Default: 0
+# Range: > -2147483648
+seaLevelOverride = 0

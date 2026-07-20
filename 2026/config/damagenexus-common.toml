@@ -1,4 +1,9 @@
 [developer]
+	#Enable DamageNexus developer test commands.
+	#This allows commands that can spawn test targets or generate test items.
+	#Keep this disabled for normal gameplay and public builds.
+	#Default: false
+	testCommandsEnabled = false
 	#If true, processor exceptions are rethrown and can crash the damage event.
 	#Use true during development.
 	#If false, failing processors are logged and skipped.
@@ -9,13 +14,16 @@
 	#If false, failing rule conditions/operations are logged and skipped.
 	#Default: false
 	strictRuleErrors = false
-	#Enable DamageNexus developer test commands.
-	#This allows commands that can spawn test targets or generate test items.
-	#Keep this disabled for normal gameplay and public builds.
-	#Default: false
-	testCommandsEnabled = true
 
 [diagnostics]
+	#Primary DamageNexus diagnostics mode.
+	#OFF: no transaction diagnostics or trace output; normal warnings may still be logged.
+	#COMPATIBILITY: emit compatibility diagnostics for vanilla/other-mod interaction checks without normal trace spam.
+	#SUMMARY: emit compact transaction summaries plus compatibility diagnostics.
+	#FULL_TRACE: emit verbose processor, rule, mutation, contribution, and bucket-level trace details.
+	#Default: OFF
+	#Allowed Values: OFF, COMPATIBILITY, SUMMARY, FULL_TRACE
+	mode = "OFF"
 	#Deprecated compatibility alias for older configs.
 	#Prefer diagnostics.mode.
 	#When true, DamageNexus derives at least SUMMARY diagnostics from the legacy verbosity settings.
@@ -35,14 +43,6 @@
 	#Default: WARNINGS_ONLY
 	#Allowed Values: WARNINGS_ONLY, SUMMARY, FULL
 	serverLogVerbosity = "WARNINGS_ONLY"
-	#Primary DamageNexus diagnostics mode.
-	#OFF: no transaction diagnostics or trace output; normal warnings may still be logged.
-	#COMPATIBILITY: emit compatibility diagnostics for vanilla/other-mod interaction checks without normal trace spam.
-	#SUMMARY: emit compact transaction summaries plus compatibility diagnostics.
-	#FULL_TRACE: emit verbose processor, rule, mutation, contribution, and bucket-level trace details.
-	#Default: OFF
-	#Allowed Values: OFF, COMPATIBILITY, SUMMARY, FULL_TRACE
-	mode = "SUMMARY"
 
 	[diagnostics.clientForwarding]
 		#Forward selected DamageNexus diagnostics to clients as system chat messages.
@@ -53,24 +53,24 @@
 		#ALL_PLAYERS: every online player. Use only on private debug servers.
 		#Default: OFF
 		#Allowed Values: OFF, INVOLVED_PLAYERS, OPS, ALL_PLAYERS
-		mode = "INVOLVED_PLAYERS"
+		mode = "OFF"
 		#Caps which enabled DamageNexus diagnostics may be forwarded to clients.
 		#WARNINGS_ONLY: only suspicious/warning lines.
 		#SUMMARY: warnings plus transaction summaries and compatibility diagnostics.
 		#FULL: all trace lines, including processor/rule/phase spam.
 		#Default: WARNINGS_ONLY
 		#Allowed Values: WARNINGS_ONLY, SUMMARY, FULL
-		verbosity = "SUMMARY"
+		verbosity = "WARNINGS_ONLY"
 		#Maximum DamageNexus debug lines forwarded to clients per server tick.
 		#Prevents chat/network spam when client forwarding is enabled.
 		#Default: 20
 		# Default: 20
 		# Range: 1 ~ 200
-		maxLinesPerTick = 80
+		maxLinesPerTick = 1
 		#If true, players must opt in before receiving forwarded DamageNexus debug chat.
 		#Recommended true for public test servers.
 		#Default: true
-		requireReceiverOptIn = false
+		requireReceiverOptIn = true
 
 [tooltips]
 	#Controls DamageNexus debug information shown in item tooltips.
