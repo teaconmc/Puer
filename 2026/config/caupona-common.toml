@@ -12,7 +12,7 @@
 	#Additional speed added per tick for roads
 	# Default: 2.0
 	# Range: 0.0 ~ 10.0
-	roadSpeedAddtion = 0.225
+	roadSpeedAddtion = 0.4
 
 [misc]
 	#Compress output from codecs when sending by network to improve performance.
