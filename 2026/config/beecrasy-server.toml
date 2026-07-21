@@ -1,0 +1,45 @@
+[beehive]
+	#Lifespan for an average lifespan gene.
+	# Default: 12000
+	# Range: > 20
+	averageLifespan = 6000
+	#Work interval for a hive.
+	# Default: 100
+	# Range: > 20
+	hiveInterval = 50
+	#Working radius for a hive.
+	# Default: 3
+	# Range: > 1
+	hiveWorkingRadius = 3
+	#Flower transformation radius for a hive.
+	# Default: 4
+	# Range: > 1
+	hiveFloringRadius = 4
+	#Flower transformation try time for a hive.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.147483647E9
+	hiveFloringRate = 0.0
+
+[bees]
+	#Larva dies when leaving hive for specific seconds(20 ticks), set 0 to disable.
+	# Default: 600
+	# Range: > 0
+	larvaSurviveSeconds = 600
+	#Total chance for mutations.
+	# Default: 0.075
+	# Range: 0.0 ~ 1.0
+	mutationChance = 0.15
+
+[sequencer]
+	#Honey consumption in mB.
+	# Default: 25
+	# Range: > 0
+	honeyCost = 25
+	#Energy consumption in FE.
+	# Default: 5000
+	# Range: > 0
+	energyCost = 5000
+	#Energy input limit in FE.
+	# Default: 640
+	# Range: > 0
+	energyLimit = 640
