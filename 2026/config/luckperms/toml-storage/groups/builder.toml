@@ -143,3 +143,7 @@ value = false
 [[permissions]]
 permission = "command.time"
 value = false
+
+[[permissions]]
+permission = "command.fill"
+value = false
