@@ -147,3 +147,7 @@ value = false
 [[permissions]]
 permission = "command.fill"
 value = false
+
+[[permissions]]
+permission = "command.clone"
+value = false
