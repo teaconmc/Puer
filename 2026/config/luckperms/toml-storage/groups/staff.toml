@@ -155,3 +155,7 @@ value = true
 [[permissions]]
 permission = "command.time"
 value = true
+
+[[permissions]]
+permission = "command.clone"
+value = true
