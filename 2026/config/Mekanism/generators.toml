@@ -157,23 +157,23 @@
 	#Settings for configuring Fission Reactor Meltdowns.
 	[fission_reactor.meltdowns]
 		#Whether catastrophic meltdowns can occur from Fission Reactors. If this is disabled, instead of melting down the reactor will force turn itself off and not be able to be turned back on until the damage level has returned to safe levels.
-		enabled = true
+		enabled = false
 		#The radius of the explosion that occurs from a meltdown.
 		# Default: 8.0
 		# Range: 1.0 ~ 500.0
-		radius = 8.0
+		radius = 1.0
 		#The chance of a catastrophic meltdown occurring once the reactor's damage passes 100%. This will linearly scale as damage continues increasing passed 100%.
 		# Default: 0.00
 		# Range: 0.0 ~ 1.0
-		chance = 0.001
+		chance = 0.0
 		#How much radioactivity of fuel/waste contents are multiplied during a meltdown.
 		# Default: 50.0
 		# Range: 0.1 ~ 1000000.0
-		radiationMultiplier = 50.0
+		radiationMultiplier = 0.1
 		#Percent damage that a reactor will start at after being reconstructed after a meltdown.
 		# Default: 75.0
 		# Range: 0.0 ~ 100.0
-		postMeltdownDamage = 75.0
+		postMeltdownDamage = 0.0
 
 #Settings for configuring Fusion Reactors
 [fusion_reactor]
