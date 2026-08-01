@@ -146,8 +146,8 @@ value = false
 
 [[permissions]]
 permission = "command.fill"
-value = false
+value = true
 
 [[permissions]]
 permission = "command.clone"
-value = false
+value = true
