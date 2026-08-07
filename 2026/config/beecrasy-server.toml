@@ -43,3 +43,7 @@
 	# Default: 640
 	# Range: > 0
 	energyLimit = 640
+
+[misc]
+    #Whether startup task should NOT block vanilla /reload command, may affect correctness. Set true only when you use reload frequently in-game or debug. DO NOT TOUCH UNLESS YOU UNDERSTAND WHAT YOU ARE DOING. 
+    dontBlockReload = true
