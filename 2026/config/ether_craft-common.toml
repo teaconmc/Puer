@@ -447,7 +447,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	#Low-ether fixed ratio a for chip maintain cost: base = e*a when e<=consume
 	# Default: 0.17
 	# Range: 0.0 ~ 1.0
-	base_ratio = 0.17
+	base_ratio = 0.399
 	#Reserve multiplier k for batch charging: each chip receives +k*consume per batch
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
