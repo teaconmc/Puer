@@ -6,4 +6,4 @@ overrideSeaLevel = true
 # Default: 0
 # Range: > -2147483648
 seaLevelOverride = 0
-showMotd = true
+showMotd = false
