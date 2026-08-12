@@ -1,0 +1,12 @@
+{
+  "name": {
+    "text": "主题评价：老树新花"
+  },
+  "enabled": {
+    "default": false,
+    "modifiable": false
+  },
+  "description": {
+    "text": "参赛模组写出了自己对「旧规则」的独到见解，并在此基础上演绎出了全新的体验。"
+  }
+}
