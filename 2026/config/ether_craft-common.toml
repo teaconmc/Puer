@@ -177,7 +177,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	#Ticks between counter decrements in index mapping
 	# Default: 20
 	# Range: > 1
-	index_mapping_decay_interval = 20
+	index_mapping_decay_interval = 100
 	#Records needed before a stream gets a stable index
 	# Default: 20
 	# Range: > 1
@@ -186,6 +186,16 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	# Default: 1
 	# Range: > 1
 	block_scan_interval = 10
+	#Max distance between an entity and its recorded handoff stream for entity handoff between ether streams
+	# Default: 2.25
+	# Range: 0.0 ~ 64.0
+	handoff_distance = 2.25
+	#Simulate interval of Ether Stream (including movement/collitions and other), only affect VES(stream from machines). This value may NOT be hot reloaded. Big value may cause to delay of interactions from ether stream.
+	# Default: 1
+	# Range: 1 ~ 40
+	simulate_interval = 5
+	#Index mapping strategy: 'frequency_threshold' (legacy, permanent ids) or 'frequency_topk' (top-249 by frequency, reordered every 100 ticks). Takes effect after re-entering the world.
+	index_mapping_strategy = "frequency_topk"
 
 	[ether_stream.break_block]
 		#Multiplier for block hardness in ether cost calculation per block break
@@ -222,12 +232,8 @@ item_pick_up_by_stream_delay_after_dropped = 20
 		# Default: 10.0
 		# Range: 1.0 ~ 1000000.0
 		max_size = 10.0
-
-	[ether_stream.display_time]
-		#Ticks the precomputed DisplayTime collision end point stays cached before rescanning
-		# Default: 20
-		# Range: > 1
-		cache_tick = 20
+		#If true, Ether Stream text labels are hidden by default (particles render instead). Players can opt back in via /ether_craft stream_label.
+		hide_by_default = true
 
 [plating]
 	#Duration in ticks for plating to complete (20 ticks = 1 second)
@@ -445,9 +451,9 @@ item_pick_up_by_stream_delay_after_dropped = 20
 
 [factory]
 	#Low-ether fixed ratio a for chip maintain cost: base = e*a when e<=consume
-	# Default: 0.17
+	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	base_ratio = 0.399
+	base_ratio = 0.5
 	#Reserve multiplier k for batch charging: each chip receives +k*consume per batch
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
@@ -464,3 +470,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	# Default: 1.5
 	# Range: 0.01 ~ 20.0
 	decay_lambda = 1.5
+	#Minimum per-batch charging quota per chip: reservePer = max(min, round(k*consume))
+	# Default: 2
+	# Range: 0 ~ 100000
+	min_reserve_per = 2
