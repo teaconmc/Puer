@@ -233,7 +233,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 		# Range: 1.0 ~ 1000000.0
 		max_size = 10.0
 		#If true, Ether Stream text labels are hidden by default (particles render instead). Players can opt back in via /ether_craft stream_label.
-		hide_by_default = false
+		hide_by_default = true
 
 [plating]
 	#Duration in ticks for plating to complete (20 ticks = 1 second)
