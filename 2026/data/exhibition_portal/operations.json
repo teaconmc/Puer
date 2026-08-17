@@ -1,0 +1,69 @@
+{
+  "commands": [
+    {
+      "id": "clear_backpack",
+      "title": "清空背包和饰品",
+      "tooltip": "清空自身背包和饰品栏里的所有物品",
+      "commands": [
+        "/clear @s",
+        "/curios clear @s"
+      ]
+    },
+    {
+      "id": "clear_effects",
+      "title": "清除状态效果",
+      "tooltip": "清空当前身上所有生效的状态效果（包括不死灵药）",
+      "commands": [
+        "/effect clear @s",
+        "/the_elixir human @s"
+      ]
+    },
+    {
+      "id": "reheal",
+      "title": "补满血量饱食",
+      "tooltip": "回复自身血量、饥饿值、和经验等级",
+      "commands": [
+        "/effect clear @s",
+        "/effect give @s minecraft:saturation 3 50 true",
+        "/effect give @s minecraft:regeneration 3 50 true",
+        "/experience add @s -2147483648 points",
+        "/experience set @s 2025 levels",
+        "/experience add @s 9020 points",
+        "/tellraw @s [\"已恢复 \",{\"selector\":\"@s\"},\" 的血量、饥饿值、和经验等级\"]"
+      ]
+    },
+    {
+      "id": "starve",
+      "title": "快速饥饿",
+      "tooltip": "健胃消食片，让你可以继续品尝食物",
+      "commands": [
+        "/effect give @s minecraft:hunger 10 100 true"
+      ]
+    },
+    {
+      "id": "suicide",
+      "title": "紧急脱困",
+      "tooltip": "把你的生命值设为零，大概会导致你回到重生点或者最后一次访问的土地庙",
+      "commands": [
+        "/kill @s"
+      ]
+    },
+    {
+      "id": "clear_ac_safe",
+      "title": "清空 AC 保险箱",
+      "tooltip": "如果你的保险箱里塞了太多不需要保险的东西",
+      "commands": [
+        "/ac safe clear",
+        "/tellraw @s [\"已清空 \",{\"selector\":\"@s\"},\" 的 AreaControl 保险箱\"]"
+      ]
+    },
+    {
+      "id": "get_comment_tool",
+      "title": "领取 评论工具",
+      "tooltip": "如果你把进入时发的评论工具弄丢了，可以再领一个",
+      "commands": [
+        "/give @s worldcomment:comment_tool"
+      ]
+    }
+  ]
+}

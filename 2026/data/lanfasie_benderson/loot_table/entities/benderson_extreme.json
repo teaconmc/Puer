@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "components": {
+                "minecraft:item_name": "TeaCon 2026 晨曦等待者挑战成功确认章"
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bonus:\"memorial\"}"
+            }
+          ],
+          "name": "lanfasie_benderson:dawnwaiter_totem"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "lanfasie_benderson:entities/benderson_extreme"
+}
