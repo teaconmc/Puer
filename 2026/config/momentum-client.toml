@@ -6,6 +6,11 @@ enableDodgeDirDouble = true
 enableDodgeSprintClick = false
 #闪避: 按住方向键+双击Ctrl → 沿速度方向冲刺
 enableDodgeSprintDouble = false
+#机动时速度拉满的视野加宽幅度（度）
+#默认值: 0.0（关闭，部分玩家会眩晕）
+# Default: 0.0
+# Range: 0.0 ~ 30.0
+fovBonusMax = 0.0
 
 [key_hints]
 #是否显示按键教程
@@ -77,11 +82,11 @@ enableWallKick = true
 enableVaultUp = true
 #是否开启翻入
 enableVaultIn = true
-#是否开启水上漂(需要助推器)
+#是否开启水上漂(需要助推器)/未完成
 enableWaterRun = true
 #是否开启水中推进(海豚跳)
 enableWaterPush = true
-#是否开启缓降(需要助推器)
+#是否开启缓降(需要助推器)/未完成
 enableFallSlow = true
-#是否开启空中二段跳(需要助推器)
+#是否开启空中二段跳(需要助推器)/未完成
 enableAirJump = true
