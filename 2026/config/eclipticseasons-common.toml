@@ -46,9 +46,9 @@
 
 [Weather]
 	#Enable localized weather patterns where rain or sun is determined per-biome.
-	UseSolarWeather = true
+	UseSolarWeather = false
 	#Disable rain/snow in biomes with no natural precipitation (e.g., Deserts).
-	NotRainInDesert = true
+	NotRainInDesert = false
 	#Force initialize weather and snow states when the mod or world is first loaded.
 	ShouldInitWeather = false
 	#Force initialize snow states for extreme cold biomes when the mod or world is first loaded.
@@ -64,7 +64,7 @@
 	#Adjusts the spread rate of atmospheric snow overlays across the ground.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
-	SnowAccumulationSpeedMultiplier = 1.0
+	SnowAccumulationSpeedMultiplier = 0.0
 	#Adjusts the recession speed of atmospheric snow overlays during warmer periods.
 	# Default: 1.0
 	# Range: 0.0 ~ 20.0
@@ -177,7 +177,7 @@
 #Snow overlays are visual, atmospheric effects and are distinct from physical snow blocks.
 [Snow]
 	#Controls atmospheric snow overlays during cold weather. Visual snow gradually covers solid blocks and grass, even in warmer biomes.
-	SnowyWinter = false
+	SnowyWinter = true
 	#Apply frost and snow overlays to the undersides of leaves and tree branches.
 	SnowyTree = true
 	#Prevents snow overlays from building up near blocks that emit significant light.
@@ -242,4 +242,4 @@
 	#Spring brings life to grass and flowers, while autumn marks the fading.
 	SpringGrass = false
 	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
-	IndependentRiverWeather = true
+	IndependentRiverWeather = false

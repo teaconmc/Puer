@@ -10,7 +10,7 @@
   "_comment": "Y Range MUST be even",
   "lightCacheYRange": 128,
   "forceMaxLight": false,
-  "translucentMethod": "DEPTH_FALSE",
+  "translucentMethod": "DEPTH_TRUE",
   "lightCacheRefreshInterval": "FRAME",
   "takeOverRenderBlackList": [
     "mod.chloeprime.aaaparticles.api.client.util.VanillaParticleProxy"

@@ -1,5 +1,153 @@
 name = "builder"
 
+[[parents]]
+group = "default"
+
+[[prefixes]]
+prefix = "[参展选手] "
+priority = 1
+
 [[permissions]]
-permission = "command.superlead"
+permission = "area_control.commands.claim"
+value = true
+
+[[permissions]]
+permission = "area_control.commands.build"
+value = true
+
+[[permissions]]
+permission = "spark.all"
+value = true
+
+[[permissions]]
+permission = "command.spark"
+value = true
+
+[[permissions]]
+permission = "command.spark.args"
+value = true
+
+[[permissions]]
+permission = "worldedit.*"
+value = true
+
+[[permissions]]
+permission = "command.tp"
+value = true
+
+[[permissions]]
+permission = "command.tp.*"
+value = true
+
+[[permissions]]
+permission = "command.gamemode"
+value = true
+
+[[permissions]]
+permission = "command.gamemode.*"
+value = true
+
+[[permissions]]
+permission = "command.ecliptic"
+value = true
+
+[[permissions]]
+permission = "command.ecliptic.*"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc"
+value = true
+
+[[permissions]]
+permission = "command.easy_npc.*"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft"
+value = true
+
+[[permissions]]
+permission = "command.inkcraft.*"
+value = true
+
+[[permissions]]
+permission = "powertool.see_command_feedback_from_others"
+value = false
+
+[[permissions]]
+permission = "command.mystiasizakaya"
+value = true
+
+[[permissions]]
+permission = "command.mystiasizakaya.*"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks"
+value = true
+
+[[permissions]]
+permission = "command.fluxnetworks.*"
+value = true
+
+[[permissions]]
+permission = "command.convivium"
+value = true
+
+[[permissions]]
+permission = "command.convivium.*"
+value = true
+
+
+[[permissions]]
+permission = "command.thatskyinteractions.*"
+value = true
+
+[[permissions]]
+permission = "command.thatskyinteractions"
+value = true
+
+[[permissions]]
+permission = "command.whispergrove"
+value = true
+
+[[permissions]]
+permission = "command.whispergrove.*"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.*"
+value = true
+
+[[permissions]]
+permission = "command.areacontrol.admin.*"
+value = false
+
+[[permissions]]
+permission = "command.areacontrol.admin"
+value = false
+
+[[permissions]]
+permission = "net_music_can_play_bili.whitelist.manage"
+value = true
+
+[[permissions]]
+permission = "command.gamerule"
+value = false
+
+[[permissions]]
+permission = "command.time"
+value = false
+
+[[permissions]]
+permission = "command.fill"
+value = true
+
+[[permissions]]
+permission = "command.clone"
 value = true
