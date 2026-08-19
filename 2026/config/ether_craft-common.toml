@@ -196,6 +196,14 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	simulate_interval = 5
 	#Index mapping strategy: 'frequency_threshold' (legacy, permanent ids) or 'frequency_topk' (top-249 by frequency, reordered every 100 ticks). Takes effect after re-entering the world.
 	index_mapping_strategy = "frequency_topk"
+	#Ticks between sweeping dead virtual stream holder tombstones (20 ticks = 1 second)
+	# Default: 100
+	# Range: > 1
+	holder_cleanup_interval = 100
+	#Ticks between top-k index reordering. Only used by 'frequency_topk' strategy.
+	# Default: 100
+	# Range: > 1
+	index_mapping_topk_reorder_interval = 100
 
 	[ether_stream.break_block]
 		#Multiplier for block hardness in ether cost calculation per block break
@@ -453,7 +461,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	#Low-ether fixed ratio a for chip maintain cost: base = e*a when e<=consume
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
-	base_ratio = 0.5
+	base_ratio = 0.39
 	#Reserve multiplier k for batch charging: each chip receives +k*consume per batch
 	# Default: 1.0
 	# Range: 0.0 ~ 100.0
@@ -471,6 +479,10 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	# Range: 0.01 ~ 20.0
 	decay_lambda = 1.5
 	#Minimum per-batch charging quota per chip: reservePer = max(min, round(k*consume))
-	# Default: 2
+	# Default: 1
 	# Range: 0 ~ 100000
-	min_reserve_per = 2
+	min_reserve_per = 1
+	#If true, replacing a chip in the factory keeps the old chip's ether amount. If false (default), the slot's chip ether resets to zero when the chip is replaced.
+	keep_chip_ether_on_swap = false
+	#If true, chip maintenance cost / reserve quota use non-truncating floating-point math. Float is used only for cost calculation; sync/display keep integer ether. Default false keeps legacy integer behavior.
+	float_calc = true
