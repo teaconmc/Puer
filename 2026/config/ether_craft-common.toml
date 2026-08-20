@@ -11,7 +11,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	#Ticks an ether item entity must wait before auto-converting to inactivated ether
 	# Default: 100
 	# Range: > 1
-	inactivate_convert_tick = 100
+	inactivate_convert_tick = 40
 
 [node]
 	#Default max ether value of Ether Adapt Node
