@@ -26,6 +26,10 @@
 	# Default: 60
 	# Range: > 0
 	timeout = 30
+	# Whether cached chunks should stay active if others doesn't load it.
+	# If false, chunks are unloaded if others doesn't load it and will be sync to client
+	# next time when it becomes visible.
+	aggressively = false
 
 # Dispatch chunks in third-party approaches.
 # When syncing chunks, the server sends a small diff instead of full data, reducing network bandwidth usage.
