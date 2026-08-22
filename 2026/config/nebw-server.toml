@@ -20,7 +20,7 @@
 	# this value plus the view distance, the chunk will be forgotten.
 	# Default: 5
 	# Range: > 0
-	distance = 5
+	distance = 0
 	# The time (in seconds) since the client's last visit.
 	# If this timeout is exceeded, the cached chunks will be forgotten.
 	# Default: 60
