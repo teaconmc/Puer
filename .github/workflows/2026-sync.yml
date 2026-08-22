@@ -85,7 +85,7 @@ jobs:
 
           sed -i 's/test/prod/g' 2026/config/toad-sync-common.toml
           ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/prod/
-      - name: Generate & Sync Toad Artifacts For Test
+      - name: Generate & Upload Toad Artifacts For Test
         if: ${{ startsWith(github.ref, 'refs/heads') }}
         env:
           BUCKET: ${{ secrets.BUCKET }}
@@ -113,7 +113,7 @@ jobs:
 
           root = Path("toad")
           source = Path("2026/config/toad-sync-common.toml")
-          files = {
+          temporary_files = {
               "options": "options.override.txt",
               "assets": "assets.override.zip",
               "data": "data.override.zip",
@@ -122,22 +122,36 @@ jobs:
           def digest(path: Path) -> str:
               return sha256(path.read_bytes()).hexdigest()
 
+          artifacts = {}
+          for kind, temporary_name in temporary_files.items():
+              temporary_path = root / temporary_name
+              hash_ = digest(temporary_path)
+              artifact_path = temporary_path.with_name(
+                  f"{kind}.{hash_[-8:]}{temporary_path.suffix}"
+              )
+              temporary_path.rename(artifact_path)
+              artifacts[kind] = (hash_, artifact_path.name)
+
+          options_hash, options_file = artifacts["options"]
+          assets_hash, assets_file = artifacts["assets"]
+          data_hash, data_file = artifacts["data"]
+
           prefix = source.read_text(encoding="utf-8") if source.exists() else ""
           generated = "\n".join([
               "# Options",
               "[sync.options]",
-              f'hash = "{digest(root / files["options"])}"',
-              f'file = "{files["options"]}"',
+              f'hash = "{options_hash}"',
+              f'file = "{options_file}"',
               "",
               "# Resource pack",
               "[sync.assets]",
-              f'hash = "{digest(root / files["assets"])}"',
-              f'file = "{files["assets"]}"',
+              f'hash = "{assets_hash}"',
+              f'file = "{assets_file}"',
               "",
               "# Datapack",
               "[sync.data]",
-              f'hash = "{digest(root / files["data"])}"',
-              f'file = "{files["data"]}"',
+              f'hash = "{data_hash}"',
+              f'file = "{data_file}"',
               "",
               "",
           ])
@@ -150,8 +164,13 @@ jobs:
           PY
 
           rm -f toad/teacon-manifest.test.toml
-          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./toad/ oss://$BUCKET/2026/toad/test/
-      - name: Generate & Sync Toad Artifacts For Prod
+          ARTIFACT_META='Cache-Control:public,max-age=2592000,s-maxage=2592000'
+          TOML_META='Cache-Control:public,no-cache'
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/options.*.txt oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/assets.*.zip oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/data.*.zip oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$TOML_META" toad/toad-sync-common.toml oss://$BUCKET/2026/toad/test/toad-sync-common.toml
+      - name: Generate & Upload Toad Artifacts For Prod
         if: ${{ startsWith(github.ref, 'refs/tags') }}
         env:
           BUCKET: ${{ secrets.BUCKET }}
@@ -179,7 +198,7 @@ jobs:
 
           root = Path("toad")
           source = Path("2026/config/toad-sync-common.toml")
-          files = {
+          temporary_files = {
               "options": "options.override.txt",
               "assets": "assets.override.zip",
               "data": "data.override.zip",
@@ -188,22 +207,36 @@ jobs:
           def digest(path: Path) -> str:
               return sha256(path.read_bytes()).hexdigest()
 
+          artifacts = {}
+          for kind, temporary_name in temporary_files.items():
+              temporary_path = root / temporary_name
+              hash_ = digest(temporary_path)
+              artifact_path = temporary_path.with_name(
+                  f"{kind}.{hash_[-8:]}{temporary_path.suffix}"
+              )
+              temporary_path.rename(artifact_path)
+              artifacts[kind] = (hash_, artifact_path.name)
+
+          options_hash, options_file = artifacts["options"]
+          assets_hash, assets_file = artifacts["assets"]
+          data_hash, data_file = artifacts["data"]
+
           prefix = source.read_text(encoding="utf-8") if source.exists() else ""
           generated = "\n".join([
               "# Options",
               "[sync.options]",
-              f'hash = "{digest(root / files["options"])}"',
-              f'file = "{files["options"]}"',
+              f'hash = "{options_hash}"',
+              f'file = "{options_file}"',
               "",
               "# Resource pack",
               "[sync.assets]",
-              f'hash = "{digest(root / files["assets"])}"',
-              f'file = "{files["assets"]}"',
+              f'hash = "{assets_hash}"',
+              f'file = "{assets_file}"',
               "",
               "# Datapack",
               "[sync.data]",
-              f'hash = "{digest(root / files["data"])}"',
-              f'file = "{files["data"]}"',
+              f'hash = "{data_hash}"',
+              f'file = "{data_file}"',
               "",
               "",
           ])
@@ -216,4 +249,9 @@ jobs:
           PY
 
           rm -f toad/teacon-manifest.prod.toml
-          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./toad/ oss://$BUCKET/2026/toad/prod/
+          ARTIFACT_META='Cache-Control:public,max-age=2592000,s-maxage=2592000'
+          TOML_META='Cache-Control:public,no-cache'
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/options.*.txt oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/assets.*.zip oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/data.*.zip oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$TOML_META" toad/toad-sync-common.toml oss://$BUCKET/2026/toad/prod/toad-sync-common.toml
