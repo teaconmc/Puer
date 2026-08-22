@@ -9,11 +9,11 @@
       "weight": 1.0
     },
     {
-      "category": "teacon:theme_rule_rebirth",
+      "category": "teacon:theme_nearby_link",
       "weight": 1.0
     },
     {
-      "category": "teacon:theme_nearby_link",
+      "category": "teacon:theme_rule_rebirth",
       "weight": 1.0
     }
   ]
