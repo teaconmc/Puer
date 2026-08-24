@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+            "entity_type": "minecraft:interaction",
+            "nbt": "{Tags:[\"fox_proxy\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "ashihara:fox_proxy"}
+}

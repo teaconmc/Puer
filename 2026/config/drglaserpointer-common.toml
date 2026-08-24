@@ -1,0 +1,5 @@
+[laser_range]
+	#The range of laser. Default value: 80
+	# Default: 80
+	# Range: 0 ~ 511
+	laserRange = 80

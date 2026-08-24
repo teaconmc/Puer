@@ -1,0 +1,34 @@
+#Debug settings
+[Debug]
+	#Set false to stop output dig log.
+	Log = false	
+	WorldTypeSelect = false
+
+#Play settings
+[Play]
+	#Set true to collect item dropped nearby the oneblock but may cause some delay.
+	CollectItem = true
+	#Set true to add a name for the mobs which spawn.
+	AddMobName = false
+	#Set the lang key for mob name.
+	MobName = "misc.oneblock.custom_name.mob"
+	#Disable mobs via regular expressions, such as minecraft:*horse or minecraft:rabbit.
+	DisableMobs = []
+	#The chance of tamed skeleton horse spawn.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	TamedSkeletonHorseChance = 0.3
+	#The chance of horse spawn with saddle.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	HorseWithSaddleChance = 0.25
+	#Set true to summon unfriendly mobs.
+	AllowUnfriendlyMobs = true
+	#Set true to allow structure being placed.
+	AllowGenerateStructure = true
+	#Set true to allow feature being placed.
+	AllowGenerateFeature = true
+	#Set true to allow commands using.
+	AllowCommand = true
+	#Set true to allow sounds being played.
+	AllowPlaySound = true

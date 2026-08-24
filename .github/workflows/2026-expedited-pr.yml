@@ -1,0 +1,38 @@
+name: TeaCon 2026 Pull Request Expedited
+permissions: {}
+on:
+  pull_request_target:
+    branches:
+      - dev
+    types:
+      - opened
+      - edited
+    paths:
+      - '!**'
+      - 2026/config/**
+      - 2026/serverconfig/**
+      - 2026/data/**
+      - 2026/assets/**
+jobs:
+  expedited_merge:
+    name: Expedited Merge
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auth as GitHub App
+        id: auth-as-github-app
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.TEACON_BOT_ID }}
+          private-key: ${{ secrets.TEACON_BOT_PRIVATE_KEY }}
+      - name: Expedited Merge
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.auth-as-github-app.outputs.token }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          CONSENT_PATTERN: '- [X] **版权声明：我同意在我的 Pull Request 合并成功后，Pull Request 中的内容视作进入公有领域（Public Domain）。**'
+        run: |
+          shopt -s nocasematch
+          if [[ $(gh pr view $PR_URL --json body --jq '.body') == *"$CONSENT_PATTERN"* ]]; then
+            echo '::notice::检测到已同意声明，快速合并'
+            gh pr merge $PR_URL --squash
+          fi

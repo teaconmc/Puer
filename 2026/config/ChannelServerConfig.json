@@ -1,0 +1,9 @@
+{
+  "useSubspace": true,
+  "subspaceAddress": "45.253.142.111",
+  "subspaceServerPort": 10943,
+  "subspaceClientPort": 10944,
+  "subspaceFrequency": "",
+  "subspaceProtocol": "TCP",
+  "subspaceSecurityLevel": "HIGH"
+}
