@@ -20,7 +20,7 @@
 	# this value plus the view distance, the chunk will be forgotten.
 	# Default: 5
 	# Range: > 0
-	distance = 0
+	distance = 5
 	# The time (in seconds) since the client's last visit.
 	# If this timeout is exceeded, the cached chunks will be forgotten.
 	# Default: 60
@@ -29,7 +29,7 @@
 	# Whether cached chunks should stay active if others doesn't load it.
 	# If false, chunks are unloaded if others doesn't load it and will be sync to client
 	# next time when it becomes visible.
-	aggressively = false
+	aggressively = true
 
 # Dispatch chunks in third-party approaches.
 # When syncing chunks, the server sends a small diff instead of full data, reducing network bandwidth usage.
