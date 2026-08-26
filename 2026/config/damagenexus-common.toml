@@ -3,7 +3,7 @@
 	#This allows commands that can spawn test targets or generate test items.
 	#Keep this disabled for normal gameplay and public builds.
 	#Default: false
-	testCommandsEnabled = false
+	testCommandsEnabled = true
 	#If true, processor exceptions are rethrown and can crash the damage event.
 	#Use true during development.
 	#If false, failing processors are logged and skipped.
@@ -24,62 +24,15 @@
 	#Default: OFF
 	#Allowed Values: OFF, COMPATIBILITY, SUMMARY, FULL_TRACE
 	mode = "OFF"
-	#Deprecated compatibility alias for older configs.
-	#Prefer diagnostics.mode.
-	#When true, DamageNexus derives at least SUMMARY diagnostics from the legacy verbosity settings.
-	#Default: false
-	debugMode = false
-	#Deprecated compatibility alias for older configs.
-	#Prefer diagnostics.mode=COMPATIBILITY when checking vanilla or other-mod post-damage interactions.
-	#When true, transaction tracking and compatibility diagnostics are enabled without full trace detail.
-	#Server output still follows legacy serverLogVerbosity unless diagnostics.mode is set.
-	#Default: false
-	postDamageDiagnostics = false
-	#Deprecated legacy verbosity hint used with debugMode=true.
-	#Prefer diagnostics.mode for the main diagnostics level.
-	#WARNINGS_ONLY: only suspicious/warning lines.
-	#SUMMARY: derive SUMMARY diagnostics from debugMode=true.
-	#FULL: derive FULL_TRACE diagnostics from debugMode=true.
-	#Default: WARNINGS_ONLY
-	#Allowed Values: WARNINGS_ONLY, SUMMARY, FULL
-	serverLogVerbosity = "WARNINGS_ONLY"
-
-	[diagnostics.clientForwarding]
-		#Forward selected DamageNexus diagnostics to clients as system chat messages.
-		#Requires diagnostics.mode or legacy aliases to enable the selected diagnostic kind.
-		#OFF: disabled.
-		#INVOLVED_PLAYERS: only attacker/victim players involved in the damage event.
-		#OPS: online players with permission level 2+.
-		#ALL_PLAYERS: every online player. Use only on private debug servers.
-		#Default: OFF
-		#Allowed Values: OFF, INVOLVED_PLAYERS, OPS, ALL_PLAYERS
-		mode = "OFF"
-		#Caps which enabled DamageNexus diagnostics may be forwarded to clients.
-		#WARNINGS_ONLY: only suspicious/warning lines.
-		#SUMMARY: warnings plus transaction summaries and compatibility diagnostics.
-		#FULL: all trace lines, including processor/rule/phase spam.
-		#Default: WARNINGS_ONLY
-		#Allowed Values: WARNINGS_ONLY, SUMMARY, FULL
-		verbosity = "WARNINGS_ONLY"
-		#Maximum DamageNexus debug lines forwarded to clients per server tick.
-		#Prevents chat/network spam when client forwarding is enabled.
-		#Default: 20
-		# Default: 20
-		# Range: 1 ~ 200
-		maxLinesPerTick = 1
-		#If true, players must opt in before receiving forwarded DamageNexus debug chat.
-		#Recommended true for public test servers.
-		#Default: true
-		requireReceiverOptIn = true
 
 [tooltips]
 	#Controls DamageNexus debug information shown in item tooltips.
 	#OFF: no debug tooltip sections.
-	#AFFIX_SUMMARY: show affix-level debug sections only.
-	#AFFIX_AND_RULES: show affixes and contained rule ids.
+	#SUMMARY: show top-level source counts.
+	#STRUCTURE: show affix, entry, rule and augmentation hierarchy.
 	#FULL: show full debug details.
 	#Default: OFF
-	#Allowed Values: OFF, AFFIX_SUMMARY, AFFIX_AND_RULES, FULL
+	#Allowed Values: OFF, SUMMARY, STRUCTURE, FULL
 	debugLevel = "OFF"
 
 [combatFormulas]
@@ -128,3 +81,23 @@
 	#If true, DamageNexus suppresses vanilla INNATE_RESISTANCE reduction after calculating DN mitigation.
 	#Default: true
 	suppressInnateResistanceReduction = true
+
+[damageSafety]
+	#Maximum explicit DamageLineage recursion depth.
+	#Root depth is 0; a value of 5 permits depths 0 through 5.
+	#Default: 5
+	# Default: 5
+	# Range: 1 ~ 64
+	maxRecursionDepth = 5
+	#Maximum admitted child requests shared by one root chain.
+	#The root request itself does not consume this count.
+	#Default: 64
+	# Default: 64
+	# Range: 1 ~ 65536
+	maxDerivedRequestsPerRoot = 64
+	#Maximum managed damage admissions per MinecraftServer tick.
+	#All dimensions and both public/native damage share the limit.
+	#Default: 2048
+	# Default: 2048
+	# Range: 1 ~ 1000000
+	maxManagedRequestsPerServerTick = 2048
