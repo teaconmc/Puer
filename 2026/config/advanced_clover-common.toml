@@ -119,7 +119,7 @@ whitelist_items = [
 	"woodenanvil:.*",
 	"cc_mb:.*",
 	"ccw:.*(_sugar|milk_gelatin|smithing_wafer|sweet_melon_slice|energy_carrot|blessed_steak)",
-	"delicacyworld:.*(raw|cooked|sauce|salt|recipe|money|control|table).*",
+	"delicacyworld:.*(raw|cooked|sauce|salt|recipe|money|remote_control|table).*",
 	"xkdeco:.*",
 	"mtr:.*station_name.*",
 	"olruL.*",
