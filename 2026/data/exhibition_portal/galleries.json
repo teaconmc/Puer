@@ -619,22 +619,6 @@
         ]
     },
     {
-        "id": "334e0bfe59d758a0ba205403f4803385",
-        "mods": [
-            "lib39",
-            "redenvelope",
-            "superlead"
-        ],
-        "domain": 0,
-        "administrators": [
-            "9072918679c240b49eb231e89f943c87",
-            "9072918679c240b49eb231e89f943c87",
-            "cc6c2c4b6bb34be380987b313173877d",
-            "9072918679c240b49eb231e89f943c87",
-            "6e1729836e8f4422802a964f5e98512e"
-        ]
-    },
-    {
         "id": "24271db3f33b516b89e69f653c0c80ee",
         "mods": [
             "displaydoll"
@@ -845,20 +829,6 @@
         ]
     },
     {
-        "id": "66fd5dad0aa152a187ca3dc643376e37",
-        "mods": [
-            "lendandregret"
-        ],
-        "domain": 0,
-        "administrators": [
-            "9072918679c240b49eb231e89f943c87",
-            "05af4c8922c1426fa12d5c9ce85de7b5",
-            "88ff55aa664e43658f84b08d16a6af3b",
-            "6e1729836e8f4422802a964f5e98512e",
-            "8ab2c786a27e4b4bb562706d8c441820"
-        ]
-    },
-    {
         "id": "fd5b627b2be258f7b10c93c269e9d44e",
         "mods": [
             "anvilcraft_pigsplus",
@@ -882,16 +852,6 @@
             "96cdc2af2a194a5cbbad50ede40822e6",
             "ced8c8d0b56541d68e6ce879aaf57173",
             "71a72a581e074ca88a3e0adad172984f"
-        ]
-    },
-    {
-        "id": "d9c0342b63ad592aa163c40425fb1da5",
-        "mods": [
-            "essentialism"
-        ],
-        "domain": 0,
-        "administrators": [
-            "b0759699a46e4b93b85848d2829caac7"
         ]
     },
     {
