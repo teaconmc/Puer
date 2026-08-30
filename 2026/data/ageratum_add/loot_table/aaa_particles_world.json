@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ageratum:guidebook",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.ageratum_add.aaa_particles_world"
+                },
+                "ageratum:doc": "aaa_particles_world:index"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
