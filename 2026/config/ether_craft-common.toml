@@ -459,7 +459,7 @@ item_pick_up_by_stream_delay_after_dropped = 20
 
 [factory]
 	#Low-ether fixed ratio a for chip maintain cost: base = e*a when e<=consume
-	# Default: 0.5
+	# Default: 0.39
 	# Range: 0.0 ~ 1.0
 	base_ratio = 0.39
 	#Reserve multiplier k for batch charging: each chip receives +k*consume per batch
@@ -486,3 +486,11 @@ item_pick_up_by_stream_delay_after_dropped = 20
 	keep_chip_ether_on_swap = false
 	#If true, chip maintenance cost / reserve quota use non-truncating floating-point math. Float is used only for cost calculation; sync/display keep integer ether. Default false keeps legacy integer behavior.
 	float_calc = true
+
+[ether_glass]
+	#When true, the server-side ray/selection shape of Ether Glass is treated as empty, so server-side raycasts (e.g. other mods' open-menu source detection) also pass through the glass. This fixes see-through interaction / access-control inconsistencies, at the cost that server-side OUTLINE raycasts treat Ether Glass as non-blocking. Default false = keep vanilla behavior.
+	server_ray_through = false
+
+[block_name]
+	#When true, non-creative players cannot change the name of Ether Adapt Node / Ether Process Factory blocks. Creative players are always allowed. Default false keeps the open behavior.
+	limited_change = true

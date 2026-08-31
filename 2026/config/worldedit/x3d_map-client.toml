@@ -43,7 +43,7 @@ minimapCameraFov = 90.0
 #Minimap camera length.
 # Default: 0.0
 # Range: 0.0 ~ 100000.0
-minimapCameraLength = 521.2572631835938
+minimapCameraLength = 100
 #World map LOD screen-space threshold in pixels.
 # Default: 172
 # Range: 16 ~ 114514

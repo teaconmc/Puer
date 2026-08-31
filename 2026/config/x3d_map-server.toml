@@ -1,5 +1,5 @@
 #Allow server-side sent chunk to client. When disabled, clients cannot request server-side chunk re-rendering.
 allowServerSentChunk = false
 #Per-dimension map settings: [dimension id, map enabled, override sea level, sea level].
-dimensions = [["minecraft:overwolrd", true, true, 0]]
+dimensions = [["minecraft:overworld", true, true, 0]]
 showMotd = false
