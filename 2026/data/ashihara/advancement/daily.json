@@ -3,10 +3,16 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "entity": {
-            "entity_type": "minecraft:interaction",
-            "nbt": "{Tags:[\"fox_proxy\"]}"
-        }
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"fox_proxy\"]}"
+            },
+            "entity": "this"
+          }
+        ]
       }
     }
   },
