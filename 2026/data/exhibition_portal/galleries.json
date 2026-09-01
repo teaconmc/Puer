@@ -977,5 +977,15 @@
         "administrators": [
             "9e9877871ae84ba59bfd92a87dd5dde9"
         ]
+    },
+    {
+        "id": "0a63c0e00f24475e8a47d2d2a001a787",
+        "mods": [
+            "worldcomment"
+        ],
+        "domain": 0,
+        "administrators": [
+            "558d17cba546409a9a6e84caad72c352"
+        ]
     }
 ]
