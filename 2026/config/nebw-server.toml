@@ -38,13 +38,13 @@
 	# with Java String#format styled placeholders for %1$s (version), %2$d (gridX), %3$d (gridZ).
 	# Remote server must return this correct data, as there won't be much validation in client sides.
 	# Leave it to empty to disable this feature.
-	dynamic_dispatch_url = ""
+	dynamic_dispatch_url = "https://neb.teacon.cn/%1$s/%2$d,%3$d.grid.neb"
 	# ZSTD compression level for the Preshared Chunk Bundle.
 	# Default: 22
 	# Range: > 0
 	compress_level = 22
 	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
-	retry_timeout = 10
+	retry_timeout = 5
 
 [packet]
 	# Packets excluded from processing by NotEnoughBandwidth. (For Velocity compatibility, e.g.)
