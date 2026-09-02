@@ -26,14 +26,17 @@
 	# Default: 60
 	# Range: > 0
 	timeout = 30
+	# [WARNING: May impact performance]
 	# Whether cached chunks should stay active if others doesn't load it.
-	# If false, chunks are unloaded if others doesn't load it and will be sync to client
+	# If false, chunks will be unloaded if others doesn't load it and sync to client
 	# next time when it becomes visible.
 	aggressively = true
 
 # Dispatch chunks in third-party approaches.
 # When syncing chunks, the server sends a small diff instead of full data, reducing network bandwidth usage.
 [chunk_cdn]
+	# Whether to enable this feature.
+	enabled = true
 	# Loads chunks from remove server, accepting http (DONOT USE THIS IN PRODUCTION SERVER!) and https protocol,
 	# with Java String#format styled placeholders for %1$s (version), %2$d (gridX), %3$d (gridZ).
 	# Remote server must return this correct data, as there won't be much validation in client sides.
@@ -51,18 +54,18 @@
 	# Each entry must be in the format "<direction>@<packet_id>", where <direction>
 	# is "c2s" or "s2c", and <packet_id> is a Minecraft packet identifier (like minecraft:register).
 	blacklist = [
-        "s2c@minecraft:login",
-        "c2s@minecraft:keep_alive",
-        "s2c@minecraft:keep_alive",
-        "s2c@minecraft:command_suggestions",
-        "s2c@minecraft:commands",
-        "c2s@minecraft:chat_command",
-        "c2s@minecraft:client_command",
-        "c2s@minecraft:command_suggestion",
-        "s2c@minecraft:player_info_remove",
-        "s2c@minecraft:player_info_update",
-        "s2c@minecraft:register",
-        "s2c@minecraft:unregister"
+		"s2c@minecraft:login",
+		"c2s@minecraft:keep_alive", 
+		"s2c@minecraft:keep_alive",
+		"s2c@minecraft:command_suggestions",
+		"s2c@minecraft:commands", 
+		"c2s@minecraft:chat_command", 
+		"c2s@minecraft:client_command",
+		"c2s@minecraft:command_suggestion",
+		"s2c@minecraft:player_info_remove",
+		"s2c@minecraft:player_info_update",
+		"s2c@minecraft:register",
+		"s2c@minecraft:unregister"
 	]
 
 	# The maximum number of bytes allowed for the VarInt-encoded packet length field.
