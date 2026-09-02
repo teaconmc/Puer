@@ -34,8 +34,8 @@ function tpmrtDrawArrow(g, x, goesRight, visible) {
 
 function tpmrtDrawClock(g, x) {
   var timeStr = "" + java.time.LocalTime.now().toString().substring(0, 5);
-  var geom = TPMRTLCD_CLOCK.geometry;
-  var codes = TPMRTLCD_CLOCK.imageCodes;
+  var geom = TPMRTLED_CLOCK.geometry;
+  var codes = TPMRTLED_CLOCK.imageCodes;
   var charW = geom.width;
 
   var totalWidth = 0;
