@@ -5,27 +5,27 @@ var TPMRT_BLINK_PERIOD = 0.75;
 var TPMRT_SLIDE_DURATION = 0.5;
 
 var tpmrtImg = {
-  arrowL: Resources.readBufferedImage(TPMRTLCD_ARROWS.l),
-  arrowR: Resources.readBufferedImage(TPMRTLCD_ARROWS.r),
-  staNameReg: Resources.readBufferedImage(TPMRTLCD_STA_NAMES_CN.regular),
-  staNameSmall: Resources.readBufferedImage(TPMRTLCD_STA_NAMES_CN.small),
-  staNameInv: Resources.readBufferedImage(TPMRTLCD_STA_NAMES_CN.inverse),
-  destnCn: Resources.readBufferedImage(TPMRTLCD_DESTNS.cn),
-  destnEn: Resources.readBufferedImage(TPMRTLCD_DESTNS.en),
-  clockDigits: Resources.readBufferedImage(TPMRTLCD_CLOCK.image),
-  doorSide: Resources.readBufferedImage(TPMRTLCD_DOOR_SIDE),
-  brand: Resources.readBufferedImage(TPMRTLCD_BRAND),
-  trainHold: Resources.readBufferedImage(TPMRTLCD_TRAIN_HOLD)
+  arrowL: Resources.readBufferedImage(TPMRTLED_ARROWS.l),
+  arrowR: Resources.readBufferedImage(TPMRTLED_ARROWS.r),
+  staNameReg: Resources.readBufferedImage(TPMRTLED_STA_NAMES_CN.regular),
+  staNameSmall: Resources.readBufferedImage(TPMRTLED_STA_NAMES_CN.small),
+  staNameInv: Resources.readBufferedImage(TPMRTLED_STA_NAMES_CN.inverse),
+  destnCn: Resources.readBufferedImage(TPMRTLED_DESTNS.cn),
+  destnEn: Resources.readBufferedImage(TPMRTLED_DESTNS.en),
+  clockDigits: Resources.readBufferedImage(TPMRTLED_CLOCK.image),
+  doorSide: Resources.readBufferedImage(TPMRTLED_DOOR_SIDE),
+  brand: Resources.readBufferedImage(TPMRTLED_BRAND),
+  trainHold: Resources.readBufferedImage(TPMRTLED_TRAIN_HOLD)
 };
 
 var tpmrtStaNameYOffs = {};
-for (var i = 0; i < TPMRTLCD_STA_NAMES_CN.codes.length; i++) {
-  tpmrtStaNameYOffs[TPMRTLCD_STA_NAMES_CN.codes[i]] = i * 64;
+for (var i = 0; i < TPMRTLED_STA_NAMES_CN.codes.length; i++) {
+  tpmrtStaNameYOffs[TPMRTLED_STA_NAMES_CN.codes[i]] = i * 64;
 }
 
 var tpmrtDestnYOffs = {};
-for (var i = 0; i < TPMRTLCD_DESTNS.codes.length; i++) {
-  tpmrtDestnYOffs[TPMRTLCD_DESTNS.codes[i]] = i * 64;
+for (var i = 0; i < TPMRTLED_DESTNS.codes.length; i++) {
+  tpmrtDestnYOffs[TPMRTLED_DESTNS.codes[i]] = i * 64;
 }
 
 function tpmrtComputeDoorOpen(doorCfg, isReversed) {
@@ -86,10 +86,7 @@ function tpmrtGetStaByIndex(stations, idx, isLoopLine) {
   return stations.get(wrapped);
 }
 
-var _origSetupPis = setupPisTexture;
 function setupPisTexture(state, pisTexture) {
-  // _origSetupPis(state, pisTexture);
-
   state.pageCycle = new CycleTracker(["cjk", 4, "eng", 4]);
   state.posPhase = new StateTracker();
   state.interruptPhase = new StateTracker();
