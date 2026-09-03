@@ -987,5 +987,15 @@
         "administrators": [
             "558d17cba546409a9a6e84caad72c352"
         ]
+    },
+    {
+        "id": "d062a43253584660ba82b60cdc064891",
+        "mods": [
+            "live_helper"
+        ],
+        "domain": 0,
+        "administrators": [
+            "8f50bdf3cb094e29ab76dc1cf9db86a1"
+        ]
     }
 ]
