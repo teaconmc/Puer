@@ -1,0 +1,71 @@
+{
+    "psd_door": {
+        "name": "PSD",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/psd_door_top.csv",
+        "scriptTexts": ["const FACE_RIGHT=false"],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/door.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_glass_3": {
+        "name": "PSD Glass",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/glass_3.csv",
+        "scriptTexts": ["const FACE_RIGHT=false"],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/glass.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_glass_3w": {
+        "name": "PSD Glass (Extended)",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/glass_3_inner.csv",
+        "scriptTexts": ["const FACE_RIGHT=false"],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/glass.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_glass_end_l": {
+        "name": "PSD Glass End Left",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/glass_end_l.csv",
+        "scriptTexts": ["const MODEL = 'overlay_glass_end_l.csv'"],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/glass_end.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_glass_end_r": {
+        "name": "PSD Glass End Right",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/glass_end_r.csv",
+        "scriptTexts": ["const MODEL = 'overlay_glass_end_r.csv'"],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/glass_end.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_door_collision": {
+        "name": "PSD Door Collision",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/empty.csv",
+        "voxelShape": [0, 0, 2, 16, 16, 4],
+        "scriptFiles": ["mtrsteamloco:eyecandies/rpsd/door_collision.js"],
+        "mirror": [ false, false, false ]
+    },
+    "psd_glass_end_collision": {
+        "name": "PSD Glass Collision",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "model": "mtrsteamloco:eyecandies/rpsd/placement/empty.csv",
+        "voxelShape": [0, 0, 2, 16, 16, 4],
+        "mirror": [ false, false, false ]
+    }
+}
