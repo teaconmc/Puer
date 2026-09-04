@@ -1,8 +1,8 @@
 include("models.js");
 include("particles.js");
 include("newpis/pis.js");
-include("../tpmrtlcd/tpmrtlcd_paint.js");
-include("../tpmrtlcd/tpmrtlcd_state.js");
+include("../tpmrtled/tpmrtled_paint.js");
+include("../tpmrtled/tpmrtled_state.js");
 // include("sound.js");
 
 function create(ctx, state, train) {

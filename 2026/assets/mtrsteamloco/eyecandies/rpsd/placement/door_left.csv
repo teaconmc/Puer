@@ -1,0 +1,44 @@
+;; Right ;;
+CreateMeshBuilder,
+AddVertex,0.5,0,-0.375, 0,1,0
+AddVertex,0.5,2,-0.375, 0,1,0
+AddVertex,-0.5,2,-0.375, 0,1,0
+AddVertex,-0.5,0,-0.375, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, door.png
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+
+;; Back ;;
+CreateMeshBuilder,
+AddVertex,-0.5,0,-0.5, 0,1,0
+AddVertex,-0.5,2,-0.5, 0,1,0
+AddVertex,0.5,2,-0.5, 0,1,0
+AddVertex,0.5,0,-0.5, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, door.png
+SetColor, 0, 0, 0
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+CreateMeshBuilder,
+AddVertex,0.5,0,-0.5, 0,1,0
+AddVertex,0.5,2,-0.5, 0,1,0
+AddVertex,0.5,2,-0.375, 0,1,0
+AddVertex,0.5,0,-0.375, 0,1,0
+
+AddVertex,-0.5,0,-0.375, 0,1,0
+AddVertex,-0.5,2,-0.375, 0,1,0
+AddVertex,-0.5,2,-0.5, 0,1,0
+AddVertex,-0.5,0,-0.5, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetColor,0,0,0
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1

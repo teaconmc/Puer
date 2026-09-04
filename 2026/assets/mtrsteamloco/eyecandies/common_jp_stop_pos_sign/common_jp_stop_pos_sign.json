@@ -1,0 +1,315 @@
+{
+    "com_jp_stop_pos_sign_pole_ground_50cm": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §aGround§f 0.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_ground_50cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_ground_1": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §aGround§f 1m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_ground_100cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_ground_1.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §aGround§f 1.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_ground_150cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_ground_2": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §aGround§f 2m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_ground_200cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_ground_250cm": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §aGround§f 2.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_ground_250cm.obj",
+        "flipV": true
+    },
+
+    "com_jp_stop_pos_sign_pole_lshape1_1.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1m 1.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w100cm_150cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_lshape1_2": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1m 2m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w100cm_200cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_lshape_w100cm_250cm": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1m 2.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w100cm_250cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_lshape1.5_1.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1.5m 1.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w150cm_150cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_lshape1.5_2": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1.5m 2m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w150cm_200cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_lshape_w150cm_250cm": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §bL-Shape§f w1.5m 2.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_lshape_w150cm_250cm.obj",
+        "flipV": true
+    },
+
+    "com_jp_stop_pos_sign_pole_roof_0.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §eRoof§f 0.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_roof_50cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_roof_1": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §eRoof§f 1m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_roof_100cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_roof_1.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §eRoof§f 1.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_roof_150cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_roof_2": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §eRoof§f 2m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_roof_200cm.obj",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_pole_roof_2.5": {
+        "name": "§l[Common JP stop pos sign]§r §6[pole]§f §eRoof§f 2.5m",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/pole_roof_250cm.obj",
+        "flipV": true
+    },
+
+
+    "com_jp_stop_pos_sign_ver_sign_pf_all": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f All",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/all_stop.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf_all2": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f All 2",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/all_stop_2.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf1": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 1-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/1.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf2": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 2-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/2.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf3": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 3-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/3.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf4": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 4-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/4.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf5": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 5-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/5.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf6": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 6-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/6.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf7": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 7-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/7.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf8": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 8-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/8.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf9": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 9-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/9.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf10": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 10-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/10.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf11": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 11-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/11.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf12": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 12-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/12.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf13": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 13-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/13.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf14": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 14-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/14.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_pf15": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f 15-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/15.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_shinkansen": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f Shinkansen",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/shinkansen.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_ver_sign_sl": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §9Vertical§f SL",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_vertical.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sl.png",
+        "flipV": true
+    },
+
+    "com_jp_stop_pos_sign_hor_sign_pf_all": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f All",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/all_stop.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf_all2": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f All 2",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/all_stop_2.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf1": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 1-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/1.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf2": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 2-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/2.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf3": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 3-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/3.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf4": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 4-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/4.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf5": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 5-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/5.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf6": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 6-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/6.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf7": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 7-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/7.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf8": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 8-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/8.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf9": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 9-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/9.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf10": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 10-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/10.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf11": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 11-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/11.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf12": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 12-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/12.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf13": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 13-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/13.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf14": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 14-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/14.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_pf15": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f 15-car",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/15.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_shinkansen": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f Shinkansen",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/shinkansen.png",
+        "flipV": true
+    },
+    "com_jp_stop_pos_sign_hor_sign_sl": {
+        "name": "§l[Common JP stop pos sign]§r §c[sign]§f §dHorizontal§f SL",
+        "model": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sign_horizontal.obj",
+        "textureId": "mtrsteamloco:eyecandies/common_jp_stop_pos_sign/sl.png",
+        "flipV": true
+    }
+}

@@ -987,5 +987,36 @@
         "administrators": [
             "558d17cba546409a9a6e84caad72c352"
         ]
+    },
+    {
+        "id": "d062a43253584660ba82b60cdc064891",
+        "mods": [
+            "live_helper"
+        ],
+        "domain": 0,
+        "administrators": [
+            "8f50bdf3cb094e29ab76dc1cf9db86a1"
+        ]
+    },
+    {
+        "id": "f098cab8eb285aeea9b0167ba979f8cd",
+        "mods": [
+            "kilagraphdemo"
+        ],
+        "domain": 0,
+        "administrators": [
+            "2fa297a67803462983607059155cf43e"
+        ]
+    },
+    {
+        "id": "b9a7f388eb58567093ad7fb21f462b49",
+        "mods": [
+            "thestreetism"
+        ],
+        "domain": 0,
+        "administrators": [
+            "abe89acd0a8b46fbb61d117d6575e914",
+            "eea11cc3af9940038bb889337494d552"
+        ]
     }
 ]

@@ -5,6 +5,7 @@
 	window_log = 20
 
 # Chunk cache is used to temporarily retain chunks that have recently left the major view,
+
 # in order to reduce frequent enter/leave churn when the player moves near view boundaries.
 # A cached chunk will be evicted if any of the following conditions is met:
 # - It has not been within the major view boundary for a configured amount of time (timeout).
@@ -26,14 +27,17 @@
 	# Default: 60
 	# Range: > 0
 	timeout = 30
+	# [WARNING: May impact performance]
 	# Whether cached chunks should stay active if others doesn't load it.
-	# If false, chunks are unloaded if others doesn't load it and will be sync to client
+	# If false, chunks will be unloaded if others doesn't load it and sync to client
 	# next time when it becomes visible.
 	aggressively = true
 
 # Dispatch chunks in third-party approaches.
 # When syncing chunks, the server sends a small diff instead of full data, reducing network bandwidth usage.
 [chunk_cdn]
+	# Whether to enable this feature.
+	enabled = true
 	# Loads chunks from remove server, accepting http (DONOT USE THIS IN PRODUCTION SERVER!) and https protocol,
 	# with Java String#format styled placeholders for %1$s (version), %2$d (gridX), %3$d (gridZ).
 	# Remote server must return this correct data, as there won't be much validation in client sides.
@@ -43,26 +47,31 @@
 	# Default: 22
 	# Range: > 0
 	compress_level = 22
+	# Cache L1's max size
+	cache_l1_max = 10240
 	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
-	retry_timeout = 5
+	request_timeout = 3
+	# After a request fails, subsequent requests will be considered failed
+	# without making another request for this amount of time (in seconds).
+	failure_cooldown = 30
 
 [packet]
 	# Packets excluded from processing by NotEnoughBandwidth. (For Velocity compatibility, e.g.)
 	# Each entry must be in the format "<direction>@<packet_id>", where <direction>
 	# is "c2s" or "s2c", and <packet_id> is a Minecraft packet identifier (like minecraft:register).
 	blacklist = [
-        "s2c@minecraft:login",
-        "c2s@minecraft:keep_alive",
-        "s2c@minecraft:keep_alive",
-        "s2c@minecraft:command_suggestions",
-        "s2c@minecraft:commands",
-        "c2s@minecraft:chat_command",
-        "c2s@minecraft:client_command",
-        "c2s@minecraft:command_suggestion",
-        "s2c@minecraft:player_info_remove",
-        "s2c@minecraft:player_info_update",
-        "s2c@minecraft:register",
-        "s2c@minecraft:unregister"
+		"s2c@minecraft:login",
+		"c2s@minecraft:keep_alive",
+		"s2c@minecraft:keep_alive",
+		"s2c@minecraft:command_suggestions",
+		"s2c@minecraft:commands",
+		"c2s@minecraft:chat_command",
+		"c2s@minecraft:client_command",
+		"c2s@minecraft:command_suggestion",
+		"s2c@minecraft:player_info_remove",
+		"s2c@minecraft:player_info_update",
+		"s2c@minecraft:register",
+		"s2c@minecraft:unregister"
 	]
 
 	# The maximum number of bytes allowed for the VarInt-encoded packet length field.
