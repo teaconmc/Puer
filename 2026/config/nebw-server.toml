@@ -47,7 +47,7 @@
 	# Range: > 0
 	compress_level = 22
 	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
-	retry_timeout = 5
+	retry_timeout = 30
 
 [packet]
 	# Packets excluded from processing by NotEnoughBandwidth. (For Velocity compatibility, e.g.)
