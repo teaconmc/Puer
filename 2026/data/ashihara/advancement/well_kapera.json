@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 44.0,
+                  "max": 46.0
+                },
+                "y": {
+                  "min": 45.0,
+                  "max": 46.0
+                },
+                "z": {
+                  "min": -1016.0,
+                  "max": -1014.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:well_kapera"
+  }
+}
