@@ -1,0 +1,22 @@
+# Blender 4.2.2 LTS MTL File: 'model.blend'
+# www.blender.org
+
+newmtl platform_gap_filler#exterior
+Ns 39.999996
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd texture.png
+
+newmtl platform_gap_filler_surface#exteriortranslucent
+Ns 39.999996
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd texture.png
+map_d texture.png
