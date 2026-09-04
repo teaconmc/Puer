@@ -101,7 +101,7 @@ whitelist_items = [
 	"kilagraph.*:.*",
 	"maid_bakeries:.*list",
 	"maid_storage:.*(calculator|card|guide).*",
-	"ae2:(?!.*wrench).*",
+	"ae2:(?!.*(wrench|creative|memory).*).*",
 	"channel:.*",
 	"guide_me_to:.*",
 	"lanfasie.*:.*(sword|praiser|provoking|).*",
