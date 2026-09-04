@@ -1007,5 +1007,16 @@
         "administrators": [
             "2fa297a67803462983607059155cf43e"
         ]
+    },
+    {
+        "id": "b9a7f388eb58567093ad7fb21f462b49",
+        "mods": [
+            "thestreetism"
+        ],
+        "domain": 0,
+        "administrators": [
+            "abe89acd0a8b46fbb61d117d6575e914",
+            "eea11cc3af9940038bb889337494d552"
+        ]
     }
 ]
