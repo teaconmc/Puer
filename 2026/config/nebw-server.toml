@@ -48,7 +48,7 @@
 	# Range: > 0
 	compress_level = 22
 	# Cache L1's max size
-	cache_l1_max = 1024
+	cache_l1_max = 10240
 	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
 	request_timeout = 3
 	# After a request fails, subsequent requests will be considered failed
