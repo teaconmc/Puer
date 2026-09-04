@@ -5,6 +5,7 @@
 	window_log = 20
 
 # Chunk cache is used to temporarily retain chunks that have recently left the major view,
+
 # in order to reduce frequent enter/leave churn when the player moves near view boundaries.
 # A cached chunk will be evicted if any of the following conditions is met:
 # - It has not been within the major view boundary for a configured amount of time (timeout).
@@ -46,8 +47,13 @@
 	# Default: 22
 	# Range: > 0
 	compress_level = 22
+	# Cache L1's max size
+	cache_l1_max = 1024
 	# Seconds to wait before fetching preshared chunks from dynamic_dispatch_url
-	retry_timeout = 30
+	request_timeout = 3
+	# After a request fails, subsequent requests will be considered failed
+	# without making another request for this amount of time (in seconds).
+	failure_cooldown = 30
 
 [packet]
 	# Packets excluded from processing by NotEnoughBandwidth. (For Velocity compatibility, e.g.)
@@ -55,11 +61,11 @@
 	# is "c2s" or "s2c", and <packet_id> is a Minecraft packet identifier (like minecraft:register).
 	blacklist = [
 		"s2c@minecraft:login",
-		"c2s@minecraft:keep_alive", 
+		"c2s@minecraft:keep_alive",
 		"s2c@minecraft:keep_alive",
 		"s2c@minecraft:command_suggestions",
-		"s2c@minecraft:commands", 
-		"c2s@minecraft:chat_command", 
+		"s2c@minecraft:commands",
+		"c2s@minecraft:chat_command",
 		"c2s@minecraft:client_command",
 		"c2s@minecraft:command_suggestion",
 		"s2c@minecraft:player_info_remove",
