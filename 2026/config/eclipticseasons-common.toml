@@ -222,7 +222,7 @@
 	#Log errors when internal functions are used incorrectly.
 	LogIllegalUse = false
 	#Prevent snow overlays from rendering under blocks with zero light emission.
-	NoSnowyUnderLight0 = false
+	NoSnowyUnderLight0 = true
 	#Allow snow overlays to cover light-emitting blocks.
 	SnowOverlayGlowingBlock = false
 	#Keep chunk extra info in memory (disables the cache cleaner).
