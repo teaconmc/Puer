@@ -623,7 +623,7 @@
         "mods": [
             "displaydoll"
         ],
-        "domain": 0,
+        "domain": 20,
         "administrators": [
             "7c5faf4424b04496b91a147fb781fae9",
             "992e248e89c44f93bfae56b761f00c04",
@@ -993,7 +993,7 @@
         "mods": [
             "live_helper"
         ],
-        "domain": 0,
+        "domain": 10,
         "administrators": [
             "8f50bdf3cb094e29ab76dc1cf9db86a1"
         ]
