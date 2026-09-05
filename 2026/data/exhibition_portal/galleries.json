@@ -505,16 +505,6 @@
         ]
     },
     {
-        "id": "3953d3d991bc5dfdacf334520f915092",
-        "mods": [
-            "mpsdoll"
-        ],
-        "domain": 0,
-        "administrators": [
-            "c73c958be6c84c3d8543c2f57fbd134b"
-        ]
-    },
-    {
         "id": "c58f2f45393b53e19951dd0eaf248f7e",
         "mods": [
             "ether_craft",
@@ -623,7 +613,7 @@
         "mods": [
             "displaydoll"
         ],
-        "domain": 0,
+        "domain": 20,
         "administrators": [
             "7c5faf4424b04496b91a147fb781fae9",
             "992e248e89c44f93bfae56b761f00c04",
@@ -993,7 +983,7 @@
         "mods": [
             "live_helper"
         ],
-        "domain": 0,
+        "domain": 10,
         "administrators": [
             "8f50bdf3cb094e29ab76dc1cf9db86a1"
         ]
