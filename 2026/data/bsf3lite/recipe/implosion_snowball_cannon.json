@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BCC",
+    "FDE"
+  ],
+  "key": {
+    "A": "bsf3lite:repulsion_core",
+    "B": "minecraft:ice",
+    "C": "minecraft:iron_block",
+    "D": "minecraft:redstone",
+    "E": "minecraft:crying_obsidian",
+    "F": "minecraft:diamond"
+  },
+  "result": {
+    "id": "bsf3lite:implosion_snowball_cannon",
+    "count": 1,
+    "components": {
+      "bsf3lite:region": {
+        "start": [328, 126, 684],
+        "end": [453, 4, 831]
+      }
+    }
+  }
+}
