@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "ABC",
+    "WRW"
+  ],
+  "key": {
+    "A": "bsf3lite:gravity_core",
+    "B": "bsf3lite:expansion_snowball",
+    "C": "bsf3lite:repulsion_core",
+    "W": "minecraft:ice",
+    "R": "minecraft:snow_block"
+  },
+  "result": {
+    "id": "bsf3lite:icicle_snowball",
+    "count": 1,
+    "components": {
+      "bsf3lite:region": {
+        "start": [390, 52, 774],
+        "end": [431, 12, 815]
+      }
+    }
+  }
+}

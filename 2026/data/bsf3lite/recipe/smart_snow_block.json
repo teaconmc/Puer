@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": "minecraft:slime_ball",
+    "B": "minecraft:snow_block",
+    "C": "minecraft:blue_ice"
+  },
+  "result": {
+    "id": "bsf:smart_snow_block",
+    "components": {
+      "bsf3lite:region": {
+        "start": [437, 12, 753],
+        "end": [395, 31, 722]
+      }
+    }
+  }
+}
