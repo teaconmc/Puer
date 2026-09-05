@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "W": "bsf3lite:smooth_snowball",
+    "R": "minecraft:packed_ice"
+  },
+  "result": {
+    "id": "bsf3lite:frozen_snowball",
+    "count": 8,
+    "components": {
+      "bsf3lite:region": {
+        "start": [437, 12, 753],
+        "end": [395, 31, 722]
+      }
+    }
+  }
+}
