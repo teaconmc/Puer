@@ -1,0 +1,17 @@
+{
+    "eal_platform_gap_filler_1m": {
+        "name": "MTR EAL Platform Gap Filler 1m",
+        "model": "mtrsteamloco:eyecandies/eal_platform_gap_filler/1m.obj",
+        "flipV": true
+    },
+    "eal_platform_gap_filler_2m": {
+        "name": "MTR EAL Platform Gap Filler 2m",
+        "model": "mtrsteamloco:eyecandies/eal_platform_gap_filler/2m.obj",
+        "flipV": true
+    },
+    "eal_platform_gap_filler_3m": {
+        "name": "MTR EAL Platform Gap Filler 3m",
+        "model": "mtrsteamloco:eyecandies/eal_platform_gap_filler/3m.obj",
+        "flipV": true
+    }
+}

@@ -1,0 +1,1 @@
+give @p minecraft:echo_shard[minecraft:item_name={"text":"地震监测仪"},minecraft:lore=[{"text":"酉阳城","color":"blue"},{"text":"研发部最新的产品之一，能够通过监测地震波获知地下可能存在的矿物、地层结构和空腔，被广泛应用在终末地工业的野外作业中。","color":"#a4b6b7"},{"text":"此型号的产品内置了定位器，如不慎遗失仍然可以通过无人机回收。","color":"#e4867f"}],minecraft:item_model="beecrasy:handheld_sequencer_active"]
