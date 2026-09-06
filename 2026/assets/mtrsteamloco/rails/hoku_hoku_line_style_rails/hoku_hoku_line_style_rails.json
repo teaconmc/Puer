@@ -1,0 +1,115 @@
+{
+    "hoku_hoku_shorten_rail_siding": {
+        "name": "[Hoku Hoku] Shorten rail siding",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/shorten_rail_siding.obj",
+        "flipV": false,
+        "repeatInterval": 0.5
+    },
+    "hoku_hoku_track_bed_hole": {
+        "name": "[Hoku Hoku] Track bed with hole",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/track_bed_hole.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_track_bed_hole_mesh": {
+        "name": "[Hoku Hoku] Track bed with hole and mesh",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/track_bed_hole_mesh.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_track_bed_fill": {
+        "name": "[Hoku Hoku] Track bed filled",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/track_bed_fill.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_evacuate_walkway": {
+        "name": "[Hoku Hoku] Evacuate walkway",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/evacuate_walkway.obj",
+        "flipV": true,
+        "repeatInterval": 1
+    },
+    "hoku_hoku_evacuate_walkway_associate": {
+        "name": "[Hoku Hoku] Evacuate walkway associate",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/evacuate_walkway_associate.obj",
+        "flipV": true,
+        "repeatInterval": 1
+    },
+    "hoku_hoku_evacuate_walkway_railing": {
+        "name": "[Hoku Hoku] Evacuate walkway railing",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/evacuate_walkway_railing.obj",
+        "flipV": true,
+        "repeatInterval": 1
+    },
+    "hoku_hoku_general_beam_hole": {
+        "name": "[Hoku Hoku] General beam with hole",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_hole.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_general_beam_fill": {
+        "name": "[Hoku Hoku] General beam bridge filled",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_fill.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_general_beam_inner_panel": {
+        "name": "[Hoku Hoku] General beam bridge inner panel",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_inner_panel.obj",
+        "flipV": true,
+        "repeatInterval": 4
+    },
+    "hoku_hoku_general_beam_end_panel": {
+        "name": "[Hoku Hoku] General beam bridge end panel",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_end_panel.obj",
+        "flipV": true,
+        "repeatInterval": 12
+    },
+    "hoku_hoku_general_beam_single_track_walkway_support": {
+        "name": "[Hoku Hoku] General beam bridge walkway support for single track",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_single_track_walkway_support.obj",
+        "flipV": true,
+        "repeatInterval": 12,
+		"tiltToGradient": false
+    },
+    "hoku_hoku_general_beam_double_track_walkway_support": {
+        "name": "[Hoku Hoku] General beam bridge walkway support for double track",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/general_beam_double_track_walkway_support.obj",
+        "flipV": true,
+        "repeatInterval": 12,
+		"tiltToGradient": false
+    },
+    "hoku_hoku_short_beam_hole": {
+        "name": "[Hoku Hoku] Short beam bridge with hole",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/short_beam_hole.obj",
+        "flipV": true,
+        "repeatInterval": 8
+    },
+    "hoku_hoku_short_beam_fill": {
+        "name": "[Hoku Hoku] Short beam bridge filled",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/short_beam_fill.obj",
+        "flipV": true,
+        "repeatInterval": 8
+    },
+    "hoku_hoku_short_beam_pillar": {
+        "name": "[Hoku Hoku] Short beam bridge pillar",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/short_beam_pillar.obj",
+        "flipV": true,
+        "repeatInterval": 8,
+		"tiltToGradient": false
+    },
+    "hoku_hoku_short_beam_track_a_walkway_support": {
+        "name": "[Hoku Hoku] Short beam bridge walkway support for track A",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/short_beam_track_a_walkway_support.obj",
+        "flipV": true,
+        "repeatInterval": 16,
+		"tiltToGradient": false
+    },
+    "hoku_hoku_short_beam_track_b_walkway_support": {
+        "name": "[Hoku Hoku] Short beam bridge walkway support for track B",
+        "model": "mtrsteamloco:rails/hoku_hoku_line_style_rails/short_beam_track_b_walkway_support.obj",
+        "flipV": true,
+        "repeatInterval": 16,
+		"tiltToGradient": false
+    }
+}
