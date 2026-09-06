@@ -1,0 +1,4 @@
+#Client-side settings let you change local preferences.
+[client_settings]
+#Enable or disable parkour abilities locally (default: true)
+enableParkour = false

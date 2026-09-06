@@ -1,0 +1,7 @@
+[girlfriends-common]
+	#Set to false to disable relation binding.
+	ENABLE_RELATION_BIND = false
+	#Set to false to disable quests.
+	ENABLE_QUESTS = false
+	#Set to false to disable home invitation.
+	ENABLE_HOME_INVITATION = false

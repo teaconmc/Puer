@@ -1,0 +1,6 @@
+#是否启用详细的 B站 API 调试日志
+enableDebugLog = false
+#是否启用服务端 BV/av 号与 NetMusic 第三方链接白名单
+enableLinkWhitelist = true
+#玩家无权自行添加白名单时，在拒绝提示中显示的联系人名称
+linkWhitelistContactPlaceholder = "茶馆员工"

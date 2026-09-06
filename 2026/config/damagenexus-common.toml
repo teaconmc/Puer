@@ -1,0 +1,103 @@
+[developer]
+	#Enable DamageNexus developer test commands.
+	#This allows commands that can spawn test targets or generate test items.
+	#Keep this disabled for normal gameplay and public builds.
+	#Default: false
+	testCommandsEnabled = true
+	#If true, processor exceptions are rethrown and can crash the damage event.
+	#Use true during development.
+	#If false, failing processors are logged and skipped.
+	#Default: false
+	strictProcessorErrors = false
+	#If true, rule condition/operation exceptions are rethrown.
+	#Use true during development.
+	#If false, failing rule conditions/operations are logged and skipped.
+	#Default: false
+	strictRuleErrors = false
+
+[diagnostics]
+	#Primary DamageNexus diagnostics mode.
+	#OFF: no transaction diagnostics or trace output; normal warnings may still be logged.
+	#COMPATIBILITY: emit compatibility diagnostics for vanilla/other-mod interaction checks without normal trace spam.
+	#SUMMARY: emit compact transaction summaries plus compatibility diagnostics.
+	#FULL_TRACE: emit verbose processor, rule, mutation, contribution, and bucket-level trace details.
+	#Default: OFF
+	#Allowed Values: OFF, COMPATIBILITY, SUMMARY, FULL_TRACE
+	mode = "OFF"
+
+[tooltips]
+	#Controls DamageNexus debug information shown in item tooltips.
+	#OFF: no debug tooltip sections.
+	#SUMMARY: show top-level source counts.
+	#STRUCTURE: show affix, entry, rule and augmentation hierarchy.
+	#FULL: show full debug details.
+	#Default: OFF
+	#Allowed Values: OFF, SUMMARY, STRUCTURE, FULL
+	debugLevel = "OFF"
+
+[combatFormulas]
+	#K value for the asymptotic armor formula.
+	#Formula: Reduction = effectiveArmor / (effectiveArmor + K).
+	#Lower values make armor strong earlier. Higher values stretch progression.
+	#Default: 15.0
+	# Default: 15.0
+	# Range: 1.0 ~ 1000.0
+	asymptoticKValue = 15.0
+	#K value for the elemental resistance formula.
+	#Formula: Reduction = rating / (rating + K).
+	#Default: 50.0
+	# Default: 50.0
+	# Range: 1.0 ~ 1000.0
+	resistanceKValue = 50.0
+	#How many resistance rating points are granted per 1 point of vanilla Protection score.
+	#Vanilla Protection IV grants 4 score.
+	#If this is 3.5, Protection IV grants 14 rating per piece.
+	#Default: 3.5
+	# Default: 3.5
+	# Range: 0.0 ~ 100.0
+	ratingPerProtScore = 3.5
+
+[vanillaCompatibility]
+	#Controls how DamageNexus interacts with vanilla reduction modifiers.
+	#FULL_REPLACEMENT: suppress all vanilla reduction modifiers after DN mitigation.
+	#CONFIGURABLE: use the four per-reduction booleans below.
+	#COOPERATIVE: suppress no vanilla reduction modifiers. May cause double mitigation.
+	#Default: FULL_REPLACEMENT
+	#Allowed Values: FULL_REPLACEMENT, CONFIGURABLE, COOPERATIVE
+	reductionMode = "FULL_REPLACEMENT"
+	#Used only when reductionMode=CONFIGURABLE.
+	#If true, DamageNexus suppresses vanilla ARMOR reduction after calculating DN mitigation.
+	#Default: true
+	suppressArmorReduction = true
+	#Used only when reductionMode=CONFIGURABLE.
+	#If true, DamageNexus suppresses vanilla ENCHANTMENTS reduction after calculating DN mitigation.
+	#Default: true
+	suppressEnchantmentReduction = true
+	#Used only when reductionMode=CONFIGURABLE.
+	#If true, DamageNexus suppresses vanilla MOB_EFFECTS reduction after calculating DN mitigation.
+	#Default: true
+	suppressMobEffectReduction = true
+	#Used only when reductionMode=CONFIGURABLE.
+	#If true, DamageNexus suppresses vanilla INNATE_RESISTANCE reduction after calculating DN mitigation.
+	#Default: true
+	suppressInnateResistanceReduction = true
+
+[damageSafety]
+	#Maximum explicit DamageLineage recursion depth.
+	#Root depth is 0; a value of 5 permits depths 0 through 5.
+	#Default: 5
+	# Default: 5
+	# Range: 1 ~ 64
+	maxRecursionDepth = 5
+	#Maximum admitted child requests shared by one root chain.
+	#The root request itself does not consume this count.
+	#Default: 64
+	# Default: 64
+	# Range: 1 ~ 65536
+	maxDerivedRequestsPerRoot = 64
+	#Maximum managed damage admissions per MinecraftServer tick.
+	#All dimensions and both public/native damage share the limit.
+	#Default: 2048
+	# Default: 2048
+	# Range: 1 ~ 1000000
+	maxManagedRequestsPerServerTick = 2048

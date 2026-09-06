@@ -1,0 +1,2 @@
+# Disable NeoForge global version checking
+versionCheck = false

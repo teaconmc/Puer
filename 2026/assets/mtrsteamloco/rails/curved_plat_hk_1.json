@@ -1,0 +1,9 @@
+{
+    "curved_plat_hk_1_indented": {
+        "name": "Platform HK/Indented",
+        "model": "mtrsteamloco:rails/curved_plat/hk_1/hk_1_indented.obj",
+        "flipV": true,
+        "yOffset": 1.51,
+        "repeatInterval": 0.99
+    }
+}

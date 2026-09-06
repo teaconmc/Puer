@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "ADE",
+    "ABC"
+  ],
+  "key": {
+    "A": "minecraft:snow_block",
+    "B": "minecraft:piston",
+    "C": "minecraft:redstone",
+    "D": "bsf3lite:expansion_snowball",
+    "E": "minecraft:redstone_torch"
+  },
+  "result": {
+    "id": "bsf3lite:reconstruct_snowball",
+    "count": 2,
+    "components": {
+      "bsf3lite:region": {
+        "start": [390, 52, 774],
+        "end": [431, 12, 815]
+      }
+    }
+  }
+}

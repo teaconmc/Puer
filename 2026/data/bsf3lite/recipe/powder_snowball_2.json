@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WRW",
+    "WWW"
+  ],
+  "key": {
+    "W": "bsf3lite:smooth_snowball",
+    "R": "minecraft:powder_snow_bucket"
+  },
+  "result": {
+    "id": "bsf3lite:powder_snowball",
+    "count": 8,
+    "components": {
+      "bsf3lite:region": {
+        "start": [438, 12, 721],
+        "end": [395, 30, 815]
+      }
+    }
+  }
+}

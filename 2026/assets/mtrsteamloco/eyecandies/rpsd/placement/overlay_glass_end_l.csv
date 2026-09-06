@@ -1,0 +1,28 @@
+CreateMeshBuilder,
+AddVertex,1,2.067,-0.12
+AddVertex,1,2.095,-0.12
+AddVertex,0,2.095,-0.12
+AddVertex,0,2.067,-0.12
+AddFace,0,1,2,3
+LoadTexture, strip.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+ScaleAll,0.9,1,1
+RotateAll,0,1,0,-45
+TranslateAll,1.26,0,-0.065
+
+
+CreateMeshBuilder,
+AddVertex,1.6,2.067,-0.12
+AddVertex,1.6,2.095,-0.12
+AddVertex,0,2.095,-0.12
+AddVertex,0,2.067,-0.12
+AddFace,0,1,2,3
+LoadTexture, strip.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1

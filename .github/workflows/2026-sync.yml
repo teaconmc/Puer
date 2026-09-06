@@ -1,0 +1,257 @@
+name: TeaCon 2026 Sync Pack-building Files
+
+on:
+  push:
+    paths: [ "2026/**" ]
+    branches: [ dev ]
+    tags: [ '**' ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    # https://github.com/actions/runner-images/issues/10636
+    # Aliyun CLI is removed from ubuntu-24.04 image among with a lot of several other CLI tools (Netlify, Vercel, etc)
+    # Roll back to 22.04 for Jiachen. 
+    # In the future, we need to make sure Aliyun CLI is installed before anything. 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Aliyun CLI & TeaCon CLI
+        run: |
+          curl https://aliyuncli.alicdn.com/aliyun-cli-linux-latest-amd64.tgz -o aliyun-cli-linux-latest.tgz
+          tar xzvf aliyun-cli-linux-latest.tgz
+          npm install -g https://archive.teacon.cn/cli/teaconmc-cli-latest.tgz
+      - name: Setup profile
+        env:
+          REGION: ${{ secrets.REGION }}
+          ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: ./aliyun configure set --profile main --region $REGION --mode AK --access-key-id $ACCESS_KEY --access-key-secret $SECRET_KEY
+      - name: Sync For Test
+        id: sync-test
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          ALIBABA_CLOUD_PROFILE: main
+        run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Test Client - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Test Client - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 测试客户端 - Minecraft 26.1.2"
+          EOF
+
+          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/test/
+      - name: Sync For Build
+        id: sync-build
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          ALIBABA_CLOUD_PROFILE: main
+        run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Build Client - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Build Client - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 建筑客户端 - Minecraft 26.1.2"
+          EOF
+
+          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/internal/
+      - name: Sync For Prod
+        id: sync-prod
+        if: ${{ startsWith(github.ref, 'refs/tags') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          ALIBABA_CLOUD_PROFILE: main
+        run: |
+          mkdir -p 2026/config/toad-sync
+          cat > 2026/config/toad-sync/title.override.toml <<'EOF'
+          title = "TeaCon 2026 Modpack - Minecraft 26.1.2"
+
+          [lang.en_us]
+          title = "TeaCon 2026 Modpack - Minecraft 26.1.2"
+
+          [lang.zh_cn]
+          title = "TeaCon 2026 整合包 - Minecraft 26.1.2"
+          EOF
+
+          sed -i 's/test/prod/g' 2026/config/toad-sync-common.toml
+          ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/prod/
+      - name: Generate & Upload Toad Artifacts For Test
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          REGION: ${{ secrets.REGION }}
+          ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: |
+          rm -rf toad
+          mkdir -p toad
+
+          teacon config set endpoints.archive-oss oss://$BUCKET/
+          teacon config set endpoints.archive-http https://archive.teacon.cn/
+          teacon config set secrets.oss-region $REGION
+          teacon config set secrets.oss-access-key-id $ACCESS_KEY
+          teacon config set secrets.oss-access-key-secret $SECRET_KEY
+
+          teacon manifest generate test -f --no-pack-entries -M toad/teacon-manifest.test.toml
+          teacon manifest assemble options test -f -M toad/teacon-manifest.test.toml -N toad/options.override.txt
+          teacon manifest assemble resourcepack test -f -M toad/teacon-manifest.test.toml -Z toad/assets.override.zip
+          teacon manifest assemble datapack test -f -M toad/teacon-manifest.test.toml -Z toad/data.override.zip
+
+          python3 - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path
+
+          root = Path("toad")
+          source = Path("2026/config/toad-sync-common.toml")
+          temporary_files = {
+              "options": "options.override.txt",
+              "assets": "assets.override.zip",
+              "data": "data.override.zip",
+          }
+
+          def digest(path: Path) -> str:
+              return sha256(path.read_bytes()).hexdigest()
+
+          artifacts = {}
+          for kind, temporary_name in temporary_files.items():
+              temporary_path = root / temporary_name
+              hash_ = digest(temporary_path)
+              artifact_path = temporary_path.with_name(
+                  f"{kind}.{hash_[-8:]}{temporary_path.suffix}"
+              )
+              temporary_path.rename(artifact_path)
+              artifacts[kind] = (hash_, artifact_path.name)
+
+          options_hash, options_file = artifacts["options"]
+          assets_hash, assets_file = artifacts["assets"]
+          data_hash, data_file = artifacts["data"]
+
+          prefix = source.read_text(encoding="utf-8") if source.exists() else ""
+          generated = "\n".join([
+              "# Options",
+              "[sync.options]",
+              f'hash = "{options_hash}"',
+              f'file = "{options_file}"',
+              "",
+              "# Resource pack",
+              "[sync.assets]",
+              f'hash = "{assets_hash}"',
+              f'file = "{assets_file}"',
+              "",
+              "# Datapack",
+              "[sync.data]",
+              f'hash = "{data_hash}"',
+              f'file = "{data_file}"',
+              "",
+              "",
+          ])
+          if prefix and not prefix.endswith("\n"):
+              prefix += "\n"
+          if prefix:
+              generated = prefix + "\n" + generated
+
+          (root / "toad-sync-common.toml").write_text(generated, encoding="utf-8")
+          PY
+
+          rm -f toad/teacon-manifest.test.toml
+          ARTIFACT_META='Cache-Control:public,max-age=2592000,s-maxage=2592000'
+          TOML_META='Cache-Control:public,no-cache'
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/options.*.txt oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/assets.*.zip oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/data.*.zip oss://$BUCKET/2026/toad/test/
+          ./aliyun oss cp --force --meta="$TOML_META" toad/toad-sync-common.toml oss://$BUCKET/2026/toad/test/toad-sync-common.toml
+      - name: Generate & Upload Toad Artifacts For Prod
+        if: ${{ startsWith(github.ref, 'refs/tags') }}
+        env:
+          BUCKET: ${{ secrets.BUCKET }}
+          REGION: ${{ secrets.REGION }}
+          ACCESS_KEY: ${{ secrets.TEACON_ARCHIVE_ACCESS_KEY }}
+          SECRET_KEY: ${{ secrets.TEACON_ARCHIVE_SECRET_KEY }}
+        run: |
+          rm -rf toad
+          mkdir -p toad
+
+          teacon config set endpoints.archive-oss oss://$BUCKET/
+          teacon config set endpoints.archive-http https://archive.teacon.cn/
+          teacon config set secrets.oss-region $REGION
+          teacon config set secrets.oss-access-key-id $ACCESS_KEY
+          teacon config set secrets.oss-access-key-secret $SECRET_KEY
+
+          teacon manifest generate prod -f --no-pack-entries -M toad/teacon-manifest.prod.toml
+          teacon manifest assemble options prod -f -M toad/teacon-manifest.prod.toml -N toad/options.override.txt
+          teacon manifest assemble resourcepack prod -f -M toad/teacon-manifest.prod.toml -Z toad/assets.override.zip
+          teacon manifest assemble datapack prod -f -M toad/teacon-manifest.prod.toml -Z toad/data.override.zip
+
+          python3 - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path
+
+          root = Path("toad")
+          source = Path("2026/config/toad-sync-common.toml")
+          temporary_files = {
+              "options": "options.override.txt",
+              "assets": "assets.override.zip",
+              "data": "data.override.zip",
+          }
+
+          def digest(path: Path) -> str:
+              return sha256(path.read_bytes()).hexdigest()
+
+          artifacts = {}
+          for kind, temporary_name in temporary_files.items():
+              temporary_path = root / temporary_name
+              hash_ = digest(temporary_path)
+              artifact_path = temporary_path.with_name(
+                  f"{kind}.{hash_[-8:]}{temporary_path.suffix}"
+              )
+              temporary_path.rename(artifact_path)
+              artifacts[kind] = (hash_, artifact_path.name)
+
+          options_hash, options_file = artifacts["options"]
+          assets_hash, assets_file = artifacts["assets"]
+          data_hash, data_file = artifacts["data"]
+
+          prefix = source.read_text(encoding="utf-8") if source.exists() else ""
+          generated = "\n".join([
+              "# Options",
+              "[sync.options]",
+              f'hash = "{options_hash}"',
+              f'file = "{options_file}"',
+              "",
+              "# Resource pack",
+              "[sync.assets]",
+              f'hash = "{assets_hash}"',
+              f'file = "{assets_file}"',
+              "",
+              "# Datapack",
+              "[sync.data]",
+              f'hash = "{data_hash}"',
+              f'file = "{data_file}"',
+              "",
+              "",
+          ])
+          if prefix and not prefix.endswith("\n"):
+              prefix += "\n"
+          if prefix:
+              generated = prefix + "\n" + generated
+
+          (root / "toad-sync-common.toml").write_text(generated, encoding="utf-8")
+          PY
+
+          rm -f toad/teacon-manifest.prod.toml
+          ARTIFACT_META='Cache-Control:public,max-age=2592000,s-maxage=2592000'
+          TOML_META='Cache-Control:public,no-cache'
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/options.*.txt oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/assets.*.zip oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$ARTIFACT_META" toad/data.*.zip oss://$BUCKET/2026/toad/prod/
+          ./aliyun oss cp --force --meta="$TOML_META" toad/toad-sync-common.toml oss://$BUCKET/2026/toad/prod/toad-sync-common.toml

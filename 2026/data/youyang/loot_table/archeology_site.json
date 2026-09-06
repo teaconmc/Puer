@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "weight": 50
+          },
+          {
+            "type": "minecraft:item",
+            "name": "caupona:lateres",
+            "weight": 50
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick",
+            "weight": 50
+          },
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:wheat_string",
+            "weight": 50
+          },
+
+
+          {
+            "type": "minecraft:item",
+            "name": "locusazzurro_icaruswings:linen",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ashihara:dirt_ball",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          
+          {
+            "type": "minecraft:item",
+            "name": "ultramarine:blue_and_white_porcelain_piece",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ultramarine:silk",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+                    {
+            "type": "minecraft:item",
+            "name": "ultramarine:xuan_paper",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ultramarine:copper_cash_coin",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ultramarine:large_white_porcelain_vase",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ultramarine:jade",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "酉阳城",
+                    "type": "text",
+                    "color": "blue"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+          
+        ]
+      }
+    ]
+  }

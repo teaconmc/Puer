@@ -1,0 +1,75 @@
+#API server base URL
+apiBaseUrl = "https://phone-generator.karlcx.cn:10841"
+#Maximum energy the generator can store (FE)
+# Default: 100000
+# Range: > 1
+energyBufferCapacity = 100000
+#FE per power level. Index 0 = level 1, index 1 = level 2, etc.
+#Levels beyond the list size use the last value.
+powerLevelMap = [100, 500, 2000, 5000]
+#Max FE pushed to adjacent blocks per tick
+# Default: 100
+# Range: > 1
+pushEnergyPerTick = 100
+#QR code side length (standard is 21)
+# Default: 21
+# Range: 5 ~ 100
+qrCodeSize = 21
+#Initial retry delay in seconds after connection failure
+# Default: 5
+# Range: 1 ~ 3600
+retryInitialDelaySec = 5
+#Maximum retry delay in seconds (exponential backoff cap)
+# Default: 120
+# Range: 1 ~ 3600
+retryMaxDelaySec = 120
+#Exponential backoff multiplier for retry delay
+# Default: 2.0
+# Range: 1.1 ~ 10.0
+retryDelayMultiplier = 2.0
+
+[fan]
+	#Maximum FE capacity of the motor block
+	# Default: 500
+	# Range: > 0
+	motorCapacity = 500
+	#Maximum FE accepted per insert operation
+	# Default: 80
+	# Range: > 0
+	motorMaxInsert = 80
+	#FE consumed per tick during spin-up
+	# Default: 80
+	# Range: > 0
+	energyPerTick = 80
+	#RPM gained per unit of FE consumed
+	# Default: 0.006
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rpmPerEnergy = 0.006
+	#RPM required to trigger fan launch
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	launchThreshold = 100.0
+	#RPM lost per tick when no FE is available
+	# Default: 0.05
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rpmFriction = 0.05
+	#Ticks to wait after launch before re-spawning fan
+	# Default: 60
+	# Range: > 1
+	cooldownTicks = 60
+	#Thrust applied per RPM per tick during flight
+	# Default: 0.006
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fanThrustFactor = 0.006
+	#Factor to multiply RPM by each tick during flight (0.99 = 1% decay per tick)
+	# Default: 0.985
+	# Range: 0.0 ~ 1.0
+	fanRpmDecayFactor = 0.985
+	#Y velocity below which fan is considered 'settled'
+	# Default: 0.02
+	# Range: 0.0 ~ 1.7976931348623157E308
+	fanSettleSpeed = 0.02
+	#Consecutive ticks below settle speed before fan despawns
+	# Default: 40
+	# Range: > 1
+	fanSettleTicks = 40

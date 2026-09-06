@@ -1,0 +1,52 @@
+#Force compatibility mode. When enabled, disables MDI, sparse texture and SSBO rendering features even if the GPU supports them.
+forceCompatibilityMode = false
+#Enable the minimap HUD overlay.
+minimapEnabled = false
+#Minimap size as percentage of screen height. Default: 15.
+# Default: 25
+# Range: 1 ~ 50
+minimapSize = 25
+#Minimap padding from screen edge as percentage of screen height. Default: 5.
+# Default: 5
+# Range: 0 ~ 25
+minimapPadding = 5
+#Interval in ticks for auto-saving map data. Default: 1200 (60s).
+# Default: 1200
+# Range: 20 ~ 72000
+autoSaveInterval = 1200
+#Interval in ticks for drawing new chunks from the update queue. Default: 100 (5s).
+# Default: 100
+# Range: 1 ~ 1200
+drawNewChunkInterval = 200
+#Number of chunks to draw per interval from the update queue. Default: 1000.
+# Default: 1000
+# Range: 1 ~ 50000
+drawNewChunkCount = 1000
+#Show map info window when first opening the map. Automatically set to false after shown once.
+showMapInfo = false
+#Interval in frames between minimap re-renders. Higher values improve performance at the cost of update latency. Default: 10.
+# Default: 10
+# Range: 1 ~ 20
+minimapRenderInterval = 2
+#Record all blocks above sea level. This uses more VRAM when enabled.
+recordAllAboveSeaLevel = false
+#Rotate the minimap with the player.
+minimapRotateWithPlayer = true
+#Minimap camera X rotation.
+# Default: 89.0
+# Range: -89.9 ~ 89.9
+minimapCameraXRot = 89.9
+#Minimap camera field of view.
+# Default: 60.0
+# Range: 5.0 ~ 90.0
+minimapCameraFov = 90.0
+#Minimap camera length.
+# Default: 0.0
+# Range: 0.0 ~ 100000.0
+minimapCameraLength = 100
+#World map LOD screen-space threshold in pixels.
+# Default: 172
+# Range: 16 ~ 114514
+worldMapLodThreshold = 172
+#Optional per-dimension overrides: [dimension id, map enabled, override sea level, sea level]. Server-disabled maps cannot be enabled here.
+dimensions = []
