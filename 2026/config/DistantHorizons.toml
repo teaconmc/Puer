@@ -36,3 +36,7 @@ enableDistantGeneration = true
 			[client.advanced.graphics.experimental]
 
 				renderingEngine = "OPEN_GL"
+
+		[client.advanced.multiplayer]
+
+			serverFolderNameMode = "IP_ONLY"
