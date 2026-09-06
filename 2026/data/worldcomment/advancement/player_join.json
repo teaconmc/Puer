@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "joined": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "loot": ["worldcomment:comment_tool"]
+  },
+  "sends_telemetry_event": false
+}
