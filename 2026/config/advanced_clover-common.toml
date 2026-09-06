@@ -37,7 +37,7 @@ whitelist_items = [
 	"minecraft:.*(undying_tot|armor|_dye)",
 	"minecraft:heart_of_the_sea",
 	"bakeries:.*(powder|flour|toast|yolk|bread|dough).*",
-	"bsf3lite:((smooth|duck|compacted|cherry_blossom|stone|ice|iron|obsidian|explosive|spectral)_snowball(_set)?|((powerful|freezing)_)?snowball_(cannon|machine_gun|shotgun|rifle)|.*(tank|clamp|glove|popsicle)|basin|snowman_in_hand|sculk_snowball_launcher|repulsive_field_generator|ice_skates|snow_fall_boots|vodka)",
+	"bsf3lite:((smooth|duck|compacted|cherry_blossom|stone|ice|iron|obsidian|spectral)_snowball(_set)?|.*(tank|clamp|glove|popsicle)|basin|ice_skates|snow_fall_boots|vodka)",
 	"modulargolems:(?!.*spawn_egg).*golem.*",
 	"advanced_clover:.*_leaf_clover",
 	"harvestheritage:.*_stand_block",
