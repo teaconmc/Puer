@@ -26,7 +26,7 @@ enableDistantGeneration = true
 			enableAutoUpdater = false
 
 		[client.advanced.multiplayer]
-			serverFolderNameMode = "NAME_ONLY"
+			serverFolderNameMode = "IP_ONLY"
 
 		[client.advanced.graphics]
 
