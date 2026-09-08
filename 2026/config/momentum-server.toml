@@ -69,7 +69,7 @@ climbBoostMultiplier = 3.0
 #默认值: 20
 # Default: 20
 # Range: 0 ~ 200
-wallKickAccelerationCooldown = 20
+wallKickAccelerationCooldown = 10
 
 [function_switches]
 #是否开启趴下
