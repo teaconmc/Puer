@@ -9,11 +9,11 @@
       "weight": 1.0
     },
     {
-      "category": "teacon:theme_nature",
+      "category": "teacon:theme_nearby_link",
       "weight": 1.0
     },
     {
-      "category": "teacon:theme_relation",
+      "category": "teacon:theme_rule_rebirth",
       "weight": 1.0
     }
   ]

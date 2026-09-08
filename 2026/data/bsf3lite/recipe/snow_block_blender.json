@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "RRP",
+    "RR "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone_block",
+    "P": "minecraft:iron_pickaxe"
+  },
+  "result": {
+    "id": "bsf3lite:snow_block_blender",
+    "count": 1,
+    "components": {
+      "bsf3lite:region": {
+        "start": [437, 12, 753],
+        "end": [395, 31, 722]
+      }
+    }
+  }
+}

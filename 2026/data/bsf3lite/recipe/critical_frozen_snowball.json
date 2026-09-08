@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WRW",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:ice",
+    "R": "minecraft:powder_snow_bucket"
+  },
+  "result": {
+    "id": "bsf3lite:critical_frozen_snowball",
+    "count": 8,
+    "components": {
+      "bsf3lite:region": {
+        "start": [437, 12, 753],
+        "end": [395, 31, 722]
+      }
+    }
+  }
+}

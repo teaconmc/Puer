@@ -13,7 +13,8 @@
   "translucentMethod": "DEPTH_TRUE",
   "lightCacheRefreshInterval": "FRAME",
   "takeOverRenderBlackList": [
-    "mod.chloeprime.aaaparticles.api.client.util.VanillaParticleProxy"
+    "mod.chloeprime.aaaparticles.api.client.util.VanillaParticleProxy",
+    "com.sqzj.vw50.client.particle.ItemIconParticle"
   ],
   "takeOverTickBlackList": []
 }

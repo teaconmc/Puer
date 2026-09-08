@@ -195,16 +195,6 @@
         ]
     },
     {
-        "id": "65240d59d8665569ae916d331a5cf928",
-        "mods": [
-            "ourthoughtsareone"
-        ],
-        "domain": 0,
-        "administrators": [
-            "fc56d7bed9a54209856f8ae27e45b2bc"
-        ]
-    },
-    {
         "id": "c4e8875a228e569ba33d622fd411e1c6",
         "mods": [
             "ageratum",
@@ -426,16 +416,6 @@
         ]
     },
     {
-        "id": "c715c279175157cf8b600743e2b17a4f",
-        "mods": [
-            "mirage2004"
-        ],
-        "domain": 0,
-        "administrators": [
-            "76f4926bae074adaba46fe5d31b45ab1"
-        ]
-    },
-    {
         "id": "ea0f1e1d362e5031bf452ae7bad7b21b",
         "mods": [
             "kord",
@@ -505,16 +485,6 @@
         ]
     },
     {
-        "id": "3953d3d991bc5dfdacf334520f915092",
-        "mods": [
-            "mpsdoll"
-        ],
-        "domain": 0,
-        "administrators": [
-            "c73c958be6c84c3d8543c2f57fbd134b"
-        ]
-    },
-    {
         "id": "c58f2f45393b53e19951dd0eaf248f7e",
         "mods": [
             "ether_craft",
@@ -548,17 +518,6 @@
         "administrators": [
             "558d17cba546409a9a6e84caad72c352",
             "df32684c965d48e59d5f4c4b442c58f7"
-        ]
-    },
-    {
-        "id": "a2129e72a29654d2a1ba9438c880492e",
-        "mods": [
-            "beyond"
-        ],
-        "domain": 0,
-        "administrators": [
-            "d09a076e30714d4aa98e5e80cc14d45d",
-            "b7acc29310d24091a561fa3bb88c56ba"
         ]
     },
     {
@@ -609,21 +568,11 @@
         ]
     },
     {
-        "id": "87ea8abe57345a0fb2972c1fbd5ce02d",
-        "mods": [
-            "reconnectionchat"
-        ],
-        "domain": 0,
-        "administrators": [
-            "91e67a3e9c264b9cbdbb8c2cc7e50572"
-        ]
-    },
-    {
         "id": "24271db3f33b516b89e69f653c0c80ee",
         "mods": [
             "displaydoll"
         ],
-        "domain": 0,
+        "domain": 20,
         "administrators": [
             "7c5faf4424b04496b91a147fb781fae9",
             "992e248e89c44f93bfae56b761f00c04",
@@ -976,6 +925,47 @@
         "domain": 0,
         "administrators": [
             "9e9877871ae84ba59bfd92a87dd5dde9"
+        ]
+    },
+    {
+        "id": "0a63c0e00f24475e8a47d2d2a001a787",
+        "mods": [
+            "worldcomment"
+        ],
+        "domain": 0,
+        "administrators": [
+            "558d17cba546409a9a6e84caad72c352"
+        ]
+    },
+    {
+        "id": "d062a43253584660ba82b60cdc064891",
+        "mods": [
+            "live_helper"
+        ],
+        "domain": 10,
+        "administrators": [
+            "8f50bdf3cb094e29ab76dc1cf9db86a1"
+        ]
+    },
+    {
+        "id": "f098cab8eb285aeea9b0167ba979f8cd",
+        "mods": [
+            "kilagraphdemo"
+        ],
+        "domain": 0,
+        "administrators": [
+            "2fa297a67803462983607059155cf43e"
+        ]
+    },
+    {
+        "id": "b9a7f388eb58567093ad7fb21f462b49",
+        "mods": [
+            "thestreetism"
+        ],
+        "domain": 0,
+        "administrators": [
+            "abe89acd0a8b46fbb61d117d6575e914",
+            "eea11cc3af9940038bb889337494d552"
         ]
     }
 ]

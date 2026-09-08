@@ -1,6 +1,14 @@
 name = "default"
 
 [[permissions]]
+permission = "command.pt"
+value = false
+
+[[permissions]]
+permission = "command.powertool"
+value = false
+
+[[permissions]]
 permission = "madparticle.commands.mp_demo"
 value = true
 

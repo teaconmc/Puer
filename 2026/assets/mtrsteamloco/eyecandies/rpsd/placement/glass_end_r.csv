@@ -1,0 +1,401 @@
+;; Start Tiled Section ;;
+;; Door Light Off ;;
+
+CreateMeshBuilder,
+Cube, 0.06, 0.0325, 0.0325
+SetColor, 149, 49, 20
+Translate,0.53,2.0326,-0.257
+
+;; Right ;;
+CreateMeshBuilder,
+AddVertex,1,0,-0.28, 0,1,0
+AddVertex,1,2,-0.28, 0,1,0
+AddVertex,0.5,2,-0.28, 0,1,0
+AddVertex,0.5,0,-0.28, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetTextureCoordinates, 0,0.02,1
+SetTextureCoordinates, 1,0.02,0
+SetTextureCoordinates, 2,0.15,0
+SetTextureCoordinates, 3,0.15,1
+
+CreateMeshBuilder,
+AddVertex,1,0,-0.28, 0,1,0
+AddVertex,1,2,-0.28, 0,1,0
+AddVertex,0,2,-0.28, 0,1,0
+AddVertex,0,0,-0.28, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetTextureCoordinates, 0,0.65,1
+SetTextureCoordinates, 1,0.65,0
+SetTextureCoordinates, 2,0.98,0
+SetTextureCoordinates, 3,0.98,1
+
+;; Back ;;
+CreateMeshBuilder,
+AddVertex,0,0,-0.39, 0,1,0
+AddVertex,0,2,-0.39, 0,1,0
+AddVertex,1,2,-0.39, 0,1,0
+AddVertex,1,0,-0.39, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetColor, 0, 0, 0
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+
+
+
+;; PSD TOP ;;
+CreateMeshBuilder,
+AddVertex,1,2.065,-0.225
+AddVertex,1,3,-0.225
+AddVertex,0,3,-0.225
+AddVertex,0,2.065,-0.225
+
+AddVertex,1,2.02,-0.245, 0,0,0.9
+AddVertex,1,2.065,-0.225, 0,0,0.9
+AddVertex,0,2.065,-0.225, 0,0,0.9
+AddVertex,0,2.02,-0.245, 0,0,0.9
+
+AddVertex,1,2.0,-0.28, 0,0,0.5
+AddVertex,1,2.02,-0.245, 0,0,0.5
+AddVertex,0,2.02,-0.245, 0,0,0.5
+AddVertex,0,2.0,-0.28, 0,0,0.5
+
+AddVertex,1,2.0,-0.55, 0,0,0.2
+AddVertex,1,2.0,-0.28, 0,0,0.2
+AddVertex,0,2.0,-0.28, 0,0,0.2
+AddVertex,0,2.0,-0.55, 0,0,0.2
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+AddFace,8,9,10,11
+AddFace,12,13,14,15
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+SetTextureCoordinates, 4,0.5,0.1
+SetTextureCoordinates, 5,0.5,0
+SetTextureCoordinates, 6,0.5,0
+SetTextureCoordinates, 7,0.5,0.1
+SetTextureCoordinates, 8,0.5,0.1
+SetTextureCoordinates, 9,0.5,0
+SetTextureCoordinates, 10,0.5,0
+SetTextureCoordinates, 11,0.5,0.1
+SetTextureCoordinates, 12,0.5,0.1
+SetTextureCoordinates, 13,0.5,0
+SetTextureCoordinates, 14,0.5,0
+SetTextureCoordinates, 15,0.5,0.1
+
+CreateMeshBuilder,
+AddVertex,0,2,-0.55
+AddVertex,0,3,-0.55
+AddVertex,1,3,-0.55
+AddVertex,1,2,-0.55
+AddFace,0,1,2,3
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+;; Top ;;
+CreateMeshBuilder,
+AddVertex,0,3,-0.55
+AddVertex,0,3,-0.225
+AddVertex,1,3,-0.225
+AddVertex,1,3,-0.55
+AddFace,0,1,2,3
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0.2
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,0.2
+
+;; Side ;;
+CreateMeshBuilder,
+AddVertex,1,3,-0.55
+AddVertex,1,3,-0.225
+AddVertex,1,2.065,-0.225
+AddVertex,1,2.065,-0.55
+AddVertex,1,2.02,-0.245
+AddVertex,1,2.02,-0.55
+AddVertex,1,2,-0.55
+AddVertex,1,2,-0.28
+
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+AddFace,6,5,4,7
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+
+CreateMeshBuilder,
+AddVertex,0,3,-0.225
+AddVertex,0,3,-0.55
+AddVertex,0,2.065,-0.55
+AddVertex,0,2.065,-0.225
+
+AddVertex,0,2.02,-0.55
+AddVertex,0,2.02,-0.245
+
+AddVertex,0,2,-0.28
+AddVertex,0,2,-0.55
+
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+AddFace,6,5,4,7
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+
+ScaleAll,0.9,1,1
+RotateAll,0,1,0,-45
+TranslateAll,1.19,0,0.009
+
+;; END ROT ;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;; Right ;;
+CreateMeshBuilder,
+AddVertex,1,0,-0.265, 0,1,0
+AddVertex,1,2,-0.265, 0,1,0
+AddVertex,0,2,-0.265, 0,1,0
+AddVertex,0,0,-0.265, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+CreateMeshBuilder,
+AddVertex,1,0,-0.18
+AddVertex,1,2,-0.18
+AddVertex,1,2,-0.265
+AddVertex,1,0,-0.265
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,0.01,0
+SetTextureCoordinates, 3,0.01,1
+
+CreateMeshBuilder,
+AddVertex,1.45,0,-0.18, 0,1,0
+AddVertex,1.45,2,-0.18, 0,1,0
+AddVertex,1,2,-0.18, 0,1,0
+AddVertex,1,0,-0.18, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetTextureCoordinates, 0,0.83,1
+SetTextureCoordinates, 1,0.83,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+;; Back ;;
+CreateMeshBuilder,
+AddVertex,0,0,-0.39, 0,1,0
+AddVertex,0,2,-0.39, 0,1,0
+AddVertex,1,2,-0.39, 0,1,0
+AddVertex,1,0,-0.39, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetColor, 0, 0, 0
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder,
+AddVertex,1,0,-0.28, 0,1,0
+AddVertex,1,2,-0.28, 0,1,0
+AddVertex,1.55,2,-0.28, 0,1,0
+AddVertex,1.55,0,-0.28, 0,1,0
+AddFace,0,1,2,3
+LoadTexture, glass_3.png
+SetColor, 0, 0, 0
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0.7,0
+SetTextureCoordinates, 3,0.7,1
+
+CreateMeshBuilder,
+AddVertex,1,0,-0.39, 0,1,0
+AddVertex,1,2,-0.39, 0,1,0
+AddVertex,1,2,-0.265, 0,1,0
+AddVertex,1,0,-0.265, 0,1,0
+
+AddVertex,0,0,-0.265, 0,1,0
+AddVertex,0,2,-0.265, 0,1,0
+AddVertex,0,2,-0.39, 0,1,0
+AddVertex,0,0,-0.39, 0,1,0
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+SetColor,140,140,140
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+
+
+;; PSD TOP ;;
+CreateMeshBuilder,
+AddVertex,1.6,2.065,-0.125
+AddVertex,1.6,3,-0.125
+AddVertex,0,3,-0.125
+AddVertex,0,2.065,-0.125
+
+AddVertex,1.6,2.02,-0.145, 0,0,0.9
+AddVertex,1.6,2.065,-0.125, 0,0,0.9
+AddVertex,0,2.065,-0.125, 0,0,0.9
+AddVertex,0,2.02,-0.145, 0,0,0.9
+
+AddVertex,1.6,2.0,-0.18, 0,0,0.5
+AddVertex,1.6,2.02,-0.145, 0,0,0.5
+AddVertex,0,2.02,-0.145, 0,0,0.5
+AddVertex,0,2.0,-0.18, 0,0,0.5
+
+AddVertex,1.6,2.0,-0.5, 0,0,0.2
+AddVertex,1.6,2.0,-0.18, 0,0,0.2
+AddVertex,0,2.0,-0.18, 0,0,0.2
+AddVertex,0,2.0,-0.5, 0,0,0.2
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+AddFace,8,9,10,11
+AddFace,12,13,14,15
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+SetTextureCoordinates, 4,0.5,0.1
+SetTextureCoordinates, 5,0.5,0
+SetTextureCoordinates, 6,0.5,0
+SetTextureCoordinates, 7,0.5,0.1
+SetTextureCoordinates, 8,0.5,0.1
+SetTextureCoordinates, 9,0.5,0
+SetTextureCoordinates, 10,0.5,0
+SetTextureCoordinates, 11,0.5,0.1
+SetTextureCoordinates, 12,0.5,0.1
+SetTextureCoordinates, 13,0.5,0
+SetTextureCoordinates, 14,0.5,0
+SetTextureCoordinates, 15,0.5,0.1
+
+CreateMeshBuilder,
+AddVertex,0,2,-0.5
+AddVertex,0,3,-0.5
+AddVertex,1.6,3,-0.5
+AddVertex,1.6,2,-0.5
+AddFace,0,1,2,3
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,1
+
+;; Top ;;
+CreateMeshBuilder,
+AddVertex,0,3,-0.5
+AddVertex,0,3,-0.125
+AddVertex,1.6,3,-0.125
+AddVertex,1.6,3,-0.5
+AddFace,0,1,2,3
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0.2
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,0.2
+
+;; Side ;;
+CreateMeshBuilder,
+AddVertex,1.6,3,-0.5
+AddVertex,1.6,3,-0.125
+AddVertex,1.6,2.065,-0.125
+AddVertex,1.6,2.065,-0.5
+AddVertex,1.6,2.02,-0.145
+AddVertex,1.6,2.02,-0.5
+AddVertex,1.6,2,-0.5
+AddVertex,1.6,2,-0.18
+
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+AddFace,6,5,4,7
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+
+CreateMeshBuilder,
+AddVertex,0,3,-0.125
+AddVertex,0,3,-0.5
+AddVertex,0,2.065,-0.5
+AddVertex,0,2.065,-0.125
+
+AddVertex,0,2.02,-0.5
+AddVertex,0,2.02,-0.145
+
+AddVertex,0,2,-0.18
+AddVertex,0,2,-0.5
+
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+AddFace,6,5,4,7
+LoadTexture, psd_glass_top.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,1,1
+SetTextureCoordinates, 5,0,1
+SetTextureCoordinates, 6,1,1
+SetTextureCoordinates, 7,0,1
+
+MirrorAll,1,0,0
