@@ -43,7 +43,7 @@ if (source.isPlayer()) {
                 if (s.length() == 9) {
                     boolean success = true
                     for (char c : s.toCharArray()) {
-                        if (ch.indexOf(c) == -1) {
+                        if (ch.indexOf((int) c) == -1) {
                             success = false
                             break
                         }
