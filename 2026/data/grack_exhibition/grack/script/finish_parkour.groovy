@@ -25,6 +25,11 @@ if (source.isPlayer()) {
         player.sendSystemMessage(Component.literal('您不在跑酷范围内，无法完成跑酷'))
         return
     }
+    def cp = data.<Integer>get('checkpoint_index')
+    if (8 > cp) {
+        player.sendSystemMessage(Component.literal('您未到达全部记录点，无法完成跑酷'))
+        return
+    }
     def currentTime = System.currentTimeMillis()
     data.put('is_in_parkour', false)
     player.sendSystemMessage(Component.literal('跑酷结束'))
