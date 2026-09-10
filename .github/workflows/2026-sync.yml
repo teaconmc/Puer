@@ -83,7 +83,7 @@ jobs:
           title = "TeaCon 2026 整合包 - Minecraft 26.1.2"
           EOF
 
-          sed -i 's/test/prod/g' 2026/config/toad-sync-common.toml
+          sed -Ei 's/interval = [0-9.]+/interval = 2147483647.0/;s/test/prod/g;s/Test/Prod/g' 2026/config/toad-sync-common.toml
           ./aliyun oss sync --delete --force --meta=Cache-Control:no-cache --backup-dir backup ./2026/ oss://$BUCKET/2026/puer/prod/
       - name: Generate & Upload Toad Artifacts For Test
         if: ${{ startsWith(github.ref, 'refs/heads') }}

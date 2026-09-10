@@ -1,0 +1,24 @@
+# Blender 5.2.1 LTS MTL File: 'tracks_bake (Baking).blend'
+# www.blender.org
+
+newmtl concrete_aged
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd short_beam_bridge.png
+
+newmtl concrete_aged_white
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd short_beam_bridge.png

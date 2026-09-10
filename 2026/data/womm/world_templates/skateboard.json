@@ -1,0 +1,11 @@
+{
+  "identity": "skateboard",
+  "always_recreate": false,
+  "game_type": "creative",
+  "difficulty": "peaceful",
+  "hardcore": false,
+  "locked": false,
+  "preset": "minecraft:normal",
+  "generate_structures": false,
+  "generate_bonus_chest": false
+}

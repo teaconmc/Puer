@@ -195,16 +195,6 @@
         ]
     },
     {
-        "id": "65240d59d8665569ae916d331a5cf928",
-        "mods": [
-            "ourthoughtsareone"
-        ],
-        "domain": 0,
-        "administrators": [
-            "fc56d7bed9a54209856f8ae27e45b2bc"
-        ]
-    },
-    {
         "id": "c4e8875a228e569ba33d622fd411e1c6",
         "mods": [
             "ageratum",
@@ -426,16 +416,6 @@
         ]
     },
     {
-        "id": "c715c279175157cf8b600743e2b17a4f",
-        "mods": [
-            "mirage2004"
-        ],
-        "domain": 0,
-        "administrators": [
-            "76f4926bae074adaba46fe5d31b45ab1"
-        ]
-    },
-    {
         "id": "ea0f1e1d362e5031bf452ae7bad7b21b",
         "mods": [
             "kord",
@@ -541,17 +521,6 @@
         ]
     },
     {
-        "id": "a2129e72a29654d2a1ba9438c880492e",
-        "mods": [
-            "beyond"
-        ],
-        "domain": 0,
-        "administrators": [
-            "d09a076e30714d4aa98e5e80cc14d45d",
-            "b7acc29310d24091a561fa3bb88c56ba"
-        ]
-    },
-    {
         "id": "3cb2083d424f50329f3b7cb7c9a5a361",
         "mods": [
             "lanfasie_benderson"
@@ -596,16 +565,6 @@
             "82af1b07f7454c9e8a1f8836e084980f",
             "d4d428858d73410f83d8376f0f06c35c",
             "05dd39a6547148c1b13caefc4e96326e"
-        ]
-    },
-    {
-        "id": "87ea8abe57345a0fb2972c1fbd5ce02d",
-        "mods": [
-            "reconnectionchat"
-        ],
-        "domain": 0,
-        "administrators": [
-            "91e67a3e9c264b9cbdbb8c2cc7e50572"
         ]
     },
     {
@@ -956,16 +915,6 @@
             "c336ce622101483e87d187de2ae77051",
             "992e248e89c44f93bfae56b761f00c04",
             "35567f2eba7b4c8380bb939232676d88"
-        ]
-    },
-    {
-        "id": "9f150b8311205e8db896375b57f98f5e",
-        "mods": [
-            "geometry_node"
-        ],
-        "domain": 0,
-        "administrators": [
-            "9e9877871ae84ba59bfd92a87dd5dde9"
         ]
     },
     {
