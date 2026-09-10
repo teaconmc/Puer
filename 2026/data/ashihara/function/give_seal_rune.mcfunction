@@ -1,0 +1,1 @@
+give @p powertool:command_rune[minecraft:item_name={"color":"gold","text":"咒术碎片"},minecraft:item_model="beecrasy:pheromone",powertool:command="/execute if entity @s[x=-54,y=95,z=-1122,distance=..7] run setblock -59 92 -1123 minecraft:redstone_block",powertool:consume=0,powertool:delayed_command=[]]
