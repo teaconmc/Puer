@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 996.0,
+                  "max": 1003.0
+                },
+                "y": {
+                  "min": 154.0,
+                  "max": 160.0
+                },
+                "z": {
+                  "min": 963.0,
+                  "max": 980.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:church_ruins"
+  }
+}

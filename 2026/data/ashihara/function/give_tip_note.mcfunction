@@ -1,0 +1,1 @@
+give @p powertool:command_rune[minecraft:item_model="ultramarine:blue_book",minecraft:item_name="神社历史笔记",powertool:command="/execute unless predicate inkraft:in_any_story run inkraft start ashihara:player_tip_note",powertool:consume=0,powertool:delayed_command=[]]
