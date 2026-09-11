@@ -36,23 +36,23 @@ if (source.isPlayer()) {
     data.put('is_in_parkour', false)
     player.sendSystemMessage(Component.literal('跑酷结束'))
 
-    if (currentTime - data.<Long>get('start_time') < TimeUnit.MINUTES.toMillis(maxMinutes) + TimeUnit.SECONDS.toMillis(maxSeconds)) {
-        def is = player.getItemInHand(InteractionHand.MAIN_HAND)
-        if (is.is(Items.PAPER)) {
-            def customName = is.getCustomName()
-            if (customName != null) {
-                String s = customName.getString().toLowerCase()
-                if (s.length() == 9) {
-                    def ch = data.<String>get("characters")
-                    boolean success = true
-                    for (char c : s.toCharArray()) {
-                        if (ch.indexOf((int) c) == -1) {
-                            success = false
-                            break
-                        }
+    def is = player.getItemInHand(InteractionHand.MAIN_HAND)
+    if (is.is(Items.PAPER)) {
+        def customName = is.getCustomName()
+        if (customName != null) {
+            String s = customName.getString().toLowerCase()
+            if (s.length() == 9) {
+                def ch = data.<String>get("characters")
+                boolean success = true
+                for (char c : s.toCharArray()) {
+                    if (ch.indexOf((int) c) == -1) {
+                        success = false
+                        break
                     }
-                    if (success) {
-                        player.sendSystemMessage(Component.literal("恭喜你找到了9个字母，并在${minutes > 0 ? "${minutes}分" : ''}${seconds > 0 ? "${seconds}秒" : ''}内完成跑酷，使用背包中的碎片来前往大师盖章台吧"))
+                }
+                if (success) {
+                    if (currentTime - data.<Long>get('start_time') < TimeUnit.MINUTES.toMillis(maxMinutes) + TimeUnit.SECONDS.toMillis(maxSeconds)) {
+                        player.sendSystemMessage(Component.literal("恭喜你找到了9个字母，并在${maxMinutes > 0 ? "${maxMinutes}分" : ''}${maxSeconds > 0 ? "${maxSeconds}秒" : ''}内完成跑酷，使用背包中的碎片来前往大师盖章台吧"))
                         def masterPos = ofBlockPos(args.getIntArray('master_pos'))
                         ItemStack itemStack = new ItemStack(PowerToolItems.COMMAND_RUNE)
                         itemStack.set(DataComponents.CUSTOM_NAME, Component.literal('前往大师盖章台'))
@@ -60,9 +60,12 @@ if (source.isPlayer()) {
                         itemStack.set(PowerToolDataComponents.COMMAND, "/tp @s $masterPos.x $masterPos.y $masterPos.z".toString())
                         player.getInventory().add(itemStack)
                         player.containerMenu.broadcastChanges()
+                    } else {
+                        player.sendSystemMessage(Component.literal('恭喜你找到了9个字母'))
                     }
                 }
             }
         }
     }
+    
 }
