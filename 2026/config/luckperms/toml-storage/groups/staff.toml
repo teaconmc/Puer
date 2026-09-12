@@ -8,6 +8,10 @@ prefix = "[茶馆员工] "
 priority = 1
 
 [[permissions]]
+permission = "command.go"
+value = true
+
+[[permissions]]
 permission = "slide_show.interact.projector"
 value = true
 
