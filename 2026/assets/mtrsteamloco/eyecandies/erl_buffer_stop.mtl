@@ -1,0 +1,8 @@
+# Made in Blockbench 5.1.4
+newmtl m_6912c5ef-944d-dc52-6849-ce0da7b7fffa
+map_Kd erl_buffer_stop.png
+
+newmtl m_6468a14f-a7a0-4713-bbf1-ed6ee41de582#lighttranslucent
+map_Kd erl_buffer_stop.png
+
+newmtl none
