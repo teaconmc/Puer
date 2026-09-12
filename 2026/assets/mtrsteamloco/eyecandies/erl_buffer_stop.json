@@ -1,0 +1,7 @@
+{
+    "erl_buffer_stop": {
+        "name": "Buffer Stop (East Rail Line Type)",
+        "model": "mtrsteamloco:eyecandies/erl_buffer_stop.obj",
+        "flipV": true
+    }
+}
