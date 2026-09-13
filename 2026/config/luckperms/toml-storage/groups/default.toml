@@ -1,10 +1,6 @@
 name = "default"
 
 [[permissions]]
-permission = "command.go"
-value = false
-
-[[permissions]]
 permission = "command.pt"
 value = false
 
