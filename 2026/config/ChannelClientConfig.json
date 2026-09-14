@@ -23,5 +23,7 @@
   "showHudText": true,
   "networkTolerance": 150,
   "showRaytrace": false,
-  "onAir": false
+  "onAir": false,
+  "muteAll": false,
+  "hearMyself": true
 }
