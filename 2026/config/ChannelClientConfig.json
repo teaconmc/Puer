@@ -25,5 +25,6 @@
   "showRaytrace": false,
   "onAir": false,
   "muteAll": false,
-  "hearMyself": true
+  "hearMyself": true,
+  "cautiousMic": true
 }
