@@ -1,5 +1,6 @@
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
+import java.util.Set
 
 // args:
 // BlockPos from, BlockPos to
@@ -18,10 +19,12 @@ if (source.isPlayer()) {
         return
     }
     def cp = data.<BlockPos>get('checkpoint')
+    def cpY = data.<Integer>get('checkpoint_y')
+    def cpX = data.<Integer>get('checkpoint_x')
     if (cp == null) {
         player.sendSystemMessage(Component.literal('记录点不存在，无法返回记录点'))
         return
     }
     def dest = cp.getBottomCenter()
-    player.teleportTo(dest.x, dest.y, dest.z)
+    player.teleportTo(player.level(), dest.x, dest.y, dest.z, Set.of(), cpY, cpX, false)
 }

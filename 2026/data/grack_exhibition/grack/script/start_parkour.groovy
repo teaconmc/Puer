@@ -21,6 +21,8 @@ if (source.isPlayer()) {
     data.put('characters', sb.toString())
     data.put('is_in_parkour', true)
     data.put('checkpoint', ofBlockPos(args.getIntArray('checkpoint')))
+    data.put('checkpoint_y', player.getYRot() as int)
+    data.put('checkpoint_x', player.getXRot() as int)
     data.put('checkpoint_index', 0)
     data.put('start_time', System.currentTimeMillis())
     player.sendSystemMessage(Component.literal('跑酷开始'))
