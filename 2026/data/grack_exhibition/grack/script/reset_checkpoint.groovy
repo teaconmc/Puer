@@ -1,7 +1,7 @@
 import net.minecraft.network.chat.Component
 
 // args:
-// BlockPos from, BlockPos to, int index
+// BlockPos from, BlockPos to
 
 def source = context.source
 if (source.isPlayer()) {
@@ -16,18 +16,7 @@ if (source.isPlayer()) {
         player.sendSystemMessage(Component.literal('您不在跑酷范围内，无法设置记录点'))
         return
     }
-    def i = args.getInt('index').orElseThrow()
-    def cp = data.<Integer>get('checkpoint_index')
-    if (i - 1 > cp) {
-        player.sendSystemMessage(Component.literal('您未到达上一记录点，无法设置记录点'))
-        return
-    }
-    if (i > 8 || i < 0) {
-        player.sendSystemMessage(Component.literal('该记录点不存在'))
-        return
-    }
     data.put('checkpoint', player.blockPosition())
-    data.put('checkpoint_index', i)
     data.put('checkpoint_y', player.getYRot() as int)
     data.put('checkpoint_x', player.getXRot() as int)
     player.sendSystemMessage(Component.literal('已设置记录点'))
