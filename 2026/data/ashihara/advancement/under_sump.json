@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 63.0,
+                  "max": 87.0
+                },
+                "y": {
+                  "min": 9.0,
+                  "max": 29.0
+                },
+                "z": {
+                  "min": -1126.0,
+                  "max": -1100.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:under_sump"
+  }
+}

@@ -1,0 +1,1 @@
+give @p minecraft:written_book[minecraft:written_book_content={title: "“门之钥”", author: "???", pages: ["𒂷 𒀭𒆠 𒅅𒊭 𒊺𒁇    𒉆𒆗𒈾 𒋾𒆷𒊭 𒋝𒆥   \n𒂷 𒀯𒆳𒊭 𒊺𒁇    𒁺𒄥 𒃲𒊭 𒋝𒆥   \n𒂷 𒆠𒄈𒊭 𒊺𒁇    𒅅𒃲𒊭 𒋝𒆥   \n𒅀𒊌𒋩𒌋𒋩 𒀭    𒂷𒊭 𒁓  𒈨𒂷 𒋗𒂷 "]},minecraft:item_model="minecraft:raiser_armor_trim_smithing_template"]
