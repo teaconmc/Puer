@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 139.0,
+                  "max": 141.0
+                },
+                "y": {
+                  "min": 115.0,
+                  "max": 117.0
+                },
+                "z": {
+                  "min": -1204.0,
+                  "max": -1202.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:honden_door_close"
+  }
+}
