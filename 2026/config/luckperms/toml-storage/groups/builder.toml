@@ -151,3 +151,19 @@ value = true
 [[permissions]]
 permission = "command.clone"
 value = true
+
+[[permissions]]
+permission = "command.beecrasy.*"
+value = true
+
+[[permissions]]
+permission = "command.maze.*"
+value = true
+
+[[permissions]]
+permission = "command.ecliptic.*"
+value = true
+
+[[permissions]]
+permission = "command.slide.*"
+value = true
