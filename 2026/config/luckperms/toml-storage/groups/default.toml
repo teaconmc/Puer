@@ -148,3 +148,7 @@ value = false
 [[permissions]]
 permission = "command.slide.*"
 value = false
+
+[[permissions]]
+permission = "command.slide-show.*"
+value = false
