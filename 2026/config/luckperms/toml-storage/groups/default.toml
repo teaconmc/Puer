@@ -132,3 +132,23 @@ value = false
 [[permissions]]
 permission = "command.areacontrol.*"
 value = false
+
+[[permissions]]
+permission = "command.beecrasy.*"
+value = false
+
+[[permissions]]
+permission = "command.maze.*"
+value = false
+
+[[permissions]]
+permission = "command.ecliptic.*"
+value = false
+
+[[permissions]]
+permission = "command.slide.*"
+value = false
+
+[[permissions]]
+permission = "command.slide-show.*"
+value = false
