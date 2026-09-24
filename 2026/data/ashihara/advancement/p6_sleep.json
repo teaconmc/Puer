@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -9.0,
+                  "max": -6.0
+                },
+                "y": {
+                  "min": 99.0,
+                  "max": 102.0
+                },
+                "z": {
+                  "min": -1178.0,
+                  "max": -1173.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:p6_sleep"
+  }
+}

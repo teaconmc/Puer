@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 94.0,
+                  "max": 107.0
+                },
+                "y": {
+                  "min": 65.0,
+                  "max": 84.0
+                },
+                "z": {
+                  "min": -1316.0,
+                  "max": -1307.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashihara:p6_door"
+  }
+}

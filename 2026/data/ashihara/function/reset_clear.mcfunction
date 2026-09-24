@@ -16,6 +16,9 @@ tag @s remove in_expl_seal
 tag @s remove in_jinja_explore
 tag @s remove in_jinja_kanden
 tag @s remove in_jinja_under
+tag @s remove in_jinja_dream
+tag @s remove in_jinja_meeting
+tag @s remove in_jinja_yagoromo
 tag @s remove jinja_church_done
 tag @s remove jinja_church_note
 tag @s remove jinja_phase2
@@ -46,13 +49,21 @@ advancement revoke @s only ashihara:under_weaving_env
 advancement revoke @s only ashihara:under_lab_env
 advancement revoke @s only ashihara:under_inlet
 advancement revoke @s only ashihara:under_sump
+advancement revoke @s only ashihara:p6_sleep
+advancement revoke @s only ashihara:p6_door
+advancement revoke @s only ashihara:p6_bed_use
+advancement revoke @s only ashihara:p6_bed_use_item
 
 # 4) 把本殿的门关回去（阶段6 的重置会在后面再打开它），
 #    免得重置之后一直敞着门，别人误入。
 #    本殿区块没加载时这条会静默失败，需要的话回本殿附近再执行一次 reset。
-clone 143 97 -1187 147 100 -1185 138 109 -1187
+clone 138 97 -1187 142 100 -1185 138 109 -1187
 
 # 5) 关掉樱苑洞穴的特殊调度，让酒狐回到平常的拜殿/餐桌/樱树下轮换。
 #    （不关的话，重置到阶段1以后酒狐可能一直待在樱苑洞穴，
 #      日常菜单在她那个位置上没有任何可用选项。）
 function ashihara:fox_investigate_sakura_cave_fin
+
+# 6) 把谒见厅的投影仪复位成原本的分形（正体）形象。
+#    玩家在梦境里选了美少女立绘又中途重置时，世界会一直停在立绘上。
+function ashihara:p6_shader_reset
