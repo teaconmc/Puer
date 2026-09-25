@@ -16,7 +16,7 @@ var CXPIS3_LED_CONFIG = {
   }
 };
 
-var LED_EXTRA_RAWMODEL = ModelManager.loadRawModel(Resources.manager(), Resources.idr("cxd106_extra.obj"), null);
+var LED_EXTRA_RAWMODEL = ModelManager.loadRawModel(Resources.manager(), Resources.idr("cxd106_extra.obj"), null).copy();
 LED_EXTRA_RAWMODEL.applyUVMirror(false, true);
 LED_EXTRA_RAWMODEL.applyTranslation(0, 0, 5);
 var LED_EXTRA_MODEL = ModelManager.uploadVertArrays(LED_EXTRA_RAWMODEL);

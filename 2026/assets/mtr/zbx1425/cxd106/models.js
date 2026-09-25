@@ -27,18 +27,18 @@ var monorailTypeLangen = cxTrainType == "cxd106";
 
 if (monorailTypeLangen) {
   rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
-    Resources.idRelative("bogie_base.obj"), null);
+    Resources.idRelative("bogie_base.obj"), null).copy();
   rawModelBogieBase.applyUVMirror(false, true);
   modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);
   
   rawModelBogieWheel = ModelManager.loadRawModel(Resources.manager(),
-    Resources.idRelative("bogie_wheel.obj"), null);
+    Resources.idRelative("bogie_wheel.obj"), null).copy();
   rawModelBogieWheel.applyUVMirror(false, true);
   rawModelBogieWheel.applyTranslation(0, -1.3723, 1);
   modelBogieWheel = ModelManager.uploadVertArrays(rawModelBogieWheel);
 } else if (isMonorail) {
   rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
-    Resources.idRelative("bogie.obj"), null);
+    Resources.idRelative("bogie.obj"), null).copy();
   rawModelBogieBase.applyUVMirror(false, true);
   rawModelBogieBase.applyTranslation(0, 0.4, 0);
   modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);

@@ -230,5 +230,7 @@ function updatePisTexture(ctx, texture, state, train) {
   paintTpmrtScreen(g, state, train, 1);
   state.dh.upload();
 
+  ctx.setDebugInfo("TPMRTLED_TEXTURE", texture);
+
   playAnn(ctx, state, train);
 }
