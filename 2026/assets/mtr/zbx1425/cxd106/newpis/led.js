@@ -15,7 +15,6 @@ if (CXPIS3_LED_CONFIG && CXPIS3_LED_CONFIG.trainNum && CXPIS3_LED_CONFIG.trainNu
 
 function LED_getConfig() {
   let isCXD107 = true;
-  print(JSON.stringify(CXPIS3_LED_CONFIG.destn));
   let config = {
     model: LED_EXTRA_MODEL,
     destn: CXPIS3_LED_CONFIG.destn,
